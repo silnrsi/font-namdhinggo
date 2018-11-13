@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni193B.widB" format="2">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-862" y="-140" type="line" name="hr00"/>
+      <point x="-891" y="-160"/>
+      <point x="-928" y="-198"/>
+      <point x="-950" y="-227" type="curve"/>
+      <point x="-921" y="-265" type="line"/>
+      <point x="-159" y="-265" type="line"/>
+      <point x="-111" y="-240"/>
+      <point x="-86" y="-216"/>
+      <point x="-50" y="-180" type="curve"/>
+      <point x="-76" y="-140" type="line"/>
+    </contour>
+  </outline>
+    <anchor name="_L" x="-500" y="-100"/>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="-265" width="125" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

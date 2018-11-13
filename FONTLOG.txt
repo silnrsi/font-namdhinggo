@@ -1,0 +1,59 @@
+FONTLOG
+Namdhinggo SIL Font
+========================
+
+This file provides detailed information on the Namdhinggo SIL font. This
+information should be distributed along with the Namdhinggo SIL font and
+any derivative works.
+
+
+Basic Font Information
+----------------------
+
+The Limbu, or Kirat Sirijonga, script is used by around 400,000 people in Nepal.
+
+The goal for this product was to provide a single Unicode-based font 
+that would contain all Limbu characters. This font was designed to support 
+literacy and materials development work in the Limbu language.
+
+
+ChangeLog
+---------
+(This should list both major and minor changes, most recent first.)
+
+13 November 2018 (Victor Gaultney) Namdhinggo SIL version 1.900
+- Updated source to UFO3+designspace
+- Added glyphs for U+191D (gyan) and U+191E (tra)
+
+21 February 2012 (Lorna Priest)
+- added bit for Devanagari block (prevents font switching for U+0965)
+
+31 March 2009 (Steve Smith) Namdhinggo SIL version 1.004
+- Font converted to Unicode encoding
+
+14 June 2007 (SIL) Namdhinggo SIL L version 1.001
+- Initial release under the SIL Open Font License
+
+
+Acknowledgements
+----------------
+(Here is where contributors can be acknowledged. If you make modifications
+be sure to add your name (N), email (E), web-address (W) and description
+(D). This list is sorted by last name in alphabetical order.)
+
+N: Victor Gaultney
+E: fonts@sil.org
+W: http://scripts.sil.org/
+D: designer
+
+N: Steve Smith
+E: fonts@sil.org
+D: font engineer
+
+The Namdhinggo SIL project is maintained by SIL International.
+
+For more information please visit SIL International's
+Computers and Writing systems website:
+http://scripts.sil.org/
+
+Or send an email to <fonts AT sil DOT org>
