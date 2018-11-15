@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1921193A" format="2">
+  <advance width="395"/>
   <outline>
     <contour>
       <point x="76" y="970" type="line"/>
@@ -74,10 +75,4 @@
       <point x="429" y="1149"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>395</integer>
-    </dict>
-  </lib>
 </glyph>

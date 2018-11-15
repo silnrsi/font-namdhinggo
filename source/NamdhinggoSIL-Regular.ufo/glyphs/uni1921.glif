@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1921" format="2">
+  <advance width="425"/>
   <unicode hex="1921"/>
   <anchor x="-671" y="1050" name="K"/>
   <outline>
@@ -48,10 +49,4 @@
       <point x="-381" y="1358"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>425</integer>
-    </dict>
-  </lib>
 </glyph>
