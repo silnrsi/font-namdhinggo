@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="doublemacroncomb" format="2">
+  <unicode hex="035E"/>
+  <outline>
+    <contour>
+      <point x="687" y="1695" type="curve"/>
+      <point x="663" y="1719" type="line"/>
+      <point x="-644" y="1719" type="line"/>
+      <point x="-657" y="1694"/>
+      <point x="-681" y="1641"/>
+      <point x="-687" y="1613" type="curve"/>
+      <point x="-663" y="1588" type="line"/>
+      <point x="645" y="1588" type="line"/>
+      <point x="655" y="1611"/>
+      <point x="680" y="1667"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gravecomb" format="2">
+  <unicode hex="0300"/>
+  <outline>
+    <contour>
+      <point x="-291" y="1022" type="curve"/>
+      <point x="-513" y="1414" type="line"/>
+      <point x="-544" y="1412"/>
+      <point x="-644" y="1394"/>
+      <point x="-669" y="1388" type="curve"/>
+      <point x="-676" y="1373"/>
+      <point x="-684" y="1360"/>
+      <point x="-691" y="1345" type="curve"/>
+      <point x="-351" y="989" type="line"/>
+      <point x="-329" y="995"/>
+      <point x="-307" y="1006"/>
+    </contour>
+  </outline>
+</glyph>

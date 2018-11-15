@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="macronbelowcomb" format="2">
+  <unicode hex="0331"/>
+  <outline>
+    <contour>
+      <point x="-155" y="-216" type="curve"/>
+      <point x="-178" y="-192" type="line"/>
+      <point x="-803" y="-192" type="line"/>
+      <point x="-816" y="-217"/>
+      <point x="-840" y="-270"/>
+      <point x="-846" y="-298" type="curve"/>
+      <point x="-838" y="-307"/>
+      <point x="-830" y="-315"/>
+      <point x="-823" y="-324" type="curve"/>
+      <point x="-196" y="-324" type="line"/>
+      <point x="-186" y="-300"/>
+      <point x="-161" y="-244"/>
+    </contour>
+  </outline>
+</glyph>

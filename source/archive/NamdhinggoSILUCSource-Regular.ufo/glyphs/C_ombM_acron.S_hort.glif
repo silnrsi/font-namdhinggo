@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombMacron.Short" format="2">
+  <outline>
+    <contour>
+      <point x="-238" y="1243" type="curve"/>
+      <point x="-261" y="1268" type="line"/>
+      <point x="-719" y="1268" type="line"/>
+      <point x="-732" y="1243"/>
+      <point x="-756" y="1189"/>
+      <point x="-762" y="1161" type="curve"/>
+      <point x="-755" y="1152"/>
+      <point x="-747" y="1144"/>
+      <point x="-739" y="1136" type="curve"/>
+      <point x="-279" y="1136" type="line"/>
+      <point x="-269" y="1159"/>
+      <point x="-244" y="1215"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fourthtonechinese" format="2">
+  <advance width="408"/>
+  <unicode hex="02CB"/>
+  <outline>
+    <contour>
+      <point x="408" y="1043" type="curve"/>
+      <point x="179" y="1444" type="line"/>
+      <point x="147" y="1442"/>
+      <point x="48" y="1424"/>
+      <point x="22" y="1418" type="curve"/>
+      <point x="14" y="1404"/>
+      <point x="7" y="1390"/>
+      <point x="0" y="1375" type="curve"/>
+      <point x="347" y="1011" type="line"/>
+      <point x="370" y="1017"/>
+      <point x="392" y="1028"/>
+    </contour>
+  </outline>
+</glyph>

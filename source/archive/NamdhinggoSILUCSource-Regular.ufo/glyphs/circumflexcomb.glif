@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="circumflexcomb" format="2">
+  <unicode hex="0302"/>
+  <outline>
+    <contour>
+      <point x="-188" y="1059" type="curve"/>
+      <point x="-274" y="1181"/>
+      <point x="-359" y="1304"/>
+      <point x="-444" y="1426" type="curve"/>
+      <point x="-554" y="1426" type="line"/>
+      <point x="-640" y="1304"/>
+      <point x="-726" y="1181"/>
+      <point x="-813" y="1059" type="curve"/>
+      <point x="-795" y="1035"/>
+      <point x="-787" y="1020"/>
+      <point x="-765" y="1011" type="curve"/>
+      <point x="-500" y="1261" type="line"/>
+      <point x="-233" y="1011" type="line"/>
+      <point x="-211" y="1020"/>
+      <point x="-204" y="1035"/>
+    </contour>
+  </outline>
+</glyph>

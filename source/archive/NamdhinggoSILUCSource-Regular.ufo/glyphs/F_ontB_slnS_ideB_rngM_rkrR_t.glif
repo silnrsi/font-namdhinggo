@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="FontBslnSideBrngMrkrRt" format="2">
+  <advance width="331"/>
+  <unicode hex="F131"/>
+  <outline>
+    <contour>
+      <point x="0" y="0" type="line"/>
+      <point x="0" y="-285" type="line"/>
+      <point x="38" y="-285" type="line"/>
+      <point x="38" y="-38" type="line"/>
+      <point x="286" y="-38" type="line"/>
+      <point x="286" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>
