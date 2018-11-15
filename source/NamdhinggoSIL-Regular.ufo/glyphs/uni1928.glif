@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1928" format="2">
-  <advance width="0"/>
   <unicode hex="1928"/>
+  <anchor x="-190" y="1050" name="_O"/>
   <outline>
     <contour>
-      <point x="-563" y="1225" type="line" name="hr00"/>
+      <point x="-563" y="1225" type="line"/>
       <point x="-506" y="1282"/>
       <point x="-477" y="1303"/>
       <point x="-446" y="1303" type="curve" smooth="yes"/>
@@ -29,19 +29,4 @@
       <point x="-588" y="1260" type="curve"/>
     </contour>
   </outline>
-    <anchor name="_O" x="-190" y="1050"/>
-  <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr00">
-      <hstem pos="1042" width="-21" />
-      <hstem pos="1303" width="125" />
-      <hstem pos="1593" width="-20" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
-  </lib>
 </glyph>

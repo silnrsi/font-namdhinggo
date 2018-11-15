@@ -4,16 +4,16 @@
   <unicode hex="007E"/>
   <outline>
     <contour>
-      <point x="793" y="706" type="line" name="hr01"/>
+      <point x="793" y="706" type="line"/>
       <point x="745" y="612"/>
       <point x="693" y="565"/>
-      <point x="636" y="565" type="curve" smooth="yes" name="hr02"/>
+      <point x="636" y="565" type="curve" smooth="yes"/>
       <point x="606" y="565"/>
       <point x="554" y="588"/>
       <point x="479" y="635" type="curve" smooth="yes"/>
       <point x="404" y="682"/>
       <point x="348" y="706"/>
-      <point x="311" y="706" type="curve" smooth="yes" name="hr03"/>
+      <point x="311" y="706" type="curve" smooth="yes"/>
       <point x="260" y="706"/>
       <point x="207" y="677"/>
       <point x="154" y="618" type="curve" smooth="yes"/>
@@ -29,7 +29,7 @@
       <point x="409" y="491" type="curve" smooth="yes"/>
       <point x="485" y="444"/>
       <point x="539" y="421"/>
-      <point x="572" y="421" type="curve" smooth="yes" name="hr04"/>
+      <point x="572" y="421" type="curve" smooth="yes"/>
       <point x="623" y="421"/>
       <point x="676" y="450"/>
       <point x="730" y="509" type="curve" smooth="yes"/>
@@ -38,18 +38,4 @@
       <point x="839" y="684" type="curve"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr01">
-      <hstem pos="441" width="-21" />
-      <hstem pos="421" width="144" />
-      <hstem pos="562" width="144" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
-  </lib>
 </glyph>

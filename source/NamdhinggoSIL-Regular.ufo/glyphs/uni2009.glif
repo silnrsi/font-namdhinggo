@@ -2,18 +2,5 @@
 <glyph name="uni2009" format="2">
   <advance width="300"/>
   <unicode hex="2009"/>
-  <outline>
-  </outline>
-  <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="lsb">
-      <hstem pos="455" width="114" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
-  </lib>
+  <outline/>
 </glyph>

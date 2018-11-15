@@ -4,7 +4,7 @@
   <unicode hex="004B"/>
   <outline>
     <contour>
-      <point x="485" y="-0" type="line" name="hr01"/>
+      <point x="485" y="0" type="line"/>
       <point x="485" y="48" type="line"/>
       <point x="394" y="65"/>
       <point x="352" y="90"/>
@@ -15,7 +15,7 @@
       <point x="820" y="27" type="curve" smooth="yes"/>
       <point x="844" y="-4"/>
       <point x="871" y="-13"/>
-      <point x="908" y="-13" type="curve" smooth="yes" name="hr02"/>
+      <point x="908" y="-13" type="curve" smooth="yes"/>
       <point x="968" y="-13"/>
       <point x="1062" y="15"/>
       <point x="1136" y="39" type="curve"/>
@@ -24,7 +24,7 @@
       <point x="1127" y="86" type="curve"/>
       <point x="1110" y="85"/>
       <point x="1093" y="83"/>
-      <point x="1077" y="83" type="curve" smooth="yes" name="hr03"/>
+      <point x="1077" y="83" type="curve" smooth="yes"/>
       <point x="1032" y="83"/>
       <point x="993" y="94"/>
       <point x="960" y="131" type="curve" smooth="yes"/>
@@ -61,22 +61,7 @@
       <point x="180" y="88"/>
       <point x="130" y="65"/>
       <point x="45" y="48" type="curve"/>
-      <point x="45" y="-0" type="line"/>
+      <point x="45" y="0" type="line"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr01">
-      <hstem pos="8" width="-21" />
-      <hstem pos="0" width="83" />
-      <hstem pos="1218" width="-20" />
-      <vstem pos="180" width="172" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
-  </lib>
 </glyph>

@@ -2,9 +2,14 @@
 <glyph name="uni191C" format="2">
   <advance width="1030"/>
   <unicode hex="191C"/>
+  <anchor x="600" y="1050" name="K"/>
+  <anchor x="515" y="-100" name="L"/>
+  <anchor x="870" y="1050" name="O"/>
+  <anchor x="540" y="1050" name="U"/>
+  <anchor x="870" y="50" name="V"/>
   <outline>
     <contour>
-      <point x="847" y="845" type="line" name="hr00"/>
+      <point x="847" y="845" type="line"/>
       <point x="864" y="884"/>
       <point x="887" y="907"/>
       <point x="956" y="930" type="curve"/>
@@ -58,23 +63,4 @@
       <point x="960" y="353"/>
     </contour>
   </outline>
-    <anchor name="L" x="515" y="-100"/>
-    <anchor name="V" x="870" y="50"/>
-    <anchor name="O" x="870" y="1050"/>
-    <anchor name="U" x="540" y="1050"/>
-    <anchor name="K" x="600" y="1050"/>
-  <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr00">
-      <hstem pos="-34" width="130" />
-      <hstem pos="845" width="125" />
-      <vstem pos="51" width="150" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
-  </lib>
 </glyph>

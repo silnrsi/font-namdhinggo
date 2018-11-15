@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1924193A" format="2">
   <advance width="1070"/>
+  <anchor x="-260" y="1250" name="_K"/>
   <outline>
     <component base="uni193A"/>
     <component base="uni1924"/>
   </outline>
-    <anchor name="_K" x="-260" y="1250"/>
-  <lib>
-  <dict>
-  <key>com.typemytype.robofont.mark</key>
-  <array>
-    <real>0.6</real>
-    <real>1</real>
-    <real>0.638</real>
-    <real>1</real>
-  </array>
-  </dict>
-  </lib>
 </glyph>

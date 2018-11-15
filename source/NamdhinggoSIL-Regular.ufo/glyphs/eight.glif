@@ -4,13 +4,13 @@
   <unicode hex="0038"/>
   <outline>
     <contour>
-      <point x="864" y="352" type="curve" smooth="yes" name="hr01"/>
+      <point x="864" y="352" type="curve" smooth="yes"/>
       <point x="864" y="536"/>
       <point x="744" y="624"/>
       <point x="612" y="688" type="curve"/>
       <point x="730" y="771"/>
       <point x="815" y="858"/>
-      <point x="815" y="969" type="curve" smooth="yes" name="hr02"/>
+      <point x="815" y="969" type="curve" smooth="yes"/>
       <point x="815" y="1124"/>
       <point x="702" y="1235"/>
       <point x="502" y="1235" type="curve" smooth="yes"/>
@@ -22,7 +22,7 @@
       <point x="357" y="644" type="curve"/>
       <point x="198" y="555"/>
       <point x="94" y="430"/>
-      <point x="94" y="285" type="curve" smooth="yes" name="hr03"/>
+      <point x="94" y="285" type="curve" smooth="yes"/>
       <point x="94" y="121"/>
       <point x="223" y="-30"/>
       <point x="451" y="-30" type="curve" smooth="yes"/>
@@ -44,7 +44,7 @@
       <point x="707" y="486"/>
     </contour>
     <contour>
-      <point x="274" y="950" type="curve" smooth="yes" name="hr04"/>
+      <point x="274" y="950" type="curve" smooth="yes"/>
       <point x="274" y="1040"/>
       <point x="332" y="1141"/>
       <point x="451" y="1141" type="curve" smooth="yes"/>
@@ -58,22 +58,4 @@
       <point x="274" y="832"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr01">
-      <hstem pos="-30" width="100" />
-      <hstem pos="1141" width="94" />
-      <vstem pos="94" width="160" />
-      <vstem pos="145" width="109" />
-      <vstem pos="145" width="129" />
-      <vstem pos="668" width="147" />
-      <vstem pos="707" width="157" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
-  </lib>
 </glyph>

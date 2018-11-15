@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni191E192A1922" format="2">
   <advance width="969"/>
+  <anchor x="520" y="1050" name="K"/>
+  <anchor x="510" y="-100" name="L"/>
+  <anchor x="770" y="1050" name="O"/>
+  <anchor x="510" y="1050" name="U"/>
+  <anchor x="900" y="50" name="V"/>
   <outline>
     <contour>
-      <point x="129" y="970" type="line" name="hr00"/>
+      <point x="129" y="970" type="line"/>
       <point x="99" y="949"/>
       <point x="63" y="915"/>
       <point x="40" y="885" type="curve"/>
@@ -110,26 +115,4 @@
       <point x="322" y="-374"/>
     </contour>
   </outline>
-    <anchor name="L" x="510" y="-100"/>
-    <anchor name="V" x="900" y="50"/>
-    <anchor name="O" x="770" y="1050"/>
-    <anchor name="U" x="510" y="1050"/>
-    <anchor name="K" x="520" y="1050"/>
-  <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr00">
-      <hstem pos="-34" width="120" />
-      <hstem pos="304" width="99" />
-      <hstem pos="550" width="114" />
-      <hstem pos="845" width="125" />
-      <vstem pos="160" width="122" />
-      <vstem pos="774" width="140" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
-  </lib>
 </glyph>

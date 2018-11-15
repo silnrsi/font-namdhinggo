@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1921193A" format="2">
-  <advance width="395"/>
   <outline>
     <contour>
-      <point x="76" y="970" type="line" name="hr00"/>
+      <point x="76" y="970" type="line"/>
       <point x="55" y="931"/>
       <point x="13" y="901"/>
       <point x="-13" y="880" type="curve"/>
@@ -76,19 +75,9 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr00">
-      <hstem pos="845" width="125" />
-      <hstem pos="1038" width="165" />
-      <hstem pos="1301" width="125" />
-      <vstem pos="-381" width="135" />
-      <vstem pos="203" width="145" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>395</integer>
+    </dict>
   </lib>
 </glyph>

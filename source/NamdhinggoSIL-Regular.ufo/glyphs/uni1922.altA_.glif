@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1922.altA" format="2">
-  <advance width="0"/>
+  <anchor x="-100" y="50" name="_V"/>
   <outline>
     <contour>
-      <point x="-75" y="85" type="curve" name="hr01"/>
+      <point x="-75" y="85" type="curve"/>
       <point x="-85" y="87"/>
       <point x="-100" y="89"/>
       <point x="-108" y="91" type="curve"/>
@@ -38,28 +38,9 @@
       <point x="-688" y="-278" type="curve" smooth="yes"/>
       <point x="-688" y="-243"/>
       <point x="-657" y="-202"/>
-      <point x="-622" y="-202" type="curve" smooth="yes" name="hr02"/>
+      <point x="-622" y="-202" type="curve" smooth="yes"/>
       <point x="-584" y="-202"/>
       <point x="-558" y="-224"/>
     </contour>
   </outline>
-    <anchor name="_V" x="-100" y="50"/>
-  <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr01">
-      <hstem pos="-476" width="107" />
-      <hstem pos="-476" width="134" />
-      <hstem pos="-202" width="92" />
-      <hstem pos="91" width="-20" />
-      <vstem pos="-807" width="125" />
-      <vstem pos="-552" width="135" />
-      <vstem pos="-223" width="153" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
-  </lib>
 </glyph>

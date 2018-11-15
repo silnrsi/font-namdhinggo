@@ -2,9 +2,14 @@
 <glyph name="uni191A" format="2">
   <advance width="842"/>
   <unicode hex="191A"/>
+  <anchor x="440" y="1050" name="K"/>
+  <anchor x="421" y="-100" name="L"/>
+  <anchor x="682" y="1050" name="O"/>
+  <anchor x="421" y="1050" name="U"/>
+  <anchor x="740" y="50" name="V"/>
   <outline>
     <contour>
-      <point x="50" y="568" type="curve" smooth="yes" name="hr01"/>
+      <point x="50" y="568" type="curve" smooth="yes"/>
       <point x="50" y="375"/>
       <point x="165" y="257"/>
       <point x="320" y="257" type="curve" smooth="yes"/>
@@ -47,32 +52,10 @@
       <point x="760" y="67" type="curve"/>
       <point x="746" y="315"/>
       <point x="745" y="616"/>
-      <point x="755" y="960" type="curve" name="hr02"/>
+      <point x="755" y="960" type="curve"/>
       <point x="729" y="1000" type="line"/>
       <point x="696" y="978"/>
       <point x="650" y="935"/>
     </contour>
   </outline>
-    <anchor name="L" x="421" y="-100"/>
-    <anchor name="V" x="740" y="50"/>
-    <anchor name="O" x="682" y="1050"/>
-    <anchor name="U" x="421" y="1050"/>
-    <anchor name="K" x="440" y="1050"/>
-  <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr01">
-      <hstem pos="257" width="113" />
-      <hstem pos="879" width="111" />
-      <hstem pos="1000" width="-20" />
-      <vstem pos="50" width="143" />
-      <vstem pos="610" width="116" />
-      <vstem pos="610" width="145" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
-  </lib>
 </glyph>
