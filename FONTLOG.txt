@@ -21,9 +21,9 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
-13 November 2018 (Victor Gaultney) Namdhinggo SIL version 1.900
+16 November 2018 (Victor Gaultney) Namdhinggo SIL version 1.900
 - Updated source to UFO3+designspace
-- Added glyphs for U+191D (gyan) and U+191E (tra)
+- Added additional Latin and punctuation glyphs
 
 21 February 2012 (Lorna Priest)
 - added bit for Devanagari block (prevents font switching for U+0965)
