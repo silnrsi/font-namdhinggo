@@ -5,7 +5,7 @@
   <key>com.schriftgestaltung.Glyphs.fontUserData</key>
   <dict/>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>1176</string>
+  <string>1179</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <string/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
@@ -317,5 +317,20 @@
     <string>uni191D1922</string>
     <string>uni191D192A1922</string>
   </array>
+  <key>public.postscriptNames</key>
+  <dict>
+    <key>Delta</key>
+    <string>uni0394</string>
+    <key>Omega</key>
+    <string>uni03A9</string>
+    <key>mu</key>
+    <string>uni03BC</string>
+    <key>onesuperior</key>
+    <string>uni00B9</string>
+    <key>threesuperior</key>
+    <string>uni00B3</string>
+    <key>twosuperior</key>
+    <string>uni00B2</string>
+  </dict>
 </dict>
 </plist>
