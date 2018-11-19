@@ -8,24 +8,17 @@
 VCS = 'git'
 
 # set the font name, version, licensing and description
-APPNAME="NamdhinggoSIL"
-DESC_SHORT = "Font for the Limbu script"
-DESC_LONG = """
-Namdhinggo SIL is a Unicode font for the Limbu writing system of Nepal.
-Font sources are published in the repository and a smith open workflow is
-used for building, testing and releasing.
-"""
-# packaging
-DESC_NAME = "NamdhinggoSIL"
-DEBPKG = 'fonts-sil-namdhinggo'
+APPNAME = "NamdhinggoSIL"
+DESC_SHORT = "Unicode font for the Limbu writing system of Nepal"
 
-# Get version and authorship info from Regular UFO; must be first function call:
+# Get version and authorship info from Regular UFO
+# must be first function call:
 getufoinfo('source/NamdhinggoSIL-Regular.ufo')
 
-fontfamily=APPNAME
+fontfamily = APPNAME
 
 designspace('source/NamdhinggoSIL.designspace',
             target = "${DS:FILENAME_BASE}.ttf",
             pdf = fret(params="-r -oi"),
             woff = woff()
-    )
+            )
