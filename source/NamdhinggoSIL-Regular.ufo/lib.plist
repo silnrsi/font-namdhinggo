@@ -36,6 +36,8 @@
   <integer>0</integer>
   <key>com.schriftgestaltung.keyboardIncrement</key>
   <integer>1</integer>
+  <key>com.schriftgestaltung.useNiceNames</key>
+  <false/>
   <key>com.schriftgestaltung.weight</key>
   <string>Regular</string>
   <key>com.schriftgestaltung.weightValue</key>
