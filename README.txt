@@ -1,5 +1,5 @@
 README 
-Namdhinggo SIL Release 1.900
+Namdhinggo SIL
 ============================
 
 Thank you for your interest in the Namdhinggo SIL font.
