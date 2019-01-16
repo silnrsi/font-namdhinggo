@@ -5,7 +5,7 @@
   <key>com.schriftgestaltung.Glyphs.fontUserData</key>
   <dict/>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>1179</string>
+  <string>1201</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <string/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
@@ -36,8 +36,6 @@
   <integer>0</integer>
   <key>com.schriftgestaltung.keyboardIncrement</key>
   <integer>1</integer>
-  <key>com.schriftgestaltung.useNiceNames</key>
-  <false/>
   <key>com.schriftgestaltung.weight</key>
   <string>Regular</string>
   <key>com.schriftgestaltung.weightValue</key>
