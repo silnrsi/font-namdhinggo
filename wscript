@@ -2,7 +2,8 @@
 # encoding: utf-8
 # this is a smith configuration file
 
-# output folders use smith defaults and don't need to be set here
+# set some default folders (most are already set by default)
+STANDARDS = 'tests/reference'
 
 # set the version control system
 VCS = 'git'
@@ -19,6 +20,12 @@ fontfamily = APPNAME
 
 designspace('source/NamdhinggoSIL.designspace',
             target = "${DS:FILENAME_BASE}.ttf",
+            opentype = fea("generated/${DS:FILENAME_BASE}.fea",
+                master = 'source/master.feax',
+                make_params = '',
+                params = '',
+                ),
+            script = ['latn', 'limb'],
             pdf = fret(params="-r -oi"),
             woff = woff()
             )

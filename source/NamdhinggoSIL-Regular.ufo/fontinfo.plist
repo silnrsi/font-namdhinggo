@@ -13,7 +13,7 @@
   <key>familyName</key>
   <string>Namdhinggo SIL</string>
   <key>openTypeHeadCreated</key>
-  <string>2019/01/16 14:28:58</string>
+  <string>2019/07/27 06:52:01</string>
   <key>openTypeHheaAscender</key>
   <integer>1600</integer>
   <key>openTypeHheaDescender</key>
@@ -86,11 +86,6 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <string>1.900</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
-    <integer>0</integer>
-  </array>
-  <key>openTypeOS2FamilyClass</key>
-  <array>
-    <integer>0</integer>
     <integer>0</integer>
   </array>
   <key>openTypeOS2Panose</key>
