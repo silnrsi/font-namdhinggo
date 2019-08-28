@@ -4,6 +4,7 @@
 
 # set some default folders (most are already set by default)
 STANDARDS = 'tests/reference'
+generated = 'generated/'
 
 # set the version control system
 VCS = 'git'
@@ -20,7 +21,8 @@ fontfamily = APPNAME
 
 designspace('source/NamdhinggoSIL.designspace',
             target = "${DS:FILENAME_BASE}.ttf",
-            opentype = fea("generated/${DS:FILENAME_BASE}.fea",
+            opentype = fea(generated + '${DS:FILENAME_BASE}.fea',
+                mapfile = generated + '${DS:FILENAME_BASE}.map',
                 master = 'source/master.feax',
                 make_params = '',
                 params = '',
