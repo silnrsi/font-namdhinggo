@@ -182,6 +182,8 @@ lookup RaUkar {
         sub uni191A uni192A uni1922 by uni1919192A1922 ;
         sub uni191B uni192A uni1922 by uni191A192A1922 ;
         sub uni191C uni192A uni1922 by uni191B192A1922 ;
+        sub uni191D uni192A uni1922 by uni191D192A1922 ;
+        sub uni191E uni192A uni1922 by uni191E192A1922 ;
         sub uni1940 uni192A uni1922 by uni191C192A1922 ;
 #FEAX END
 } RaUkar;
@@ -220,6 +222,8 @@ lookup Ukar {
         sub uni191A uni1922 by uni191A1922 ;
         sub uni191B uni1922 by uni191B1922 ;
         sub uni191C uni1922 by uni191C1922 ;
+        sub uni191D uni1922 by uni191D1922 ;
+        sub uni191E uni1922 by uni191E1922 ;
         sub uni1940 uni1922 by uni19401922 ;
 #FEAX END
     sub uni1900 uni1922 by uni19001922 ;
