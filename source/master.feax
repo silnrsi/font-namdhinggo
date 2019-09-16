@@ -1,3 +1,9 @@
+#**********************************
+#  Language Systems
+#**********************************
+
+languagesystem latn dflt ;
+languagesystem limb dflt ;
 
 
 #**********************************
@@ -18,13 +24,13 @@
     uni1918192A1922 uni1919 uni19191922 uni1919192A1922 uni191A uni191A1922 uni191A192A1922 uni191B uni191B1922 uni191B192A1922
     uni191C uni191C1922 uni191C192A1922 uni191D uni191D1922 uni191D192A1922 uni191E uni191E1922 uni191E192A1922 uni1921 uni1921193A
     uni1923 uni1923193A uni1924 uni1924193A uni1929 uni19291920 uni19291920193A uni19291922 uni19291922193A uni19291927
-    uni19291927193A uni19291928 uni19291928193A uni1929193A uni192B uni192B1920 uni192B1920193A uni192B1922 uni192B1922193A
+    uni19291927193A uni19291928 uni19291928193A uni1929193A uni192A uni192B uni192B1920 uni192B1920193A uni192B1922 uni192B1922193A
     uni192B1927 uni192B1927193A uni192B1928 uni192B1928193A uni192B193A uni1930 uni1931 uni1932 uni1933 uni1934 uni1935 uni1936
     uni1937 uni1938 uni1939 uni1940 uni19401922 uni1940192A1922 uni1944 uni1945 uni1946 uni1947 uni1948 uni1949 uni194A uni194B
     uni194C uni194D uni194E uni194F uni2009 uni202F uni25CC v w x y z zero ] ;
 
 @GDEF_marks = [ uni1920 uni1920.widC uni1920.widD uni1922 uni1922.altA uni1922.altB uni1922.altC uni1925 uni1926 uni1927 uni1928
-    uni192A uni192A1922 uni193A uni193A.widC uni193B uni193B.widA uni193B.widB uni193B.widC ] ;
+     uni192A1922 uni193A uni193A.widC uni193B uni193B.widA uni193B.widB uni193B.widC ] ;
 
 table GDEF {
 GlyphClassDef
@@ -71,14 +77,6 @@ GlyphClassDef
 @VowelsKem = [ @Vowels uni193A  ] ;
 
 @YaWa = [ uni1929 uni192B  ] ;
-
-
-#**********************************
-#  Language Systems
-#**********************************
-
-languagesystem latn dflt ;
-languagesystem limb dflt ;
 
 
 #**********************************
@@ -179,12 +177,12 @@ lookup RaUkar {
         sub uni1917 uni192A uni1922 by uni1917192A1922 ;
         sub uni1918 uni192A uni1922 by uni1918192A1922 ;
         sub uni1919 uni192A uni1922 by uni1919192A1922 ;
-        sub uni191A uni192A uni1922 by uni1919192A1922 ;
-        sub uni191B uni192A uni1922 by uni191A192A1922 ;
-        sub uni191C uni192A uni1922 by uni191B192A1922 ;
+        sub uni191A uni192A uni1922 by uni191A192A1922 ;
+        sub uni191B uni192A uni1922 by uni191B192A1922 ;
+        sub uni191C uni192A uni1922 by uni191C192A1922 ;
         sub uni191D uni192A uni1922 by uni191D192A1922 ;
         sub uni191E uni192A uni1922 by uni191E192A1922 ;
-        sub uni1940 uni192A uni1922 by uni191C192A1922 ;
+        sub uni1940 uni192A uni1922 by uni1940192A1922 ;
 #FEAX END
 } RaUkar;
 
