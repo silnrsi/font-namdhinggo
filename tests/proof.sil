@@ -1,0 +1,49 @@
+\begin[class=fontproof]{document}
+\bidi-off
+\setTestFont[]
+
+\subsection{Waterfall}
+
+\proof{Limbu ᤕᤠᤰᤌᤢᤱ}
+\proof[size="10,11,12,16",heading=Body text]{ᤕᤠᤰᤌᤢᤱ}
+\proof[size="18,24,30,36",heading=Heading text]{ᤕᤠᤰᤌᤢᤱ}
+
+\section{Patterns}
+
+\patterngroup[name="cons"]{ᤀᤁᤂᤃᤄᤅᤆᤇᤈᤉᤊᤋᤌᤍᤎᤏᤐᤑᤒᤓᤔᤕᤖᤗᤘᤙᤚᤛᤜᤝᤞ}
+\patterngroup[name="matras"]{ᤠᤡᤢᤣᤤᤥᤦᤧᤨ}
+\patterngroup[name="subjoin"]{ᤩᤪᤫ}
+\patterngroup[name="kemphreng"]{᤺}
+\pattern[chars="C,M",reps="group_cons,group_matras",heading=Cons+Matras]{CM}
+\pattern[chars="C,M,K",reps="group_cons,group_matras,group_kemphreng",heading=Cons+Matras+Length]{CMK}
+\pattern[chars="C,S,M",reps="group_cons,group_subjoin,group_matras",heading=Cons+Subjoin+Matras+Length]{CSM}
+\pattern[chars="C,S,M,K",reps="group_cons,group_subjoin,group_matras,group_kemphreng",heading=Cons+Subjoin+Matras+Length]{CSMK}
+\pattern[chars="C,C",reps="group_cons,group_cons",heading=Cons+I+Length+Cons+A]{Cᤡ᤺Cᤠ}
+
+\patterngroup[name="digits"]{᥆᥇᥈᥉᥊᥋᥌᥍᥎᥏}
+\pattern[chars="@",reps="group_digits",heading=Digits]{᥆@᥇@᥈@᥉@᥊@᥋@᥌@᥍@᥎@᥏@}
+
+\pattern[chars="@",reps="group_cons",heading=Punctuation]{@॥@᥄@᥅@᥀@}
+
+\section{Generated}
+
+\subsection{Latin text}
+\pangrams
+\lorem[words=100]
+
+\subsection{Glyphs}
+\repertoire
+
+\subsection{ASCII}
+\unicharchart[type=range,start=0020,end=007F]
+
+\subsection{Punctuation}
+\unicharchart[type=range,start=2010,end=201F]
+
+\subsection{Latin-1}
+\unicharchart[type=range,start=00A0,end=00FF]
+
+\subsection{Limbu}
+\unicharchart[type=range,start=1900,end=194F]
+
+\end{document}
