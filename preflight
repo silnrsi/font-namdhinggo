@@ -1,3 +1,4 @@
 #!/bin/sh
 
-psfnormalize -p checkfix=fix source/NamdhinggoSIL-Regular.ufo -l source/logs/norm.log
+psfnormalize -p checkfix=fix source/NamdhinggoSIL-Regular.ufo
+psfmakefea -o source/NamdhinggoSIL-Regular.ufo/features.fea -i source/master.feax source/NamdhinggoSIL-Regular.ufo
