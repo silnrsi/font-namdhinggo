@@ -11,6 +11,7 @@ VCS = 'git'
 
 # set the font name, version, licensing and description
 APPNAME = "NamdhinggoSIL"
+FAMILY = APPNAME
 DESC_SHORT = "Unicode font for the Limbu writing system of Nepal"
 
 # Get version and authorship info from Regular UFO
@@ -29,5 +30,5 @@ designspace('source/NamdhinggoSIL.designspace',
                 ),
             script = ['latn', 'limb'],
             pdf = fret(params="-r -oi"),
-            woff = woff()
+            woff = woff('web/${DS:FILENAME_BASE}.woff', params='-v ' + VERSION + ' -m ../source/' + FAMILY + '-WOFF-metadata.xml')
             )
