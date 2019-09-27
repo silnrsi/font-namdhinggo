@@ -61,24 +61,24 @@ GlyphClassDef
 #  Lookups
 #**********************************
 
-lookup EEAIDecomp {
+lookup OoAuDecomp {
   lookupflag 0 ;
+  # The OoAuDecomp substitution rule replaces the OO and AU vowels with their visually constitutent components A plus EE or AI respectively. This is so that the 'A' portion can be positioned independently over the consonant when a Glide occurs between the consonant and the vowel.
     sub uni1925 by uni1920 uni1923 ;
     sub uni1926 by uni1920 uni1924 ;
-} EEAIDecomp;
+} OoAuDecomp;
 
-lookup OoAuKComp {
+lookup EeAiKComp {
   lookupflag 0 ;
     sub uni1923 uni193A by uni1923193A ;
     sub uni1924 uni193A by uni1924193A ;
-} OoAuKComp;
+} EeAiKComp;
 
-lookup OoAuKDecomp {
+lookup EeAiKDecomp {
   lookupflag 0 ;
-  # The OoAuDecomp substitution rule replaces the OO and AU vowels with their visually constitutent components A plus EE or AI respectively. This is so that the 'A' portion can be positioned independently over the consonant when a Glide occurs between the consonant and the vowel.
     sub uni1923193A by uni193A uni1923 ;
     sub uni1924193A by uni193A uni1924 ;
-} OoAuKDecomp;
+} EeAiKDecomp;
 
 lookup GlideVowelComp {
   lookupflag 0 ;
@@ -508,16 +508,16 @@ lookup GlideU {
 feature ccmp {  # Glyph Composition/Decomposition
     script latn;  # Latin
         language dflt;  # Default
-            lookup EEAIDecomp;
-            lookup OoAuKComp;
-            lookup OoAuKDecomp;
+            lookup OoAuDecomp;
+            lookup EeAiKComp;
+            lookup EeAiKDecomp;
             lookup GlideVowelComp;
             lookup GlideVowelDecomp;
     script limb;  # Limbu
         language dflt;  # Default
-            lookup EEAIDecomp;
-            lookup OoAuKComp;
-            lookup OoAuKDecomp;
+            lookup OoAuDecomp;
+            lookup EeAiKComp;
+            lookup EeAiKDecomp;
             lookup GlideVowelComp;
             lookup GlideVowelDecomp;
 } ccmp ;
