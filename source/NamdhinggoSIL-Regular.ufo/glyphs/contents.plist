@@ -490,8 +490,6 @@
   <string>uni19011922.glif</string>
   <key>uni1901192A1922</key>
   <string>uni1901192A_1922.glif</string>
-  <key>uni190192AE1922</key>
-  <string>uni190192A_E_1922.glif</string>
   <key>uni1902</key>
   <string>uni1902.glif</string>
   <key>uni19021922</key>
@@ -568,6 +566,8 @@
   <string>uni190E_.glif</string>
   <key>uni190E1922</key>
   <string>uni190E_1922.glif</string>
+  <key>uni190E192A1922</key>
+  <string>uni190E_192A_1922.glif</string>
   <key>uni190F</key>
   <string>uni190F_.glif</string>
   <key>uni190F1922</key>
