@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni19111922" format="2">
   <advance width="1380"/>
+  <anchor x="720" y="1050" name="K"/>
   <outline>
     <contour>
       <point x="806" y="-369" type="curve"/>

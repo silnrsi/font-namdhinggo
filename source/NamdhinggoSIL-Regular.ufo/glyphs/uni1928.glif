@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1928" format="2">
   <unicode hex="1928"/>
+  <anchor x="-150" y="1455" name="K"/>
   <anchor x="-190" y="1050" name="_O"/>
   <outline>
     <contour>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1922" format="2">
   <unicode hex="1922"/>
+  <anchor x="-150" y="-15" name="_G"/>
   <anchor x="-100" y="50" name="_V"/>
   <outline>
     <contour>
