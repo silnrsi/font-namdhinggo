@@ -33,12 +33,12 @@ with open(sys.argv[1], 'w') as output:
         line = ' '.join(clusters)
         output.write(line + '\n')
 
-    output.write('Consonants with Vowels + Kemphreng + small final\n')
+    output.write('Consonants with Vowels + (Kemphreng) + small final\n')
     for c in consonants:
         clusters = list()
         for m in matras:
             for f in finals:
-                cluster = c + m + k + f
+                cluster = c + m + f + c + m + k + f
                 clusters.append(cluster)
         line = ' '.join(clusters)
         output.write(line + '\n')
