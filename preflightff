@@ -1,3 +1,4 @@
 #!/bin/sh
 
 psffixffglifs -p checkfix=fix source/NamdhinggoSIL-Regular.ufo -l source/logs/fixff.log
+./preflight

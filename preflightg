@@ -7,3 +7,6 @@ psfnormalize -p checkfix=fix source/NamdhinggoSIL-Regular.ufo -l source/logs/nor
 
 # Fix problem with non-spacing marks due to glyphsLib bug
 psfremovegliflibkeys source/NamdhinggoSIL-Regular.ufo com.schriftgestaltung.Glyphs.originalWidth  -l source/logs/widthfixR.log
+
+# Run preflight
+./preflight
