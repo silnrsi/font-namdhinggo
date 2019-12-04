@@ -1,5 +1,6 @@
 #!/bin/sh
 
 psfnormalize -p checkfix=fix source/NamdhinggoSIL-Regular.ufo
+psfsetglyphorder -i source/glyph_data.csv source/NamdhinggoSIL-Regular.ufo
 psfmakewoffmetadata -n NamdhinggoSIL -i org.sil.fonts --populateufowoff --force source/NamdhinggoSIL-Regular.ufo
 # psfmakefea -o source/NamdhinggoSIL-Regular.ufo/features.fea -i source/master.feax source/NamdhinggoSIL-Regular.ufo
