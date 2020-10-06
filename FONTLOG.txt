@@ -12,8 +12,8 @@ Basic Font Information
 
 The Limbu, or Kirat Sirijonga, script is used by around 400,000 people in Nepal.
 
-The goal for this product was to provide a single Unicode-based font 
-that would contain all Limbu characters. This font was designed to support 
+The goal for this product was to provide a single Unicode-based font
+that would contain all Limbu characters. This font was designed to support
 literacy and materials development work in the Limbu language.
 
 
@@ -36,6 +36,24 @@ ChangeLog
 - Initial release under the SIL Open Font License
 
 
+Information for Contributors
+----------------------------
+We welcome contributions to this font project, such as new glyphs, enhanced
+smart font code, or bug fixes. The best way to begin the process is to file an
+issue in the Github project (https://github.com/silnrsi/font-namdhinggo/issues)
+or respond to an existing issue and express your interest. Then we can begin
+to correspond with you regarding what all might be required and discuss how to
+best submit your contributions.
+
+To enable us to accept contributions in a way that honors your contribution
+and respects your copyright while preserving long-term flexibility for open
+source licensing, you would also need to agree to the SIL International
+Contributor License Agreement for Font Software (v1.0) prior to sending us
+your contribution. To read more about this requirement and find out how to
+submit the required form, please visit the CLA information page
+(https://software.sil.org/fontcla).
+
+
 Acknowledgements
 ----------------
 (Here is where contributors can be acknowledged. If you make modifications
@@ -44,17 +62,14 @@ be sure to add your name (N), email (E), web-address (W) and description
 
 N: Victor Gaultney
 E: fonts@sil.org
-W: http://scripts.sil.org/
+W: https://software.sil.org/namdhinggo/
 D: designer
 
-N: Steve Smith
+N: Bobby de Vos, Steve Smith
 E: fonts@sil.org
-D: font engineer
+D: Font engineers
 
 The Namdhinggo SIL project is maintained by SIL International.
 
-For more information please visit SIL International's
-Computers and Writing systems website:
-http://scripts.sil.org/
-
-Or send an email to <fonts AT sil DOT org>
+For more information please visit the Namdhinggo SIL page on SIL International's
+Computers and Writing systems website: https://software.sil.org/namdhinggo/
