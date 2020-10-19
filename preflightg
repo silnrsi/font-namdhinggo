@@ -1,12 +1,12 @@
 #!/bin/sh
 
-# Produce UFO from Glyphs file
-psfglyphs2ufo --nofea source/NamdhinggoSIL.glyphs source -l source/logs/glyphsexportR.log
+# Produce individual UFOs from Glyphs files
+psfglyphs2ufo --nofea source/NamdhinggoSIL.glyphs source
 
-psfnormalize -p checkfix=fix source/NamdhinggoSIL-Regular.ufo -l source/logs/norm.log
+# This normalization will also run check and fix routines
+psfnormalize -p checkfix=fix source/NamdhinggoSIL-Regular.ufo
 
 # Fix problem with non-spacing marks due to glyphsLib bug
 psfremovegliflibkeys source/NamdhinggoSIL-Regular.ufo com.schriftgestaltung.Glyphs.originalWidth  -l source/logs/widthfixR.log
 
-# Run preflight
 ./preflight
