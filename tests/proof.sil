@@ -2,13 +2,18 @@
 \bidi-off
 \setTestFont[]
 
+\proof{Limbu ᤕᤠᤰᤌᤢᤱ}
+
 \subsection{Waterfall}
 
-\proof{Limbu ᤕᤠᤰᤌᤢᤱ}
 \proof[size="10,11,12,16",heading=Body text]{ᤕᤠᤰᤌᤢᤱ}
 \proof[size="18,24,30,36",heading=Heading text]{ᤕᤠᤰᤌᤢᤱ}
 
 \section{Patterns}
+
+\subsection{Letters}
+
+\proof{ᤀᤁᤂᤃᤄᤅᤆᤇᤈᤉᤊᤋᤌᤍᤎᤏᤐᤑᤒᤓᤔᤕᤖᤗᤘᤙᤚᤛᤜᤝᤞ}
 
 \patterngroup[name="cons"]{ᤀᤁᤂᤃᤄᤅᤆᤇᤈᤉᤊᤋᤌᤍᤎᤏᤐᤑᤒᤓᤔᤕᤖᤗᤘᤙᤚᤛᤜᤝᤞ}
 \patterngroup[name="matras"]{ᤠᤡᤢᤣᤤᤥᤦᤧᤨ}
@@ -20,10 +25,16 @@
 \pattern[chars="C,S,M,K",reps="group_cons,group_subjoin,group_matras,group_kemphreng",heading=Cons+Subjoin+Matras+Length]{CSMK}
 \pattern[chars="C,C",reps="group_cons,group_cons",heading=Cons+I+Length+Cons+A]{Cᤡ᤺Cᤠ}
 
-\patterngroup[name="digits"]{᥆᥇᥈᥉᥊᥋᥌᥍᥎᥏}
-\pattern[chars="@",reps="group_digits",heading=Digits]{᥆@᥇@᥈@᥉@᥊@᥋@᥌@᥍@᥎@᥏@}
+\subsection{Digits}
 
-\pattern[chars="@",reps="group_cons",heading=Punctuation]{@॥@᥄@᥅@᥀@}
+\proof{᥆᥇᥈᥉᥊᥋᥌᥍᥎᥏}
+\patterngroup[name="digits"]{᥆᥇᥈᥉᥊᥋᥌᥍᥎᥏}
+\pattern[chars="@",reps="group_digits",format="list"]{@᥆@᥇@᥈@᥉@᥊@᥋@᥌@᥍@᥎@᥏@}
+
+\subsection{Punctuation}
+
+\proof{॥᥄᥅᥀}
+\pattern[chars="@",reps="group_cons",format="list"]{@॥@᥄@᥅@᥀@}
 
 \section{Generated}
 
@@ -34,6 +45,9 @@
 \subsection{Glyphs}
 \repertoire
 
+\subsection{Limbu}
+\unicharchart[type=range,start=1900,end=194F]
+
 \subsection{ASCII}
 \unicharchart[type=range,start=0020,end=007F]
 
@@ -42,8 +56,5 @@
 
 \subsection{Latin-1}
 \unicharchart[type=range,start=00A0,end=00FF]
-
-\subsection{Limbu}
-\unicharchart[type=range,start=1900,end=194F]
 
 \end{document}

@@ -24,6 +24,15 @@ with open(sys.argv[1], 'w') as output:
         line = ' '.join(clusters)
         output.write(line + '\n')
 
+    output.write('Consonants with kemphreng and vowels\n')
+    for c in consonants:
+        clusters = list()
+        for m in matras:
+            cluster = c + k + m
+            clusters.append(cluster)
+        line = ' '.join(clusters)
+        output.write(line + '\n')
+
     output.write('Consonants with glide + Ukar + Kemphreng\n')
     for c in consonants:
         clusters = list()
