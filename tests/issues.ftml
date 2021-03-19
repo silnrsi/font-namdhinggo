@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../tools/ftml.xsl"?>
+<ftml version="1.0">
+  <head>
+    <fontscale>300</fontscale>
+    <fontsrc label="Cur">url(../references/NamdhinggoSIL-Regular.ttf)</fontsrc>
+    <fontsrc label="Std">url(../references/NamdhinggoSIL-Regular.ttf)</fontsrc>
+    <fontsrc label="Noto">url(../references/NotoSansLimbu-Regular.ttf)</fontsrc>
+    <title>Issues</title>
+  </head>
+  <testgroup label="c + ( v | k )">
+    <test label="ta">
+      <string>ᤋᤠ ᤋᤡ ᤋᤢ ᤋᤣ ᤋᤤ ᤋᤥ ᤋᤦ ᤋᤧ ᤋᤨ ᤋ᤺</string>
+    </test>
+    <test label="na">
+      <string>ᤏᤠ ᤏᤡ ᤏᤢ ᤏᤣ ᤏᤤ ᤏᤥ ᤏᤦ ᤏᤧ ᤏᤨ ᤏ᤺</string>
+    </test>
+  </testgroup>
+  <testgroup label="c + v + k">
+    <test label="ta">
+      <string>ᤋᤠ᤺ ᤋᤡ᤺ ᤋᤢ᤺ ᤋᤣ᤺ ᤋᤤ᤺ ᤋᤥ᤺ ᤋᤦ᤺ ᤋᤧ᤺ ᤋᤨ᤺</string>
+    </test>
+    <test label="na">
+      <string>ᤏᤠ᤺ ᤏᤡ᤺ ᤏᤢ᤺ ᤏᤣ᤺ ᤏᤤ᤺ ᤏᤥ᤺ ᤏᤦ᤺ ᤏᤧ᤺ ᤏᤨ᤺</string>
+    </test>
+  </testgroup>
+  <testgroup label="glide + Ukar + Kemphreng">
+    <test label="ta">
+      <string>ᤋᤩᤢ᤺ ᤋᤪᤢ᤺ ᤋᤫᤢ᤺</string>
+    </test>
+    <test label="na">
+      <string>ᤏᤩᤢ᤺ ᤏᤪᤢ᤺ ᤏᤫᤢ᤺</string>
+    </test>
+  </testgroup>
+  <testgroup label="c + ( Ukar | (Ukar k) ) + small final = ka, anusvara">
+    <test label="ta">
+      <string>ᤋᤢᤰᤋᤢ᤺ᤰ ᤋᤢᤲᤋᤢ᤺ᤲ</string>
+    </test>
+    <test label="na">
+      <string>ᤏᤢᤰᤏᤢ᤺ᤰ ᤏᤢᤲᤏᤢ᤺ᤲ</string>
+    </test>
+  </testgroup>
+  <testgroup label="glides">
+    <test label="ya">
+      <string>\u1901\u1929\u1920\u1931</string>
+    </test>
+    <test label="ra">
+      <string>\u1901\u192a\u1920\u1931</string>
+    </test>
+    <test label="wa">
+      <string>\u1901\u192b\u1920\u1931</string>
+    </test>
+  </testgroup>
+  <testgroup label="New characters added in TUS 7.0, along with the needed conjuncts">
+    <test label="tra">
+      <string>\u191E \u191E\u1922 \u191E\u192A\u1922</string>
+    </test>
+    <test label="gyan">
+      <string>\u191D \u191D\u1922 \u191D\u192A\u1922</string>
+    </test>
+  </testgroup>
+  <testgroup label="one off from fixing typos in the FEA code">
+    <test label="correct - sha">
+      <string>\u1919 \u1919\u192A\u1922</string>
+    </test>
+    <test label="off - ssa">
+      <string>\u191A \u191A\u192A\u1922</string>
+    </test>
+    <test label="off - sa">
+      <string>\u191B \u191B\u192A\u1922</string>
+    </test>
+    <test label="off - ha">
+      <string>\u191C \u191C\u192A\u1922</string>
+    </test>
+    <test label="loo">
+      <string>\u1940 \u1940\u192A\u1922</string>
+    </test>
+  </testgroup>
+  <testgroup label="Noto">
+    <test label="issue 1073">
+      <string>\u1901\u1929\u1920</string>
+    </test>
+    <test label="issue 1244">
+      <string>\u1900\u1921\u193A\u1900\u1920</string>
+    </test>
+  </testgroup>
+</ftml>
