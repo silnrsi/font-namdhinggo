@@ -8,6 +8,34 @@
     <fontsrc label="Noto">url(../references/NotoSansLimbu-Regular.ttf)</fontsrc>
     <title>Issues</title>
   </head>
+  <testgroup label="story excerpts">
+    <test label="one">
+      <string>ᤋᤣ᤺ᤱ</string>
+    </test>
+    <test label="two">
+      <string>ᤁᤩᤠᤱ</string>
+    </test>
+    <test label="three">
+      <string>ᤏᤡ᤺ᤵ</string>
+    </test>
+    <test label="four">
+      <string>ᤀᤡ᤺ᤳ</string>
+    </test>
+    <test label="five">
+      <string>ᤐᤣ᤺ᤰ</string>
+    </test>
+  </testgroup>
+  <testgroup label="ligatures">
+    <test label="RaUkar">
+      <string>\u1903\u1916\u1922</string>
+    </test>
+    <test label="Ukar">
+      <string>\u1903\u1922 \u1900\u1922</string>
+    </test>
+    <test label="IkarK">
+      <string>\u1903\u1921\u193A</string>
+    </test>
+  </testgroup>
   <testgroup label="c + ( v | k )">
     <test label="ta">
       <string>ᤋᤠ ᤋᤡ ᤋᤢ ᤋᤣ ᤋᤤ ᤋᤥ ᤋᤦ ᤋᤧ ᤋᤨ ᤋ᤺</string>
