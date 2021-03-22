@@ -27,6 +27,7 @@ designspace('source/NamdhinggoSIL.designspace',
                 params = '',
                 ),
             script = ['latn', 'limb'],
-            woff = woff('web/${DS:FILENAME_BASE}.woff', params='-v ' + VERSION + ' -m ../source/' + FAMILY + '-WOFF-metadata.xml'),
+            woff = woff('woff/${DS:FILENAME_BASE}',
+                metadata = '../source/${DS:FAMILYNAME_NOSPC}-WOFF-metadata.xml'),
             pdf = fret(params='-oi')
             )

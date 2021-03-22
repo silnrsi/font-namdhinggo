@@ -18,7 +18,7 @@ If this is not the case, go to (http://scripts.sil.org/OFL) for all the details 
 /* use Namdhinggo SIL - Regular in .woff format */
 @font-face {
   font-family: NamdhinggoSILW;
-  src: url(NamdhinggoSIL-Regular.woff);
+  src: url(NamdhinggoSIL-Regular.woff2);
 }
 
 /* set body to use Namdhinggo SIL in .woff format */
