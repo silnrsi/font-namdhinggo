@@ -2,7 +2,7 @@
 #  Language Systems
 #**********************************
 
-languagesystem latn dflt ;
+languagesystem DFLT dflt;
 
 
 #**********************************
@@ -193,7 +193,7 @@ lookup GlideU {
 #**********************************
 
 feature ccmp {  # Glyph Composition/Decomposition
-    script latn;  # Latin
+    script DFLT;  # Default
         language dflt;  # Default
             lookup OoAuDecomp;
             lookup EeAiKComp;
@@ -203,22 +203,22 @@ feature ccmp {  # Glyph Composition/Decomposition
 } ccmp ;
 
 feature kern {  # Kerning
-    script latn;  # Latin
+    script DFLT;  # Default
         language dflt;  # Default
             lookup GlideIkar;
             lookup IkarKWid;
 } kern ;
 
-feature liga {  # Standard Ligatures
-    script latn;  # Latin
+feature rlig {  # Required Ligatures
+    script DFLT;  # Default
         language dflt;  # Default
             lookup RaUkar;
             lookup Ukar;
             lookup IkarK;
-} liga ;
+} rlig ;
 
 feature mark {  # Mark Positioning
-    script latn;  # Latin
+    script DFLT;  # Default
         language dflt;  # Default
             lookup Akar;
             lookup Kemphreng;
@@ -226,7 +226,7 @@ feature mark {  # Mark Positioning
 } mark ;
 
 feature mkmk {  # Mark to Mark Positioning
-    script latn;  # Latin
+    script DFLT;  # Default
         language dflt;  # Default
             lookup VKem;
             lookup GlideU;
