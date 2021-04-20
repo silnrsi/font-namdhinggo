@@ -127,7 +127,8 @@ lookup Ukar {
 
 lookup IkarK {
   lookupflag 0 ;
-  # The IkarK substitution rule replaces Ikar + Kemphreng with a ligature. The ligature is then positioned properly on the base consonant via the positioning rule IEO.
+  # The IkarK substitution rule replaces Ikar + Kemphreng with a ligature.
+  # The ligature is then positioned properly on the base consonant via the positioning rule EO.
     sub uni1921 uni193A by uni1921193A ;
 } IkarK;
 
@@ -142,7 +143,7 @@ lookup GlideIkar {
     pos @YaWa' lookup GlideIkar_target @Ikar ;
 } GlideIkar;
 
-lookup IkarKWid_target { # The IkarKWid lookup, applied to the Kern feature, adds 110 units of width to the IkarKemphreng ligature when followed by a consonant with akar on it. This prevents the akar from overprinting the rightmost dot of the kemphreng. (The dot overhangs to the right slightly, which is OK unless the following character has akar on it).
+lookup IkarKWid_target { # The IkarKWid lookup target adds 110 units of width to the IkarKemphreng ligature
   lookupflag 0 ;
     #  subrule of type ADJUST_SINGLE
     pos uni1921193A <0 0 110 0>;
@@ -150,7 +151,11 @@ lookup IkarKWid_target { # The IkarKWid lookup, applied to the Kern feature, add
 
 lookup IkarKWid {
   lookupflag 0 ;
-  # The IkarKWid lookup, applied to the Kern feature, adds 110 units of width to the IkarKemphreng ligature when followed by a consonant with akar on it. This prevents the akar from overprinting the rightmost dot of the kemphreng. (The dot overhangs to the right slightly, which is OK unless the following character has akar on it).
+  # The IkarKWid lookup, applied to the Kern feature,
+  # kerns the IkarKemphreng ligature when followed by a consonant with akar on it.
+  # This prevents the akar from overprinting the rightmost dot of the kemphreng.
+  # (The dot overhangs to the right slightly,
+  # which is OK unless the following character has akar on it).
     pos uni1921193A' lookup IkarKWid_target @Cons uni1920 ;
 } IkarKWid;
 
