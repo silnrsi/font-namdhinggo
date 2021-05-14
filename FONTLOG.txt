@@ -21,6 +21,12 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
+14 May 2021 (Bobby de Vos) Namdhinggo SIL version 2.000
+- Made a ligature lookup required so the ligature does not have to be manually enabled
+- Removed Limbu script lookups, the default OpenType shaper is used instead
+- Enabled new characters and related conjuncts
+- Converted OpenType code to FEA with extensions (FEAX)
+
 16 November 2018 (Victor Gaultney) Namdhinggo SIL development version 1.900
 - Updated source to UFO3+designspace
 - Added additional Latin and punctuation glyphs

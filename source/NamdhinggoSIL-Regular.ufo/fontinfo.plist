@@ -15,7 +15,7 @@ with Reserved Font Names "Namdhinggo" and "SIL".
   <key>familyName</key>
   <string>Namdhinggo SIL</string>
   <key>openTypeHeadCreated</key>
-  <string>2021/01/05 11:28:05</string>
+  <string>2021/05/14 06:41:57</string>
   <key>openTypeHheaAscender</key>
   <integer>1600</integer>
   <key>openTypeHheaDescender</key>
@@ -137,7 +137,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>openTypeNameUniqueID</key>
   <string>SIL International: Namdhinggo SIL Regular: 2021</string>
   <key>openTypeNameVersion</key>
-  <string>Version 1.900</string>
+  <string>Version 2.000</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -224,8 +224,6 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <string>NamdhinggoSIL-Regular</string>
   <key>postscriptFullName</key>
   <string>Namdhinggo SIL</string>
-  <key>postscriptIsFixedPitch</key>
-  <false/>
   <key>postscriptStemSnapH</key>
   <array>
     <integer>125</integer>
@@ -254,9 +252,9 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>unitsPerEm</key>
   <integer>2048</integer>
   <key>versionMajor</key>
-  <integer>1</integer>
+  <integer>2</integer>
   <key>versionMinor</key>
-  <integer>900</integer>
+  <integer>0</integer>
   <key>xHeight</key>
   <integer>500</integer>
 </dict>

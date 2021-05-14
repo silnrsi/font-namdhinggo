@@ -4,24 +4,21 @@
 # set the font name, version, licensing and description
 APPNAME = "NamdhinggoSIL"
 FAMILY = APPNAME
-DESC_SHORT = "Unicode font for the Limbu writing system of Nepal"
 
 # Get version and authorship info from Regular UFO
 # must be first function call:
-getufoinfo('source/NamdhinggoSIL-Regular.ufo')
+getufoinfo('source/' + FAMILY  + '-Regular.ufo')
 # BUILDLABEL = 'beta1'
 
 # Set up the FTML tests
 ftmlTest('tools/ftml-smith.xsl')
 
-fontfamily = APPNAME
+genout = 'generated/'
 
-generated = 'generated/'
-
-designspace('source/NamdhinggoSIL.designspace',
+designspace('source/' + FAMILY + '.designspace',
             target = "${DS:FILENAME_BASE}.ttf",
-            opentype = fea(generated + '${DS:FILENAME_BASE}.fea',
-                mapfile = generated + '${DS:FILENAME_BASE}.map',
+            opentype = fea(genout + '${DS:FILENAME_BASE}.fea',
+                mapfile = genout + '${DS:FILENAME_BASE}.map',
                 master = 'source/master.feax',
                 make_params = '',
                 params = '',

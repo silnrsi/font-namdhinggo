@@ -10,4 +10,4 @@ psfsetglyphorder --header sort_final -i source/glyph_data.csv source/NamdhinggoS
 psfmakewoffmetadata -n NamdhinggoSIL -i org.sil.fonts source/NamdhinggoSIL-Regular.ufo # --populateufowoff --force
 
 # Update FEA in UFO
-# psfmakefea -o source/NamdhinggoSIL-Regular.ufo/features.fea -i source/master.feax source/NamdhinggoSIL-Regular.ufo
+psfmakefea -o source/NamdhinggoSIL-Regular.ufo/features.fea -i source/master.feax source/NamdhinggoSIL-Regular.ufo
