@@ -8,10 +8,6 @@ We hope you find it useful!
 Namdhinggo SIL provides glyphs for all Limbu characters and some Latin.
 Please read the online documentation to see what ranges are supported.
 
-Please note that this font is currently under development and the source
-files will be changing considerably. Please do not base any derivatives on
-this font until the full 2.000 release.
-
 Namdhinggo SIL is released under the SIL Open Font License.
 
 See the OFL and OFL-FAQ for details of the SIL Open Font License.
