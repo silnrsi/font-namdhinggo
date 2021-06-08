@@ -11,12 +11,19 @@ buildlinux2/**
 bin/**
 source/temp/*
 source/backups/*
+graide/**
+
+# general project work
+bugs/**
+dev/**
+
 
 # general backup files
 *~
 *.swp
 *.autosave
 *(Autosaved)*
+*.log
 
 
 # OS X
@@ -102,3 +109,6 @@ $RECYCLE.BIN/
 *.py[co]
 *$py.class
 __pycache__/
+
+# ignore the glyphs file
+*.glyphs
