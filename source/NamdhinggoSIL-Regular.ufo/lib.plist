@@ -497,12 +497,10 @@
   </array>
   <key>public.postscriptNames</key>
   <dict>
-    <key>Delta</key>
-    <string>uni0394</string>
-    <key>Omega</key>
-    <string>uni03A9</string>
-    <key>mu</key>
-    <string>uni03BC</string>
+    <key>fi</key>
+    <string>uniFB01</string>
+    <key>fl</key>
+    <string>uniFB02</string>
     <key>onesuperior</key>
     <string>uni00B9</string>
     <key>threesuperior</key>

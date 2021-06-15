@@ -16,7 +16,9 @@ ftmlTest('tools/ftml-smith.xsl')
 genout = 'generated/'
 
 designspace('source/' + FAMILY + '.designspace',
-            target = "${DS:FILENAME_BASE}.ttf",
+            target = process("${DS:FILENAME_BASE}.ttf",
+                cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo'])
+            ),
             opentype = fea(genout + '${DS:FILENAME_BASE}.fea',
                 mapfile = genout + '${DS:FILENAME_BASE}.map',
                 master = 'source/master.feax',
