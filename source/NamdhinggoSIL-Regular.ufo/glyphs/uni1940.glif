@@ -2,11 +2,6 @@
 <glyph name="uni1940" format="2">
   <advance width="936"/>
   <unicode hex="1940"/>
-  <anchor x="490" y="1050" name="K"/>
-  <anchor x="468" y="-100" name="L"/>
-  <anchor x="650" y="1050" name="O"/>
-  <anchor x="480" y="1050" name="U"/>
-  <anchor x="825" y="50" name="V"/>
   <outline>
     <contour>
       <point x="474" y="1000" type="line"/>

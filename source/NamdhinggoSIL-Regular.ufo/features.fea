@@ -1,6 +1,6 @@
 
 # Main Classes
-@GDEF_bases = [.notdef .null A AE Aacute Acircumflex Adieresis Agrave Aring Atilde B C Ccedilla D Delta E Eacute Ecircumflex Edieresis Egrave Eth Euro F G H I Iacute Icircumflex Idieresis Igrave J K L M N Ntilde O OE Oacute Ocircumflex Odieresis Ograve Omega Oslash Otilde P Q R S Scaron T Thorn U Uacute Ucircumflex Udieresis Ugrave V W X Y Yacute Ydieresis Z Zcaron a aacute acircumflex acute adieresis ae agrave ampersand approxequal aring asciicircum asciitilde asterisk at atilde b backslash bar braceleft braceright bracketleft bracketright breve brokenbar bullet c caron ccedilla cedilla cent circumflex colon comma copyright currency d dagger daggerdbl degree dieresis divide dollar dotaccent dotlessi e eacute ecircumflex edieresis egrave eight ellipsis emdash endash equal eth exclam exclamdown f fi figuredash five fl florin four fraction g germandbls grave greater greaterequal guillemotleft guillemotright guilsinglleft guilsinglright h hungarumlaut hyphen i iacute icircumflex idieresis igrave infinity integral j k l less lessequal logicalnot lozenge m macron mu multiply n nine nonmarkingreturn notequal ntilde numbersign o oacute ocircumflex odieresis oe ogonek ograve one onehalf onequarter onesuperior ordfeminine ordmasculine oslash otilde p paragraph parenleft parenright partialdiff percent period periodcentered perthousand pi plus plusminus product q question questiondown quotedbl quotedblbase quotedblleft quotedblright quoteleft quoteright quotesinglbase quotesingle r radical registered ring s scaron section semicolon seven six slash space sterling summation t thorn three threequarters threesuperior tilde trademark two twosuperior u uacute ucircumflex udieresis ugrave underscore uni00A0 uni00AD uni02D0 uni034F uni0965 uni1900 uni19001922 uni1901 uni19011922 uni1901192A1922 uni1902 uni19021922 uni1902192A1922 uni1903 uni19031922 uni1903192A1922 uni1904 uni19041922 uni1904192A1922 uni1905 uni19051922 uni1905192A1922 uni1906 uni19061922 uni1906192A1922 uni1907 uni19071922 uni1907192A1922 uni1908 uni19081922 uni1908192A1922 uni1909 uni19091922 uni1909192A1922 uni190A uni190A1922 uni190A192A1922 uni190B uni190B1922 uni190B192A1922 uni190C uni190C1922 uni190C192A1922 uni190D uni190D1922 uni190D192A1922 uni190E uni190E1922 uni190E192A1922 uni190F uni190F1922 uni190F192A1922 uni1910 uni19101922 uni1910192A1922 uni1911 uni19111922 uni1911192A1922 uni1912 uni19121922 uni1912192A1922 uni1913 uni19131922 uni1913192A1922 uni1914 uni19141922 uni1914192A1922 uni1915 uni19151922 uni1915192A1922 uni1916 uni19161922 uni1916192A1922 uni1917 uni19171922 uni1917192A1922 uni1918 uni19181922 uni1918192A1922 uni1919 uni19191922 uni1919192A1922 uni191A uni191A1922 uni191A192A1922 uni191B uni191B1922 uni191B192A1922 uni191C uni191C1922 uni191C192A1922 uni191D uni191D1922 uni191D192A1922 uni191E uni191E1922 uni191E192A1922 uni1921 uni1921193A uni1923 uni1924 uni1925 uni1926 uni1929 uni192A uni192B uni1930 uni1931 uni1933 uni1934 uni1935 uni1936 uni1937 uni1938 uni1939 uni1940 uni19401922 uni1940192A1922 uni1944 uni1945 uni1946 uni1947 uni1948 uni1949 uni194A uni194B uni194C uni194D uni194E uni194F uni2000 uni2001 uni2002 uni2003 uni2004 uni2005 uni2006 uni2007 uni2008 uni2009 uni200A uni200B uni200C uni200D uni2010 uni2011 uni2015 uni2027 uni202F uni2060 uni2219 uni25CC uniFE00 uniFE01 uniFE02 uniFE03 uniFE04 uniFE05 uniFE06 uniFE07 uniFE08 uniFE09 uniFE0A uniFE0B uniFE0C uniFE0D uniFE0E uniFE0F uniFEFF uniFFFC uniFFFD v w x y yacute ydieresis yen z zcaron zero];
+@GDEF_bases = [.notdef .null A AE Aacute Acircumflex Adieresis Agrave Aring Atilde B C Ccedilla D Delta E Eacute Ecircumflex Edieresis Egrave Eth Euro F G H I Iacute Icircumflex Idieresis Igrave J K L M N Ntilde O OE Oacute Ocircumflex Odieresis Ograve Omega Oslash Otilde P Q R S Scaron T Thorn U Uacute Ucircumflex Udieresis Ugrave V W X Y Yacute Ydieresis Z Zcaron a aacute acircumflex acute adieresis ae agrave ampersand approxequal aring asciicircum asciitilde asterisk at atilde b backslash bar braceleft braceright bracketleft bracketright breve brokenbar bullet c caron ccedilla cedilla cent circumflex colon comma copyright currency d dagger daggerdbl degree dieresis divide dollar dotaccent dotlessi e eacute ecircumflex edieresis egrave eight ellipsis emdash endash equal eth exclam exclamdown f fi figuredash five fl florin four fraction g germandbls grave greater greaterequal guillemotleft guillemotright guilsinglleft guilsinglright h hungarumlaut hyphen i iacute icircumflex idieresis igrave infinity integral j k l less lessequal logicalnot lozenge m macron mu multiply n nine nonmarkingreturn notequal ntilde numbersign o oacute ocircumflex odieresis oe ogonek ograve one onehalf onequarter onesuperior ordfeminine ordmasculine oslash otilde p paragraph parenleft parenright partialdiff percent period periodcentered perthousand pi plus plusminus product q question questiondown quotedbl quotedblbase quotedblleft quotedblright quoteleft quoteright quotesinglbase quotesingle r radical registered ring s scaron section semicolon seven six slash space sterling summation t thorn three threequarters threesuperior tilde trademark two twosuperior u uacute ucircumflex udieresis ugrave underscore uni00A0 uni00AD uni02D0 uni034F uni0965 uni1900 uni19001922 uni1901 uni19011922 uni1901192A1922 uni1902 uni19021922 uni1902192A1922 uni1903 uni19031922 uni1903192A1922 uni1904 uni19041922 uni1904192A1922 uni1905 uni19051922 uni1905192A1922 uni1906 uni19061922 uni1906192A1922 uni1907 uni19071922 uni1907192A1922 uni1908 uni19081922 uni1908192A1922 uni1909 uni19091922 uni1909192A1922 uni190A uni190A1922 uni190A192A1922 uni190B uni190B1922 uni190B192A1922 uni190C uni190C1922 uni190C192A1922 uni190D uni190D1922 uni190D192A1922 uni190E uni190E1922 uni190E192A1922 uni190F uni190F1922 uni190F192A1922 uni1910 uni19101922 uni1910192A1922 uni1911 uni19111922 uni1911192A1922 uni1912 uni19121922 uni1912192A1922 uni1913 uni19131922 uni1913192A1922 uni1914 uni19141922 uni1914192A1922 uni1915 uni19151922 uni1915192A1922 uni1916 uni19161922 uni1916192A1922 uni1917 uni19171922 uni1917192A1922 uni1918 uni19181922 uni1918192A1922 uni1919 uni19191922 uni1919192A1922 uni191A uni191A1922 uni191A192A1922 uni191B uni191B1922 uni191B192A1922 uni191C uni191C1922 uni191C192A1922 uni191D uni191D1922 uni191D192A1922 uni191E uni191E1922 uni191E192A1922 uni1921 uni1921193A uni1923 uni1924 uni1925 uni1926 uni1929 uni192A uni192B uni1930 uni1931 uni1933 uni1934 uni1935 uni1936 uni1937 uni1938 uni1939 uni1940 uni1944 uni1945 uni1946 uni1947 uni1948 uni1949 uni194A uni194B uni194C uni194D uni194E uni194F uni2000 uni2001 uni2002 uni2003 uni2004 uni2005 uni2006 uni2007 uni2008 uni2009 uni200A uni200B uni200C uni200D uni2010 uni2011 uni2015 uni2027 uni202F uni2060 uni2219 uni25CC uniFE00 uniFE01 uniFE02 uniFE03 uniFE04 uniFE05 uniFE06 uniFE07 uniFE08 uniFE09 uniFE0A uniFE0B uniFE0C uniFE0D uniFE0E uniFE0F uniFEFF uniFFFC uniFFFD v w x y yacute ydieresis yen z zcaron zero];
 @GDEF_marks = [uni1920 uni1920.widC uni1920.widD uni1922 uni1922.altA uni1922.altB uni1922.altC uni1923193A uni1924193A uni1927 uni1928 uni19291920 uni19291920193A uni19291922 uni19291922193A uni19291927 uni19291927193A uni19291928 uni19291928193A uni1929193A uni192A1922 uni192B1920 uni192B1920193A uni192B1922 uni192B1922193A uni192B1927 uni192B1927193A uni192B1928 uni192B1928193A uni192B193A uni1932 uni193A uni193A.widC uni193B uni193B.widA uni193B.widB uni193B.widC];
 @c_altA = [uni1922.altA];
 @cno_altA = [uni1922];
@@ -20,7 +20,7 @@
 # Positioning classes and statements
 
 # AP: K
-@K = [uni1900 uni19001922 uni1901 uni19011922 uni1901192A1922 uni1904 uni19041922 uni1904192A1922 uni1902 uni19021922 uni1902192A1922 uni1910 uni19101922 uni1910192A1922 uni1903 uni19031922 uni1903192A1922 uni1906 uni19061922 uni1906192A1922 uni1905 uni19051922 uni1905192A1922 uni1913 uni19131922 uni1913192A1922 uni191B uni191B1922 uni191B192A1922 uni191C uni191C1922 uni191C192A1922 uni1907 uni19071922 uni1907192A1922 uni1908 uni19081922 uni1908192A1922 uni190A uni190A1922 uni190A192A1922 uni1912 uni19121922 uni1912192A1922 uni1909 uni19091922 uni1909192A1922 uni190B uni190B1922 uni190B192A1922 uni190C uni190C1922 uni190C192A1922 uni190D uni190D1922 uni190D192A1922 uni190E uni190E1922 uni190E192A1922 uni190F uni190F1922 uni190F192A1922 uni1911 uni19111922 uni1911192A1922 uni1914 uni19141922 uni1914192A1922 uni1915 uni19151922 uni1915192A1922 uni1916 uni19161922 uni1916192A1922 uni1919 uni19191922 uni1919192A1922 uni191E uni191E1922 uni191E192A1922 uni1917 uni19171922 uni1917192A1922 uni1918 uni19181922 uni1918192A1922 uni191A uni191A1922 uni191A192A1922 uni191D uni191D1922 uni191D192A1922 uni1921 uni1940];
+@K = [uni1900 uni19001922 uni1901 uni19011922 uni1901192A1922 uni1904 uni19041922 uni1904192A1922 uni1902 uni19021922 uni1902192A1922 uni1910 uni19101922 uni1910192A1922 uni1903 uni19031922 uni1903192A1922 uni1906 uni19061922 uni1906192A1922 uni1905 uni19051922 uni1905192A1922 uni1913 uni19131922 uni1913192A1922 uni191B uni191B1922 uni191B192A1922 uni191C uni191C1922 uni191C192A1922 uni1907 uni19071922 uni1907192A1922 uni1908 uni19081922 uni1908192A1922 uni190A uni190A1922 uni190A192A1922 uni1912 uni19121922 uni1912192A1922 uni1909 uni19091922 uni1909192A1922 uni190B uni190B1922 uni190B192A1922 uni190C uni190C1922 uni190C192A1922 uni190D uni190D1922 uni190D192A1922 uni190E uni190E1922 uni190E192A1922 uni190F uni190F1922 uni190F192A1922 uni1911 uni19111922 uni1911192A1922 uni1914 uni19141922 uni1914192A1922 uni1915 uni19151922 uni1915192A1922 uni1916 uni19161922 uni1916192A1922 uni1919 uni19191922 uni1919192A1922 uni191E uni191E1922 uni191E192A1922 uni1917 uni19171922 uni1917192A1922 uni1918 uni19181922 uni1918192A1922 uni191A uni191A1922 uni191A192A1922 uni191D uni191D1922 uni191D192A1922 uni1921];
 @K_MarkBase = [uni1920 uni19291920 uni192B1920 uni1927 uni19291927 uni192B1927 uni1928];
 # baseClass [uni1900 uni19001922] <anchor 525 1050> @K;
 # baseClass [uni1901 uni19011922 uni1901192A1922 uni1904 uni19041922 uni1904192A1922] <anchor 500 1050> @K;
@@ -43,13 +43,12 @@
 # baseClass [uni191A uni191A1922 uni191A192A1922] <anchor 440 1050> @K;
 # baseClass [uni191D uni191D1922 uni191D192A1922] <anchor 549 1050> @K;
 # baseClass uni1921 <anchor -671 1050> @K;
-# baseClass uni1940 <anchor 490 1050> @K;
 # baseClass [uni1920 uni19291920 uni192B1920] <anchor -260 1250> @K_MarkBase;
 # baseClass [uni1927 uni19291927 uni192B1927] <anchor -300 1250> @K_MarkBase;
 # baseClass uni1928 <anchor -150 1455> @K_MarkBase;
 
 # AP: L
-@L = [uni1900 uni190D uni191C uni1901 uni1902 uni1903 uni1904 uni1915 uni1905 uni1906 uni1907 uni1908 uni1909 uni190A uni190B uni190C uni190E uni191E uni191E1922 uni191E192A1922 uni190F uni1910 uni1911 uni1912 uni1914 uni1913 uni1916 uni1917 uni1918 uni1919 uni25CC uni191A uni191B uni191D uni191D1922 uni191D192A1922 uni1930 uni1931 uni1934 uni1935 uni1936 uni1938 uni1940 uni202F];
+@L = [uni1900 uni190D uni191C uni1901 uni1902 uni1903 uni1904 uni1915 uni1905 uni1906 uni1907 uni1908 uni1909 uni190A uni190B uni190C uni190E uni191E uni191E1922 uni191E192A1922 uni190F uni1910 uni1911 uni1912 uni1914 uni1913 uni1916 uni1917 uni1918 uni1919 uni25CC uni191A uni191B uni191D uni191D1922 uni191D192A1922 uni1930 uni1931 uni1934 uni1935 uni1936 uni1938 uni202F];
 # baseClass [uni1900 uni190D uni191C] <anchor 515 -100> @L;
 # baseClass uni1901 <anchor 485 -100> @L;
 # baseClass uni1902 <anchor 551 -100> @L;
@@ -82,11 +81,10 @@
 # baseClass uni1935 <anchor 375 -100> @L;
 # baseClass uni1936 <anchor 419 -100> @L;
 # baseClass uni1938 <anchor 273 -100> @L;
-# baseClass uni1940 <anchor 468 -100> @L;
 # baseClass uni202F <anchor 247 -100> @L;
 
 # AP: O
-@O = [uni1900 uni191C uni1901 uni1902 uni1903 uni1904 uni1905 uni1906 uni1907 uni1908 uni1909 uni190A uni190B uni190C uni190D uni191A uni190E uni190F uni1910 uni1911 uni1912 uni1913 uni1914 uni1915 uni1916 uni1917 uni1918 uni1919 uni191B uni191D uni191D1922 uni191D192A1922 uni191E uni191E1922 uni191E192A1922 uni1940 uni202F uni25CC];
+@O = [uni1900 uni191C uni1901 uni1902 uni1903 uni1904 uni1905 uni1906 uni1907 uni1908 uni1909 uni190A uni190B uni190C uni190D uni191A uni190E uni190F uni1910 uni1911 uni1912 uni1913 uni1914 uni1915 uni1916 uni1917 uni1918 uni1919 uni191B uni191D uni191D1922 uni191D192A1922 uni191E uni191E1922 uni191E192A1922 uni202F uni25CC];
 # baseClass [uni1900 uni191C] <anchor 870 1050> @O;
 # baseClass uni1901 <anchor 755 1050> @O;
 # baseClass uni1902 <anchor 943 1050> @O;
@@ -116,12 +114,11 @@
 # baseClass uni191B <anchor 921 1050> @O;
 # baseClass [uni191D uni191D1922 uni191D192A1922] <anchor 779 1050> @O;
 # baseClass [uni191E uni191E1922 uni191E192A1922] <anchor 770 1050> @O;
-# baseClass uni1940 <anchor 650 1050> @O;
 # baseClass uni202F <anchor 297 0> @O;
 # baseClass uni25CC <anchor 583 0> @O;
 
 # AP: U
-@U = [uni1900 uni190D uni1901 uni1902 uni1903 uni1904 uni1905 uni1906 uni1907 uni1908 uni1909 uni190A uni190B uni190C uni190E uni191E uni191E1922 uni191E192A1922 uni190F uni1910 uni1911 uni1912 uni1914 uni1913 uni1915 uni1916 uni1917 uni1918 uni1919 uni191A uni191B uni191C uni191D uni191D1922 uni191D192A1922 uni1940 uni202F uni25CC];
+@U = [uni1900 uni190D uni1901 uni1902 uni1903 uni1904 uni1905 uni1906 uni1907 uni1908 uni1909 uni190A uni190B uni190C uni190E uni191E uni191E1922 uni191E192A1922 uni190F uni1910 uni1911 uni1912 uni1914 uni1913 uni1915 uni1916 uni1917 uni1918 uni1919 uni191A uni191B uni191C uni191D uni191D1922 uni191D192A1922 uni202F uni25CC];
 @U_MarkBase = [uni1920.widC uni1920.widD];
 # baseClass [uni1900 uni190D] <anchor 515 1050> @U;
 # baseClass uni1901 <anchor 487 1050> @U;
@@ -151,14 +148,13 @@
 # baseClass uni191B <anchor 580 1050> @U;
 # baseClass uni191C <anchor 540 1050> @U;
 # baseClass [uni191D uni191D1922 uni191D192A1922] <anchor 539 1050> @U;
-# baseClass uni1940 <anchor 480 1050> @U;
 # baseClass uni202F <anchor 247 1435> @U;
 # baseClass uni25CC <anchor 533 1000> @U;
 # baseClass uni1920.widC <anchor -320 1250> @U_MarkBase;
 # baseClass uni1920.widD <anchor -380 1250> @U_MarkBase;
 
 # AP: V
-@V = [uni1900 uni1901 uni190F uni1902 uni1903 uni1904 uni1905 uni1906 uni1907 uni1908 uni1909 uni190A uni190B uni190C uni190D uni190E uni1910 uni1911 uni1912 uni1913 uni1914 uni1915 uni1916 uni1917 uni1918 uni1919 uni191A uni191B uni191C uni191D uni191D1922 uni191D192A1922 uni191E uni191E1922 uni191E192A1922 uni1940];
+@V = [uni1900 uni1901 uni190F uni1902 uni1903 uni1904 uni1905 uni1906 uni1907 uni1908 uni1909 uni190A uni190B uni190C uni190D uni190E uni1910 uni1911 uni1912 uni1913 uni1914 uni1915 uni1916 uni1917 uni1918 uni1919 uni191A uni191B uni191C uni191D uni191D1922 uni191D192A1922 uni191E uni191E1922 uni191E192A1922];
 # baseClass uni1900 <anchor 927 50> @V;
 # baseClass [uni1901 uni190F] <anchor 920 50> @V;
 # baseClass uni1902 <anchor 1043 50> @V;
@@ -189,7 +185,6 @@
 # baseClass uni191C <anchor 870 50> @V;
 # baseClass [uni191D uni191D1922 uni191D192A1922] <anchor 684 50> @V;
 # baseClass [uni191E uni191E1922 uni191E192A1922] <anchor 900 50> @V;
-# baseClass uni1940 <anchor 825 50> @V;
 
 # AP: _U
 markClass [uni1920 uni19291920 uni19291920193A uni192B1920 uni192B1920193A] <anchor -500 1050> @_U;
@@ -458,7 +453,6 @@ lookup Akar {
     pos base uni191B <anchor 580 1050> mark @_U;
     pos base uni191C <anchor 540 1050> mark @_U;
     pos base [uni191D uni191D1922 uni191D192A1922] <anchor 539 1050> mark @_U;
-    pos base uni1940 <anchor 480 1050> mark @_U;
     pos base uni202F <anchor 247 1435> mark @_U;
     pos base uni25CC <anchor 533 1000> mark @_U;
     # was @MARK_Aabove
@@ -489,7 +483,6 @@ lookup Kemphreng {
     pos base [uni191A uni191A1922 uni191A192A1922] <anchor 440 1050> mark @_K;
     pos base [uni191D uni191D1922 uni191D192A1922] <anchor 549 1050> mark @_K;
     pos base uni1921 <anchor -671 1050> mark @_K;
-    pos base uni1940 <anchor 490 1050> mark @_K;
     # was @MARK_K
 } Kemphreng;
 
@@ -525,7 +518,6 @@ lookup EO {
     pos base uni191B <anchor 921 1050> mark @_O;
     pos base [uni191D uni191D1922 uni191D192A1922] <anchor 779 1050> mark @_O;
     pos base [uni191E uni191E1922 uni191E192A1922] <anchor 770 1050> mark @_O;
-    pos base uni1940 <anchor 650 1050> mark @_O;
     pos base uni202F <anchor 297 0> mark @_O;
     pos base uni25CC <anchor 583 0> mark @_O;
     # was @MARK_eo
