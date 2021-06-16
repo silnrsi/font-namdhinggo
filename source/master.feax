@@ -22,27 +22,27 @@ GlyphClassDef
 #  Glyph classes
 #**********************************
 
-@Cons = [ uni1901 uni1902 uni1903 uni1904 uni1905 uni1906 uni1907 uni1908 uni1909 uni190A uni190B uni190C uni190D uni190E uni190F
-    uni1910 uni1911 uni1912 uni1913 uni1914 uni1915 uni1916 uni1917 uni1918 uni1919 uni191A uni191B uni191C uni191D uni191E ];
+@Cons = [ka-limb kha-limb ga-limb gha-limb nga-limb ca-limb cha-limb ja-limb jha-limb yan-limb ta-limb tha-limb da-limb dha-limb na-limb
+    pa-limb pha-limb ba-limb bha-limb ma-limb ya-limb ra-limb la-limb wa-limb sha-limb ssa-limb sa-limb ha-limb gyan-limb tra-limb];
 
-@ConsRaU = [ uni1901192A1922 uni1902192A1922 uni1903192A1922 uni1904192A1922 uni1905192A1922 uni1906192A1922 uni1907192A1922
-    uni1908192A1922 uni1909192A1922 uni190A192A1922 uni190B192A1922 uni190C192A1922 uni190D192A1922 uni190E192A1922 uni190F192A1922
-    uni1910192A1922 uni1911192A1922 uni1912192A1922 uni1913192A1922 uni1914192A1922 uni1915192A1922 uni1916192A1922 uni1917192A1922
-    uni1918192A1922 uni1919192A1922 uni191A192A1922 uni191B192A1922 uni191C192A1922 uni191D192A1922 uni191E192A1922 ];
+@ConsRaU = [ka_subra_umatra-limb kha_subra_umatra-limb ga_subra_umatra-limb gha_subra_umatra-limb nga_subra_umatra-limb ca_subra_umatra-limb cha_subra_umatra-limb
+    ja_subra_umatra-limb jha_subra_umatra-limb yan_subra_umatra-limb ta_subra_umatra-limb tha_subra_umatra-limb da_subra_umatra-limb dha_subra_umatra-limb na_subra_umatra-limb
+    pa_subra_umatra-limb pha_subra_umatra-limb ba_subra_umatra-limb bha_subra_umatra-limb ma_subra_umatra-limb ya_subra_umatra-limb ra_subra_umatra-limb la_subra_umatra-limb
+    wa_subra_umatra-limb sha_subra_umatra-limb ssa_subra_umatra-limb sa_subra_umatra-limb ha_subra_umatra-limb gyan_subra_umatra-limb tra_subra_umatra-limb];
 
-@ConsU = [ uni19011922 uni19021922 uni19031922 uni19041922 uni19051922 uni19061922 uni19071922 uni19081922 uni19091922 uni190A1922
-    uni190B1922 uni190C1922 uni190D1922 uni190E1922 uni190F1922 uni19101922 uni19111922 uni19121922 uni19131922 uni19141922
-    uni19151922 uni19161922 uni19171922 uni19181922 uni19191922 uni191A1922 uni191B1922 uni191C1922 uni191D1922 uni191E1922 ];
+@ConsU = [ka_umatra-limb kha_umatra-limb ga_umatra-limb gha_umatra-limb nga_umatra-limb ca_umatra-limb cha_umatra-limb ja_umatra-limb jha_umatra-limb yan_umatra-limb
+    ta_umatra-limb tha_umatra-limb da_umatra-limb dha_umatra-limb na_umatra-limb pa_umatra-limb pha_umatra-limb ba_umatra-limb bha_umatra-limb ma_umatra-limb
+    ya_umatra-limb ra_umatra-limb la_umatra-limb wa_umatra-limb sha_umatra-limb ssa_umatra-limb sa_umatra-limb ha_umatra-limb gyan_umatra-limb tra_umatra-limb];
 
-@AllCons = [ @Cons @ConsU @ConsRaU  ] ;
+@AllCons = [@Cons @ConsU @ConsRaU ];
 
-@Ikar = [ uni1921 uni1921193A  ] ;
+@Ikar = [imatra-limb imatra_kemphreng-limb ];
 
-@Vowels = [ uni1920 uni1927 uni1928  ] ;
+@Vowels = [amatra-limb ematra-limb omatra-limb ];
 
-@VowelsKem = [ @Vowels uni193A  ] ;
+@VowelsKem = [@Vowels kemphreng-limb ];
 
-@YaWa = [ uni1929 uni192B  ] ;
+@YaWa = [subya-limb subwa-limb ];
 
 
 #**********************************
@@ -50,143 +50,143 @@ GlyphClassDef
 #**********************************
 
 lookup OoAuDecomp {
-  lookupflag 0 ;
+  lookupflag 0;
   # The OoAuDecomp substitution rule replaces the OO and AU vowels with their visually constitutent components A plus EE or AI respectively. This is so that the 'A' portion can be positioned independently over the consonant when a Glide occurs between the consonant and the vowel.
-    sub uni1925 by uni1920 uni1923 ;
-    sub uni1926 by uni1920 uni1924 ;
+    sub oomatra-limb by amatra-limb eematra-limb;
+    sub aumatra-limb by amatra-limb aimatra-limb;
 } OoAuDecomp;
 
 lookup EeAiKComp {
-  lookupflag 0 ;
-    sub uni1923 uni193A by uni1923193A ;
-    sub uni1924 uni193A by uni1924193A ;
+  lookupflag 0;
+    sub eematra-limb kemphreng-limb by eematra_kemphreng-limb;
+    sub aimatra-limb kemphreng-limb by aimatra_kemphreng-limb;
 } EeAiKComp;
 
 lookup EeAiKDecomp {
-  lookupflag 0 ;
-    sub uni1923193A by uni193A uni1923 ;
-    sub uni1924193A by uni193A uni1924 ;
+  lookupflag 0;
+    sub eematra_kemphreng-limb by kemphreng-limb eematra-limb;
+    sub aimatra_kemphreng-limb by kemphreng-limb aimatra-limb;
 } EeAiKDecomp;
 
 lookup GlideVowelComp {
-  lookupflag 0 ;
-    sub uni1929 uni1920 uni193A by uni19291920193A ;
-    sub uni1929 uni1922 uni193A by uni19291922193A ;
-    sub uni1929 uni1927 uni193A by uni19291927193A ;
-    sub uni1929 uni1928 uni193A by uni19291928193A ;
-    sub uni1929 uni193A by uni1929193A ;
-    sub uni1929 uni1920 by uni19291920 ;
-    sub uni1929 uni1922 by uni19291922 ;
-    sub uni1929 uni1927 by uni19291927 ;
-    sub uni1929 uni1928 by uni19291928 ;
-    sub uni192B uni1920 uni193A by uni192B1920193A ;
-    sub uni192B uni1922 uni193A by uni192B1922193A ;
-    sub uni192B uni1927 uni193A by uni192B1927193A ;
-    sub uni192B uni1928 uni193A by uni192B1928193A ;
-    sub uni192B uni193A by uni192B193A ;
-    sub uni192B uni1920 by uni192B1920 ;
-    sub uni192B uni1922 by uni192B1922 ;
-    sub uni192B uni1927 by uni192B1927 ;
-    sub uni192B uni1928 by uni192B1928 ;
+  lookupflag 0;
+    sub subya-limb amatra-limb kemphreng-limb by subya_amatra_kemphreng-limb;
+    sub subya-limb umatra-limb kemphreng-limb by subya_umatra_kemphreng-limb;
+    sub subya-limb ematra-limb kemphreng-limb by subya_ematra_kemphreng-limb;
+    sub subya-limb omatra-limb kemphreng-limb by subya_omatra_kemphreng-limb;
+    sub subya-limb kemphreng-limb by subya_kemphreng-limb;
+    sub subya-limb amatra-limb by subya_amatra-limb;
+    sub subya-limb umatra-limb by subya_umatra-limb;
+    sub subya-limb ematra-limb by subya_ematra-limb;
+    sub subya-limb omatra-limb by subya_omatra-limb;
+    sub subwa-limb amatra-limb kemphreng-limb by subwa_amatra_kemphreng-limb;
+    sub subwa-limb umatra-limb kemphreng-limb by subwa_umatra_kemphreng-limb;
+    sub subwa-limb ematra-limb kemphreng-limb by subwa_ematra_kemphreng-limb;
+    sub subwa-limb omatra-limb kemphreng-limb by subwa_omatra_kemphreng-limb;
+    sub subwa-limb kemphreng-limb by subwa_kemphreng-limb;
+    sub subwa-limb amatra-limb by subwa_amatra-limb;
+    sub subwa-limb umatra-limb by subwa_umatra-limb;
+    sub subwa-limb ematra-limb by subwa_ematra-limb;
+    sub subwa-limb omatra-limb by subwa_omatra-limb;
 } GlideVowelComp;
 
 lookup GlideVowelDecomp {
-  lookupflag 0 ;
-    sub uni19291920193A by uni1920 uni193A uni1929 ;
-    sub uni19291922193A by uni1922 uni193A uni1929 ;
-    sub uni19291927193A by uni1927 uni193A uni1929 ;
-    sub uni19291928193A by uni1928 uni193A uni1929 ;
-    sub uni1929193A by uni193A uni1929 ;
-    sub uni19291920 by uni1920 uni1929 ;
-    sub uni19291922 by uni1922 uni1929 ;
-    sub uni19291927 by uni1927 uni1929 ;
-    sub uni19291928 by uni1928 uni1929 ;
-    sub uni192B1920193A by uni1920 uni193A uni192B ;
-    sub uni192B1922193A by uni1922 uni193A uni192B ;
-    sub uni192B1927193A by uni1927 uni193A uni192B ;
-    sub uni192B1928193A by uni1928 uni193A uni192B ;
-    sub uni192B193A by uni193A uni192B ;
-    sub uni192B1920 by uni1920 uni192B ;
-    sub uni192B1922 by uni1922 uni192B ;
-    sub uni192B1927 by uni1927 uni192B ;
-    sub uni192B1928 by uni1928 uni192B ;
+  lookupflag 0;
+    sub subya_amatra_kemphreng-limb by amatra-limb kemphreng-limb subya-limb;
+    sub subya_umatra_kemphreng-limb by umatra-limb kemphreng-limb subya-limb;
+    sub subya_ematra_kemphreng-limb by ematra-limb kemphreng-limb subya-limb;
+    sub subya_omatra_kemphreng-limb by omatra-limb kemphreng-limb subya-limb;
+    sub subya_kemphreng-limb by kemphreng-limb subya-limb;
+    sub subya_amatra-limb by amatra-limb subya-limb;
+    sub subya_umatra-limb by umatra-limb subya-limb;
+    sub subya_ematra-limb by ematra-limb subya-limb;
+    sub subya_omatra-limb by omatra-limb subya-limb;
+    sub subwa_amatra_kemphreng-limb by amatra-limb kemphreng-limb subwa-limb;
+    sub subwa_umatra_kemphreng-limb by umatra-limb kemphreng-limb subwa-limb;
+    sub subwa_ematra_kemphreng-limb by ematra-limb kemphreng-limb subwa-limb;
+    sub subwa_omatra_kemphreng-limb by omatra-limb kemphreng-limb subwa-limb;
+    sub subwa_kemphreng-limb by kemphreng-limb subwa-limb;
+    sub subwa_amatra-limb by amatra-limb subwa-limb;
+    sub subwa_umatra-limb by umatra-limb subwa-limb;
+    sub subwa_ematra-limb by ematra-limb subwa-limb;
+    sub subwa_omatra-limb by omatra-limb subwa-limb;
 } GlideVowelDecomp;
 
 lookup RaUkar {
-  lookupflag 0 ;
+  lookupflag 0;
   # The RaUkar substitution rule replaces Consonant, Ra, Ukar with a ligature.
-     sub @Cons uni192A uni1922 by @ConsRaU;
+     sub @Cons subra-limb umatra-limb by @ConsRaU;
 } RaUkar;
 
 lookup Ukar {
-  lookupflag 0 ;
+  lookupflag 0;
   # The Ukar substitution rule replaces Consonant + Ukar with a ligature. It also applies to the Vowel-Carrier, which has its own ligature with ukar.
-     sub @Cons uni1922 by @ConsU;
-    sub uni1900 uni1922 by uni19001922 ;
+     sub @Cons umatra-limb by @ConsU;
+    sub vowelcarrier-limb umatra-limb by vowelcarrier_umatra-limb;
 } Ukar;
 
 lookup IkarK {
-  lookupflag 0 ;
+  lookupflag 0;
   # The IkarK substitution rule replaces Ikar + Kemphreng with a ligature.
   # The ligature is then positioned properly on the base consonant via the positioning rule EO.
-    sub uni1921 uni193A by uni1921193A ;
+    sub imatra-limb kemphreng-limb by imatra_kemphreng-limb;
 } IkarK;
 
 lookup GlideIkar_target {
-  lookupflag 0 ;
+  lookupflag 0;
     #  subrule of type ADJUST_SINGLE
     pos @YaWa <0 0 -475 0>;
-} GlideIkar_target ;
+} GlideIkar_target;
 
 lookup GlideIkar {
-  lookupflag 0 ;
-    pos @YaWa' lookup GlideIkar_target @Ikar ;
+  lookupflag 0;
+    pos @YaWa' lookup GlideIkar_target @Ikar;
 } GlideIkar;
 
 lookup IkarKWid_target { # The IkarKWid lookup target adds 110 units of width to the IkarKemphreng ligature
-  lookupflag 0 ;
+  lookupflag 0;
     #  subrule of type ADJUST_SINGLE
-    pos uni1921193A <0 0 110 0>;
-} IkarKWid_target ;
+    pos imatra_kemphreng-limb <0 0 110 0>;
+} IkarKWid_target;
 
 lookup IkarKWid {
-  lookupflag 0 ;
+  lookupflag 0;
   # The IkarKWid lookup, applied to the Kern feature,
   # kerns the IkarKemphreng ligature when followed by a consonant with akar on it.
   # This prevents the akar from overprinting the rightmost dot of the kemphreng.
   # (The dot overhangs to the right slightly,
   # which is OK unless the following character has akar on it).
-    pos uni1921193A' lookup IkarKWid_target @Cons uni1920 ;
+    pos imatra_kemphreng-limb' lookup IkarKWid_target @Cons amatra-limb;
 } IkarKWid;
 
 lookup Akar {
-  lookupflag 0 ;
+  lookupflag 0;
   # The Akar positioning rule positions the Akar on all consonants, including the vowel carrier.
     pos base @U mark @_U; # was @MARK_Aabove
 } Akar;
 
 lookup Kemphreng {
-  lookupflag 0 ;
+  lookupflag 0;
   # The Kemphreng positioning rule positions the Kemphreng on all consonants, including the vowel carrier,
   # plus conjuncts of consonant plus Ukar and consonant plus Ra + Ukar
     pos base @K mark @_K; # was @MARK_K
 } Kemphreng;
 
 lookup EO {
-  lookupflag 0 ;
+  lookupflag 0;
   # The EO positioning rule positions ekar and okar on all consonants plus the vowel carrier.
     pos base @O mark @_O; # was @MARK_eo
 } EO;
 
 lookup VKem {
-  lookupflag MarkAttachmentType @VowelsKem ;
+  lookupflag MarkAttachmentType @VowelsKem;
   # The VKem positioning rule positions the kemphreng on all upper vowels (except ikar, which has its own ligature).
   # The vowel itself is positioned on the consonant with the Akar or EO positioning rule.
     pos mark @K_MarkBase mark @_K; # was @MARK_VK
 } VKem;
 
 lookup GlideU {
-  lookupflag 0 ;
+  lookupflag 0;
   # The GlideU positioning rule positions the Ukar on the glides Ya and Wa.
   # (There is already a ligature for each consonant with the Ra+Ukar combination).
     pos base @G mark @_G; # was @MARK_U
@@ -205,14 +205,14 @@ feature ccmp {  # Glyph Composition/Decomposition
             lookup EeAiKDecomp;
             lookup GlideVowelComp;
             lookup GlideVowelDecomp;
-} ccmp ;
+} ccmp;
 
 feature kern {  # Kerning
     script DFLT;  # Default
         language dflt;  # Default
             lookup GlideIkar;
             lookup IkarKWid;
-} kern ;
+} kern;
 
 feature rlig {  # Required Ligatures
     script DFLT;  # Default
@@ -220,7 +220,7 @@ feature rlig {  # Required Ligatures
             lookup RaUkar;
             lookup Ukar;
             lookup IkarK;
-} rlig ;
+} rlig;
 
 feature mark {  # Mark Positioning
     script DFLT;  # Default
@@ -228,11 +228,11 @@ feature mark {  # Mark Positioning
             lookup Akar;
             lookup Kemphreng;
             lookup EO;
-} mark ;
+} mark;
 
 feature mkmk {  # Mark to Mark Positioning
     script DFLT;  # Default
         language dflt;  # Default
             lookup VKem;
             lookup GlideU;
-} mkmk ;
+} mkmk;

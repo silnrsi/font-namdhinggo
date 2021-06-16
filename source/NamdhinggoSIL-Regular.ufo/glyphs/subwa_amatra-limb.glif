@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="subwa_amatra-limb" format="2">
+  <advance width="474"/>
+  <anchor x="-260" y="1250" name="K"/>
+  <anchor x="-500" y="1050" name="_U"/>
+  <outline>
+    <component base="amatra-limb"/>
+    <component base="subwa-limb"/>
+  </outline>
+</glyph>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni19291922" format="2">
-  <advance width="477"/>
-  <anchor x="-100" y="50" name="_V"/>
-  <outline>
-    <component base="uni1922"/>
-    <component base="uni1929"/>
-  </outline>
-</glyph>
