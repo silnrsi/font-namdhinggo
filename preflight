@@ -1,16 +1,16 @@
 #!/bin/sh
 
 # This normalization will also run check and fix routines
-psfnormalize -p checkfix=fix source/NamdhinggoSIL-Regular.ufo
+psfnormalize -p checkfix=fix source/masters/NamdhinggoSILMaster-Regular.ufo
 
 # Update glyph order in Regular UFO
-psfsetglyphorder --header sort_final -i source/glyph_data.csv source/NamdhinggoSIL-Regular.ufo
+psfsetglyphorder --header sort_final -i source/glyph_data.csv source/masters/NamdhinggoSILMaster-Regular.ufo
 
 # Update production names in Regular UFO
-psfsetpsnames -i source/glyph_data.csv source/NamdhinggoSIL-Regular.ufo
+psfsetpsnames -i source/glyph_data.csv source/masters/NamdhinggoSILMaster-Regular.ufo
 
 # Create WOFF metadata file
-psfmakewoffmetadata -n NamdhinggoSIL -i org.sil.fonts source/NamdhinggoSIL-Regular.ufo # --populateufowoff --force
+psfmakewoffmetadata -n NamdhinggoSIL -i org.sil.fonts -o source/NamdhinggoSIL-WOFF-metadata.xml source/masters/NamdhinggoSILMaster-Regular.ufo # --populateufowoff --force
 
 # Update FEA in UFO
-psfmakefea -o source/NamdhinggoSIL-Regular.ufo/features.fea -i source/master.feax source/NamdhinggoSIL-Regular.ufo
+psfmakefea -o source/masters/NamdhinggoSILMaster-Regular.ufo/features.fea -i source/master.feax source/masters/NamdhinggoSILMaster-Regular.ufo

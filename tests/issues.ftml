@@ -3,7 +3,7 @@
 <ftml version="1.0">
   <head>
     <fontscale>300</fontscale>
-    <fontsrc label="Cur">url(../references/NamdhinggoSIL-Regular.ttf)</fontsrc>
+    <fontsrc label="Cur">url(../results/NamdhinggoSIL-Regular.ttf)</fontsrc>
     <fontsrc label="Std">url(../references/NamdhinggoSIL-Regular.ttf)</fontsrc>
     <fontsrc label="Noto">url(../references/NotoSansLimbu-Regular.ttf)</fontsrc>
     <title>Issues</title>

@@ -7,7 +7,7 @@ FAMILY = APPNAME
 
 # Get version and authorship info from Regular UFO
 # must be first function call:
-getufoinfo('source/' + FAMILY  + '-Regular.ufo')
+getufoinfo('source/masters/' + FAMILY  + 'Master-Regular.ufo')
 # BUILDLABEL = 'beta1'
 
 # Set up the FTML tests
@@ -17,7 +17,7 @@ genout = 'generated/'
 
 designspace('source/' + FAMILY + '.designspace',
             target = process("${DS:FILENAME_BASE}.ttf",
-                cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo'])
+                cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['${DS:FILE}'])
             ),
             opentype = fea(genout + '${DS:FILENAME_BASE}.fea',
                 mapfile = genout + '${DS:FILENAME_BASE}.map',
