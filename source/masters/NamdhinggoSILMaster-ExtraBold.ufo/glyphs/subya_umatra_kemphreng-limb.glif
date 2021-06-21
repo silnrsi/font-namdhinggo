@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="subya_umatra_kemphreng-limb" format="2">
+  <advance width="477"/>
+  <anchor x="-260" y="1250" name="_K"/>
+  <anchor x="-100" y="50" name="_V"/>
+  <outline>
+    <component base="umatra-limb"/>
+    <component base="kemphreng-limb"/>
+    <component base="subya-limb"/>
+  </outline>
+</glyph>

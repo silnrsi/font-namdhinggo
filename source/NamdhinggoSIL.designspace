@@ -1,9 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <designspace format="3">
     <axes>
-        <axis default="400.0" maximum="700.0" minimum="400.0" name="weight" tag="wght">
+        <axis default="400.0" maximum="800.0" minimum="400.0" name="weight" tag="wght">
             <map input="400.0" output="400.0" />
+            <map input="500.0" output="500.0" />
             <map input="700.0" output="700.0" />
+            <map input="800.0" output="800.0" />
             <labelname xml:lang="en">Weight</labelname>
         </axis>
         <axis default="100.0" maximum="100.0" minimum="100.0" name="width" tag="wdth">
@@ -27,11 +29,45 @@
                 <dimension name="custom" xvalue="0.000000" />
             </location>
         </source>
+        <source familyname="Namdhinggo SIL Master" filename="masters/NamdhinggoSILMaster-ExtraBold.ufo" name="Namdhinggo SIL Extra Bold" stylename="Extra Bold">
+            <location>
+                <dimension name="weight" xvalue="800.000000" />
+                <dimension name="width" xvalue="100.000000" />
+                <dimension name="custom" xvalue="0.000000" />
+            </location>
+        </source>
     </sources>
     <instances>
-        <instance familyname="Namdhinggo SIL" filename="instances/NamdhinggoSIL-Regular.ufo" name="Namdhinggo SIL Regular" stylemapfamilyname="Namdhinggo SIL" stylemapstylename="regular" stylename="Regular">
+        <instance familyname="Namdhinggo SIL" filename="instances/NamdhinggoSIL-Regular.ufo" name="Namdhinggo SIL Regular" stylemapfamilyname="Namdhinggo SIL" stylemapstylename="regular" stylename="Regular" postscriptfontname="NamdhinggoSIL-Regular">
             <location>
                 <dimension name="weight" xvalue="400.000000" />
+                <dimension name="width" xvalue="100.000000" />
+                <dimension name="custom" xvalue="0.000000" />
+            </location>
+            <info />
+            <kerning />
+        </instance>
+        <instance familyname="Namdhinggo SIL Book" filename="instances/NamdhinggoSILBook-Regular.ufo" name="Namdhinggo SIL Book Regular" stylemapfamilyname="Namdhinggo SIL Book" stylemapstylename="regular" stylename="Regular" postscriptfontname="NamdhinggoSILBook-Regular">
+            <location>
+                <dimension name="weight" xvalue="500.000000" />
+                <dimension name="width" xvalue="100.000000" />
+                <dimension name="custom" xvalue="0.000000" />
+            </location>
+            <info />
+            <kerning />
+        </instance>
+        <instance familyname="Namdhinggo SIL" filename="instances/NamdhinggoSIL-Bold.ufo" name="Namdhinggo SIL Bold" stylemapfamilyname="Namdhinggo SIL" stylemapstylename="bold" stylename="Bold" postscriptfontname="NamdhinggoSIL-Bold">
+            <location>
+                <dimension name="weight" xvalue="700.000000" />
+                <dimension name="width" xvalue="100.000000" />
+                <dimension name="custom" xvalue="0.000000" />
+            </location>
+            <info />
+            <kerning />
+        </instance>
+        <instance familyname="Namdhinggo SIL Book" filename="instances/NamdhinggoSILBook-Bold.ufo" name="Namdhinggo SIL Book Bold" stylemapfamilyname="Namdhinggo SIL Book" stylemapstylename="bold" stylename="Bold"  postscriptfontname="NamdhinggoSILBook-Bold">
+            <location>
+                <dimension name="weight" xvalue="800.000000" />
                 <dimension name="width" xvalue="100.000000" />
                 <dimension name="custom" xvalue="0.000000" />
             </location>

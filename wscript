@@ -27,7 +27,7 @@ designspace('source/' + FAMILY + '.designspace',
                 ),
             version = VERSION,
             woff = woff('woff/${DS:FILENAME_BASE}',
-                metadata = '../source/${DS:FAMILYNAME_NOSPC}-WOFF-metadata.xml'),
+                metadata = f'../source/{FAMILY}-WOFF-metadata.xml'),
             script = ['DFLT'],
             pdf = fret(params='-oi')
             )

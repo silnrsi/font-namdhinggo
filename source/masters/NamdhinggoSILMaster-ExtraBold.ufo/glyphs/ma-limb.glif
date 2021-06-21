@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ma-limb" format="2">
+  <advance width="1077"/>
+  <unicode hex="1914"/>
+  <anchor x="560" y="1050" name="K"/>
+  <anchor x="538" y="-100" name="L"/>
+  <anchor x="917" y="1050" name="O"/>
+  <anchor x="538" y="1050" name="U"/>
+  <anchor x="974" y="50" name="V"/>
+  <outline>
+    <contour>
+      <point x="146" y="970" type="line"/>
+      <point x="117" y="949"/>
+      <point x="79" y="915"/>
+      <point x="56" y="885" type="curve"/>
+      <point x="86" y="845" type="line"/>
+      <point x="580" y="845" type="line"/>
+      <point x="421" y="722"/>
+      <point x="150" y="432"/>
+      <point x="50" y="267" type="curve"/>
+      <point x="76" y="237" type="line"/>
+      <point x="257" y="238"/>
+      <point x="651" y="118"/>
+      <point x="902" y="-34" type="curve"/>
+      <point x="931" y="-16"/>
+      <point x="981" y="39"/>
+      <point x="993" y="70" type="curve"/>
+      <point x="979" y="318"/>
+      <point x="975" y="587"/>
+      <point x="986" y="930" type="curve"/>
+      <point x="960" y="970" type="line"/>
+    </contour>
+    <contour>
+      <point x="711" y="845" type="curve"/>
+      <point x="842" y="845" type="line"/>
+      <point x="837" y="552"/>
+      <point x="832" y="338"/>
+      <point x="843" y="175" type="curve"/>
+      <point x="647" y="259"/>
+      <point x="454" y="333"/>
+      <point x="261" y="357" type="curve"/>
+      <point x="348" y="500"/>
+      <point x="533" y="698"/>
+    </contour>
+  </outline>
+</glyph>

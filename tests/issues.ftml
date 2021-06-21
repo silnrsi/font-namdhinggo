@@ -3,9 +3,14 @@
 <ftml version="1.0">
   <head>
     <fontscale>300</fontscale>
-    <fontsrc label="Cur">url(../results/NamdhinggoSIL-Regular.ttf)</fontsrc>
+    <fontsrc label="Regular">url(../results/NamdhinggoSIL-Regular.ttf)</fontsrc>
+    <fontsrc label="Book Regular">url(../results/NamdhinggoSILBook-Regular.ttf)</fontsrc>
+    <fontsrc label="Bold">url(../results/NamdhinggoSILBook-Bold.ttf)</fontsrc>
+    <fontsrc label="Book Bold">url(../results/NamdhinggoSILBook-Bold.ttf)</fontsrc>
+    <!--
     <fontsrc label="Std">url(../references/NamdhinggoSIL-Regular.ttf)</fontsrc>
     <fontsrc label="Noto">url(../references/NotoSansLimbu-Regular.ttf)</fontsrc>
+    -->
     <title>Issues</title>
   </head>
   <testgroup label="story excerpts">

@@ -4,9 +4,12 @@
 psfglyphs2ufo --nofea source/masters/NamdhinggoSIL.glyphs source/masters
 
 # This normalization will also run check and fix routines
-psfnormalize -p checkfix=fix source/masters/NamdhinggoSILMaster-Regular.ufo
+# psfnormalize -p checkfix=fix source/masters/NamdhinggoSILMaster-Regular.ufo &
+# psfnormalize -p checkfix=fix source/masters/NamdhinggoSILMaster-ExtraBold.ufo &
+# wait
 
 # Fix problem with non-spacing marks due to glyphsLib bug
-psfremovegliflibkeys source/masters/NamdhinggoSILMaster-Regular.ufo com.schriftgestaltung.Glyphs.originalWidth  -l source/logs/widthfixR.log
+psfremovegliflibkeys source/masters/NamdhinggoSILMaster-Regular.ufo   com.schriftgestaltung.Glyphs.originalWidth  -l source/logs/widthfixR.log
+psfremovegliflibkeys source/masters/NamdhinggoSILMaster-ExtraBold.ufo com.schriftgestaltung.Glyphs.originalWidth  -l source/logs/widthfixR.log
 
 ./preflight

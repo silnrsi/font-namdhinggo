@@ -13,9 +13,9 @@ with Reserved Font Names "Namdhinggo" and "SIL".
   <key>descender</key>
   <integer>-550</integer>
   <key>familyName</key>
-  <string>Namdhinggo SIL</string>
+  <string>Namdhinggo SIL Master</string>
   <key>openTypeHeadCreated</key>
-  <string>2021/06/18 06:33:52</string>
+  <string>2021/06/21 15:04:25</string>
   <key>openTypeHheaAscender</key>
   <integer>1600</integer>
   <key>openTypeHheaDescender</key>
@@ -131,13 +131,13 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>openTypeNameManufacturerURL</key>
   <string>http://scripts.sil.org/</string>
   <key>openTypeNamePreferredFamilyName</key>
-  <string>Namdhinggo SIL</string>
+  <string>Namdhinggo SIL Master</string>
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Regular</string>
   <key>openTypeNameUniqueID</key>
-  <string>SIL International: Namdhinggo SIL Regular: 2021</string>
+  <string>SIL International: Namdhinggo SIL Master Regular: 2021</string>
   <key>openTypeNameVersion</key>
-  <string>Version 2.100</string>
+  <string>Version 2.200</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -221,9 +221,9 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
     <integer>0</integer>
   </array>
   <key>postscriptFontName</key>
-  <string>NamdhinggoSIL-Regular</string>
+  <string>NamdhinggoSILMaster-Regular</string>
   <key>postscriptFullName</key>
-  <string>Namdhinggo SIL</string>
+  <string>Namdhinggo SIL Master Regular</string>
   <key>postscriptStemSnapH</key>
   <array>
     <integer>125</integer>
@@ -242,7 +242,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>postscriptUnderlineThickness</key>
   <integer>130</integer>
   <key>styleMapFamilyName</key>
-  <string>Namdhinggo SIL</string>
+  <string>Namdhinggo SIL Master</string>
   <key>styleMapStyleName</key>
   <string>regular</string>
   <key>styleName</key>
@@ -254,7 +254,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>versionMajor</key>
   <integer>2</integer>
   <key>versionMinor</key>
-  <integer>100</integer>
+  <integer>200</integer>
   <key>xHeight</key>
   <integer>500</integer>
 </dict>
