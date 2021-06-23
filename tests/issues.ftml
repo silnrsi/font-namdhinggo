@@ -3,16 +3,35 @@
 <ftml version="1.0">
   <head>
     <fontscale>300</fontscale>
+    <fontsrc label="Ref Regular">url(../references/NamdhinggoSIL-Regular.ttf)</fontsrc>
     <fontsrc label="Regular">url(../results/NamdhinggoSIL-Regular.ttf)</fontsrc>
     <fontsrc label="Book Regular">url(../results/NamdhinggoSILBook-Regular.ttf)</fontsrc>
     <fontsrc label="Bold">url(../results/NamdhinggoSILBook-Bold.ttf)</fontsrc>
     <fontsrc label="Book Bold">url(../results/NamdhinggoSILBook-Bold.ttf)</fontsrc>
     <!--
-    <fontsrc label="Std">url(../references/NamdhinggoSIL-Regular.ttf)</fontsrc>
     <fontsrc label="Noto">url(../references/NotoSansLimbu-Regular.ttf)</fontsrc>
     -->
     <title>Issues</title>
   </head>
+  <testgroup label="kerning afer imatra with kemphreng">
+    <test label="ssa">
+      <string>\u1901\u1921\u193a\u191a\u1920</string>
+    </test>
+    <test label="la">
+      <string>\u1901\u1921\u193a\u1917\u1920</string>
+    </test>
+    <test label="pha">
+      <string>\u1901\u1921\u193a\u1911\u1920</string>
+    </test>
+  </testgroup>
+  <testgroup label="kerning with subs and imatra">
+    <test label="ya">
+      <string>\u1901\u1929\u1921 \u1901\u1929\u1921\u193a</string>
+    </test>
+    <test label="wa">
+      <string>\u1901\u192b\u1921 \u1901\u192b\u1921\u193a</string>
+    </test>
+  </testgroup>
   <testgroup label="story excerpts">
     <test label="one">
       <string>ᤋᤣ᤺ᤱ</string>
