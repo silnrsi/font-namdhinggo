@@ -13,7 +13,7 @@
     -->
     <title>Issues</title>
   </head>
-  <testgroup label="kerning afer imatra with kemphreng">
+  <testgroup label="kerning between imatra with kemphreng and amatra">
     <test label="ssa">
       <string>\u1901\u1921\u193a\u191a\u1920</string>
     </test>
