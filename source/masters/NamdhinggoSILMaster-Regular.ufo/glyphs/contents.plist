@@ -204,16 +204,16 @@
   <string>ae.glif</string>
   <key>agrave</key>
   <string>agrave.glif</string>
-  <key>aimatra-limb</key>
-  <string>aimatra-limb.glif</string>
-  <key>aimatra_kemphreng-limb</key>
-  <string>aimatra_kemphreng-limb.glif</string>
-  <key>amatra-limb</key>
-  <string>amatra-limb.glif</string>
-  <key>amatra-limb.widC</key>
-  <string>amatra-limb.widC_.glif</string>
-  <key>amatra-limb.widD</key>
-  <string>amatra-limb.widD_.glif</string>
+  <key>aikar-limb</key>
+  <string>aikar-limb.glif</string>
+  <key>aikar_kemphreng-limb</key>
+  <string>aikar_kemphreng-limb.glif</string>
+  <key>akar-limb</key>
+  <string>akar-limb.glif</string>
+  <key>akar-limb.widC</key>
+  <string>akar-limb.widC_.glif</string>
+  <key>akar-limb.widD</key>
+  <string>akar-limb.widD_.glif</string>
   <key>ampersand</key>
   <string>ampersand.glif</string>
   <key>approxequal</key>
@@ -230,26 +230,26 @@
   <string>at.glif</string>
   <key>atilde</key>
   <string>atilde.glif</string>
-  <key>aumatra-limb</key>
-  <string>aumatra-limb.glif</string>
+  <key>aukar-limb</key>
+  <string>aukar-limb.glif</string>
   <key>b</key>
   <string>b.glif</string>
   <key>ba-limb</key>
   <string>ba-limb.glif</string>
-  <key>ba_subra_umatra-limb</key>
-  <string>ba_subra_umatra-limb.glif</string>
-  <key>ba_umatra-limb</key>
-  <string>ba_umatra-limb.glif</string>
+  <key>ba_subra_ukar-limb</key>
+  <string>ba_subra_ukar-limb.glif</string>
+  <key>ba_ukar-limb</key>
+  <string>ba_ukar-limb.glif</string>
   <key>backslash</key>
   <string>backslash.glif</string>
   <key>bar</key>
   <string>bar.glif</string>
   <key>bha-limb</key>
   <string>bha-limb.glif</string>
-  <key>bha_subra_umatra-limb</key>
-  <string>bha_subra_umatra-limb.glif</string>
-  <key>bha_umatra-limb</key>
-  <string>bha_umatra-limb.glif</string>
+  <key>bha_subra_ukar-limb</key>
+  <string>bha_subra_ukar-limb.glif</string>
+  <key>bha_ukar-limb</key>
+  <string>bha_ukar-limb.glif</string>
   <key>braceleft</key>
   <string>braceleft.glif</string>
   <key>braceright</key>
@@ -270,10 +270,10 @@
   <string>c.glif</string>
   <key>ca-limb</key>
   <string>ca-limb.glif</string>
-  <key>ca_subra_umatra-limb</key>
-  <string>ca_subra_umatra-limb.glif</string>
-  <key>ca_umatra-limb</key>
-  <string>ca_umatra-limb.glif</string>
+  <key>ca_subra_ukar-limb</key>
+  <string>ca_subra_ukar-limb.glif</string>
+  <key>ca_ukar-limb</key>
+  <string>ca_ukar-limb.glif</string>
   <key>caron</key>
   <string>caron.glif</string>
   <key>ccedilla</key>
@@ -286,10 +286,10 @@
   <string>cgj.glif</string>
   <key>cha-limb</key>
   <string>cha-limb.glif</string>
-  <key>cha_subra_umatra-limb</key>
-  <string>cha_subra_umatra-limb.glif</string>
-  <key>cha_umatra-limb</key>
-  <string>cha_umatra-limb.glif</string>
+  <key>cha_subra_ukar-limb</key>
+  <string>cha_subra_ukar-limb.glif</string>
+  <key>cha_ukar-limb</key>
+  <string>cha_ukar-limb.glif</string>
   <key>circumflex</key>
   <string>circumflex.glif</string>
   <key>colon</key>
@@ -306,10 +306,10 @@
   <string>d.glif</string>
   <key>da-limb</key>
   <string>da-limb.glif</string>
-  <key>da_subra_umatra-limb</key>
-  <string>da_subra_umatra-limb.glif</string>
-  <key>da_umatra-limb</key>
-  <string>da_umatra-limb.glif</string>
+  <key>da_subra_ukar-limb</key>
+  <string>da_subra_ukar-limb.glif</string>
+  <key>da_ukar-limb</key>
+  <string>da_ukar-limb.glif</string>
   <key>dagger</key>
   <string>dagger.glif</string>
   <key>daggerdbl</key>
@@ -320,10 +320,10 @@
   <string>degree.glif</string>
   <key>dha-limb</key>
   <string>dha-limb.glif</string>
-  <key>dha_subra_umatra-limb</key>
-  <string>dha_subra_umatra-limb.glif</string>
-  <key>dha_umatra-limb</key>
-  <string>dha_umatra-limb.glif</string>
+  <key>dha_subra_ukar-limb</key>
+  <string>dha_subra_ukar-limb.glif</string>
+  <key>dha_ukar-limb</key>
+  <string>dha_ukar-limb.glif</string>
   <key>dieresis</key>
   <string>dieresis.glif</string>
   <key>divide</key>
@@ -344,20 +344,20 @@
   <string>ecircumflex.glif</string>
   <key>edieresis</key>
   <string>edieresis.glif</string>
-  <key>eematra-limb</key>
-  <string>eematra-limb.glif</string>
-  <key>eematra_kemphreng-limb</key>
-  <string>eematra_kemphreng-limb.glif</string>
+  <key>eekar-limb</key>
+  <string>eekar-limb.glif</string>
+  <key>eekar_kemphreng-limb</key>
+  <string>eekar_kemphreng-limb.glif</string>
   <key>egrave</key>
   <string>egrave.glif</string>
   <key>eight</key>
   <string>eight.glif</string>
   <key>eight-limb</key>
   <string>eight-limb.glif</string>
+  <key>ekar-limb</key>
+  <string>ekar-limb.glif</string>
   <key>ellipsis</key>
   <string>ellipsis.glif</string>
-  <key>ematra-limb</key>
-  <string>ematra-limb.glif</string>
   <key>emdash</key>
   <string>emdash.glif</string>
   <key>endash</key>
@@ -396,18 +396,18 @@
   <string>g.glif</string>
   <key>ga-limb</key>
   <string>ga-limb.glif</string>
-  <key>ga_subra_umatra-limb</key>
-  <string>ga_subra_umatra-limb.glif</string>
-  <key>ga_umatra-limb</key>
-  <string>ga_umatra-limb.glif</string>
+  <key>ga_subra_ukar-limb</key>
+  <string>ga_subra_ukar-limb.glif</string>
+  <key>ga_ukar-limb</key>
+  <string>ga_ukar-limb.glif</string>
   <key>germandbls</key>
   <string>germandbls.glif</string>
   <key>gha-limb</key>
   <string>gha-limb.glif</string>
-  <key>gha_subra_umatra-limb</key>
-  <string>gha_subra_umatra-limb.glif</string>
-  <key>gha_umatra-limb</key>
-  <string>gha_umatra-limb.glif</string>
+  <key>gha_subra_ukar-limb</key>
+  <string>gha_subra_ukar-limb.glif</string>
+  <key>gha_ukar-limb</key>
+  <string>gha_ukar-limb.glif</string>
   <key>grave</key>
   <string>grave.glif</string>
   <key>greater</key>
@@ -424,18 +424,18 @@
   <string>guilsinglright.glif</string>
   <key>gyan-limb</key>
   <string>gyan-limb.glif</string>
-  <key>gyan_subra_umatra-limb</key>
-  <string>gyan_subra_umatra-limb.glif</string>
-  <key>gyan_umatra-limb</key>
-  <string>gyan_umatra-limb.glif</string>
+  <key>gyan_subra_ukar-limb</key>
+  <string>gyan_subra_ukar-limb.glif</string>
+  <key>gyan_ukar-limb</key>
+  <string>gyan_ukar-limb.glif</string>
   <key>h</key>
   <string>h.glif</string>
   <key>ha-limb</key>
   <string>ha-limb.glif</string>
-  <key>ha_subra_umatra-limb</key>
-  <string>ha_subra_umatra-limb.glif</string>
-  <key>ha_umatra-limb</key>
-  <string>ha_umatra-limb.glif</string>
+  <key>ha_subra_ukar-limb</key>
+  <string>ha_subra_ukar-limb.glif</string>
+  <key>ha_ukar-limb</key>
+  <string>ha_ukar-limb.glif</string>
   <key>horizontalbar</key>
   <string>horizontalbar.glif</string>
   <key>hungarumlaut</key>
@@ -456,10 +456,10 @@
   <string>idieresis.glif</string>
   <key>igrave</key>
   <string>igrave.glif</string>
-  <key>imatra-limb</key>
-  <string>imatra-limb.glif</string>
-  <key>imatra_kemphreng-limb</key>
-  <string>imatra_kemphreng-limb.glif</string>
+  <key>ikar-limb</key>
+  <string>ikar-limb.glif</string>
+  <key>ikar_kemphreng-limb</key>
+  <string>ikar_kemphreng-limb.glif</string>
   <key>infinity</key>
   <string>infinity.glif</string>
   <key>integral</key>
@@ -468,42 +468,42 @@
   <string>j.glif</string>
   <key>ja-limb</key>
   <string>ja-limb.glif</string>
-  <key>ja_subra_umatra-limb</key>
-  <string>ja_subra_umatra-limb.glif</string>
-  <key>ja_umatra-limb</key>
-  <string>ja_umatra-limb.glif</string>
+  <key>ja_subra_ukar-limb</key>
+  <string>ja_subra_ukar-limb.glif</string>
+  <key>ja_ukar-limb</key>
+  <string>ja_ukar-limb.glif</string>
   <key>jha-limb</key>
   <string>jha-limb.glif</string>
-  <key>jha_subra_umatra-limb</key>
-  <string>jha_subra_umatra-limb.glif</string>
-  <key>jha_umatra-limb</key>
-  <string>jha_umatra-limb.glif</string>
+  <key>jha_subra_ukar-limb</key>
+  <string>jha_subra_ukar-limb.glif</string>
+  <key>jha_ukar-limb</key>
+  <string>jha_ukar-limb.glif</string>
   <key>k</key>
   <string>k.glif</string>
   <key>ka-limb</key>
   <string>ka-limb.glif</string>
-  <key>ka_subra_umatra-limb</key>
-  <string>ka_subra_umatra-limb.glif</string>
-  <key>ka_umatra-limb</key>
-  <string>ka_umatra-limb.glif</string>
+  <key>ka_subra_ukar-limb</key>
+  <string>ka_subra_ukar-limb.glif</string>
+  <key>ka_ukar-limb</key>
+  <string>ka_ukar-limb.glif</string>
   <key>kemphreng-limb</key>
   <string>kemphreng-limb.glif</string>
   <key>kemphreng-limb.widC</key>
   <string>kemphreng-limb.widC_.glif</string>
   <key>kha-limb</key>
   <string>kha-limb.glif</string>
-  <key>kha_subra_umatra-limb</key>
-  <string>kha_subra_umatra-limb.glif</string>
-  <key>kha_umatra-limb</key>
-  <string>kha_umatra-limb.glif</string>
+  <key>kha_subra_ukar-limb</key>
+  <string>kha_subra_ukar-limb.glif</string>
+  <key>kha_ukar-limb</key>
+  <string>kha_ukar-limb.glif</string>
   <key>l</key>
   <string>l.glif</string>
   <key>la-limb</key>
   <string>la-limb.glif</string>
-  <key>la_subra_umatra-limb</key>
-  <string>la_subra_umatra-limb.glif</string>
-  <key>la_umatra-limb</key>
-  <string>la_umatra-limb.glif</string>
+  <key>la_subra_ukar-limb</key>
+  <string>la_subra_ukar-limb.glif</string>
+  <key>la_ukar-limb</key>
+  <string>la_ukar-limb.glif</string>
   <key>less</key>
   <string>less.glif</string>
   <key>lessequal</key>
@@ -518,10 +518,10 @@
   <string>m.glif</string>
   <key>ma-limb</key>
   <string>ma-limb.glif</string>
-  <key>ma_subra_umatra-limb</key>
-  <string>ma_subra_umatra-limb.glif</string>
-  <key>ma_umatra-limb</key>
-  <string>ma_umatra-limb.glif</string>
+  <key>ma_subra_ukar-limb</key>
+  <string>ma_subra_ukar-limb.glif</string>
+  <key>ma_ukar-limb</key>
+  <string>ma_ukar-limb.glif</string>
   <key>macron</key>
   <string>macron.glif</string>
   <key>mu</key>
@@ -534,20 +534,20 @@
   <string>n.glif</string>
   <key>na-limb</key>
   <string>na-limb.glif</string>
-  <key>na_subra_umatra-limb</key>
-  <string>na_subra_umatra-limb.glif</string>
-  <key>na_umatra-limb</key>
-  <string>na_umatra-limb.glif</string>
+  <key>na_subra_ukar-limb</key>
+  <string>na_subra_ukar-limb.glif</string>
+  <key>na_ukar-limb</key>
+  <string>na_ukar-limb.glif</string>
   <key>nbhyphen</key>
   <string>nbhyphen.glif</string>
   <key>nbsp</key>
   <string>nbsp.glif</string>
   <key>nga-limb</key>
   <string>nga-limb.glif</string>
-  <key>nga_subra_umatra-limb</key>
-  <string>nga_subra_umatra-limb.glif</string>
-  <key>nga_umatra-limb</key>
-  <string>nga_umatra-limb.glif</string>
+  <key>nga_subra_ukar-limb</key>
+  <string>nga_subra_ukar-limb.glif</string>
+  <key>nga_ukar-limb</key>
+  <string>nga_ukar-limb.glif</string>
   <key>nine</key>
   <string>nine.glif</string>
   <key>nine-limb</key>
@@ -576,8 +576,8 @@
   <string>ogonek.glif</string>
   <key>ograve</key>
   <string>ograve.glif</string>
-  <key>omatra-limb</key>
-  <string>omatra-limb.glif</string>
+  <key>okar-limb</key>
+  <string>okar-limb.glif</string>
   <key>one</key>
   <string>one.glif</string>
   <key>one-limb</key>
@@ -588,8 +588,8 @@
   <string>onequarter.glif</string>
   <key>onesuperior</key>
   <string>onesuperior.glif</string>
-  <key>oomatra-limb</key>
-  <string>oomatra-limb.glif</string>
+  <key>ookar-limb</key>
+  <string>ookar-limb.glif</string>
   <key>ordfeminine</key>
   <string>ordfeminine.glif</string>
   <key>ordmasculine</key>
@@ -602,10 +602,10 @@
   <string>p.glif</string>
   <key>pa-limb</key>
   <string>pa-limb.glif</string>
-  <key>pa_subra_umatra-limb</key>
-  <string>pa_subra_umatra-limb.glif</string>
-  <key>pa_umatra-limb</key>
-  <string>pa_umatra-limb.glif</string>
+  <key>pa_subra_ukar-limb</key>
+  <string>pa_subra_ukar-limb.glif</string>
+  <key>pa_ukar-limb</key>
+  <string>pa_ukar-limb.glif</string>
   <key>paragraph</key>
   <string>paragraph.glif</string>
   <key>parenleft</key>
@@ -624,10 +624,10 @@
   <string>perthousand.glif</string>
   <key>pha-limb</key>
   <string>pha-limb.glif</string>
-  <key>pha_subra_umatra-limb</key>
-  <string>pha_subra_umatra-limb.glif</string>
-  <key>pha_umatra-limb</key>
-  <string>pha_umatra-limb.glif</string>
+  <key>pha_subra_ukar-limb</key>
+  <string>pha_subra_ukar-limb.glif</string>
+  <key>pha_ukar-limb</key>
+  <string>pha_ukar-limb.glif</string>
   <key>pi</key>
   <string>pi.glif</string>
   <key>plus</key>
@@ -664,10 +664,10 @@
   <string>r.glif</string>
   <key>ra-limb</key>
   <string>ra-limb.glif</string>
-  <key>ra_subra_umatra-limb</key>
-  <string>ra_subra_umatra-limb.glif</string>
-  <key>ra_umatra-limb</key>
-  <string>ra_umatra-limb.glif</string>
+  <key>ra_subra_ukar-limb</key>
+  <string>ra_subra_ukar-limb.glif</string>
+  <key>ra_ukar-limb</key>
+  <string>ra_ukar-limb.glif</string>
   <key>radical</key>
   <string>radical.glif</string>
   <key>registered</key>
@@ -678,10 +678,10 @@
   <string>s.glif</string>
   <key>sa-limb</key>
   <string>sa-limb.glif</string>
-  <key>sa_subra_umatra-limb</key>
-  <string>sa_subra_umatra-limb.glif</string>
-  <key>sa_umatra-limb</key>
-  <string>sa_umatra-limb.glif</string>
+  <key>sa_subra_ukar-limb</key>
+  <string>sa_subra_ukar-limb.glif</string>
+  <key>sa_ukar-limb</key>
+  <string>sa_ukar-limb.glif</string>
   <key>sai-limb</key>
   <string>sai-limb.glif</string>
   <key>sai-limb.widA</key>
@@ -702,10 +702,10 @@
   <string>seven-limb.glif</string>
   <key>sha-limb</key>
   <string>sha-limb.glif</string>
-  <key>sha_subra_umatra-limb</key>
-  <string>sha_subra_umatra-limb.glif</string>
-  <key>sha_umatra-limb</key>
-  <string>sha_umatra-limb.glif</string>
+  <key>sha_subra_ukar-limb</key>
+  <string>sha_subra_ukar-limb.glif</string>
+  <key>sha_ukar-limb</key>
+  <string>sha_ukar-limb.glif</string>
   <key>six</key>
   <string>six.glif</string>
   <key>six-limb</key>
@@ -736,72 +736,72 @@
   <string>space.glif</string>
   <key>ssa-limb</key>
   <string>ssa-limb.glif</string>
-  <key>ssa_subra_umatra-limb</key>
-  <string>ssa_subra_umatra-limb.glif</string>
-  <key>ssa_umatra-limb</key>
-  <string>ssa_umatra-limb.glif</string>
+  <key>ssa_subra_ukar-limb</key>
+  <string>ssa_subra_ukar-limb.glif</string>
+  <key>ssa_ukar-limb</key>
+  <string>ssa_ukar-limb.glif</string>
   <key>sterling</key>
   <string>sterling.glif</string>
   <key>subra-limb</key>
   <string>subra-limb.glif</string>
-  <key>subra_umatra-limb</key>
-  <string>subra_umatra-limb.glif</string>
+  <key>subra_ukar-limb</key>
+  <string>subra_ukar-limb.glif</string>
   <key>subwa-limb</key>
   <string>subwa-limb.glif</string>
-  <key>subwa_amatra-limb</key>
-  <string>subwa_amatra-limb.glif</string>
-  <key>subwa_amatra_kemphreng-limb</key>
-  <string>subwa_amatra_kemphreng-limb.glif</string>
-  <key>subwa_ematra-limb</key>
-  <string>subwa_ematra-limb.glif</string>
-  <key>subwa_ematra_kemphreng-limb</key>
-  <string>subwa_ematra_kemphreng-limb.glif</string>
+  <key>subwa_akar-limb</key>
+  <string>subwa_akar-limb.glif</string>
+  <key>subwa_akar_kemphreng-limb</key>
+  <string>subwa_akar_kemphreng-limb.glif</string>
+  <key>subwa_ekar-limb</key>
+  <string>subwa_ekar-limb.glif</string>
+  <key>subwa_ekar_kemphreng-limb</key>
+  <string>subwa_ekar_kemphreng-limb.glif</string>
   <key>subwa_kemphreng-limb</key>
   <string>subwa_kemphreng-limb.glif</string>
-  <key>subwa_omatra-limb</key>
-  <string>subwa_omatra-limb.glif</string>
-  <key>subwa_omatra_kemphreng-limb</key>
-  <string>subwa_omatra_kemphreng-limb.glif</string>
-  <key>subwa_umatra-limb</key>
-  <string>subwa_umatra-limb.glif</string>
-  <key>subwa_umatra_kemphreng-limb</key>
-  <string>subwa_umatra_kemphreng-limb.glif</string>
+  <key>subwa_okar-limb</key>
+  <string>subwa_okar-limb.glif</string>
+  <key>subwa_okar_kemphreng-limb</key>
+  <string>subwa_okar_kemphreng-limb.glif</string>
+  <key>subwa_ukar-limb</key>
+  <string>subwa_ukar-limb.glif</string>
+  <key>subwa_ukar_kemphreng-limb</key>
+  <string>subwa_ukar_kemphreng-limb.glif</string>
   <key>subya-limb</key>
   <string>subya-limb.glif</string>
-  <key>subya_amatra-limb</key>
-  <string>subya_amatra-limb.glif</string>
-  <key>subya_amatra_kemphreng-limb</key>
-  <string>subya_amatra_kemphreng-limb.glif</string>
-  <key>subya_ematra-limb</key>
-  <string>subya_ematra-limb.glif</string>
-  <key>subya_ematra_kemphreng-limb</key>
-  <string>subya_ematra_kemphreng-limb.glif</string>
+  <key>subya_akar-limb</key>
+  <string>subya_akar-limb.glif</string>
+  <key>subya_akar_kemphreng-limb</key>
+  <string>subya_akar_kemphreng-limb.glif</string>
+  <key>subya_ekar-limb</key>
+  <string>subya_ekar-limb.glif</string>
+  <key>subya_ekar_kemphreng-limb</key>
+  <string>subya_ekar_kemphreng-limb.glif</string>
   <key>subya_kemphreng-limb</key>
   <string>subya_kemphreng-limb.glif</string>
-  <key>subya_omatra-limb</key>
-  <string>subya_omatra-limb.glif</string>
-  <key>subya_omatra_kemphreng-limb</key>
-  <string>subya_omatra_kemphreng-limb.glif</string>
-  <key>subya_umatra-limb</key>
-  <string>subya_umatra-limb.glif</string>
-  <key>subya_umatra_kemphreng-limb</key>
-  <string>subya_umatra_kemphreng-limb.glif</string>
+  <key>subya_okar-limb</key>
+  <string>subya_okar-limb.glif</string>
+  <key>subya_okar_kemphreng-limb</key>
+  <string>subya_okar_kemphreng-limb.glif</string>
+  <key>subya_ukar-limb</key>
+  <string>subya_ukar-limb.glif</string>
+  <key>subya_ukar_kemphreng-limb</key>
+  <string>subya_ukar_kemphreng-limb.glif</string>
   <key>summation</key>
   <string>summation.glif</string>
   <key>t</key>
   <string>t.glif</string>
   <key>ta-limb</key>
   <string>ta-limb.glif</string>
-  <key>ta_subra_umatra-limb</key>
-  <string>ta_subra_umatra-limb.glif</string>
-  <key>ta_umatra-limb</key>
-  <string>ta_umatra-limb.glif</string>
+  <key>ta_subra_ukar-limb</key>
+  <string>ta_subra_ukar-limb.glif</string>
+  <key>ta_ukar-limb</key>
+  <string>ta_ukar-limb.glif</string>
   <key>tha-limb</key>
   <string>tha-limb.glif</string>
-  <key>tha_subra_umatra-limb</key>
-  <string>tha_subra_umatra-limb.glif</string>
-  <key>tha_umatra-limb</key>
-  <string>tha_umatra-limb.glif</string>
+  <key>tha_subra_ukar-limb</key>
+  <string>tha_subra_ukar-limb.glif</string>
+  <key>tha_ukar-limb</key>
+  <string>tha_ukar-limb.glif</string>
   <key>thorn</key>
   <string>thorn.glif</string>
   <key>three</key>
@@ -816,10 +816,10 @@
   <string>tilde.glif</string>
   <key>tra-limb</key>
   <string>tra-limb.glif</string>
-  <key>tra_subra_umatra-limb</key>
-  <string>tra_subra_umatra-limb.glif</string>
-  <key>tra_umatra-limb</key>
-  <string>tra_umatra-limb.glif</string>
+  <key>tra_subra_ukar-limb</key>
+  <string>tra_subra_ukar-limb.glif</string>
+  <key>tra_ukar-limb</key>
+  <string>tra_ukar-limb.glif</string>
   <key>trademark</key>
   <string>trademark.glif</string>
   <key>two</key>
@@ -838,30 +838,30 @@
   <string>udieresis.glif</string>
   <key>ugrave</key>
   <string>ugrave.glif</string>
-  <key>umatra-limb</key>
-  <string>umatra-limb.glif</string>
-  <key>umatra-limb.altA</key>
-  <string>umatra-limb.altA_.glif</string>
-  <key>umatra-limb.altB</key>
-  <string>umatra-limb.altB_.glif</string>
-  <key>umatra-limb.altC</key>
-  <string>umatra-limb.altC_.glif</string>
+  <key>ukar-limb</key>
+  <string>ukar-limb.glif</string>
+  <key>ukar-limb.altA</key>
+  <string>ukar-limb.altA_.glif</string>
+  <key>ukar-limb.altB</key>
+  <string>ukar-limb.altB_.glif</string>
+  <key>ukar-limb.altC</key>
+  <string>ukar-limb.altC_.glif</string>
   <key>underscore</key>
   <string>underscore.glif</string>
   <key>v</key>
   <string>v.glif</string>
   <key>vowelcarrier-limb</key>
   <string>vowelcarrier-limb.glif</string>
-  <key>vowelcarrier_umatra-limb</key>
-  <string>vowelcarrier_umatra-limb.glif</string>
+  <key>vowelcarrier_ukar-limb</key>
+  <string>vowelcarrier_ukar-limb.glif</string>
   <key>w</key>
   <string>w.glif</string>
   <key>wa-limb</key>
   <string>wa-limb.glif</string>
-  <key>wa_subra_umatra-limb</key>
-  <string>wa_subra_umatra-limb.glif</string>
-  <key>wa_umatra-limb</key>
-  <string>wa_umatra-limb.glif</string>
+  <key>wa_subra_ukar-limb</key>
+  <string>wa_subra_ukar-limb.glif</string>
+  <key>wa_ukar-limb</key>
+  <string>wa_ukar-limb.glif</string>
   <key>wj</key>
   <string>wj.glif</string>
   <key>x</key>
@@ -870,18 +870,18 @@
   <string>y.glif</string>
   <key>ya-limb</key>
   <string>ya-limb.glif</string>
-  <key>ya_subra_umatra-limb</key>
-  <string>ya_subra_umatra-limb.glif</string>
-  <key>ya_umatra-limb</key>
-  <string>ya_umatra-limb.glif</string>
+  <key>ya_subra_ukar-limb</key>
+  <string>ya_subra_ukar-limb.glif</string>
+  <key>ya_ukar-limb</key>
+  <string>ya_ukar-limb.glif</string>
   <key>yacute</key>
   <string>yacute.glif</string>
   <key>yan-limb</key>
   <string>yan-limb.glif</string>
-  <key>yan_subra_umatra-limb</key>
-  <string>yan_subra_umatra-limb.glif</string>
-  <key>yan_umatra-limb</key>
-  <string>yan_umatra-limb.glif</string>
+  <key>yan_subra_ukar-limb</key>
+  <string>yan_subra_ukar-limb.glif</string>
+  <key>yan_ukar-limb</key>
+  <string>yan_ukar-limb.glif</string>
   <key>ydieresis</key>
   <string>ydieresis.glif</string>
   <key>yen</key>
