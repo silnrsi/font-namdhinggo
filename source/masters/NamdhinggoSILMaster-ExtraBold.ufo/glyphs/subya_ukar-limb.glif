@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="subya_ukar-limb" format="2">
+  <advance width="477"/>
+  <anchor x="-100" y="50" name="_V"/>
+  <outline>
+    <component base="ukar-limb"/>
+    <component base="subya-limb"/>
+  </outline>
+</glyph>

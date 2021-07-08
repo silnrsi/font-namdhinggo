@@ -277,135 +277,135 @@
     <string>pi</string>
     <string>dandadbl</string>
     <string>vowelcarrier-limb</string>
-    <string>vowelcarrier_umatra-limb</string>
+    <string>vowelcarrier_ukar-limb</string>
     <string>ka-limb</string>
-    <string>ka_umatra-limb</string>
-    <string>ka_subra_umatra-limb</string>
+    <string>ka_ukar-limb</string>
+    <string>ka_subra_ukar-limb</string>
     <string>kha-limb</string>
-    <string>kha_umatra-limb</string>
-    <string>kha_subra_umatra-limb</string>
+    <string>kha_ukar-limb</string>
+    <string>kha_subra_ukar-limb</string>
     <string>ga-limb</string>
-    <string>ga_umatra-limb</string>
-    <string>ga_subra_umatra-limb</string>
+    <string>ga_ukar-limb</string>
+    <string>ga_subra_ukar-limb</string>
     <string>gha-limb</string>
-    <string>gha_umatra-limb</string>
-    <string>gha_subra_umatra-limb</string>
+    <string>gha_ukar-limb</string>
+    <string>gha_subra_ukar-limb</string>
     <string>nga-limb</string>
-    <string>nga_umatra-limb</string>
-    <string>nga_subra_umatra-limb</string>
+    <string>nga_ukar-limb</string>
+    <string>nga_subra_ukar-limb</string>
     <string>ca-limb</string>
-    <string>ca_umatra-limb</string>
-    <string>ca_subra_umatra-limb</string>
+    <string>ca_ukar-limb</string>
+    <string>ca_subra_ukar-limb</string>
     <string>cha-limb</string>
-    <string>cha_umatra-limb</string>
-    <string>cha_subra_umatra-limb</string>
+    <string>cha_ukar-limb</string>
+    <string>cha_subra_ukar-limb</string>
     <string>ja-limb</string>
-    <string>ja_umatra-limb</string>
-    <string>ja_subra_umatra-limb</string>
+    <string>ja_ukar-limb</string>
+    <string>ja_subra_ukar-limb</string>
     <string>jha-limb</string>
-    <string>jha_umatra-limb</string>
-    <string>jha_subra_umatra-limb</string>
+    <string>jha_ukar-limb</string>
+    <string>jha_subra_ukar-limb</string>
     <string>yan-limb</string>
-    <string>yan_umatra-limb</string>
-    <string>yan_subra_umatra-limb</string>
+    <string>yan_ukar-limb</string>
+    <string>yan_subra_ukar-limb</string>
     <string>ta-limb</string>
-    <string>ta_umatra-limb</string>
-    <string>ta_subra_umatra-limb</string>
+    <string>ta_ukar-limb</string>
+    <string>ta_subra_ukar-limb</string>
     <string>tha-limb</string>
-    <string>tha_umatra-limb</string>
-    <string>tha_subra_umatra-limb</string>
+    <string>tha_ukar-limb</string>
+    <string>tha_subra_ukar-limb</string>
     <string>da-limb</string>
-    <string>da_umatra-limb</string>
-    <string>da_subra_umatra-limb</string>
+    <string>da_ukar-limb</string>
+    <string>da_subra_ukar-limb</string>
     <string>dha-limb</string>
-    <string>dha_umatra-limb</string>
-    <string>dha_subra_umatra-limb</string>
+    <string>dha_ukar-limb</string>
+    <string>dha_subra_ukar-limb</string>
     <string>na-limb</string>
-    <string>na_umatra-limb</string>
-    <string>na_subra_umatra-limb</string>
+    <string>na_ukar-limb</string>
+    <string>na_subra_ukar-limb</string>
     <string>pa-limb</string>
-    <string>pa_umatra-limb</string>
-    <string>pa_subra_umatra-limb</string>
+    <string>pa_ukar-limb</string>
+    <string>pa_subra_ukar-limb</string>
     <string>pha-limb</string>
-    <string>pha_umatra-limb</string>
-    <string>pha_subra_umatra-limb</string>
+    <string>pha_ukar-limb</string>
+    <string>pha_subra_ukar-limb</string>
     <string>ba-limb</string>
-    <string>ba_umatra-limb</string>
-    <string>ba_subra_umatra-limb</string>
+    <string>ba_ukar-limb</string>
+    <string>ba_subra_ukar-limb</string>
     <string>bha-limb</string>
-    <string>bha_umatra-limb</string>
-    <string>bha_subra_umatra-limb</string>
+    <string>bha_ukar-limb</string>
+    <string>bha_subra_ukar-limb</string>
     <string>ma-limb</string>
-    <string>ma_umatra-limb</string>
-    <string>ma_subra_umatra-limb</string>
+    <string>ma_ukar-limb</string>
+    <string>ma_subra_ukar-limb</string>
     <string>ya-limb</string>
-    <string>ya_umatra-limb</string>
-    <string>ya_subra_umatra-limb</string>
+    <string>ya_ukar-limb</string>
+    <string>ya_subra_ukar-limb</string>
     <string>ra-limb</string>
-    <string>ra_umatra-limb</string>
-    <string>ra_subra_umatra-limb</string>
+    <string>ra_ukar-limb</string>
+    <string>ra_subra_ukar-limb</string>
     <string>la-limb</string>
-    <string>la_umatra-limb</string>
-    <string>la_subra_umatra-limb</string>
+    <string>la_ukar-limb</string>
+    <string>la_subra_ukar-limb</string>
     <string>wa-limb</string>
-    <string>wa_umatra-limb</string>
-    <string>wa_subra_umatra-limb</string>
+    <string>wa_ukar-limb</string>
+    <string>wa_subra_ukar-limb</string>
     <string>sha-limb</string>
-    <string>sha_umatra-limb</string>
-    <string>sha_subra_umatra-limb</string>
+    <string>sha_ukar-limb</string>
+    <string>sha_subra_ukar-limb</string>
     <string>ssa-limb</string>
-    <string>ssa_umatra-limb</string>
-    <string>ssa_subra_umatra-limb</string>
+    <string>ssa_ukar-limb</string>
+    <string>ssa_subra_ukar-limb</string>
     <string>sa-limb</string>
-    <string>sa_umatra-limb</string>
-    <string>sa_subra_umatra-limb</string>
+    <string>sa_ukar-limb</string>
+    <string>sa_subra_ukar-limb</string>
     <string>ha-limb</string>
-    <string>ha_umatra-limb</string>
-    <string>ha_subra_umatra-limb</string>
+    <string>ha_ukar-limb</string>
+    <string>ha_subra_ukar-limb</string>
     <string>gyan-limb</string>
-    <string>gyan_umatra-limb</string>
-    <string>gyan_subra_umatra-limb</string>
+    <string>gyan_ukar-limb</string>
+    <string>gyan_subra_ukar-limb</string>
     <string>tra-limb</string>
-    <string>tra_umatra-limb</string>
-    <string>tra_subra_umatra-limb</string>
-    <string>amatra-limb</string>
-    <string>amatra-limb.widC</string>
-    <string>amatra-limb.widD</string>
-    <string>imatra-limb</string>
-    <string>imatra_kemphreng-limb</string>
-    <string>umatra-limb</string>
-    <string>umatra-limb.altA</string>
-    <string>umatra-limb.altB</string>
-    <string>umatra-limb.altC</string>
-    <string>eematra-limb</string>
-    <string>eematra_kemphreng-limb</string>
-    <string>aimatra-limb</string>
-    <string>aimatra_kemphreng-limb</string>
-    <string>oomatra-limb</string>
-    <string>aumatra-limb</string>
-    <string>ematra-limb</string>
-    <string>omatra-limb</string>
+    <string>tra_ukar-limb</string>
+    <string>tra_subra_ukar-limb</string>
+    <string>akar-limb</string>
+    <string>akar-limb.widC</string>
+    <string>akar-limb.widD</string>
+    <string>ikar-limb</string>
+    <string>ikar_kemphreng-limb</string>
+    <string>ukar-limb</string>
+    <string>ukar-limb.altA</string>
+    <string>ukar-limb.altB</string>
+    <string>ukar-limb.altC</string>
+    <string>eekar-limb</string>
+    <string>eekar_kemphreng-limb</string>
+    <string>aikar-limb</string>
+    <string>aikar_kemphreng-limb</string>
+    <string>ookar-limb</string>
+    <string>aukar-limb</string>
+    <string>ekar-limb</string>
+    <string>okar-limb</string>
     <string>subya-limb</string>
-    <string>subya_amatra-limb</string>
-    <string>subya_amatra_kemphreng-limb</string>
-    <string>subya_umatra-limb</string>
-    <string>subya_umatra_kemphreng-limb</string>
-    <string>subya_ematra-limb</string>
-    <string>subya_ematra_kemphreng-limb</string>
-    <string>subya_omatra-limb</string>
-    <string>subya_omatra_kemphreng-limb</string>
+    <string>subya_akar-limb</string>
+    <string>subya_akar_kemphreng-limb</string>
+    <string>subya_ukar-limb</string>
+    <string>subya_ukar_kemphreng-limb</string>
+    <string>subya_ekar-limb</string>
+    <string>subya_ekar_kemphreng-limb</string>
+    <string>subya_okar-limb</string>
+    <string>subya_okar_kemphreng-limb</string>
     <string>subya_kemphreng-limb</string>
     <string>subra-limb</string>
-    <string>subra_umatra-limb</string>
+    <string>subra_ukar-limb</string>
     <string>subwa-limb</string>
-    <string>subwa_amatra-limb</string>
-    <string>subwa_amatra_kemphreng-limb</string>
-    <string>subwa_umatra-limb</string>
-    <string>subwa_umatra_kemphreng-limb</string>
-    <string>subwa_ematra-limb</string>
-    <string>subwa_ematra_kemphreng-limb</string>
-    <string>subwa_omatra-limb</string>
-    <string>subwa_omatra_kemphreng-limb</string>
+    <string>subwa_akar-limb</string>
+    <string>subwa_akar_kemphreng-limb</string>
+    <string>subwa_ukar-limb</string>
+    <string>subwa_ukar_kemphreng-limb</string>
+    <string>subwa_ekar-limb</string>
+    <string>subwa_ekar_kemphreng-limb</string>
+    <string>subwa_okar-limb</string>
+    <string>subwa_okar_kemphreng-limb</string>
     <string>subwa_kemphreng-limb</string>
     <string>smallka-limb</string>
     <string>smallnga-limb</string>
@@ -572,71 +572,71 @@
     <string>uniFE07</string>
     <key>VS9</key>
     <string>uniFE08</string>
-    <key>aimatra-limb</key>
+    <key>aikar-limb</key>
     <string>uni1924</string>
-    <key>aimatra_kemphreng-limb</key>
+    <key>aikar_kemphreng-limb</key>
     <string>uni1924193A</string>
-    <key>amatra-limb</key>
+    <key>akar-limb</key>
     <string>uni1920</string>
-    <key>amatra-limb.widC</key>
+    <key>akar-limb.widC</key>
     <string>uni1920.widC</string>
-    <key>amatra-limb.widD</key>
+    <key>akar-limb.widD</key>
     <string>uni1920.widD</string>
-    <key>aumatra-limb</key>
+    <key>aukar-limb</key>
     <string>uni1926</string>
     <key>ba-limb</key>
     <string>uni1912</string>
-    <key>ba_subra_umatra-limb</key>
+    <key>ba_subra_ukar-limb</key>
     <string>uni1912192A1922</string>
-    <key>ba_umatra-limb</key>
+    <key>ba_ukar-limb</key>
     <string>uni19121922</string>
     <key>bha-limb</key>
     <string>uni1913</string>
-    <key>bha_subra_umatra-limb</key>
+    <key>bha_subra_ukar-limb</key>
     <string>uni1913192A1922</string>
-    <key>bha_umatra-limb</key>
+    <key>bha_ukar-limb</key>
     <string>uni19131922</string>
     <key>bulletoperator</key>
     <string>uni2219</string>
     <key>ca-limb</key>
     <string>uni1906</string>
-    <key>ca_subra_umatra-limb</key>
+    <key>ca_subra_ukar-limb</key>
     <string>uni1906192A1922</string>
-    <key>ca_umatra-limb</key>
+    <key>ca_ukar-limb</key>
     <string>uni19061922</string>
     <key>cgj</key>
     <string>uni034F</string>
     <key>cha-limb</key>
     <string>uni1907</string>
-    <key>cha_subra_umatra-limb</key>
+    <key>cha_subra_ukar-limb</key>
     <string>uni1907192A1922</string>
-    <key>cha_umatra-limb</key>
+    <key>cha_ukar-limb</key>
     <string>uni19071922</string>
     <key>colontriangularmod</key>
     <string>uni02D0</string>
     <key>da-limb</key>
     <string>uni190D</string>
-    <key>da_subra_umatra-limb</key>
+    <key>da_subra_ukar-limb</key>
     <string>uni190D192A1922</string>
-    <key>da_umatra-limb</key>
+    <key>da_ukar-limb</key>
     <string>uni190D1922</string>
     <key>dandadbl</key>
     <string>uni0965</string>
     <key>dha-limb</key>
     <string>uni190E</string>
-    <key>dha_subra_umatra-limb</key>
+    <key>dha_subra_ukar-limb</key>
     <string>uni190E192A1922</string>
-    <key>dha_umatra-limb</key>
+    <key>dha_ukar-limb</key>
     <string>uni190E1922</string>
     <key>dottedcircle</key>
     <string>uni25CC</string>
-    <key>eematra-limb</key>
+    <key>eekar-limb</key>
     <string>uni1923</string>
-    <key>eematra_kemphreng-limb</key>
+    <key>eekar_kemphreng-limb</key>
     <string>uni1923193A</string>
     <key>eight-limb</key>
     <string>uni194E</string>
-    <key>ematra-limb</key>
+    <key>ekar-limb</key>
     <string>uni1927</string>
     <key>exclam-limb</key>
     <string>uni1944</string>
@@ -650,27 +650,27 @@
     <string>uni194A</string>
     <key>ga-limb</key>
     <string>uni1903</string>
-    <key>ga_subra_umatra-limb</key>
+    <key>ga_subra_ukar-limb</key>
     <string>uni1903192A1922</string>
-    <key>ga_umatra-limb</key>
+    <key>ga_ukar-limb</key>
     <string>uni19031922</string>
     <key>gha-limb</key>
     <string>uni1904</string>
-    <key>gha_subra_umatra-limb</key>
+    <key>gha_subra_ukar-limb</key>
     <string>uni1904192A1922</string>
-    <key>gha_umatra-limb</key>
+    <key>gha_ukar-limb</key>
     <string>uni19041922</string>
     <key>gyan-limb</key>
     <string>uni191D</string>
-    <key>gyan_subra_umatra-limb</key>
+    <key>gyan_subra_ukar-limb</key>
     <string>uni191D192A1922</string>
-    <key>gyan_umatra-limb</key>
+    <key>gyan_ukar-limb</key>
     <string>uni191D1922</string>
     <key>ha-limb</key>
     <string>uni191C</string>
-    <key>ha_subra_umatra-limb</key>
+    <key>ha_subra_ukar-limb</key>
     <string>uni191C192A1922</string>
-    <key>ha_umatra-limb</key>
+    <key>ha_ukar-limb</key>
     <string>uni191C1922</string>
     <key>horizontalbar</key>
     <string>uni2015</string>
@@ -678,27 +678,27 @@
     <string>uni2027</string>
     <key>hyphentwo</key>
     <string>uni2010</string>
-    <key>imatra-limb</key>
+    <key>ikar-limb</key>
     <string>uni1921</string>
-    <key>imatra_kemphreng-limb</key>
+    <key>ikar_kemphreng-limb</key>
     <string>uni1921193A</string>
     <key>ja-limb</key>
     <string>uni1908</string>
-    <key>ja_subra_umatra-limb</key>
+    <key>ja_subra_ukar-limb</key>
     <string>uni1908192A1922</string>
-    <key>ja_umatra-limb</key>
+    <key>ja_ukar-limb</key>
     <string>uni19081922</string>
     <key>jha-limb</key>
     <string>uni1909</string>
-    <key>jha_subra_umatra-limb</key>
+    <key>jha_subra_ukar-limb</key>
     <string>uni1909192A1922</string>
-    <key>jha_umatra-limb</key>
+    <key>jha_ukar-limb</key>
     <string>uni19091922</string>
     <key>ka-limb</key>
     <string>uni1901</string>
-    <key>ka_subra_umatra-limb</key>
+    <key>ka_subra_ukar-limb</key>
     <string>uni1901192A1922</string>
-    <key>ka_umatra-limb</key>
+    <key>ka_ukar-limb</key>
     <string>uni19011922</string>
     <key>kemphreng-limb</key>
     <string>uni193A</string>
@@ -706,31 +706,31 @@
     <string>uni193A.widC</string>
     <key>kha-limb</key>
     <string>uni1902</string>
-    <key>kha_subra_umatra-limb</key>
+    <key>kha_subra_ukar-limb</key>
     <string>uni1902192A1922</string>
-    <key>kha_umatra-limb</key>
+    <key>kha_ukar-limb</key>
     <string>uni19021922</string>
     <key>la-limb</key>
     <string>uni1917</string>
-    <key>la_subra_umatra-limb</key>
+    <key>la_subra_ukar-limb</key>
     <string>uni1917192A1922</string>
-    <key>la_umatra-limb</key>
+    <key>la_ukar-limb</key>
     <string>uni19171922</string>
     <key>loo-limb</key>
     <string>uni1940</string>
     <key>ma-limb</key>
     <string>uni1914</string>
-    <key>ma_subra_umatra-limb</key>
+    <key>ma_subra_ukar-limb</key>
     <string>uni1914192A1922</string>
-    <key>ma_umatra-limb</key>
+    <key>ma_ukar-limb</key>
     <string>uni19141922</string>
     <key>mukphreng-limb</key>
     <string>uni1939</string>
     <key>na-limb</key>
     <string>uni190F</string>
-    <key>na_subra_umatra-limb</key>
+    <key>na_subra_ukar-limb</key>
     <string>uni190F192A1922</string>
-    <key>na_umatra-limb</key>
+    <key>na_ukar-limb</key>
     <string>uni190F1922</string>
     <key>nbhyphen</key>
     <string>uni2011</string>
@@ -738,47 +738,47 @@
     <string>uni00A0</string>
     <key>nga-limb</key>
     <string>uni1905</string>
-    <key>nga_subra_umatra-limb</key>
+    <key>nga_subra_ukar-limb</key>
     <string>uni1905192A1922</string>
-    <key>nga_umatra-limb</key>
+    <key>nga_ukar-limb</key>
     <string>uni19051922</string>
     <key>nine-limb</key>
     <string>uni194F</string>
     <key>nnbsp</key>
     <string>uni202F</string>
-    <key>omatra-limb</key>
+    <key>okar-limb</key>
     <string>uni1928</string>
     <key>one-limb</key>
     <string>uni1947</string>
     <key>onesuperior</key>
     <string>uni00B9</string>
-    <key>oomatra-limb</key>
+    <key>ookar-limb</key>
     <string>uni1925</string>
     <key>pa-limb</key>
     <string>uni1910</string>
-    <key>pa_subra_umatra-limb</key>
+    <key>pa_subra_ukar-limb</key>
     <string>uni1910192A1922</string>
-    <key>pa_umatra-limb</key>
+    <key>pa_ukar-limb</key>
     <string>uni19101922</string>
     <key>pha-limb</key>
     <string>uni1911</string>
-    <key>pha_subra_umatra-limb</key>
+    <key>pha_subra_ukar-limb</key>
     <string>uni1911192A1922</string>
-    <key>pha_umatra-limb</key>
+    <key>pha_ukar-limb</key>
     <string>uni19111922</string>
     <key>question-limb</key>
     <string>uni1945</string>
     <key>ra-limb</key>
     <string>uni1916</string>
-    <key>ra_subra_umatra-limb</key>
+    <key>ra_subra_ukar-limb</key>
     <string>uni1916192A1922</string>
-    <key>ra_umatra-limb</key>
+    <key>ra_ukar-limb</key>
     <string>uni19161922</string>
     <key>sa-limb</key>
     <string>uni191B</string>
-    <key>sa_subra_umatra-limb</key>
+    <key>sa_subra_ukar-limb</key>
     <string>uni191B192A1922</string>
-    <key>sa_umatra-limb</key>
+    <key>sa_ukar-limb</key>
     <string>uni191B1922</string>
     <key>sai-limb</key>
     <string>uni193B</string>
@@ -792,9 +792,9 @@
     <string>uni194D</string>
     <key>sha-limb</key>
     <string>uni1919</string>
-    <key>sha_subra_umatra-limb</key>
+    <key>sha_subra_ukar-limb</key>
     <string>uni1919192A1922</string>
-    <key>sha_umatra-limb</key>
+    <key>sha_ukar-limb</key>
     <string>uni19191922</string>
     <key>six-limb</key>
     <string>uni194C</string>
@@ -820,65 +820,65 @@
     <string>uni00AD</string>
     <key>ssa-limb</key>
     <string>uni191A</string>
-    <key>ssa_subra_umatra-limb</key>
+    <key>ssa_subra_ukar-limb</key>
     <string>uni191A192A1922</string>
-    <key>ssa_umatra-limb</key>
+    <key>ssa_ukar-limb</key>
     <string>uni191A1922</string>
     <key>subra-limb</key>
     <string>uni192A</string>
-    <key>subra_umatra-limb</key>
+    <key>subra_ukar-limb</key>
     <string>uni192A1922</string>
     <key>subwa-limb</key>
     <string>uni192B</string>
-    <key>subwa_amatra-limb</key>
+    <key>subwa_akar-limb</key>
     <string>uni192B1920</string>
-    <key>subwa_amatra_kemphreng-limb</key>
+    <key>subwa_akar_kemphreng-limb</key>
     <string>uni192B1920193A</string>
-    <key>subwa_ematra-limb</key>
+    <key>subwa_ekar-limb</key>
     <string>uni192B1927</string>
-    <key>subwa_ematra_kemphreng-limb</key>
+    <key>subwa_ekar_kemphreng-limb</key>
     <string>uni192B1927193A</string>
     <key>subwa_kemphreng-limb</key>
     <string>uni192B193A</string>
-    <key>subwa_omatra-limb</key>
+    <key>subwa_okar-limb</key>
     <string>uni192B1928</string>
-    <key>subwa_omatra_kemphreng-limb</key>
+    <key>subwa_okar_kemphreng-limb</key>
     <string>uni192B1928193A</string>
-    <key>subwa_umatra-limb</key>
+    <key>subwa_ukar-limb</key>
     <string>uni192B1922</string>
-    <key>subwa_umatra_kemphreng-limb</key>
+    <key>subwa_ukar_kemphreng-limb</key>
     <string>uni192B1922193A</string>
     <key>subya-limb</key>
     <string>uni1929</string>
-    <key>subya_amatra-limb</key>
+    <key>subya_akar-limb</key>
     <string>uni19291920</string>
-    <key>subya_amatra_kemphreng-limb</key>
+    <key>subya_akar_kemphreng-limb</key>
     <string>uni19291920193A</string>
-    <key>subya_ematra-limb</key>
+    <key>subya_ekar-limb</key>
     <string>uni19291927</string>
-    <key>subya_ematra_kemphreng-limb</key>
+    <key>subya_ekar_kemphreng-limb</key>
     <string>uni19291927193A</string>
     <key>subya_kemphreng-limb</key>
     <string>uni1929193A</string>
-    <key>subya_omatra-limb</key>
+    <key>subya_okar-limb</key>
     <string>uni19291928</string>
-    <key>subya_omatra_kemphreng-limb</key>
+    <key>subya_okar_kemphreng-limb</key>
     <string>uni19291928193A</string>
-    <key>subya_umatra-limb</key>
+    <key>subya_ukar-limb</key>
     <string>uni19291922</string>
-    <key>subya_umatra_kemphreng-limb</key>
+    <key>subya_ukar_kemphreng-limb</key>
     <string>uni19291922193A</string>
     <key>ta-limb</key>
     <string>uni190B</string>
-    <key>ta_subra_umatra-limb</key>
+    <key>ta_subra_ukar-limb</key>
     <string>uni190B192A1922</string>
-    <key>ta_umatra-limb</key>
+    <key>ta_ukar-limb</key>
     <string>uni190B1922</string>
     <key>tha-limb</key>
     <string>uni190C</string>
-    <key>tha_subra_umatra-limb</key>
+    <key>tha_subra_ukar-limb</key>
     <string>uni190C192A1922</string>
-    <key>tha_umatra-limb</key>
+    <key>tha_ukar-limb</key>
     <string>uni190C1922</string>
     <key>three-limb</key>
     <string>uni1949</string>
@@ -886,45 +886,45 @@
     <string>uni00B3</string>
     <key>tra-limb</key>
     <string>uni191E</string>
-    <key>tra_subra_umatra-limb</key>
+    <key>tra_subra_ukar-limb</key>
     <string>uni191E192A1922</string>
-    <key>tra_umatra-limb</key>
+    <key>tra_ukar-limb</key>
     <string>uni191E1922</string>
     <key>two-limb</key>
     <string>uni1948</string>
     <key>twosuperior</key>
     <string>uni00B2</string>
-    <key>umatra-limb</key>
+    <key>ukar-limb</key>
     <string>uni1922</string>
-    <key>umatra-limb.altA</key>
+    <key>ukar-limb.altA</key>
     <string>uni1922.altA</string>
-    <key>umatra-limb.altB</key>
+    <key>ukar-limb.altB</key>
     <string>uni1922.altB</string>
-    <key>umatra-limb.altC</key>
+    <key>ukar-limb.altC</key>
     <string>uni1922.altC</string>
     <key>vowelcarrier-limb</key>
     <string>uni1900</string>
-    <key>vowelcarrier_umatra-limb</key>
+    <key>vowelcarrier_ukar-limb</key>
     <string>uni19001922</string>
     <key>wa-limb</key>
     <string>uni1918</string>
-    <key>wa_subra_umatra-limb</key>
+    <key>wa_subra_ukar-limb</key>
     <string>uni1918192A1922</string>
-    <key>wa_umatra-limb</key>
+    <key>wa_ukar-limb</key>
     <string>uni19181922</string>
     <key>wj</key>
     <string>uni2060</string>
     <key>ya-limb</key>
     <string>uni1915</string>
-    <key>ya_subra_umatra-limb</key>
+    <key>ya_subra_ukar-limb</key>
     <string>uni1915192A1922</string>
-    <key>ya_umatra-limb</key>
+    <key>ya_ukar-limb</key>
     <string>uni19151922</string>
     <key>yan-limb</key>
     <string>uni190A</string>
-    <key>yan_subra_umatra-limb</key>
+    <key>yan_subra_ukar-limb</key>
     <string>uni190A192A1922</string>
-    <key>yan_umatra-limb</key>
+    <key>yan_ukar-limb</key>
     <string>uni190A1922</string>
     <key>zero-limb</key>
     <string>uni1946</string>

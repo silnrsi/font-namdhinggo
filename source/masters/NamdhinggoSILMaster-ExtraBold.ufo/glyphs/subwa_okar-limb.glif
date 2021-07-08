@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="subwa_okar-limb" format="2">
+  <advance width="474"/>
+  <anchor x="-190" y="1050" name="_O"/>
+  <outline>
+    <component base="okar-limb"/>
+    <component base="subwa-limb"/>
+  </outline>
+</glyph>
