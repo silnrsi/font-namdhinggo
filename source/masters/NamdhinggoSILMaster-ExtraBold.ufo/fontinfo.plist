@@ -15,7 +15,7 @@ with Reserved Font Names "Namdhinggo" and "SIL".
   <key>familyName</key>
   <string>Namdhinggo SIL Master</string>
   <key>openTypeHeadCreated</key>
-  <string>2021/07/08 06:21:24</string>
+  <string>2021/07/08 06:34:42</string>
   <key>openTypeHheaAscender</key>
   <integer>1600</integer>
   <key>openTypeHheaDescender</key>
@@ -155,6 +155,10 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
     <integer>0</integer>
     <integer>0</integer>
     <integer>0</integer>
+  </array>
+  <key>openTypeOS2Selection</key>
+  <array>
+    <integer>7</integer>
   </array>
   <key>openTypeOS2StrikeoutPosition</key>
   <integer>512</integer>
