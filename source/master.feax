@@ -25,20 +25,20 @@ GlyphClassDef
 @Cons = [ka-limb kha-limb ga-limb gha-limb nga-limb ca-limb cha-limb ja-limb jha-limb yan-limb ta-limb tha-limb da-limb dha-limb na-limb
     pa-limb pha-limb ba-limb bha-limb ma-limb ya-limb ra-limb la-limb wa-limb sha-limb ssa-limb sa-limb ha-limb gyan-limb tra-limb];
 
-@ConsRaU = [ka_subra_umatra-limb kha_subra_umatra-limb ga_subra_umatra-limb gha_subra_umatra-limb nga_subra_umatra-limb ca_subra_umatra-limb cha_subra_umatra-limb
-    ja_subra_umatra-limb jha_subra_umatra-limb yan_subra_umatra-limb ta_subra_umatra-limb tha_subra_umatra-limb da_subra_umatra-limb dha_subra_umatra-limb na_subra_umatra-limb
-    pa_subra_umatra-limb pha_subra_umatra-limb ba_subra_umatra-limb bha_subra_umatra-limb ma_subra_umatra-limb ya_subra_umatra-limb ra_subra_umatra-limb la_subra_umatra-limb
-    wa_subra_umatra-limb sha_subra_umatra-limb ssa_subra_umatra-limb sa_subra_umatra-limb ha_subra_umatra-limb gyan_subra_umatra-limb tra_subra_umatra-limb];
+@ConsRaU = [ka_subra_ukar-limb kha_subra_ukar-limb ga_subra_ukar-limb gha_subra_ukar-limb nga_subra_ukar-limb ca_subra_ukar-limb cha_subra_ukar-limb
+    ja_subra_ukar-limb jha_subra_ukar-limb yan_subra_ukar-limb ta_subra_ukar-limb tha_subra_ukar-limb da_subra_ukar-limb dha_subra_ukar-limb na_subra_ukar-limb
+    pa_subra_ukar-limb pha_subra_ukar-limb ba_subra_ukar-limb bha_subra_ukar-limb ma_subra_ukar-limb ya_subra_ukar-limb ra_subra_ukar-limb la_subra_ukar-limb
+    wa_subra_ukar-limb sha_subra_ukar-limb ssa_subra_ukar-limb sa_subra_ukar-limb ha_subra_ukar-limb gyan_subra_ukar-limb tra_subra_ukar-limb];
 
-@ConsU = [ka_umatra-limb kha_umatra-limb ga_umatra-limb gha_umatra-limb nga_umatra-limb ca_umatra-limb cha_umatra-limb ja_umatra-limb jha_umatra-limb yan_umatra-limb
-    ta_umatra-limb tha_umatra-limb da_umatra-limb dha_umatra-limb na_umatra-limb pa_umatra-limb pha_umatra-limb ba_umatra-limb bha_umatra-limb ma_umatra-limb
-    ya_umatra-limb ra_umatra-limb la_umatra-limb wa_umatra-limb sha_umatra-limb ssa_umatra-limb sa_umatra-limb ha_umatra-limb gyan_umatra-limb tra_umatra-limb];
+@ConsU = [ka_ukar-limb kha_ukar-limb ga_ukar-limb gha_ukar-limb nga_ukar-limb ca_ukar-limb cha_ukar-limb ja_ukar-limb jha_ukar-limb yan_ukar-limb
+    ta_ukar-limb tha_ukar-limb da_ukar-limb dha_ukar-limb na_ukar-limb pa_ukar-limb pha_ukar-limb ba_ukar-limb bha_ukar-limb ma_ukar-limb
+    ya_ukar-limb ra_ukar-limb la_ukar-limb wa_ukar-limb sha_ukar-limb ssa_ukar-limb sa_ukar-limb ha_ukar-limb gyan_ukar-limb tra_ukar-limb];
 
 @AllCons = [@Cons @ConsU @ConsRaU ];
 
-@Ikar = [imatra-limb imatra_kemphreng-limb ];
+@Ikar = [ikar-limb ikar_kemphreng-limb ];
 
-@Vowels = [amatra-limb ematra-limb omatra-limb ];
+@Vowels = [akar-limb ekar-limb okar-limb ];
 
 @VowelsKem = [@Vowels kemphreng-limb ];
 
@@ -52,84 +52,84 @@ GlyphClassDef
 lookup OoAuDecomp {
   lookupflag 0;
   # The OoAuDecomp substitution rule replaces the OO and AU vowels with their visually constitutent components A plus EE or AI respectively. This is so that the 'A' portion can be positioned independently over the consonant when a Glide occurs between the consonant and the vowel.
-    sub oomatra-limb by amatra-limb eematra-limb;
-    sub aumatra-limb by amatra-limb aimatra-limb;
+    sub ookar-limb by akar-limb eekar-limb;
+    sub aukar-limb by akar-limb aikar-limb;
 } OoAuDecomp;
 
 lookup EeAiKComp {
   lookupflag 0;
-    sub eematra-limb kemphreng-limb by eematra_kemphreng-limb;
-    sub aimatra-limb kemphreng-limb by aimatra_kemphreng-limb;
+    sub eekar-limb kemphreng-limb by eekar_kemphreng-limb;
+    sub aikar-limb kemphreng-limb by aikar_kemphreng-limb;
 } EeAiKComp;
 
 lookup EeAiKDecomp {
   lookupflag 0;
-    sub eematra_kemphreng-limb by kemphreng-limb eematra-limb;
-    sub aimatra_kemphreng-limb by kemphreng-limb aimatra-limb;
+    sub eekar_kemphreng-limb by kemphreng-limb eekar-limb;
+    sub aikar_kemphreng-limb by kemphreng-limb aikar-limb;
 } EeAiKDecomp;
 
 lookup GlideVowelComp {
   lookupflag 0;
-    sub subya-limb amatra-limb kemphreng-limb by subya_amatra_kemphreng-limb;
-    sub subya-limb umatra-limb kemphreng-limb by subya_umatra_kemphreng-limb;
-    sub subya-limb ematra-limb kemphreng-limb by subya_ematra_kemphreng-limb;
-    sub subya-limb omatra-limb kemphreng-limb by subya_omatra_kemphreng-limb;
+    sub subya-limb akar-limb kemphreng-limb by subya_akar_kemphreng-limb;
+    sub subya-limb ukar-limb kemphreng-limb by subya_ukar_kemphreng-limb;
+    sub subya-limb ekar-limb kemphreng-limb by subya_ekar_kemphreng-limb;
+    sub subya-limb okar-limb kemphreng-limb by subya_okar_kemphreng-limb;
     sub subya-limb kemphreng-limb by subya_kemphreng-limb;
-    sub subya-limb amatra-limb by subya_amatra-limb;
-    sub subya-limb umatra-limb by subya_umatra-limb;
-    sub subya-limb ematra-limb by subya_ematra-limb;
-    sub subya-limb omatra-limb by subya_omatra-limb;
-    sub subwa-limb amatra-limb kemphreng-limb by subwa_amatra_kemphreng-limb;
-    sub subwa-limb umatra-limb kemphreng-limb by subwa_umatra_kemphreng-limb;
-    sub subwa-limb ematra-limb kemphreng-limb by subwa_ematra_kemphreng-limb;
-    sub subwa-limb omatra-limb kemphreng-limb by subwa_omatra_kemphreng-limb;
+    sub subya-limb akar-limb by subya_akar-limb;
+    sub subya-limb ukar-limb by subya_ukar-limb;
+    sub subya-limb ekar-limb by subya_ekar-limb;
+    sub subya-limb okar-limb by subya_okar-limb;
+    sub subwa-limb akar-limb kemphreng-limb by subwa_akar_kemphreng-limb;
+    sub subwa-limb ukar-limb kemphreng-limb by subwa_ukar_kemphreng-limb;
+    sub subwa-limb ekar-limb kemphreng-limb by subwa_ekar_kemphreng-limb;
+    sub subwa-limb okar-limb kemphreng-limb by subwa_okar_kemphreng-limb;
     sub subwa-limb kemphreng-limb by subwa_kemphreng-limb;
-    sub subwa-limb amatra-limb by subwa_amatra-limb;
-    sub subwa-limb umatra-limb by subwa_umatra-limb;
-    sub subwa-limb ematra-limb by subwa_ematra-limb;
-    sub subwa-limb omatra-limb by subwa_omatra-limb;
+    sub subwa-limb akar-limb by subwa_akar-limb;
+    sub subwa-limb ukar-limb by subwa_ukar-limb;
+    sub subwa-limb ekar-limb by subwa_ekar-limb;
+    sub subwa-limb okar-limb by subwa_okar-limb;
 } GlideVowelComp;
 
 lookup GlideVowelDecomp {
   lookupflag 0;
-    sub subya_amatra_kemphreng-limb by amatra-limb kemphreng-limb subya-limb;
-    sub subya_umatra_kemphreng-limb by umatra-limb kemphreng-limb subya-limb;
-    sub subya_ematra_kemphreng-limb by ematra-limb kemphreng-limb subya-limb;
-    sub subya_omatra_kemphreng-limb by omatra-limb kemphreng-limb subya-limb;
+    sub subya_akar_kemphreng-limb by akar-limb kemphreng-limb subya-limb;
+    sub subya_ukar_kemphreng-limb by ukar-limb kemphreng-limb subya-limb;
+    sub subya_ekar_kemphreng-limb by ekar-limb kemphreng-limb subya-limb;
+    sub subya_okar_kemphreng-limb by okar-limb kemphreng-limb subya-limb;
     sub subya_kemphreng-limb by kemphreng-limb subya-limb;
-    sub subya_amatra-limb by amatra-limb subya-limb;
-    sub subya_umatra-limb by umatra-limb subya-limb;
-    sub subya_ematra-limb by ematra-limb subya-limb;
-    sub subya_omatra-limb by omatra-limb subya-limb;
-    sub subwa_amatra_kemphreng-limb by amatra-limb kemphreng-limb subwa-limb;
-    sub subwa_umatra_kemphreng-limb by umatra-limb kemphreng-limb subwa-limb;
-    sub subwa_ematra_kemphreng-limb by ematra-limb kemphreng-limb subwa-limb;
-    sub subwa_omatra_kemphreng-limb by omatra-limb kemphreng-limb subwa-limb;
+    sub subya_akar-limb by akar-limb subya-limb;
+    sub subya_ukar-limb by ukar-limb subya-limb;
+    sub subya_ekar-limb by ekar-limb subya-limb;
+    sub subya_okar-limb by okar-limb subya-limb;
+    sub subwa_akar_kemphreng-limb by akar-limb kemphreng-limb subwa-limb;
+    sub subwa_ukar_kemphreng-limb by ukar-limb kemphreng-limb subwa-limb;
+    sub subwa_ekar_kemphreng-limb by ekar-limb kemphreng-limb subwa-limb;
+    sub subwa_okar_kemphreng-limb by okar-limb kemphreng-limb subwa-limb;
     sub subwa_kemphreng-limb by kemphreng-limb subwa-limb;
-    sub subwa_amatra-limb by amatra-limb subwa-limb;
-    sub subwa_umatra-limb by umatra-limb subwa-limb;
-    sub subwa_ematra-limb by ematra-limb subwa-limb;
-    sub subwa_omatra-limb by omatra-limb subwa-limb;
+    sub subwa_akar-limb by akar-limb subwa-limb;
+    sub subwa_ukar-limb by ukar-limb subwa-limb;
+    sub subwa_ekar-limb by ekar-limb subwa-limb;
+    sub subwa_okar-limb by okar-limb subwa-limb;
 } GlideVowelDecomp;
 
 lookup RaUkar {
   lookupflag 0;
   # The RaUkar substitution rule replaces Consonant, Ra, Ukar with a ligature.
-     sub @Cons subra-limb umatra-limb by @ConsRaU;
+     sub @Cons subra-limb ukar-limb by @ConsRaU;
 } RaUkar;
 
 lookup Ukar {
   lookupflag 0;
   # The Ukar substitution rule replaces Consonant + Ukar with a ligature. It also applies to the Vowel-Carrier, which has its own ligature with ukar.
-     sub @Cons umatra-limb by @ConsU;
-    sub vowelcarrier-limb umatra-limb by vowelcarrier_umatra-limb;
+     sub @Cons ukar-limb by @ConsU;
+    sub vowelcarrier-limb ukar-limb by vowelcarrier_ukar-limb;
 } Ukar;
 
 lookup IkarK {
   lookupflag 0;
   # The IkarK substitution rule replaces Ikar + Kemphreng with a ligature.
   # The ligature is then positioned properly on the base consonant via the positioning rule EO.
-    sub imatra-limb kemphreng-limb by imatra_kemphreng-limb;
+    sub ikar-limb kemphreng-limb by ikar_kemphreng-limb;
 } IkarK;
 
 lookup GlideIkar_target {
@@ -146,7 +146,7 @@ lookup GlideIkar {
 lookup IkarKWid_target { # The IkarKWid lookup target adds 110 units of width to the IkarKemphreng ligature
   lookupflag 0;
     #  subrule of type ADJUST_SINGLE
-    pos imatra_kemphreng-limb <0 0 110 0>;
+    pos ikar_kemphreng-limb <0 0 110 0>;
 } IkarKWid_target;
 
 lookup IkarKWid {
@@ -156,7 +156,7 @@ lookup IkarKWid {
   # This prevents the akar from overprinting the rightmost dot of the kemphreng.
   # (The dot overhangs to the right slightly,
   # which is OK unless the following character has akar on it).
-    pos imatra_kemphreng-limb' lookup IkarKWid_target @Cons amatra-limb;
+    pos ikar_kemphreng-limb' lookup IkarKWid_target @Cons akar-limb;
 } IkarKWid;
 
 lookup Akar {
