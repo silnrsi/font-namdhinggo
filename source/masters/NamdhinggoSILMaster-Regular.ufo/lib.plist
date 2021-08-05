@@ -8,7 +8,7 @@
     <array/>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3094</string>
+  <string>3095</string>
   <key>com.schriftgestaltung.customParameter.GSFont.Axis Mappings</key>
   <dict>
     <key>XXXX</key>
@@ -36,6 +36,7 @@
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>/nga-limb/cha-limb/ja-limb/dha-limb/ba-limb/bha-limb/ra-limb/la-limb/sa-limb 
+/kha-limb/jha-limb/pha-limb/pa-limb/sha-limb/ma-limb/yan-limb/da-limb 
 /space/subra_ukar-limb/space/ukar-limb/nga_ukar-limb/cha_subra_ukar-limb/ja_ukar-limb/dha_subra_ukar-limb/bha_ukar-limb/ra_ukar-limb/sa_subra_ukar-limb</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
