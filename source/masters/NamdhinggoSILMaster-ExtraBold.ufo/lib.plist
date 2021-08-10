@@ -73,6 +73,35 @@
   <string>Regular</string>
   <key>com.schriftgestaltung.widthValue</key>
   <integer>100</integer>
+  <key>org.sil.lcg.transforms</key>
+  <dict>
+    <key>latinlowercase</key>
+    <dict>
+      <key>adjustMetrics</key>
+      <integer>2</integer>
+      <key>scaleX</key>
+      <real>0.937</real>
+      <key>scaleY</key>
+      <real>0.946</real>
+      <key>shiftX</key>
+      <integer>0</integer>
+      <key>shiftY</key>
+      <integer>0</integer>
+    </dict>
+    <key>latinuppercase</key>
+    <dict>
+      <key>adjustMetrics</key>
+      <integer>0</integer>
+      <key>scaleX</key>
+      <real>0.955</real>
+      <key>scaleY</key>
+      <real>0.966</real>
+      <key>shiftX</key>
+      <integer>0</integer>
+      <key>shiftY</key>
+      <integer>0</integer>
+    </dict>
+  </dict>
   <key>public.glyphOrder</key>
   <array>
     <string>.notdef</string>
