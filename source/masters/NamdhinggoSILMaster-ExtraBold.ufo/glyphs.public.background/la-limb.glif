@@ -2,22 +2,22 @@
 <glyph name="la-limb" format="2">
   <outline>
     <contour>
-      <point x="864" y="836" type="curve"/>
-      <point x="862" y="550"/>
-      <point x="850" y="261"/>
-      <point x="862" y="-3" type="curve"/>
-      <point x="865" y="-6"/>
-      <point x="917" y="-34"/>
-      <point x="921" y="-34" type="curve"/>
-      <point x="950" y="-26"/>
-      <point x="1105" y="66"/>
-      <point x="1118" y="97" type="curve"/>
-      <point x="1103" y="315"/>
-      <point x="1100" y="616"/>
-      <point x="1111" y="960" type="curve"/>
-      <point x="1076" y="1000" type="line"/>
-      <point x="1042" y="978"/>
-      <point x="902" y="895"/>
+      <point x="814" y="836" type="curve"/>
+      <point x="812" y="550"/>
+      <point x="800" y="261"/>
+      <point x="812" y="-3" type="curve"/>
+      <point x="815" y="-6"/>
+      <point x="867" y="-34"/>
+      <point x="871" y="-34" type="curve"/>
+      <point x="900" y="-26"/>
+      <point x="1055" y="66"/>
+      <point x="1068" y="97" type="curve"/>
+      <point x="1053" y="315"/>
+      <point x="1050" y="616"/>
+      <point x="1061" y="960" type="curve"/>
+      <point x="1026" y="1000" type="line"/>
+      <point x="992" y="978"/>
+      <point x="852" y="895"/>
     </contour>
   </outline>
 </glyph>

@@ -2,11 +2,35 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+  <key>ca-limb</key>
+  <string>ca-limb.glif</string>
+  <key>cha_subra_ukar-limb</key>
+  <string>cha_subra_ukar-limb.glif</string>
+  <key>ga-limb</key>
+  <string>ga-limb.glif</string>
+  <key>gha-limb</key>
+  <string>gha-limb.glif</string>
+  <key>gyan-limb</key>
+  <string>gyan-limb.glif</string>
+  <key>ka-limb</key>
+  <string>ka-limb.glif</string>
   <key>la-limb</key>
   <string>la-limb.glif</string>
+  <key>nga_ukar-limb</key>
+  <string>nga_ukar-limb.glif</string>
   <key>ra-limb</key>
   <string>ra-limb.glif</string>
   <key>sa-limb</key>
   <string>sa-limb.glif</string>
+  <key>ssa-limb</key>
+  <string>ssa-limb.glif</string>
+  <key>tha-limb</key>
+  <string>tha-limb.glif</string>
+  <key>vowelcarrier-limb</key>
+  <string>vowelcarrier-limb.glif</string>
+  <key>wa-limb</key>
+  <string>wa-limb.glif</string>
+  <key>ya-limb</key>
+  <string>ya-limb.glif</string>
 </dict>
 </plist>

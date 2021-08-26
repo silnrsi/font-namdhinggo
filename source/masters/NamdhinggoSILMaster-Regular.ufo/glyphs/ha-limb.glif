@@ -45,11 +45,12 @@
     <contour>
       <point x="985" y="386" type="curve"/>
       <point x="963" y="416" type="line"/>
-      <point x="881" y="443"/>
-      <point x="717" y="504"/>
-      <point x="597" y="552" type="curve"/>
-      <point x="703" y="651"/>
-      <point x="873" y="803"/>
+      <point x="872" y="446"/>
+      <point x="682" y="517"/>
+      <point x="561" y="566" type="curve"/>
+      <point x="574" y="530" type="line"/>
+      <point x="676" y="627"/>
+      <point x="867" y="793"/>
       <point x="956" y="930" type="curve"/>
       <point x="873" y="942" type="line"/>
       <point x="747" y="801"/>
