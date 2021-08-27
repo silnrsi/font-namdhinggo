@@ -17,6 +17,7 @@
 /kha-limb/jha-limb/pha-limb/pa-limb/sha-limb/ma-limb/yan-limb/da-limb/ssa-limb 
 /wa-limb/ka-limb/na-limb/tha-limb/gha-limb/vowelcarrier-limb/ta-limb/ga-limb/ha-limb/ya-limb/tra-limb/gyan-limb 
 /space/subra_ukar-limb/space/ukar-limb/nga_ukar-limb/cha_subra_ukar-limb/ja_ukar-limb/dha_subra_ukar-limb/bha_ukar-limb/ra_ukar-limb/sa_subra_ukar-limb</string>
+    <string>/subra_ukar-limb</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
