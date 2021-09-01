@@ -24,23 +24,25 @@ markClass [aikar_kemphreng-limb eekar_kemphreng-limb kemphreng-limb subwa_kemphr
 markClass kemphreng-limb.widC <anchor -260 1050> @_K;
 
 # AP: K
-@K = [ba-limb bha_subra_ukar-limb bha_ukar-limb ha_subra_ukar-limb ha_ukar-limb nga_subra_ukar-limb sa_subra_ukar-limb sa_ukar-limb ba_subra_ukar-limb ba_ukar-limb ja_subra_ukar-limb ja_ukar-limb tra-limb yan-limb yan_subra_ukar-limb yan_ukar-limb bha-limb ca-limb ca_subra_ukar-limb ca_ukar-limb ga-limb ga_subra_ukar-limb ga_ukar-limb cha-limb nga-limb nga_ukar-limb cha_subra_ukar-limb cha_ukar-limb da-limb wa_subra_ukar-limb wa_ukar-limb da_subra_ukar-limb da_ukar-limb dha-limb dha_subra_ukar-limb dha_ukar-limb gha-limb gha_subra_ukar-limb gha_ukar-limb ka_subra_ukar-limb ka_ukar-limb gyan-limb gyan_subra_ukar-limb gyan_ukar-limb ha-limb ikar-limb ja-limb jha-limb ya_subra_ukar-limb ya_ukar-limb jha_subra_ukar-limb jha_ukar-limb ta_subra_ukar-limb ta_ukar-limb ka-limb kha-limb kha_subra_ukar-limb kha_ukar-limb pa_subra_ukar-limb pa_ukar-limb la-limb la_subra_ukar-limb la_ukar-limb ma-limb ma_subra_ukar-limb ma_ukar-limb na-limb na_subra_ukar-limb na_ukar-limb pa-limb pha-limb pha_subra_ukar-limb pha_ukar-limb ra-limb ra_subra_ukar-limb ra_ukar-limb sha_subra_ukar-limb sha_ukar-limb tra_subra_ukar-limb tra_ukar-limb sa-limb sha-limb ssa-limb ssa_subra_ukar-limb ssa_ukar-limb ta-limb tha-limb tha_subra_ukar-limb tha_ukar-limb vowelcarrier-limb vowelcarrier_ukar-limb wa-limb ya-limb];
-@K_MarkBase = [akar-limb subwa_akar-limb subya_akar-limb ekar-limb subwa_ekar-limb subya_ekar-limb okar-limb];
-# baseClass [ba-limb bha_subra_ukar-limb bha_ukar-limb ha_subra_ukar-limb ha_ukar-limb nga_subra_ukar-limb sa_subra_ukar-limb sa_ukar-limb] <anchor 600 1050> @K;
-# baseClass [ba_subra_ukar-limb ba_ukar-limb ja_subra_ukar-limb ja_ukar-limb tra-limb yan-limb yan_subra_ukar-limb yan_ukar-limb] <anchor 580 1050> @K;
+@K = [ba-limb bha_subra_ukar-limb ha_subra_ukar-limb ha_ukar-limb nga_subra_ukar-limb sa_subra_ukar-limb sa_ukar-limb ba_subra_ukar-limb ba_ukar-limb ja_subra_ukar-limb ja_ukar-limb tra-limb yan_subra_ukar-limb yan_ukar-limb bha-limb bha_ukar-limb ca-limb ca_subra_ukar-limb ca_ukar-limb ga_subra_ukar-limb ga_ukar-limb cha-limb nga-limb nga_ukar-limb cha_subra_ukar-limb ja-limb cha_ukar-limb yan-limb da-limb wa_subra_ukar-limb wa_ukar-limb da_subra_ukar-limb da_ukar-limb dha-limb ga-limb dha_subra_ukar-limb dha_ukar-limb gha-limb gha_subra_ukar-limb gha_ukar-limb ka_subra_ukar-limb ka_ukar-limb gyan-limb gyan_subra_ukar-limb gyan_ukar-limb ha-limb ikar-limb jha-limb ya_subra_ukar-limb ya_ukar-limb jha_subra_ukar-limb jha_ukar-limb ta_subra_ukar-limb ta_ukar-limb ka-limb kha-limb kha_subra_ukar-limb kha_ukar-limb pa_subra_ukar-limb pa_ukar-limb la-limb la_subra_ukar-limb la_ukar-limb ma-limb ma_subra_ukar-limb ma_ukar-limb na-limb na_subra_ukar-limb na_ukar-limb pa-limb pha-limb pha_subra_ukar-limb pha_ukar-limb ra-limb ra_subra_ukar-limb ra_ukar-limb sha_subra_ukar-limb sha_ukar-limb tra_subra_ukar-limb tra_ukar-limb sa-limb sha-limb ssa-limb ssa_subra_ukar-limb ssa_ukar-limb ta-limb tha-limb tha_subra_ukar-limb tha_ukar-limb vowelcarrier-limb vowelcarrier_ukar-limb wa-limb ya-limb];
+@K_MarkBase = [akar-limb ekar-limb subwa_ekar-limb subya_ekar-limb okar-limb subwa_akar-limb subya_akar-limb];
+# baseClass [ba-limb bha_subra_ukar-limb ha_subra_ukar-limb ha_ukar-limb nga_subra_ukar-limb sa_subra_ukar-limb sa_ukar-limb] <anchor 600 1050> @K;
+# baseClass [ba_subra_ukar-limb ba_ukar-limb ja_subra_ukar-limb ja_ukar-limb tra-limb yan_subra_ukar-limb yan_ukar-limb] <anchor 580 1050> @K;
 # baseClass bha-limb <anchor 639 1050> @K;
-# baseClass [ca-limb ca_subra_ukar-limb ca_ukar-limb ga-limb ga_subra_ukar-limb ga_ukar-limb] <anchor 540 1050> @K;
+# baseClass bha_ukar-limb <anchor 601 1050> @K;
+# baseClass ca-limb <anchor 587 1050> @K;
+# baseClass [ca_subra_ukar-limb ca_ukar-limb ga_subra_ukar-limb ga_ukar-limb] <anchor 540 1050> @K;
 # baseClass [cha-limb nga-limb nga_ukar-limb] <anchor 670 1050> @K;
-# baseClass [cha_subra_ukar-limb cha_ukar-limb] <anchor 620 1050> @K;
+# baseClass [cha_subra_ukar-limb ja-limb] <anchor 650 1050> @K;
+# baseClass [cha_ukar-limb yan-limb] <anchor 620 1050> @K;
 # baseClass [da-limb wa_subra_ukar-limb wa_ukar-limb] <anchor 610 1050> @K;
-# baseClass [da_subra_ukar-limb da_ukar-limb dha-limb] <anchor 570 1050> @K;
+# baseClass [da_subra_ukar-limb da_ukar-limb dha-limb ga-limb] <anchor 570 1050> @K;
 # baseClass [dha_subra_ukar-limb dha_ukar-limb] <anchor 530 1050> @K;
 # baseClass [gha-limb gha_subra_ukar-limb gha_ukar-limb ka_subra_ukar-limb ka_ukar-limb] <anchor 500 1050> @K;
 # baseClass gyan-limb <anchor 609 1050> @K;
 # baseClass [gyan_subra_ukar-limb gyan_ukar-limb] <anchor 549 1050> @K;
 # baseClass ha-limb <anchor 633 1050> @K;
 # baseClass ikar-limb <anchor -671 1050> @K;
-# baseClass ja-limb <anchor 650 1050> @K;
 # baseClass [jha-limb ya_subra_ukar-limb ya_ukar-limb] <anchor 480 1050> @K;
 # baseClass [jha_subra_ukar-limb jha_ukar-limb ta_subra_ukar-limb ta_ukar-limb] <anchor 450 1050> @K;
 # baseClass ka-limb <anchor 510 1050> @K;
@@ -57,7 +59,8 @@ markClass kemphreng-limb.widC <anchor -260 1050> @_K;
 # baseClass [ra_subra_ukar-limb ra_ukar-limb sha_subra_ukar-limb sha_ukar-limb tra_subra_ukar-limb tra_ukar-limb] <anchor 520 1050> @K;
 # baseClass sa-limb <anchor 635 1050> @K;
 # baseClass sha-limb <anchor 568 1050> @K;
-# baseClass [ssa-limb ssa_subra_ukar-limb ssa_ukar-limb] <anchor 440 1050> @K;
+# baseClass ssa-limb <anchor 419 1050> @K;
+# baseClass [ssa_subra_ukar-limb ssa_ukar-limb] <anchor 440 1050> @K;
 # baseClass ta-limb <anchor 470 1050> @K;
 # baseClass tha-limb <anchor 706 1050> @K;
 # baseClass [tha_subra_ukar-limb tha_ukar-limb] <anchor 656 1050> @K;
@@ -65,9 +68,11 @@ markClass kemphreng-limb.widC <anchor -260 1050> @_K;
 # baseClass vowelcarrier_ukar-limb <anchor 525 1050> @K;
 # baseClass wa-limb <anchor 645 1050> @K;
 # baseClass ya-limb <anchor 503 1050> @K;
-# baseClass [akar-limb subwa_akar-limb subya_akar-limb] <anchor -260 1250> @K_MarkBase;
+# baseClass akar-limb <anchor -242 1310> @K_MarkBase;
 # baseClass [ekar-limb subwa_ekar-limb subya_ekar-limb] <anchor -300 1250> @K_MarkBase;
-# baseClass okar-limb <anchor -150 1455> @K_MarkBase;
+# baseClass okar-limb <anchor -130 1514> @K_MarkBase;
+# baseClass subwa_akar-limb <anchor -260 1300> @K_MarkBase;
+# baseClass subya_akar-limb <anchor -260 1250> @K_MarkBase;
 
 # AP: _U
 markClass [akar-limb subwa_akar-limb subwa_akar_kemphreng-limb subya_akar-limb subya_akar_kemphreng-limb] <anchor -500 1050> @_U;
@@ -75,16 +80,16 @@ markClass akar-limb.widC <anchor -530 1050> @_U;
 markClass akar-limb.widD <anchor -570 1050> @_U;
 
 # AP: U
-@U = [ba-limb bha-limb ca-limb cha-limb da-limb dha-limb dottedcircle ga-limb gha-limb jha-limb gyan-limb gyan_subra_ukar-limb gyan_ukar-limb ha-limb ja-limb ka-limb na-limb kha-limb la-limb ma-limb nga-limb nnbsp pa-limb pha-limb ra-limb vowelcarrier-limb sa-limb sha-limb ssa-limb ta-limb tha-limb tra-limb tra_subra_ukar-limb tra_ukar-limb wa-limb ya-limb yan-limb];
+@U = [ba-limb bha-limb ca-limb cha-limb da-limb dha-limb dottedcircle ga-limb gha-limb jha-limb gyan-limb gyan_subra_ukar-limb gyan_ukar-limb ha-limb ja-limb ka-limb na-limb kha-limb la-limb ma-limb nga-limb nnbsp pa-limb pha-limb ra-limb vowelcarrier-limb sa-limb yan-limb sha-limb ssa-limb ta-limb tha-limb tra-limb tra_subra_ukar-limb tra_ukar-limb wa-limb ya-limb];
 @U_MarkBase = [akar-limb.widC akar-limb.widD];
 # baseClass ba-limb <anchor 558 1050> @U;
 # baseClass bha-limb <anchor 610 1050> @U;
-# baseClass ca-limb <anchor 519 1050> @U;
+# baseClass ca-limb <anchor 566 1050> @U;
 # baseClass cha-limb <anchor 620 1050> @U;
 # baseClass da-limb <anchor 555 1050> @U;
 # baseClass dha-limb <anchor 550 1050> @U;
 # baseClass dottedcircle <anchor 533 1000> @U;
-# baseClass ga-limb <anchor 475 1050> @U;
+# baseClass ga-limb <anchor 505 1050> @U;
 # baseClass [gha-limb jha-limb] <anchor 460 1050> @U;
 # baseClass gyan-limb <anchor 599 1050> @U;
 # baseClass [gyan_subra_ukar-limb gyan_ukar-limb] <anchor 539 1050> @U;
@@ -99,29 +104,28 @@ markClass akar-limb.widD <anchor -570 1050> @_U;
 # baseClass pa-limb <anchor 696 1050> @U;
 # baseClass pha-limb <anchor 719 1050> @U;
 # baseClass [ra-limb vowelcarrier-limb] <anchor 535 1050> @U;
-# baseClass sa-limb <anchor 615 1050> @U;
+# baseClass [sa-limb yan-limb] <anchor 615 1050> @U;
 # baseClass sha-limb <anchor 608 1050> @U;
-# baseClass ssa-limb <anchor 421 1050> @U;
+# baseClass ssa-limb <anchor 400 1050> @U;
 # baseClass ta-limb <anchor 470 1050> @U;
 # baseClass tha-limb <anchor 606 1050> @U;
 # baseClass tra-limb <anchor 570 1050> @U;
 # baseClass [tra_subra_ukar-limb tra_ukar-limb] <anchor 510 1050> @U;
 # baseClass wa-limb <anchor 546 1050> @U;
 # baseClass ya-limb <anchor 493 1050> @U;
-# baseClass yan-limb <anchor 575 1050> @U;
-# baseClass akar-limb.widC <anchor -320 1250> @U_MarkBase;
-# baseClass akar-limb.widD <anchor -380 1250> @U_MarkBase;
+# baseClass akar-limb.widC <anchor -280 1300> @U_MarkBase;
+# baseClass akar-limb.widD <anchor -347 1314> @U_MarkBase;
 
 # AP: L
-@L = [ba-limb bha-limb ca-limb cha-limb da-limb dha-limb dottedcircle ga-limb gha-limb gyan-limb gyan_subra_ukar-limb gyan_ukar-limb ha-limb la-limb ja-limb jha-limb ka-limb kha-limb ma-limb na-limb nga-limb nnbsp pa-limb pha-limb ra-limb vowelcarrier-limb sa-limb yan-limb sha-limb smallka-limb smallla-limb smallma-limb smallna-limb smallnga-limb smallpa-limb ssa-limb ta-limb tha-limb tra-limb tra_subra_ukar-limb tra_ukar-limb wa-limb ya-limb];
+@L = [ba-limb bha-limb ca-limb cha-limb da-limb dha-limb dottedcircle ga-limb gha-limb gyan-limb gyan_subra_ukar-limb gyan_ukar-limb ha-limb la-limb ja-limb jha-limb ka-limb kha-limb ma-limb na-limb nga-limb nnbsp pa-limb pha-limb ra-limb vowelcarrier-limb sa-limb sha-limb smallka-limb smallla-limb smallma-limb smallna-limb smallnga-limb smallpa-limb ssa-limb ta-limb tha-limb tra-limb tra_subra_ukar-limb tra_ukar-limb wa-limb ya-limb yan-limb];
 # baseClass ba-limb <anchor 558 -100> @L;
 # baseClass bha-limb <anchor 610 -100> @L;
-# baseClass ca-limb <anchor 519 -100> @L;
+# baseClass ca-limb <anchor 566 -100> @L;
 # baseClass cha-limb <anchor 604 -100> @L;
 # baseClass da-limb <anchor 555 -100> @L;
 # baseClass dha-limb <anchor 550 -100> @L;
 # baseClass dottedcircle <anchor 533 -100> @L;
-# baseClass ga-limb <anchor 474 -100> @L;
+# baseClass ga-limb <anchor 504 -100> @L;
 # baseClass gha-limb <anchor 470 -100> @L;
 # baseClass gyan-limb <anchor 599 -100> @L;
 # baseClass [gyan_subra_ukar-limb gyan_ukar-limb] <anchor 539 -100> @L;
@@ -137,32 +141,33 @@ markClass akar-limb.widD <anchor -570 1050> @_U;
 # baseClass pa-limb <anchor 696 -100> @L;
 # baseClass pha-limb <anchor 689 -100> @L;
 # baseClass [ra-limb vowelcarrier-limb] <anchor 535 -100> @L;
-# baseClass [sa-limb yan-limb] <anchor 575 -100> @L;
+# baseClass sa-limb <anchor 575 -100> @L;
 # baseClass sha-limb <anchor 581 -100> @L;
 # baseClass smallka-limb <anchor 411 -100> @L;
 # baseClass smallla-limb <anchor 273 -100> @L;
-# baseClass smallma-limb <anchor 419 -100> @L;
+# baseClass smallma-limb <anchor 469 -100> @L;
 # baseClass smallna-limb <anchor 393 -100> @L;
 # baseClass smallnga-limb <anchor 274 -100> @L;
 # baseClass smallpa-limb <anchor 375 -100> @L;
-# baseClass ssa-limb <anchor 421 -100> @L;
+# baseClass ssa-limb <anchor 400 -100> @L;
 # baseClass ta-limb <anchor 455 -100> @L;
 # baseClass tha-limb <anchor 606 -100> @L;
 # baseClass tra-limb <anchor 570 -100> @L;
 # baseClass [tra_subra_ukar-limb tra_ukar-limb] <anchor 510 -100> @L;
 # baseClass wa-limb <anchor 546 -100> @L;
 # baseClass ya-limb <anchor 493 -100> @L;
+# baseClass yan-limb <anchor 615 -100> @L;
 
 # AP: O
 @O = [ba-limb bha-limb ca-limb cha-limb da-limb dha-limb dottedcircle ga-limb gha-limb gyan-limb gyan_subra_ukar-limb gyan_ukar-limb ha-limb ja-limb jha-limb ka-limb kha-limb la-limb ma-limb na-limb nga-limb nnbsp pa-limb pha-limb ra-limb sa-limb sha-limb ssa-limb ta-limb tha-limb tra-limb tra_subra_ukar-limb tra_ukar-limb vowelcarrier-limb wa-limb ya-limb yan-limb];
 # baseClass ba-limb <anchor 802 1050> @O;
 # baseClass bha-limb <anchor 1021 1050> @O;
-# baseClass ca-limb <anchor 878 1050> @O;
+# baseClass ca-limb <anchor 925 1050> @O;
 # baseClass cha-limb <anchor 875 1050> @O;
 # baseClass da-limb <anchor 722 1050> @O;
 # baseClass dha-limb <anchor 720 1050> @O;
 # baseClass dottedcircle <anchor 583 0> @O;
-# baseClass ga-limb <anchor 789 1050> @O;
+# baseClass ga-limb <anchor 819 1050> @O;
 # baseClass gha-limb <anchor 780 1050> @O;
 # baseClass gyan-limb <anchor 839 1050> @O;
 # baseClass [gyan_subra_ukar-limb gyan_ukar-limb] <anchor 779 1050> @O;
@@ -181,7 +186,7 @@ markClass akar-limb.widD <anchor -570 1050> @_U;
 # baseClass ra-limb <anchor 799 1050> @O;
 # baseClass sa-limb <anchor 956 1050> @O;
 # baseClass sha-limb <anchor 718 1050> @O;
-# baseClass ssa-limb <anchor 682 1050> @O;
+# baseClass ssa-limb <anchor 661 1050> @O;
 # baseClass ta-limb <anchor 710 1050> @O;
 # baseClass tha-limb <anchor 699 1050> @O;
 # baseClass tra-limb <anchor 830 1050> @O;
@@ -189,17 +194,17 @@ markClass akar-limb.widD <anchor -570 1050> @_U;
 # baseClass vowelcarrier-limb <anchor 890 1050> @O;
 # baseClass wa-limb <anchor 897 1050> @O;
 # baseClass ya-limb <anchor 753 1050> @O;
-# baseClass yan-limb <anchor 569 1050> @O;
+# baseClass yan-limb <anchor 609 1050> @O;
 
 # AP: V
 @V = [ba-limb bha-limb ca-limb cha-limb da-limb dha-limb ga-limb gha-limb gyan-limb gyan_subra_ukar-limb gyan_ukar-limb ha-limb ja-limb jha-limb ka-limb kha-limb la-limb ma-limb na-limb nga-limb pa-limb pha-limb ra-limb sa-limb sha-limb ssa-limb ta-limb tha-limb tra-limb tra_subra_ukar-limb tra_ukar-limb vowelcarrier-limb wa-limb ya-limb yan-limb];
 # baseClass ba-limb <anchor 969 50> @V;
 # baseClass bha-limb <anchor 1080 50> @V;
-# baseClass ca-limb <anchor 936 50> @V;
+# baseClass ca-limb <anchor 983 50> @V;
 # baseClass cha-limb <anchor 998 50> @V;
 # baseClass da-limb <anchor 926 50> @V;
 # baseClass dha-limb <anchor 872 50> @V;
-# baseClass ga-limb <anchor 782 50> @V;
+# baseClass ga-limb <anchor 812 50> @V;
 # baseClass gha-limb <anchor 840 50> @V;
 # baseClass gyan-limb <anchor 836 -19> @V;
 # baseClass [gyan_subra_ukar-limb gyan_ukar-limb] <anchor 684 50> @V;
@@ -217,7 +222,7 @@ markClass akar-limb.widD <anchor -570 1050> @_U;
 # baseClass ra-limb <anchor 912 50> @V;
 # baseClass sa-limb <anchor 1016 50> @V;
 # baseClass sha-limb <anchor 708 50> @V;
-# baseClass ssa-limb <anchor 740 50> @V;
+# baseClass ssa-limb <anchor 719 50> @V;
 # baseClass ta-limb <anchor 790 50> @V;
 # baseClass tha-limb <anchor 995 50> @V;
 # baseClass tra-limb <anchor 960 50> @V;
@@ -225,7 +230,7 @@ markClass akar-limb.widD <anchor -570 1050> @_U;
 # baseClass vowelcarrier-limb <anchor 947 50> @V;
 # baseClass wa-limb <anchor 957 50> @V;
 # baseClass ya-limb <anchor 918 50> @V;
-# baseClass yan-limb <anchor 1010 50> @V;
+# baseClass yan-limb <anchor 1050 50> @V;
 
 # AP: H
 @H = [dottedcircle nnbsp];
@@ -459,12 +464,12 @@ lookup Akar {
     # The Akar positioning rule positions the Akar on all consonants, including the vowel carrier.
     pos base ba-limb <anchor 558 1050> mark @_U;
     pos base bha-limb <anchor 610 1050> mark @_U;
-    pos base ca-limb <anchor 519 1050> mark @_U;
+    pos base ca-limb <anchor 566 1050> mark @_U;
     pos base cha-limb <anchor 620 1050> mark @_U;
     pos base da-limb <anchor 555 1050> mark @_U;
     pos base dha-limb <anchor 550 1050> mark @_U;
     pos base dottedcircle <anchor 533 1000> mark @_U;
-    pos base ga-limb <anchor 475 1050> mark @_U;
+    pos base ga-limb <anchor 505 1050> mark @_U;
     pos base [gha-limb jha-limb] <anchor 460 1050> mark @_U;
     pos base gyan-limb <anchor 599 1050> mark @_U;
     pos base [gyan_subra_ukar-limb gyan_ukar-limb] <anchor 539 1050> mark @_U;
@@ -479,16 +484,15 @@ lookup Akar {
     pos base pa-limb <anchor 696 1050> mark @_U;
     pos base pha-limb <anchor 719 1050> mark @_U;
     pos base [ra-limb vowelcarrier-limb] <anchor 535 1050> mark @_U;
-    pos base sa-limb <anchor 615 1050> mark @_U;
+    pos base [sa-limb yan-limb] <anchor 615 1050> mark @_U;
     pos base sha-limb <anchor 608 1050> mark @_U;
-    pos base ssa-limb <anchor 421 1050> mark @_U;
+    pos base ssa-limb <anchor 400 1050> mark @_U;
     pos base ta-limb <anchor 470 1050> mark @_U;
     pos base tha-limb <anchor 606 1050> mark @_U;
     pos base tra-limb <anchor 570 1050> mark @_U;
     pos base [tra_subra_ukar-limb tra_ukar-limb] <anchor 510 1050> mark @_U;
     pos base wa-limb <anchor 546 1050> mark @_U;
     pos base ya-limb <anchor 493 1050> mark @_U;
-    pos base yan-limb <anchor 575 1050> mark @_U;
     # was @MARK_Aabove
 } Akar;
 
@@ -496,21 +500,23 @@ lookup Kemphreng {
     lookupflag 0;
     # The Kemphreng positioning rule positions the Kemphreng on all consonants, including the vowel carrier,
     # plus conjuncts of consonant plus Ukar and consonant plus Ra + Ukar
-    pos base [ba-limb bha_subra_ukar-limb bha_ukar-limb ha_subra_ukar-limb ha_ukar-limb nga_subra_ukar-limb sa_subra_ukar-limb sa_ukar-limb] <anchor 600 1050> mark @_K;
-    pos base [ba_subra_ukar-limb ba_ukar-limb ja_subra_ukar-limb ja_ukar-limb tra-limb yan-limb yan_subra_ukar-limb yan_ukar-limb] <anchor 580 1050> mark @_K;
+    pos base [ba-limb bha_subra_ukar-limb ha_subra_ukar-limb ha_ukar-limb nga_subra_ukar-limb sa_subra_ukar-limb sa_ukar-limb] <anchor 600 1050> mark @_K;
+    pos base [ba_subra_ukar-limb ba_ukar-limb ja_subra_ukar-limb ja_ukar-limb tra-limb yan_subra_ukar-limb yan_ukar-limb] <anchor 580 1050> mark @_K;
     pos base bha-limb <anchor 639 1050> mark @_K;
-    pos base [ca-limb ca_subra_ukar-limb ca_ukar-limb ga-limb ga_subra_ukar-limb ga_ukar-limb] <anchor 540 1050> mark @_K;
+    pos base bha_ukar-limb <anchor 601 1050> mark @_K;
+    pos base ca-limb <anchor 587 1050> mark @_K;
+    pos base [ca_subra_ukar-limb ca_ukar-limb ga_subra_ukar-limb ga_ukar-limb] <anchor 540 1050> mark @_K;
     pos base [cha-limb nga-limb nga_ukar-limb] <anchor 670 1050> mark @_K;
-    pos base [cha_subra_ukar-limb cha_ukar-limb] <anchor 620 1050> mark @_K;
+    pos base [cha_subra_ukar-limb ja-limb] <anchor 650 1050> mark @_K;
+    pos base [cha_ukar-limb yan-limb] <anchor 620 1050> mark @_K;
     pos base [da-limb wa_subra_ukar-limb wa_ukar-limb] <anchor 610 1050> mark @_K;
-    pos base [da_subra_ukar-limb da_ukar-limb dha-limb] <anchor 570 1050> mark @_K;
+    pos base [da_subra_ukar-limb da_ukar-limb dha-limb ga-limb] <anchor 570 1050> mark @_K;
     pos base [dha_subra_ukar-limb dha_ukar-limb] <anchor 530 1050> mark @_K;
     pos base [gha-limb gha_subra_ukar-limb gha_ukar-limb ka_subra_ukar-limb ka_ukar-limb] <anchor 500 1050> mark @_K;
     pos base gyan-limb <anchor 609 1050> mark @_K;
     pos base [gyan_subra_ukar-limb gyan_ukar-limb] <anchor 549 1050> mark @_K;
     pos base ha-limb <anchor 633 1050> mark @_K;
     pos base ikar-limb <anchor -671 1050> mark @_K;
-    pos base ja-limb <anchor 650 1050> mark @_K;
     pos base [jha-limb ya_subra_ukar-limb ya_ukar-limb] <anchor 480 1050> mark @_K;
     pos base [jha_subra_ukar-limb jha_ukar-limb ta_subra_ukar-limb ta_ukar-limb] <anchor 450 1050> mark @_K;
     pos base ka-limb <anchor 510 1050> mark @_K;
@@ -527,7 +533,8 @@ lookup Kemphreng {
     pos base [ra_subra_ukar-limb ra_ukar-limb sha_subra_ukar-limb sha_ukar-limb tra_subra_ukar-limb tra_ukar-limb] <anchor 520 1050> mark @_K;
     pos base sa-limb <anchor 635 1050> mark @_K;
     pos base sha-limb <anchor 568 1050> mark @_K;
-    pos base [ssa-limb ssa_subra_ukar-limb ssa_ukar-limb] <anchor 440 1050> mark @_K;
+    pos base ssa-limb <anchor 419 1050> mark @_K;
+    pos base [ssa_subra_ukar-limb ssa_ukar-limb] <anchor 440 1050> mark @_K;
     pos base ta-limb <anchor 470 1050> mark @_K;
     pos base tha-limb <anchor 706 1050> mark @_K;
     pos base [tha_subra_ukar-limb tha_ukar-limb] <anchor 656 1050> mark @_K;
@@ -543,12 +550,12 @@ lookup EO {
     # The EO positioning rule positions ekar and okar on all consonants plus the vowel carrier.
     pos base ba-limb <anchor 802 1050> mark @_O;
     pos base bha-limb <anchor 1021 1050> mark @_O;
-    pos base ca-limb <anchor 878 1050> mark @_O;
+    pos base ca-limb <anchor 925 1050> mark @_O;
     pos base cha-limb <anchor 875 1050> mark @_O;
     pos base da-limb <anchor 722 1050> mark @_O;
     pos base dha-limb <anchor 720 1050> mark @_O;
     pos base dottedcircle <anchor 583 0> mark @_O;
-    pos base ga-limb <anchor 789 1050> mark @_O;
+    pos base ga-limb <anchor 819 1050> mark @_O;
     pos base gha-limb <anchor 780 1050> mark @_O;
     pos base gyan-limb <anchor 839 1050> mark @_O;
     pos base [gyan_subra_ukar-limb gyan_ukar-limb] <anchor 779 1050> mark @_O;
@@ -567,7 +574,7 @@ lookup EO {
     pos base ra-limb <anchor 799 1050> mark @_O;
     pos base sa-limb <anchor 956 1050> mark @_O;
     pos base sha-limb <anchor 718 1050> mark @_O;
-    pos base ssa-limb <anchor 682 1050> mark @_O;
+    pos base ssa-limb <anchor 661 1050> mark @_O;
     pos base ta-limb <anchor 710 1050> mark @_O;
     pos base tha-limb <anchor 699 1050> mark @_O;
     pos base tra-limb <anchor 830 1050> mark @_O;
@@ -575,7 +582,7 @@ lookup EO {
     pos base vowelcarrier-limb <anchor 890 1050> mark @_O;
     pos base wa-limb <anchor 897 1050> mark @_O;
     pos base ya-limb <anchor 753 1050> mark @_O;
-    pos base yan-limb <anchor 569 1050> mark @_O;
+    pos base yan-limb <anchor 609 1050> mark @_O;
     # was @MARK_eo
 } EO;
 
@@ -583,9 +590,11 @@ lookup VKem {
     lookupflag MarkAttachmentType @VowelsKem;
     # The VKem positioning rule positions the kemphreng on all upper vowels (except ikar, which has its own ligature).
     # The vowel itself is positioned on the consonant with the Akar or EO positioning rule.
-    pos mark [akar-limb subwa_akar-limb subya_akar-limb] <anchor -260 1250> mark @_K;
+    pos mark akar-limb <anchor -242 1310> mark @_K;
     pos mark [ekar-limb subwa_ekar-limb subya_ekar-limb] <anchor -300 1250> mark @_K;
-    pos mark okar-limb <anchor -150 1455> mark @_K;
+    pos mark okar-limb <anchor -130 1514> mark @_K;
+    pos mark subwa_akar-limb <anchor -260 1300> mark @_K;
+    pos mark subya_akar-limb <anchor -260 1250> mark @_K;
     # was @MARK_VK
 } VKem;
 

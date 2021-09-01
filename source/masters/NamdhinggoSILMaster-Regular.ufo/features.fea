@@ -53,8 +53,8 @@ markClass kemphreng-limb.widC <anchor -260 1050> @_K;
 
 # AP: _U
 markClass [akar-limb subwa_akar-limb subwa_akar_kemphreng-limb subya_akar-limb subya_akar_kemphreng-limb] <anchor -500 1050> @_U;
-markClass akar-limb.widC <anchor -530 1050> @_U;
-markClass akar-limb.widD <anchor -570 1050> @_U;
+markClass akar-limb.widC <anchor -560 1050> @_U;
+markClass akar-limb.widD <anchor -640 1050> @_U;
 
 # AP: U
 @U = [ba-limb ma-limb bha-limb ca-limb cha-limb da-limb vowelcarrier-limb dha-limb tra-limb tra_subra_ukar-limb tra_ukar-limb dottedcircle ga-limb gha-limb gyan-limb gyan_subra_ukar-limb gyan_ukar-limb ha-limb ja-limb jha-limb ka-limb kha-limb la-limb na-limb nga-limb nnbsp pa-limb pha-limb ra-limb sa-limb sha-limb ssa-limb ta-limb tha-limb wa-limb ya-limb yan-limb];

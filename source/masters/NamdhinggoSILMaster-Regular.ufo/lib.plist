@@ -8,14 +8,16 @@
     <array/>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3097</string>
+  <string>3098</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>/nga-limb/cha-limb/ja-limb/ca-limb/dha-limb/ba-limb/bha-limb/ra-limb/la-limb/sa-limb 
 /kha-limb/jha-limb/pha-limb/pa-limb/sha-limb/ma-limb/yan-limb/da-limb/ssa-limb 
 /wa-limb/ka-limb/na-limb/tha-limb/gha-limb/vowelcarrier-limb/ta-limb/ga-limb/ha-limb/ya-limb/tra-limb/gyan-limb 
 /space/subra_ukar-limb/space/ukar-limb/nga_ukar-limb/cha_subra_ukar-limb/ja_ukar-limb/dha_subra_ukar-limb/bha_ukar-limb/ra_ukar-limb/sa_subra_ukar-limb</string>
-    <string>/subra_ukar-limb</string>
+    <string>/akar-limb/space/space/akar-limb.widC/space/space/akar-limb.widD/eekar-limb/aikar-limb/space/ekar-limb/space/okar-limb/space/subya-limb/space/subwa-limb/space/kemphreng-limb/space/kemphreng-limb.widC</string>
+    <string>/akar-limb/space/space/akar-limb.widC/space/space/akar-limb.widD/space/ikar-limb/space/ikar_kemphreng-limb/space/ukar-limb/space/ukar-limb.altA/space/ukar-limb.altB/space/ukar-limb.altC/space/eekar-limb/space/eekar_kemphreng-limb/space/aikar-limb/space/aikar_kemphreng-limb/space/ookar-limb/space/aukar-limb/space/ekar-limb/space/okar-limb/space/subya-limb/space/subya_akar-limb/space/subya_akar_kemphreng-limb/space/subya_ukar-limb/space/subya_ukar_kemphreng-limb/space/subya_ekar-limb/space/subya_ekar_kemphreng-limb/space/subya_okar-limb/space/subya_okar_kemphreng-limb/space/subya_kemphreng-limb/space/subra-limb/space/space/subra_ukar-limb/space/subwa-limb/space/subwa_akar-limb/space/subwa_akar_kemphreng-limb/space/subwa_ukar-limb/space/subwa_ukar_kemphreng-limb/space/subwa_ekar-limb/space/subwa_ekar_kemphreng-limb/space/subwa_okar-limb/space/subwa_okar_kemphreng-limb/space/subwa_kemphreng-limb/space/smallka-limb/space/smallnga-limb/space/smallanusvara-limb/space/smallta-limb/space/smallna-limb/space/la-limb/space/smallpa-limb/space/smallma-limb/smallra-limb/smallla-limb/mukphreng-limb/space/kemphreng-limb/space/kemphreng-limb.widC</string>
+    <string>/loo-limb/exclam-limb/question-limb/zero-limb/one-limb/two-limb/three-limb/four-limb/five-limb/six-limb/seven-limb/eight-limb/nine-limb</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

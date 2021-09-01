@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dha-limb" format="2">
-  <advance width="1090"/>
+  <advance width="1100"/>
   <unicode hex="190E"/>
   <anchor x="570" y="1050" name="K"/>
   <anchor x="550" y="-100" name="L"/>

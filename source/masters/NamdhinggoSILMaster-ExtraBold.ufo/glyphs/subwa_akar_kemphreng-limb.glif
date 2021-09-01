@@ -3,8 +3,8 @@
   <advance width="474"/>
   <anchor x="-500" y="1050" name="_U"/>
   <outline>
-    <component base="akar-limb"/>
-    <component base="kemphreng-limb"/>
-    <component base="subwa-limb"/>
+    <component base="akar-limb" xOffset="-30"/>
+    <component base="kemphreng-limb" xOffset="40" yOffset="40"/>
+    <component base="subwa-limb" xOffset="-10"/>
   </outline>
 </glyph>

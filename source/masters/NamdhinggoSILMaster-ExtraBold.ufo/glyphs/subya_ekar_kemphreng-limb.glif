@@ -4,7 +4,7 @@
   <anchor x="-300" y="1050" name="_O"/>
   <outline>
     <component base="ekar-limb"/>
-    <component base="kemphreng-limb" xOffset="-40"/>
-    <component base="subya-limb"/>
+    <component base="kemphreng-limb" xOffset="70" yOffset="30"/>
+    <component base="subya-limb" xOffset="-30"/>
   </outline>
 </glyph>

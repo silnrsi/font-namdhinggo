@@ -9,7 +9,7 @@
   <anchor x="947" y="50" name="V"/>
   <outline>
     <contour>
-      <point x="694" y="879" type="curve"/>
+      <point x="664" y="879" type="curve"/>
       <point x="516" y="879" type="line"/>
       <point x="381" y="734"/>
       <point x="211" y="575"/>
@@ -57,15 +57,15 @@
       <point x="487" y="249"/>
       <point x="369" y="229"/>
       <point x="311" y="205" type="curve"/>
-      <point x="370" y="129" type="line"/>
-      <point x="418" y="171"/>
-      <point x="578" y="374"/>
-      <point x="664" y="495" type="curve"/>
-      <point x="634" y="542" type="line"/>
+      <point x="340" y="129" type="line"/>
+      <point x="388" y="171"/>
+      <point x="558" y="374"/>
+      <point x="644" y="495" type="curve"/>
+      <point x="614" y="542" type="line"/>
       <point x="223" y="542" type="line"/>
-      <point x="344" y="502" type="line"/>
-      <point x="359" y="498"/>
-      <point x="583" y="743"/>
+      <point x="314" y="502" type="line"/>
+      <point x="329" y="498"/>
+      <point x="553" y="743"/>
     </contour>
   </outline>
 </glyph>

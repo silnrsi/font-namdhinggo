@@ -5,7 +5,7 @@
   <anchor x="-100" y="50" name="_V"/>
   <outline>
     <component base="ukar-limb"/>
-    <component base="kemphreng-limb"/>
-    <component base="subya-limb"/>
+    <component base="kemphreng-limb" xOffset="7"/>
+    <component base="subya-limb" xOffset="-1"/>
   </outline>
 </glyph>

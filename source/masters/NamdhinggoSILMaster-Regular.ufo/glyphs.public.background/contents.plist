@@ -8,5 +8,11 @@
   <string>ta-limb.glif</string>
   <key>ukar-limb</key>
   <string>ukar-limb.glif</string>
+  <key>ukar-limb.altA</key>
+  <string>ukar-limb.altA_.glif</string>
+  <key>ukar-limb.altB</key>
+  <string>ukar-limb.altB_.glif</string>
+  <key>ukar-limb.altC</key>
+  <string>ukar-limb.altC_.glif</string>
 </dict>
 </plist>
