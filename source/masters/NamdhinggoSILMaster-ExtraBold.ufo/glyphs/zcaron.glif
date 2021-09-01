@@ -1,47 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zcaron" format="2">
-  <advance width="860"/>
+  <advance width="890"/>
   <unicode hex="017E"/>
+  <anchor x="459" y="0" name="H"/>
+  <anchor x="459" y="-100" name="L"/>
+  <anchor x="487" y="1460" name="U"/>
   <outline>
-    <contour>
-      <point x="796" y="254" type="curve"/>
-      <point x="746" y="265" type="line"/>
-      <point x="717" y="145"/>
-      <point x="692" y="92"/>
-      <point x="658" y="92" type="curve" smooth="yes"/>
-      <point x="277" y="92" type="line"/>
-      <point x="798" y="839" type="line"/>
-      <point x="777" y="880" type="line"/>
-      <point x="296" y="880" type="line" smooth="yes"/>
-      <point x="215" y="880"/>
-      <point x="184" y="880"/>
-      <point x="130" y="895" type="curve"/>
-      <point x="111" y="645" type="line"/>
-      <point x="162" y="631" type="line"/>
-      <point x="190" y="753"/>
-      <point x="235" y="787"/>
-      <point x="280" y="787" type="curve" smooth="yes"/>
-      <point x="587" y="787" type="line"/>
-      <point x="68" y="43" type="line"/>
-      <point x="93" y="0" type="line"/>
-      <point x="785" y="0" type="line"/>
-      <point x="792" y="44"/>
-      <point x="796" y="175"/>
-    </contour>
-    <contour>
-      <point x="766" y="1355" type="line"/>
-      <point x="750" y="1379"/>
-      <point x="741" y="1393"/>
-      <point x="720" y="1404" type="curve"/>
-      <point x="462" y="1175" type="line"/>
-      <point x="375" y="1252"/>
-      <point x="288" y="1328"/>
-      <point x="201" y="1404" type="curve"/>
-      <point x="179" y="1393"/>
-      <point x="171" y="1379"/>
-      <point x="154" y="1355" type="curve"/>
-      <point x="406" y="1011" type="line"/>
-      <point x="514" y="1011" type="line"/>
-    </contour>
+    <component base="z"/>
+    <component base="CombCaron" xOffset="1008"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

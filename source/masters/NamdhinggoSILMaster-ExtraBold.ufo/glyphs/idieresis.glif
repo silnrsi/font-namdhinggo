@@ -1,56 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="idieresis" format="2">
-  <advance width="539"/>
+  <advance width="571"/>
   <unicode hex="00EF"/>
+  <anchor x="293" y="0" name="H"/>
+  <anchor x="293" y="-100" name="L"/>
+  <anchor x="345" y="0" name="O"/>
+  <anchor x="571" y="900" name="R"/>
+  <anchor x="293" y="1446" name="U"/>
   <outline>
-    <contour>
-      <point x="188" y="1194" type="curve" smooth="yes"/>
-      <point x="188" y="1258"/>
-      <point x="158" y="1290"/>
-      <point x="99" y="1290" type="curve" smooth="yes"/>
-      <point x="35" y="1290"/>
-      <point x="-19" y="1229"/>
-      <point x="-19" y="1152" type="curve" smooth="yes"/>
-      <point x="-19" y="1090"/>
-      <point x="8" y="1055"/>
-      <point x="68" y="1055" type="curve" smooth="yes"/>
-      <point x="136" y="1055"/>
-      <point x="188" y="1118"/>
-    </contour>
-    <contour>
-      <point x="572" y="1194" type="curve" smooth="yes"/>
-      <point x="572" y="1258"/>
-      <point x="542" y="1290"/>
-      <point x="483" y="1290" type="curve" smooth="yes"/>
-      <point x="420" y="1290"/>
-      <point x="364" y="1229"/>
-      <point x="364" y="1152" type="curve" smooth="yes"/>
-      <point x="364" y="1090"/>
-      <point x="392" y="1055"/>
-      <point x="453" y="1055" type="curve" smooth="yes"/>
-      <point x="519" y="1055"/>
-      <point x="572" y="1118"/>
-    </contour>
-    <contour>
-      <point x="489" y="0" type="line"/>
-      <point x="489" y="47" type="line"/>
-      <point x="397" y="64"/>
-      <point x="358" y="90"/>
-      <point x="358" y="105" type="curve" smooth="yes"/>
-      <point x="358" y="908" type="line"/>
-      <point x="319" y="908" type="line"/>
-      <point x="250" y="877"/>
-      <point x="151" y="849"/>
-      <point x="64" y="834" type="curve"/>
-      <point x="64" y="789" type="line"/>
-      <point x="198" y="777"/>
-      <point x="195" y="758"/>
-      <point x="195" y="628" type="curve" smooth="yes"/>
-      <point x="195" y="105" type="line" smooth="yes"/>
-      <point x="195" y="88"/>
-      <point x="149" y="64"/>
-      <point x="64" y="47" type="curve"/>
-      <point x="64" y="0" type="line"/>
-    </contour>
+    <component base="dotlessi"/>
+    <component base="CombDiaer" xOffset="815"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>
