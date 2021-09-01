@@ -1,451 +1,451 @@
-glyph_name,ps_name,sort_final,USV
-.notdef,.notdef,0,
-.null,.null,1,
-nonmarkingreturn,nonmarkingreturn,2,
-space,space,3,0020
-exclam,exclam,4,0021
-quotedbl,quotedbl,5,0022
-numbersign,numbersign,6,0023
-dollar,dollar,7,0024
-percent,percent,8,0025
-ampersand,ampersand,9,0026
-quotesingle,quotesingle,10,0027
-parenleft,parenleft,11,0028
-parenright,parenright,12,0029
-asterisk,asterisk,13,002A
-plus,plus,14,002B
-comma,comma,15,002C
-hyphen,hyphen,16,002D
-period,period,17,002E
-slash,slash,18,002F
-zero,zero,19,0030
-one,one,20,0031
-two,two,21,0032
-three,three,22,0033
-four,four,23,0034
-five,five,24,0035
-six,six,25,0036
-seven,seven,26,0037
-eight,eight,27,0038
-nine,nine,28,0039
-colon,colon,29,003A
-semicolon,semicolon,30,003B
-less,less,31,003C
-equal,equal,32,003D
-greater,greater,33,003E
-question,question,34,003F
-at,at,35,0040
-A,A,36,0041
-B,B,37,0042
-C,C,38,0043
-D,D,39,0044
-E,E,40,0045
-F,F,41,0046
-G,G,42,0047
-H,H,43,0048
-I,I,44,0049
-J,J,45,004A
-K,K,46,004B
-L,L,47,004C
-M,M,48,004D
-N,N,49,004E
-O,O,50,004F
-P,P,51,0050
-Q,Q,52,0051
-R,R,53,0052
-S,S,54,0053
-T,T,55,0054
-U,U,56,0055
-V,V,57,0056
-W,W,58,0057
-X,X,59,0058
-Y,Y,60,0059
-Z,Z,61,005A
-bracketleft,bracketleft,62,005B
-backslash,backslash,63,005C
-bracketright,bracketright,64,005D
-asciicircum,asciicircum,65,005E
-underscore,underscore,66,005F
-grave,grave,67,0060
-a,a,68,0061
-b,b,69,0062
-c,c,70,0063
-d,d,71,0064
-e,e,72,0065
-f,f,73,0066
-g,g,74,0067
-h,h,75,0068
-i,i,76,0069
-j,j,77,006A
-k,k,78,006B
-l,l,79,006C
-m,m,80,006D
-n,n,81,006E
-o,o,82,006F
-p,p,83,0070
-q,q,84,0071
-r,r,85,0072
-s,s,86,0073
-t,t,87,0074
-u,u,88,0075
-v,v,89,0076
-w,w,90,0077
-x,x,91,0078
-y,y,92,0079
-z,z,93,007A
-braceleft,braceleft,94,007B
-bar,bar,95,007C
-braceright,braceright,96,007D
-asciitilde,asciitilde,97,007E
-nbsp,uni00A0,98,00A0
-exclamdown,exclamdown,99,00A1
-cent,cent,100,00A2
-sterling,sterling,101,00A3
-currency,currency,102,00A4
-yen,yen,103,00A5
-brokenbar,brokenbar,104,00A6
-section,section,105,00A7
-dieresis,dieresis,106,00A8
-copyright,copyright,107,00A9
-ordfeminine,ordfeminine,108,00AA
-guillemotleft,guillemotleft,109,00AB
-logicalnot,logicalnot,110,00AC
-softhyphen,uni00AD,111,00AD
-registered,registered,112,00AE
-macron,macron,113,00AF
-degree,degree,114,00B0
-plusminus,plusminus,115,00B1
-twosuperior,uni00B2,116,00B2
-threesuperior,uni00B3,117,00B3
-acute,acute,118,00B4
-mu,mu,119,00B5
-paragraph,paragraph,120,00B6
-periodcentered,periodcentered,121,00B7
-cedilla,cedilla,122,00B8
-onesuperior,uni00B9,123,00B9
-ordmasculine,ordmasculine,124,00BA
-guillemotright,guillemotright,125,00BB
-onequarter,onequarter,126,00BC
-onehalf,onehalf,127,00BD
-threequarters,threequarters,128,00BE
-questiondown,questiondown,129,00BF
-Agrave,Agrave,130,00C0
-Aacute,Aacute,131,00C1
-Acircumflex,Acircumflex,132,00C2
-Atilde,Atilde,133,00C3
-Adieresis,Adieresis,134,00C4
-Aring,Aring,135,00C5
-AE,AE,136,00C6
-Ccedilla,Ccedilla,137,00C7
-Egrave,Egrave,138,00C8
-Eacute,Eacute,139,00C9
-Ecircumflex,Ecircumflex,140,00CA
-Edieresis,Edieresis,141,00CB
-Igrave,Igrave,142,00CC
-Iacute,Iacute,143,00CD
-Icircumflex,Icircumflex,144,00CE
-Idieresis,Idieresis,145,00CF
-Eth,Eth,146,00D0
-Ntilde,Ntilde,147,00D1
-Ograve,Ograve,148,00D2
-Oacute,Oacute,149,00D3
-Ocircumflex,Ocircumflex,150,00D4
-Otilde,Otilde,151,00D5
-Odieresis,Odieresis,152,00D6
-multiply,multiply,153,00D7
-Oslash,Oslash,154,00D8
-Ugrave,Ugrave,155,00D9
-Uacute,Uacute,156,00DA
-Ucircumflex,Ucircumflex,157,00DB
-Udieresis,Udieresis,158,00DC
-Yacute,Yacute,159,00DD
-Thorn,Thorn,160,00DE
-germandbls,germandbls,161,00DF
-agrave,agrave,162,00E0
-aacute,aacute,163,00E1
-acircumflex,acircumflex,164,00E2
-atilde,atilde,165,00E3
-adieresis,adieresis,166,00E4
-aring,aring,167,00E5
-ae,ae,168,00E6
-ccedilla,ccedilla,169,00E7
-egrave,egrave,170,00E8
-eacute,eacute,171,00E9
-ecircumflex,ecircumflex,172,00EA
-edieresis,edieresis,173,00EB
-igrave,igrave,174,00EC
-iacute,iacute,175,00ED
-icircumflex,icircumflex,176,00EE
-idieresis,idieresis,177,00EF
-eth,eth,178,00F0
-ntilde,ntilde,179,00F1
-ograve,ograve,180,00F2
-oacute,oacute,181,00F3
-ocircumflex,ocircumflex,182,00F4
-otilde,otilde,183,00F5
-odieresis,odieresis,184,00F6
-divide,divide,185,00F7
-oslash,oslash,186,00F8
-ugrave,ugrave,187,00F9
-uacute,uacute,188,00FA
-ucircumflex,ucircumflex,189,00FB
-udieresis,udieresis,190,00FC
-yacute,yacute,191,00FD
-thorn,thorn,192,00FE
-ydieresis,ydieresis,193,00FF
-dotlessi,dotlessi,194,0131
-OE,OE,195,0152
-oe,oe,196,0153
-Scaron,Scaron,197,0160
-scaron,scaron,198,0161
-Ydieresis,Ydieresis,199,0178
-Zcaron,Zcaron,200,017D
-zcaron,zcaron,201,017E
-florin,florin,202,0192
-circumflex,circumflex,203,02C6
-caron,caron,204,02C7
-colontriangularmod,uni02D0,205,02D0
-breve,breve,206,02D8
-dotaccent,dotaccent,207,02D9
-ring,ring,208,02DA
-ogonek,ogonek,209,02DB
-tilde,tilde,210,02DC
-hungarumlaut,hungarumlaut,211,02DD
-cgj,uni034F,212,034F
-pi,pi,213,03C0
-dandadbl,uni0965,214,0965
-vowelcarrier-limb,uni1900,215,1900
-vowelcarrier_ukar-limb,uni19001922,216,1900 1922
-ka-limb,uni1901,217,1901
-ka_ukar-limb,uni19011922,218,1901 1922
-ka_subra_ukar-limb,uni1901192A1922,219,1901 192A 1922
-kha-limb,uni1902,220,1902
-kha_ukar-limb,uni19021922,221,1902 1922
-kha_subra_ukar-limb,uni1902192A1922,222,1902 192A 1922
-ga-limb,uni1903,223,1903
-ga_ukar-limb,uni19031922,224,1903 1922
-ga_subra_ukar-limb,uni1903192A1922,225,1903 192A 1922
-gha-limb,uni1904,226,1904
-gha_ukar-limb,uni19041922,227,1904 1922
-gha_subra_ukar-limb,uni1904192A1922,228,1904 192A 1922
-nga-limb,uni1905,229,1905
-nga_ukar-limb,uni19051922,230,1905 1922
-nga_subra_ukar-limb,uni1905192A1922,231,1905 192A 1922
-ca-limb,uni1906,232,1906
-ca_ukar-limb,uni19061922,233,1906 1922
-ca_subra_ukar-limb,uni1906192A1922,234,1906 192A 1922
-cha-limb,uni1907,235,1907
-cha_ukar-limb,uni19071922,236,1907 1922
-cha_subra_ukar-limb,uni1907192A1922,237,1907 192A 1922
-ja-limb,uni1908,238,1908
-ja_ukar-limb,uni19081922,239,1908 1922
-ja_subra_ukar-limb,uni1908192A1922,240,1908 192A 1922
-jha-limb,uni1909,241,1909
-jha_ukar-limb,uni19091922,242,1909 1922
-jha_subra_ukar-limb,uni1909192A1922,243,1909 192A 1922
-yan-limb,uni190A,244,190A
-yan_ukar-limb,uni190A1922,245,190A 1922
-yan_subra_ukar-limb,uni190A192A1922,246,190A 192A 1922
-ta-limb,uni190B,247,190B
-ta_ukar-limb,uni190B1922,248,190B 1922
-ta_subra_ukar-limb,uni190B192A1922,249,190B 192A 1922
-tha-limb,uni190C,250,190C
-tha_ukar-limb,uni190C1922,251,190C 1922
-tha_subra_ukar-limb,uni190C192A1922,252,190C 192A 1922
-da-limb,uni190D,253,190D
-da_ukar-limb,uni190D1922,254,190D 1922
-da_subra_ukar-limb,uni190D192A1922,255,190D 192A 1922
-dha-limb,uni190E,256,190E
-dha_ukar-limb,uni190E1922,257,190E 1922
-dha_subra_ukar-limb,uni190E192A1922,258,190E 192A 1922
-na-limb,uni190F,259,190F
-na_ukar-limb,uni190F1922,260,190F 1922
-na_subra_ukar-limb,uni190F192A1922,261,190F 192A 1922
-pa-limb,uni1910,262,1910
-pa_ukar-limb,uni19101922,263,1910 1922
-pa_subra_ukar-limb,uni1910192A1922,264,1910 192A 1922
-pha-limb,uni1911,265,1911
-pha_ukar-limb,uni19111922,266,1911 1922
-pha_subra_ukar-limb,uni1911192A1922,267,1911 192A 1922
-ba-limb,uni1912,268,1912
-ba_ukar-limb,uni19121922,269,1912 1922
-ba_subra_ukar-limb,uni1912192A1922,270,1912 192A 1922
-bha-limb,uni1913,271,1913
-bha_ukar-limb,uni19131922,272,1913 1922
-bha_subra_ukar-limb,uni1913192A1922,273,1913 192A 1922
-ma-limb,uni1914,274,1914
-ma_ukar-limb,uni19141922,275,1914 1922
-ma_subra_ukar-limb,uni1914192A1922,276,1914 192A 1922
-ya-limb,uni1915,277,1915
-ya_ukar-limb,uni19151922,278,1915 1922
-ya_subra_ukar-limb,uni1915192A1922,279,1915 192A 1922
-ra-limb,uni1916,280,1916
-ra_ukar-limb,uni19161922,281,1916 1922
-ra_subra_ukar-limb,uni1916192A1922,282,1916 192A 1922
-la-limb,uni1917,283,1917
-la_ukar-limb,uni19171922,284,1917 1922
-la_subra_ukar-limb,uni1917192A1922,285,1917 192A 1922
-wa-limb,uni1918,286,1918
-wa_ukar-limb,uni19181922,287,1918 1922
-wa_subra_ukar-limb,uni1918192A1922,288,1918 192A 1922
-sha-limb,uni1919,289,1919
-sha_ukar-limb,uni19191922,290,1919 1922
-sha_subra_ukar-limb,uni1919192A1922,291,1919 192A 1922
-ssa-limb,uni191A,292,191A
-ssa_ukar-limb,uni191A1922,293,191A 1922
-ssa_subra_ukar-limb,uni191A192A1922,294,191A 192A 1922
-sa-limb,uni191B,295,191B
-sa_ukar-limb,uni191B1922,296,191B 1922
-sa_subra_ukar-limb,uni191B192A1922,297,191B 192A 1922
-ha-limb,uni191C,298,191C
-ha_ukar-limb,uni191C1922,299,191C 1922
-ha_subra_ukar-limb,uni191C192A1922,300,191C 192A 1922
-gyan-limb,uni191D,301,191D
-gyan_ukar-limb,uni191D1922,302,191D 1922
-gyan_subra_ukar-limb,uni191D192A1922,303,191D 192A 1922
-tra-limb,uni191E,304,191E
-tra_ukar-limb,uni191E1922,305,191E 1922
-tra_subra_ukar-limb,uni191E192A1922,306,191E 192A 1922
-akar-limb,uni1920,307,1920
-akar-limb.widC,uni1920.widC,308,
-akar-limb.widD,uni1920.widD,309,
-ikar-limb,uni1921,310,1921
-ikar_kemphreng-limb,uni1921193A,311,1921 193A
-ukar-limb,uni1922,312,1922
-ukar-limb.altA,uni1922.altA,313,
-ukar-limb.altB,uni1922.altB,314,
-ukar-limb.altC,uni1922.altC,315,
-eekar-limb,uni1923,316,1923
-eekar_kemphreng-limb,uni1923193A,317,1923 193A
-aikar-limb,uni1924,318,1924
-aikar_kemphreng-limb,uni1924193A,319,1924 193A
-ookar-limb,uni1925,320,1925
-aukar-limb,uni1926,321,1926
-ekar-limb,uni1927,322,1927
-okar-limb,uni1928,323,1928
-subya-limb,uni1929,324,1929
-subya_akar-limb,uni19291920,325,1929 1920
-subya_akar_kemphreng-limb,uni19291920193A,326,1929 1920 193A
-subya_ukar-limb,uni19291922,327,1929 1922
-subya_ukar_kemphreng-limb,uni19291922193A,328,1929 1922 193A
-subya_ekar-limb,uni19291927,329,1929 1927
-subya_ekar_kemphreng-limb,uni19291927193A,330,1929 1927 193A
-subya_okar-limb,uni19291928,331,1929 1928
-subya_okar_kemphreng-limb,uni19291928193A,332,1929 1928 193A
-subya_kemphreng-limb,uni1929193A,333,1929 193A
-subra-limb,uni192A,334,192A
-subra_ukar-limb,uni192A1922,335,192A 1922
-subwa-limb,uni192B,336,192B
-subwa_akar-limb,uni192B1920,337,192B 1920
-subwa_akar_kemphreng-limb,uni192B1920193A,338,192B 1920 193A
-subwa_ukar-limb,uni192B1922,339,192B 1922
-subwa_ukar_kemphreng-limb,uni192B1922193A,340,192B 1922 193A
-subwa_ekar-limb,uni192B1927,341,192B 1927
-subwa_ekar_kemphreng-limb,uni192B1927193A,342,192B 1927 193A
-subwa_okar-limb,uni192B1928,343,192B 1928
-subwa_okar_kemphreng-limb,uni192B1928193A,344,192B 1928 193A
-subwa_kemphreng-limb,uni192B193A,345,192B 193A
-smallka-limb,uni1930,346,1930
-smallnga-limb,uni1931,347,1931
-smallanusvara-limb,uni1932,348,1932
-smallta-limb,uni1933,349,1933
-smallna-limb,uni1934,350,1934
-smallpa-limb,uni1935,351,1935
-smallma-limb,uni1936,352,1936
-smallra-limb,uni1937,353,1937
-smallla-limb,uni1938,354,1938
-mukphreng-limb,uni1939,355,1939
-kemphreng-limb,uni193A,356,193A
-kemphreng-limb.widC,uni193A.widC,357,
-sai-limb,uni193B,358,193B
-sai-limb.widA,uni193B.widA,359,
-sai-limb.widB,uni193B.widB,360,
-sai-limb.widC,uni193B.widC,361,
-loo-limb,uni1940,362,1940
-exclam-limb,uni1944,363,1944
-question-limb,uni1945,364,1945
-zero-limb,uni1946,365,1946
-one-limb,uni1947,366,1947
-two-limb,uni1948,367,1948
-three-limb,uni1949,368,1949
-four-limb,uni194A,369,194A
-five-limb,uni194B,370,194B
-six-limb,uni194C,371,194C
-seven-limb,uni194D,372,194D
-eight-limb,uni194E,373,194E
-nine-limb,uni194F,374,194F
-EnQuad,uni2000,375,2000
-EmQuad,uni2001,376,2001
-EnSpace,uni2002,377,2002
-EmSpace,uni2003,378,2003
-ThreePerEmSpace,uni2004,379,2004
-FourPerEmSpace,uni2005,380,2005
-SixPerEmSpace,uni2006,381,2006
-FigureSpace,uni2007,382,2007
-PuncSpace,uni2008,383,2008
-ThinSpace,uni2009,384,2009
-HairSpace,uni200A,385,200A
-zwsp,uni200B,386,200B
-zwnj,uni200C,387,200C
-zwj,uni200D,388,200D
-hyphentwo,uni2010,389,2010
-nbhyphen,uni2011,390,2011
-figuredash,figuredash,391,2012
-endash,endash,392,2013
-emdash,emdash,393,2014
-horizontalbar,uni2015,394,2015
-quoteleft,quoteleft,395,2018
-quoteright,quoteright,396,2019
-quotesinglbase,quotesinglbase,397,201A
-quotedblleft,quotedblleft,398,201C
-quotedblright,quotedblright,399,201D
-quotedblbase,quotedblbase,400,201E
-dagger,dagger,401,2020
-daggerdbl,daggerdbl,402,2021
-bullet,bullet,403,2022
-ellipsis,ellipsis,404,2026
-hyphenpoint,uni2027,405,2027
-nnbsp,uni202F,406,202F
-perthousand,perthousand,407,2030
-guilsinglleft,guilsinglleft,408,2039
-guilsinglright,guilsinglright,409,203A
-fraction,fraction,410,2044
-wj,uni2060,411,2060
-Euro,Euro,412,20AC
-trademark,trademark,413,2122
-Omega,Omega,414,2126
-partialdiff,partialdiff,415,2202
-Delta,Delta,416,2206
-product,product,417,220F
-summation,summation,418,2211
-bulletoperator,uni2219,419,2219
-radical,radical,420,221A
-infinity,infinity,421,221E
-integral,integral,422,222B
-approxequal,approxequal,423,2248
-notequal,notequal,424,2260
-lessequal,lessequal,425,2264
-greaterequal,greaterequal,426,2265
-lozenge,lozenge,427,25CA
-dottedcircle,uni25CC,428,25CC
-fi,uniFB01,429,FB01
-fl,uniFB02,430,FB02
-VS1,uniFE00,431,FE00
-VS2,uniFE01,432,FE01
-VS3,uniFE02,433,FE02
-VS4,uniFE03,434,FE03
-VS5,uniFE04,435,FE04
-VS6,uniFE05,436,FE05
-VS7,uniFE06,437,FE06
-VS8,uniFE07,438,FE07
-VS9,uniFE08,439,FE08
-VS10,uniFE09,440,FE09
-VS11,uniFE0A,441,FE0A
-VS12,uniFE0B,442,FE0B
-VS13,uniFE0C,443,FE0C
-VS14,uniFE0D,444,FE0D
-VS15,uniFE0E,445,FE0E
-VS16,uniFE0F,446,FE0F
-zwnbsp,uniFEFF,447,FEFF
-ObjectReplChar,uniFFFC,448,FFFC
-ReplChar,uniFFFD,449,FFFD
+glyph_name,ps_name,sort_final,USV,bcp47tags,Feat
+.notdef,.notdef,0,,,
+.null,.null,1,,,
+nonmarkingreturn,nonmarkingreturn,2,,,
+space,space,3,0020,,
+exclam,exclam,4,0021,,
+quotedbl,quotedbl,5,0022,,
+numbersign,numbersign,6,0023,,
+dollar,dollar,7,0024,,
+percent,percent,8,0025,,
+ampersand,ampersand,9,0026,,
+quotesingle,quotesingle,10,0027,,
+parenleft,parenleft,11,0028,,
+parenright,parenright,12,0029,,
+asterisk,asterisk,13,002A,,
+plus,plus,14,002B,,
+comma,comma,15,002C,,
+hyphen,hyphen,16,002D,,
+period,period,17,002E,,
+slash,slash,18,002F,,
+zero,zero,19,0030,,
+one,one,20,0031,,
+two,two,21,0032,,
+three,three,22,0033,,
+four,four,23,0034,,
+five,five,24,0035,,
+six,six,25,0036,,
+seven,seven,26,0037,,
+eight,eight,27,0038,,
+nine,nine,28,0039,,
+colon,colon,29,003A,,
+semicolon,semicolon,30,003B,,
+less,less,31,003C,,
+equal,equal,32,003D,,
+greater,greater,33,003E,,
+question,question,34,003F,,
+at,at,35,0040,,
+A,A,36,0041,,
+B,B,37,0042,,
+C,C,38,0043,,
+D,D,39,0044,,
+E,E,40,0045,,
+F,F,41,0046,,
+G,G,42,0047,,
+H,H,43,0048,,
+I,I,44,0049,,
+J,J,45,004A,,
+K,K,46,004B,,
+L,L,47,004C,,
+M,M,48,004D,,
+N,N,49,004E,,
+O,O,50,004F,,
+P,P,51,0050,,
+Q,Q,52,0051,,
+R,R,53,0052,,
+S,S,54,0053,,
+T,T,55,0054,,
+U,U,56,0055,,
+V,V,57,0056,,
+W,W,58,0057,,
+X,X,59,0058,,
+Y,Y,60,0059,,
+Z,Z,61,005A,,
+bracketleft,bracketleft,62,005B,,
+backslash,backslash,63,005C,,
+bracketright,bracketright,64,005D,,
+asciicircum,asciicircum,65,005E,,
+underscore,underscore,66,005F,,
+grave,grave,67,0060,,
+a,a,68,0061,,
+b,b,69,0062,,
+c,c,70,0063,,
+d,d,71,0064,,
+e,e,72,0065,,
+f,f,73,0066,,
+g,g,74,0067,,
+h,h,75,0068,,
+i,i,76,0069,,
+j,j,77,006A,,
+k,k,78,006B,,
+l,l,79,006C,,
+m,m,80,006D,,
+n,n,81,006E,,
+o,o,82,006F,,
+p,p,83,0070,,
+q,q,84,0071,,
+r,r,85,0072,,
+s,s,86,0073,,
+t,t,87,0074,,
+u,u,88,0075,,
+v,v,89,0076,,
+w,w,90,0077,,
+x,x,91,0078,,
+y,y,92,0079,,
+z,z,93,007A,,
+braceleft,braceleft,94,007B,,
+bar,bar,95,007C,,
+braceright,braceright,96,007D,,
+asciitilde,asciitilde,97,007E,,
+nbsp,uni00A0,98,00A0,,
+exclamdown,exclamdown,99,00A1,,
+cent,cent,100,00A2,,
+sterling,sterling,101,00A3,,
+currency,currency,102,00A4,,
+yen,yen,103,00A5,,
+brokenbar,brokenbar,104,00A6,,
+section,section,105,00A7,,
+dieresis,dieresis,106,00A8,,
+copyright,copyright,107,00A9,,
+ordfeminine,ordfeminine,108,00AA,,
+guillemotleft,guillemotleft,109,00AB,,
+logicalnot,logicalnot,110,00AC,,
+softhyphen,uni00AD,111,00AD,,
+registered,registered,112,00AE,,
+macron,macron,113,00AF,,
+degree,degree,114,00B0,,
+plusminus,plusminus,115,00B1,,
+twosuperior,uni00B2,116,00B2,,
+threesuperior,uni00B3,117,00B3,,
+acute,acute,118,00B4,,
+mu,mu,119,00B5,,
+paragraph,paragraph,120,00B6,,
+periodcentered,periodcentered,121,00B7,,
+cedilla,cedilla,122,00B8,,
+onesuperior,uni00B9,123,00B9,,
+ordmasculine,ordmasculine,124,00BA,,
+guillemotright,guillemotright,125,00BB,,
+onequarter,onequarter,126,00BC,,
+onehalf,onehalf,127,00BD,,
+threequarters,threequarters,128,00BE,,
+questiondown,questiondown,129,00BF,,
+Agrave,Agrave,130,00C0,,
+Aacute,Aacute,131,00C1,,
+Acircumflex,Acircumflex,132,00C2,,
+Atilde,Atilde,133,00C3,,
+Adieresis,Adieresis,134,00C4,,
+Aring,Aring,135,00C5,,
+AE,AE,136,00C6,,
+Ccedilla,Ccedilla,137,00C7,,
+Egrave,Egrave,138,00C8,,
+Eacute,Eacute,139,00C9,,
+Ecircumflex,Ecircumflex,140,00CA,,
+Edieresis,Edieresis,141,00CB,,
+Igrave,Igrave,142,00CC,,
+Iacute,Iacute,143,00CD,,
+Icircumflex,Icircumflex,144,00CE,,
+Idieresis,Idieresis,145,00CF,,
+Eth,Eth,146,00D0,,
+Ntilde,Ntilde,147,00D1,,
+Ograve,Ograve,148,00D2,,
+Oacute,Oacute,149,00D3,,
+Ocircumflex,Ocircumflex,150,00D4,,
+Otilde,Otilde,151,00D5,,
+Odieresis,Odieresis,152,00D6,,
+multiply,multiply,153,00D7,,
+Oslash,Oslash,154,00D8,,
+Ugrave,Ugrave,155,00D9,,
+Uacute,Uacute,156,00DA,,
+Ucircumflex,Ucircumflex,157,00DB,,
+Udieresis,Udieresis,158,00DC,,
+Yacute,Yacute,159,00DD,,
+Thorn,Thorn,160,00DE,,
+germandbls,germandbls,161,00DF,,
+agrave,agrave,162,00E0,,
+aacute,aacute,163,00E1,,
+acircumflex,acircumflex,164,00E2,,
+atilde,atilde,165,00E3,,
+adieresis,adieresis,166,00E4,,
+aring,aring,167,00E5,,
+ae,ae,168,00E6,,
+ccedilla,ccedilla,169,00E7,,
+egrave,egrave,170,00E8,,
+eacute,eacute,171,00E9,,
+ecircumflex,ecircumflex,172,00EA,,
+edieresis,edieresis,173,00EB,,
+igrave,igrave,174,00EC,,
+iacute,iacute,175,00ED,,
+icircumflex,icircumflex,176,00EE,,
+idieresis,idieresis,177,00EF,,
+eth,eth,178,00F0,,
+ntilde,ntilde,179,00F1,,
+ograve,ograve,180,00F2,,
+oacute,oacute,181,00F3,,
+ocircumflex,ocircumflex,182,00F4,,
+otilde,otilde,183,00F5,,
+odieresis,odieresis,184,00F6,,
+divide,divide,185,00F7,,
+oslash,oslash,186,00F8,,
+ugrave,ugrave,187,00F9,,
+uacute,uacute,188,00FA,,
+ucircumflex,ucircumflex,189,00FB,,
+udieresis,udieresis,190,00FC,,
+yacute,yacute,191,00FD,,
+thorn,thorn,192,00FE,,
+ydieresis,ydieresis,193,00FF,,
+dotlessi,dotlessi,194,0131,,
+OE,OE,195,0152,,
+oe,oe,196,0153,,
+Scaron,Scaron,197,0160,,
+scaron,scaron,198,0161,,
+Ydieresis,Ydieresis,199,0178,,
+Zcaron,Zcaron,200,017D,,
+zcaron,zcaron,201,017E,,
+florin,florin,202,0192,,
+circumflex,circumflex,203,02C6,,
+caron,caron,204,02C7,,
+colontriangularmod,uni02D0,205,02D0,,
+breve,breve,206,02D8,,
+dotaccent,dotaccent,207,02D9,,
+ring,ring,208,02DA,,
+ogonek,ogonek,209,02DB,,
+tilde,tilde,210,02DC,,
+hungarumlaut,hungarumlaut,211,02DD,,
+cgj,uni034F,212,034F,,
+pi,pi,213,03C0,,
+dandadbl,uni0965,214,0965,,
+vowelcarrier-limb,uni1900,215,1900,,
+vowelcarrier_ukar-limb,uni19001922,216,1900 1922,,
+ka-limb,uni1901,217,1901,,
+ka_ukar-limb,uni19011922,218,1901 1922,,
+ka_subra_ukar-limb,uni1901192A1922,219,1901 192A 1922,,
+kha-limb,uni1902,220,1902,,
+kha_ukar-limb,uni19021922,221,1902 1922,,
+kha_subra_ukar-limb,uni1902192A1922,222,1902 192A 1922,,
+ga-limb,uni1903,223,1903,,
+ga_ukar-limb,uni19031922,224,1903 1922,,
+ga_subra_ukar-limb,uni1903192A1922,225,1903 192A 1922,,
+gha-limb,uni1904,226,1904,,
+gha_ukar-limb,uni19041922,227,1904 1922,,
+gha_subra_ukar-limb,uni1904192A1922,228,1904 192A 1922,,
+nga-limb,uni1905,229,1905,,
+nga_ukar-limb,uni19051922,230,1905 1922,,
+nga_subra_ukar-limb,uni1905192A1922,231,1905 192A 1922,,
+ca-limb,uni1906,232,1906,,
+ca_ukar-limb,uni19061922,233,1906 1922,,
+ca_subra_ukar-limb,uni1906192A1922,234,1906 192A 1922,,
+cha-limb,uni1907,235,1907,,
+cha_ukar-limb,uni19071922,236,1907 1922,,
+cha_subra_ukar-limb,uni1907192A1922,237,1907 192A 1922,,
+ja-limb,uni1908,238,1908,,
+ja_ukar-limb,uni19081922,239,1908 1922,,
+ja_subra_ukar-limb,uni1908192A1922,240,1908 192A 1922,,
+jha-limb,uni1909,241,1909,,
+jha_ukar-limb,uni19091922,242,1909 1922,,
+jha_subra_ukar-limb,uni1909192A1922,243,1909 192A 1922,,
+yan-limb,uni190A,244,190A,,
+yan_ukar-limb,uni190A1922,245,190A 1922,,
+yan_subra_ukar-limb,uni190A192A1922,246,190A 192A 1922,,
+ta-limb,uni190B,247,190B,,
+ta_ukar-limb,uni190B1922,248,190B 1922,,
+ta_subra_ukar-limb,uni190B192A1922,249,190B 192A 1922,,
+tha-limb,uni190C,250,190C,,
+tha_ukar-limb,uni190C1922,251,190C 1922,,
+tha_subra_ukar-limb,uni190C192A1922,252,190C 192A 1922,,
+da-limb,uni190D,253,190D,,
+da_ukar-limb,uni190D1922,254,190D 1922,,
+da_subra_ukar-limb,uni190D192A1922,255,190D 192A 1922,,
+dha-limb,uni190E,256,190E,,
+dha_ukar-limb,uni190E1922,257,190E 1922,,
+dha_subra_ukar-limb,uni190E192A1922,258,190E 192A 1922,,
+na-limb,uni190F,259,190F,,
+na_ukar-limb,uni190F1922,260,190F 1922,,
+na_subra_ukar-limb,uni190F192A1922,261,190F 192A 1922,,
+pa-limb,uni1910,262,1910,,
+pa_ukar-limb,uni19101922,263,1910 1922,,
+pa_subra_ukar-limb,uni1910192A1922,264,1910 192A 1922,,
+pha-limb,uni1911,265,1911,,
+pha_ukar-limb,uni19111922,266,1911 1922,,
+pha_subra_ukar-limb,uni1911192A1922,267,1911 192A 1922,,
+ba-limb,uni1912,268,1912,,
+ba_ukar-limb,uni19121922,269,1912 1922,,
+ba_subra_ukar-limb,uni1912192A1922,270,1912 192A 1922,,
+bha-limb,uni1913,271,1913,,
+bha_ukar-limb,uni19131922,272,1913 1922,,
+bha_subra_ukar-limb,uni1913192A1922,273,1913 192A 1922,,
+ma-limb,uni1914,274,1914,,
+ma_ukar-limb,uni19141922,275,1914 1922,,
+ma_subra_ukar-limb,uni1914192A1922,276,1914 192A 1922,,
+ya-limb,uni1915,277,1915,,
+ya_ukar-limb,uni19151922,278,1915 1922,,
+ya_subra_ukar-limb,uni1915192A1922,279,1915 192A 1922,,
+ra-limb,uni1916,280,1916,,
+ra_ukar-limb,uni19161922,281,1916 1922,,
+ra_subra_ukar-limb,uni1916192A1922,282,1916 192A 1922,,
+la-limb,uni1917,283,1917,,
+la_ukar-limb,uni19171922,284,1917 1922,,
+la_subra_ukar-limb,uni1917192A1922,285,1917 192A 1922,,
+wa-limb,uni1918,286,1918,,
+wa_ukar-limb,uni19181922,287,1918 1922,,
+wa_subra_ukar-limb,uni1918192A1922,288,1918 192A 1922,,
+sha-limb,uni1919,289,1919,,
+sha_ukar-limb,uni19191922,290,1919 1922,,
+sha_subra_ukar-limb,uni1919192A1922,291,1919 192A 1922,,
+ssa-limb,uni191A,292,191A,,
+ssa_ukar-limb,uni191A1922,293,191A 1922,,
+ssa_subra_ukar-limb,uni191A192A1922,294,191A 192A 1922,,
+sa-limb,uni191B,295,191B,,
+sa_ukar-limb,uni191B1922,296,191B 1922,,
+sa_subra_ukar-limb,uni191B192A1922,297,191B 192A 1922,,
+ha-limb,uni191C,298,191C,,
+ha_ukar-limb,uni191C1922,299,191C 1922,,
+ha_subra_ukar-limb,uni191C192A1922,300,191C 192A 1922,,
+gyan-limb,uni191D,301,191D,,
+gyan_ukar-limb,uni191D1922,302,191D 1922,,
+gyan_subra_ukar-limb,uni191D192A1922,303,191D 192A 1922,,
+tra-limb,uni191E,304,191E,,
+tra_ukar-limb,uni191E1922,305,191E 1922,,
+tra_subra_ukar-limb,uni191E192A1922,306,191E 192A 1922,,
+akar-limb,uni1920,307,1920,,
+akar-limb.widC,uni1920.widC,308,,,
+akar-limb.widD,uni1920.widD,309,,,
+ikar-limb,uni1921,310,1921,,
+ikar_kemphreng-limb,uni1921193A,311,1921 193A,,
+ukar-limb,uni1922,312,1922,,
+ukar-limb.altA,uni1922.altA,313,,,
+ukar-limb.altB,uni1922.altB,314,,,
+ukar-limb.altC,uni1922.altC,315,,,
+eekar-limb,uni1923,316,1923,,
+eekar_kemphreng-limb,uni1923193A,317,1923 193A,,
+aikar-limb,uni1924,318,1924,,
+aikar_kemphreng-limb,uni1924193A,319,1924 193A,,
+ookar-limb,uni1925,320,1925,,
+aukar-limb,uni1926,321,1926,,
+ekar-limb,uni1927,322,1927,,
+okar-limb,uni1928,323,1928,,
+subya-limb,uni1929,324,1929,,
+subya_akar-limb,uni19291920,325,1929 1920,,
+subya_akar_kemphreng-limb,uni19291920193A,326,1929 1920 193A,,
+subya_ukar-limb,uni19291922,327,1929 1922,,
+subya_ukar_kemphreng-limb,uni19291922193A,328,1929 1922 193A,,
+subya_ekar-limb,uni19291927,329,1929 1927,,
+subya_ekar_kemphreng-limb,uni19291927193A,330,1929 1927 193A,,
+subya_okar-limb,uni19291928,331,1929 1928,,
+subya_okar_kemphreng-limb,uni19291928193A,332,1929 1928 193A,,
+subya_kemphreng-limb,uni1929193A,333,1929 193A,,
+subra-limb,uni192A,334,192A,,
+subra_ukar-limb,uni192A1922,335,192A 1922,,
+subwa-limb,uni192B,336,192B,,
+subwa_akar-limb,uni192B1920,337,192B 1920,,
+subwa_akar_kemphreng-limb,uni192B1920193A,338,192B 1920 193A,,
+subwa_ukar-limb,uni192B1922,339,192B 1922,,
+subwa_ukar_kemphreng-limb,uni192B1922193A,340,192B 1922 193A,,
+subwa_ekar-limb,uni192B1927,341,192B 1927,,
+subwa_ekar_kemphreng-limb,uni192B1927193A,342,192B 1927 193A,,
+subwa_okar-limb,uni192B1928,343,192B 1928,,
+subwa_okar_kemphreng-limb,uni192B1928193A,344,192B 1928 193A,,
+subwa_kemphreng-limb,uni192B193A,345,192B 193A,,
+smallka-limb,uni1930,346,1930,,
+smallnga-limb,uni1931,347,1931,,
+smallanusvara-limb,uni1932,348,1932,,
+smallta-limb,uni1933,349,1933,,
+smallna-limb,uni1934,350,1934,,
+smallpa-limb,uni1935,351,1935,,
+smallma-limb,uni1936,352,1936,,
+smallra-limb,uni1937,353,1937,,
+smallla-limb,uni1938,354,1938,,
+mukphreng-limb,uni1939,355,1939,,
+kemphreng-limb,uni193A,356,193A,,
+kemphreng-limb.widC,uni193A.widC,357,,,
+sai-limb,uni193B,358,193B,,
+sai-limb.widA,uni193B.widA,359,,,
+sai-limb.widB,uni193B.widB,360,,,
+sai-limb.widC,uni193B.widC,361,,,
+loo-limb,uni1940,362,1940,,
+exclam-limb,uni1944,363,1944,,
+question-limb,uni1945,364,1945,,
+zero-limb,uni1946,365,1946,,
+one-limb,uni1947,366,1947,,
+two-limb,uni1948,367,1948,,
+three-limb,uni1949,368,1949,,
+four-limb,uni194A,369,194A,,
+five-limb,uni194B,370,194B,,
+six-limb,uni194C,371,194C,,
+seven-limb,uni194D,372,194D,,
+eight-limb,uni194E,373,194E,,
+nine-limb,uni194F,374,194F,,
+EnQuad,uni2000,375,2000,,
+EmQuad,uni2001,376,2001,,
+EnSpace,uni2002,377,2002,,
+EmSpace,uni2003,378,2003,,
+ThreePerEmSpace,uni2004,379,2004,,
+FourPerEmSpace,uni2005,380,2005,,
+SixPerEmSpace,uni2006,381,2006,,
+FigureSpace,uni2007,382,2007,,
+PuncSpace,uni2008,383,2008,,
+ThinSpace,uni2009,384,2009,,
+HairSpace,uni200A,385,200A,,
+zwsp,uni200B,386,200B,,
+zwnj,uni200C,387,200C,,
+zwj,uni200D,388,200D,,
+hyphentwo,uni2010,389,2010,,
+nbhyphen,uni2011,390,2011,,
+figuredash,figuredash,391,2012,,
+endash,endash,392,2013,,
+emdash,emdash,393,2014,,
+horizontalbar,uni2015,394,2015,,
+quoteleft,quoteleft,395,2018,,
+quoteright,quoteright,396,2019,,
+quotesinglbase,quotesinglbase,397,201A,,
+quotedblleft,quotedblleft,398,201C,,
+quotedblright,quotedblright,399,201D,,
+quotedblbase,quotedblbase,400,201E,,
+dagger,dagger,401,2020,,
+daggerdbl,daggerdbl,402,2021,,
+bullet,bullet,403,2022,,
+ellipsis,ellipsis,404,2026,,
+hyphenpoint,uni2027,405,2027,,
+nnbsp,uni202F,406,202F,,
+perthousand,perthousand,407,2030,,
+guilsinglleft,guilsinglleft,408,2039,,
+guilsinglright,guilsinglright,409,203A,,
+fraction,fraction,410,2044,,
+wj,uni2060,411,2060,,
+Euro,Euro,412,20AC,,
+trademark,trademark,413,2122,,
+Omega,Omega,414,2126,,
+partialdiff,partialdiff,415,2202,,
+Delta,Delta,416,2206,,
+product,product,417,220F,,
+summation,summation,418,2211,,
+bulletoperator,uni2219,419,2219,,
+radical,radical,420,221A,,
+infinity,infinity,421,221E,,
+integral,integral,422,222B,,
+approxequal,approxequal,423,2248,,
+notequal,notequal,424,2260,,
+lessequal,lessequal,425,2264,,
+greaterequal,greaterequal,426,2265,,
+lozenge,lozenge,427,25CA,,
+dottedcircle,uni25CC,428,25CC,,
+fi,uniFB01,429,FB01,,
+fl,uniFB02,430,FB02,,
+VS1,uniFE00,431,FE00,,
+VS2,uniFE01,432,FE01,,
+VS3,uniFE02,433,FE02,,
+VS4,uniFE03,434,FE03,,
+VS5,uniFE04,435,FE04,,
+VS6,uniFE05,436,FE05,,
+VS7,uniFE06,437,FE06,,
+VS8,uniFE07,438,FE07,,
+VS9,uniFE08,439,FE08,,
+VS10,uniFE09,440,FE09,,
+VS11,uniFE0A,441,FE0A,,
+VS12,uniFE0B,442,FE0B,,
+VS13,uniFE0C,443,FE0C,,
+VS14,uniFE0D,444,FE0D,,
+VS15,uniFE0E,445,FE0E,,
+VS16,uniFE0F,446,FE0F,,
+zwnbsp,uniFEFF,447,FEFF,,
+ObjectReplChar,uniFFFC,448,FFFC,,
+ReplChar,uniFFFD,449,FFFD,,
