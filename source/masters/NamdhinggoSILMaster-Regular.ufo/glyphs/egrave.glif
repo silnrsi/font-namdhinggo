@@ -1,62 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="egrave" format="2">
-  <advance width="905"/>
+  <advance width="958"/>
   <unicode hex="00E8"/>
+  <anchor x="507" y="0" name="H"/>
+  <anchor x="507" y="-100" name="L"/>
+  <anchor x="558" y="0" name="O"/>
+  <anchor x="1020" y="900" name="R"/>
+  <anchor x="517" y="1428" name="U"/>
   <outline>
-    <contour>
-      <point x="833" y="525" type="curve"/>
-      <point x="833" y="697"/>
-      <point x="749" y="908"/>
-      <point x="501" y="908" type="curve" smooth="yes"/>
-      <point x="427" y="908"/>
-      <point x="336" y="871"/>
-      <point x="277" y="830" type="curve" smooth="yes"/>
-      <point x="147" y="739"/>
-      <point x="72" y="583"/>
-      <point x="72" y="412" type="curve" smooth="yes"/>
-      <point x="72" y="146"/>
-      <point x="244" y="-28"/>
-      <point x="443" y="-28" type="curve" smooth="yes"/>
-      <point x="578" y="-28"/>
-      <point x="657" y="2"/>
-      <point x="827" y="184" type="curve"/>
-      <point x="822" y="194"/>
-      <point x="805" y="220"/>
-      <point x="789" y="229" type="curve"/>
-      <point x="647" y="116"/>
-      <point x="586" y="104"/>
-      <point x="507" y="104" type="curve" smooth="yes"/>
-      <point x="340" y="104"/>
-      <point x="240" y="265"/>
-      <point x="237" y="458" type="curve"/>
-      <point x="722" y="458" type="line"/>
-      <point x="762" y="474"/>
-      <point x="810" y="499"/>
-    </contour>
-    <contour>
-      <point x="472" y="805" type="curve" smooth="yes"/>
-      <point x="628" y="805"/>
-      <point x="660" y="653"/>
-      <point x="660" y="583" type="curve" smooth="yes"/>
-      <point x="660" y="556"/>
-      <point x="653" y="549"/>
-      <point x="624" y="549" type="curve" smooth="yes"/>
-      <point x="242" y="549" type="line"/>
-      <point x="263" y="701"/>
-      <point x="345" y="805"/>
-    </contour>
-    <contour>
-      <point x="608" y="1022" type="curve"/>
-      <point x="386" y="1414" type="line"/>
-      <point x="355" y="1412"/>
-      <point x="255" y="1394"/>
-      <point x="230" y="1388" type="curve"/>
-      <point x="223" y="1373"/>
-      <point x="215" y="1360"/>
-      <point x="208" y="1345" type="curve"/>
-      <point x="548" y="989" type="line"/>
-      <point x="570" y="995"/>
-      <point x="592" y="1006"/>
-    </contour>
+    <component base="e"/>
+    <component base="CombGrave" xOffset="956"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>
