@@ -28,34 +28,6 @@
   <string>C_.glif</string>
   <key>Ccedilla</key>
   <string>C_cedilla.glif</string>
-  <key>CombAcute</key>
-  <string>C_ombA_cute.glif</string>
-  <key>CombAcute.LP</key>
-  <string>C_ombA_cute.L_P_.glif</string>
-  <key>CombCaron</key>
-  <string>C_ombC_aron.glif</string>
-  <key>CombCaron.LP</key>
-  <string>C_ombC_aron.L_P_.glif</string>
-  <key>CombCedilla</key>
-  <string>C_ombC_edilla.glif</string>
-  <key>CombCircum</key>
-  <string>C_ombC_ircum.glif</string>
-  <key>CombCircum.LP</key>
-  <string>C_ombC_ircum.L_P_.glif</string>
-  <key>CombDiaer</key>
-  <string>C_ombD_iaer.glif</string>
-  <key>CombDiaer.LP</key>
-  <string>C_ombD_iaer.L_P_.glif</string>
-  <key>CombGrave</key>
-  <string>C_ombG_rave.glif</string>
-  <key>CombGrave.LP</key>
-  <string>C_ombG_rave.L_P_.glif</string>
-  <key>CombRingAbv</key>
-  <string>C_ombR_ingA_bv.glif</string>
-  <key>CombTilde</key>
-  <string>C_ombT_ilde.glif</string>
-  <key>CombTilde.LP</key>
-  <string>C_ombT_ilde.L_P_.glif</string>
   <key>D</key>
   <string>D_.glif</string>
   <key>Delta</key>
@@ -110,8 +82,6 @@
   <string>K_.glif</string>
   <key>L</key>
   <string>L_.glif</string>
-  <key>LineSep</key>
-  <string>L_ineS_ep.glif</string>
   <key>M</key>
   <string>M_.glif</string>
   <key>N</key>
@@ -140,8 +110,6 @@
   <string>O_tilde.glif</string>
   <key>P</key>
   <string>P_.glif</string>
-  <key>ParagraphSeparator</key>
-  <string>P_aragraphS_eparator.glif</string>
   <key>PuncSpace</key>
   <string>P_uncS_pace.glif</string>
   <key>Q</key>
@@ -544,6 +512,8 @@
   <string>less.glif</string>
   <key>lessequal</key>
   <string>lessequal.glif</string>
+  <key>lineseparator</key>
+  <string>lineseparator.glif</string>
   <key>logicalnot</key>
   <string>logicalnot.glif</string>
   <key>loo-limb</key>
@@ -648,6 +618,8 @@
   <string>pa_ukar-limb.glif</string>
   <key>paragraph</key>
   <string>paragraph.glif</string>
+  <key>paraseparator</key>
+  <string>paraseparator.glif</string>
   <key>parenleft</key>
   <string>parenleft.glif</string>
   <key>parenright</key>
