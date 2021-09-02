@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
+<ftml version="1.0">
+  <head>
+    <fontscale>200</fontscale>
+    <fontsrc label="RefRegular">url(../references/NamdhinggoSIL-Regular.ttf)</fontsrc>
+    <fontsrc label="Regular">url(../results/NamdhinggoSIL-Regular.ttf)</fontsrc>
+    <fontsrc label="BookRegular">url(../results/NamdhinggoSILBook-Regular.ttf)</fontsrc>
+    <fontsrc label="Bold">url(../results/NamdhinggoSILBook-Bold.ttf)</fontsrc>
+    <fontsrc label="BookBold">url(../results/NamdhinggoSILBook-Bold.ttf)</fontsrc>
+    <title>AllChars auto</title>
+  </head>
+  <testgroup label="Encoded characters">
+    <test label="U+0020">
+      <comment>space</comment>
+      <string>\u00F130 \u00F131 ! " # $ % &amp; ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; &lt; = &gt; ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ] ^ _ ` a b c d e f g h i j k l m n o p q r s t u v w x y z { | } ~</string>
+    </test>
+    <test label="U+00A0">
+      <comment>nbsp</comment>
+      <string>\u00F130\u0000A0\u00F131 \u0000A1 \u0000A2 \u0000A3 \u0000A4 \u0000A5 \u0000A6 \u0000A7 \u0000A8 \u0000A9 \u0000AA \u0000AB \u0000AC \u0000AD \u0000AE \u0000AF \u0000B0 \u0000B1 \u0000B2 \u0000B3 \u0000B4 \u0000B5 \u0000B6 \u0000B7 \u0000B8 \u0000B9 \u0000BA \u0000BB \u0000BC \u0000BD \u0000BE \u0000BF \u0000C0 \u0000C1 \u0000C2 \u0000C3 \u0000C4 \u0000C5 \u0000C6 \u0000C7 \u0000C8 \u0000C9 \u0000CA \u0000CB \u0000CC \u0000CD \u0000CE \u0000CF \u0000D0 \u0000D1 \u0000D2 \u0000D3 \u0000D4 \u0000D5 \u0000D6 \u0000D7 \u0000D8 \u0000D9 \u0000DA \u0000DB \u0000DC \u0000DD \u0000DE \u0000DF \u0000E0 \u0000E1 \u0000E2 \u0000E3 \u0000E4 \u0000E5 \u0000E6 \u0000E7 \u0000E8 \u0000E9 \u0000EA \u0000EB \u0000EC \u0000ED \u0000EE \u0000EF \u0000F0 \u0000F1 \u0000F2 \u0000F3 \u0000F4 \u0000F5 \u0000F6 \u0000F7 \u0000F8 \u0000F9 \u0000FA \u0000FB \u0000FC \u0000FD \u0000FE \u0000FF</string>
+    </test>
+    <test label="U+0131">
+      <comment>dotlessi</comment>
+      <string>\u000131</string>
+    </test>
+    <test label="U+0152">
+      <comment>OE</comment>
+      <string>\u000152 \u000153</string>
+    </test>
+    <test label="U+0160">
+      <comment>Scaron</comment>
+      <string>\u000160 \u000161</string>
+    </test>
+    <test label="U+0178">
+      <comment>Ydieresis</comment>
+      <string>\u000178</string>
+    </test>
+    <test label="U+017D">
+      <comment>Zcaron</comment>
+      <string>\u00017D \u00017E</string>
+    </test>
+    <test label="U+0192">
+      <comment>florin</comment>
+      <string>\u000192</string>
+    </test>
+    <test label="U+02C6">
+      <comment>circumflex</comment>
+      <string>\u0002C6 \u0002C7</string>
+    </test>
+    <test label="U+02D0">
+      <comment>colontriangularmod</comment>
+      <string>\u0002D0</string>
+    </test>
+    <test label="U+02D8">
+      <comment>breve</comment>
+      <string>\u0002D8 \u0002D9 \u0002DA \u0002DB \u0002DC \u0002DD</string>
+    </test>
+    <test label="U+034F">
+      <comment>cgj</comment>
+      <string>\u001901\u00034F</string>
+    </test>
+    <test label="U+03C0">
+      <comment>pi</comment>
+      <string>\u0003C0</string>
+    </test>
+    <test label="U+0965">
+      <comment>dandadbl</comment>
+      <string>\u000965</string>
+    </test>
+    <test label="U+1900">
+      <comment>vowelcarrier-limb</comment>
+      <string>\u001900 \u001901 \u001902 \u001903 \u001904 \u001905 \u001906 \u001907 \u001908 \u001909 \u00190A \u00190B \u00190C \u00190D \u00190E \u00190F \u001910 \u001911 \u001912 \u001913 \u001914 \u001915 \u001916 \u001917 \u001918 \u001919 \u00191A \u00191B \u00191C \u00191D \u00191E</string>
+    </test>
+    <test label="U+1920">
+      <comment>akar-limb</comment>
+      <string>\u001901\u001920 \u001901\u001921 \u001901\u001922 \u001923 \u001924 \u001925 \u001926 \u001901\u001927 \u001901\u001928 \u001929 \u00192A \u00192B</string>
+    </test>
+    <test label="U+1930">
+      <comment>smallka-limb</comment>
+      <string>\u001930 \u001931 \u001901\u001932 \u001933 \u001934 \u001935 \u001936 \u001937 \u001938 \u001901\u001939 \u001901\u00193A \u001901\u00193B</string>
+    </test>
+    <test label="U+1940">
+      <comment>loo-limb</comment>
+      <string>\u001940</string>
+    </test>
+    <test label="U+1944">
+      <comment>exclam-limb</comment>
+      <string>\u001944 \u001945 \u001946 \u001947 \u001948 \u001949 \u00194A \u00194B \u00194C \u00194D \u00194E \u00194F</string>
+    </test>
+    <test label="U+2000">
+      <comment>EnQuad</comment>
+      <string>\u00F130\u002000\u00F131 \u00F130\u002001\u00F131 \u00F130\u002002\u00F131 \u00F130\u002003\u00F131 \u00F130\u002004\u00F131 \u00F130\u002005\u00F131 \u00F130\u002006\u00F131 \u00F130\u002007\u00F131 \u00F130\u002008\u00F131 \u00F130\u002009\u00F131 \u00F130\u00200A\u00F131 \u00200B \u00200C \u00200D</string>
+    </test>
+    <test label="U+2010">
+      <comment>hyphentwo</comment>
+      <string>\u002010 \u002011 \u002012 \u002013 \u002014 \u002015</string>
+    </test>
+    <test label="U+2018">
+      <comment>quoteleft</comment>
+      <string>\u002018 \u002019 \u00201A</string>
+    </test>
+    <test label="U+201C">
+      <comment>quotedblleft</comment>
+      <string>\u00201C \u00201D \u00201E</string>
+    </test>
+    <test label="U+2020">
+      <comment>dagger</comment>
+      <string>\u002020 \u002021 \u002022</string>
+    </test>
+    <test label="U+2026">
+      <comment>ellipsis</comment>
+      <string>\u002026 \u002027 \u00F130\u002028\u00F131 \u00F130\u002029\u00F131</string>
+    </test>
+    <test label="U+202F">
+      <comment>nnbsp</comment>
+      <string>\u00F130\u00202F\u00F131 \u002030</string>
+    </test>
+    <test label="U+2039">
+      <comment>guilsinglleft</comment>
+      <string>\u002039 \u00203A</string>
+    </test>
+    <test label="U+2044">
+      <comment>fraction</comment>
+      <string>\u002044</string>
+    </test>
+    <test label="U+2060">
+      <comment>wj</comment>
+      <string>\u002060</string>
+    </test>
+    <test label="U+2074">
+      <comment>foursuperior</comment>
+      <string>\u002074</string>
+    </test>
+    <test label="U+20A8">
+      <comment>rupee</comment>
+      <string>\u0020A8</string>
+    </test>
+    <test label="U+20AC">
+      <comment>Euro</comment>
+      <string>\u0020AC</string>
+    </test>
+    <test label="U+20B9">
+      <comment>inrupee</comment>
+      <string>\u0020B9</string>
+    </test>
+    <test label="U+2122">
+      <comment>trademark</comment>
+      <string>\u002122</string>
+    </test>
+    <test label="U+2126">
+      <comment>Omega</comment>
+      <string>\u002126</string>
+    </test>
+    <test label="U+2202">
+      <comment>partialdiff</comment>
+      <string>\u002202</string>
+    </test>
+    <test label="U+2206">
+      <comment>Delta</comment>
+      <string>\u002206</string>
+    </test>
+    <test label="U+220F">
+      <comment>product</comment>
+      <string>\u00220F</string>
+    </test>
+    <test label="U+2211">
+      <comment>summation</comment>
+      <string>\u002211 \u002212</string>
+    </test>
+    <test label="U+2219">
+      <comment>bulletoperator</comment>
+      <string>\u002219 \u00221A</string>
+    </test>
+    <test label="U+221E">
+      <comment>infinity</comment>
+      <string>\u00221E</string>
+    </test>
+    <test label="U+222B">
+      <comment>integral</comment>
+      <string>\u00222B</string>
+    </test>
+    <test label="U+2248">
+      <comment>approxequal</comment>
+      <string>\u002248</string>
+    </test>
+    <test label="U+2260">
+      <comment>notequal</comment>
+      <string>\u002260</string>
+    </test>
+    <test label="U+2264">
+      <comment>lessequal</comment>
+      <string>\u002264 \u002265</string>
+    </test>
+    <test label="U+2423">
+      <comment>openbox</comment>
+      <string>\u002423</string>
+    </test>
+    <test label="U+25CA">
+      <comment>lozenge</comment>
+      <string>\u0025CA</string>
+    </test>
+    <test label="U+25CC">
+      <comment>dottedcircle</comment>
+      <string>\u0025CC</string>
+    </test>
+    <test label="U+FB01">
+      <comment>fi</comment>
+      <string>\u00FB01 \u00FB02</string>
+    </test>
+    <test label="U+FE00">
+      <comment>VS1</comment>
+      <string>\u001901\u00FE00 \u001901\u00FE01 \u001901\u00FE02 \u001901\u00FE03 \u001901\u00FE04 \u001901\u00FE05 \u001901\u00FE06 \u001901\u00FE07 \u001901\u00FE08 \u001901\u00FE09 \u001901\u00FE0A \u001901\u00FE0B \u001901\u00FE0C \u001901\u00FE0D \u001901\u00FE0E \u001901\u00FE0F</string>
+    </test>
+    <test label="U+FEFF">
+      <comment>zwnbsp</comment>
+      <string>\u00FEFF</string>
+    </test>
+    <test label="U+FFFC">
+      <comment>ObjectReplChar</comment>
+      <string>\u00FFFC \u00FFFD</string>
+    </test>
+  </testgroup>
+  <testgroup label="Specials &amp; ligatures from glyph_data">
+    <test label="U+1900
+U+1922">
+      <comment>vowelcarrier-limb ukar-limb</comment>
+      <string>\u001900\u001922</string>
+    </test>
+    <test label="U+1901
+U+1922">
+      <comment>ka-limb ukar-limb</comment>
+      <string>\u001901\u001922</string>
+    </test>
+    <test label="U+1901
+U+192A
+U+1922">
+      <comment>ka-limb subra-limb ukar-limb</comment>
+      <string>\u001901\u00192A\u001922</string>
+    </test>
+    <test label="U+1902
+U+1922">
+      <comment>kha-limb ukar-limb</comment>
+      <string>\u001902\u001922</string>
+    </test>
+    <test label="U+1902
+U+192A
+U+1922">
+      <comment>kha-limb subra-limb ukar-limb</comment>
+      <string>\u001902\u00192A\u001922</string>
+    </test>
+    <test label="U+1903
+U+1922">
+      <comment>ga-limb ukar-limb</comment>
+      <string>\u001903\u001922</string>
+    </test>
+    <test label="U+1903
+U+192A
+U+1922">
+      <comment>ga-limb subra-limb ukar-limb</comment>
+      <string>\u001903\u00192A\u001922</string>
+    </test>
+    <test label="U+1904
+U+1922">
+      <comment>gha-limb ukar-limb</comment>
+      <string>\u001904\u001922</string>
+    </test>
+    <test label="U+1904
+U+192A
+U+1922">
+      <comment>gha-limb subra-limb ukar-limb</comment>
+      <string>\u001904\u00192A\u001922</string>
+    </test>
+    <test label="U+1905
+U+1922">
+      <comment>nga-limb ukar-limb</comment>
+      <string>\u001905\u001922</string>
+    </test>
+    <test label="U+1905
+U+192A
+U+1922">
+      <comment>nga-limb subra-limb ukar-limb</comment>
+      <string>\u001905\u00192A\u001922</string>
+    </test>
+    <test label="U+1906
+U+1922">
+      <comment>ca-limb ukar-limb</comment>
+      <string>\u001906\u001922</string>
+    </test>
+    <test label="U+1906
+U+192A
+U+1922">
+      <comment>ca-limb subra-limb ukar-limb</comment>
+      <string>\u001906\u00192A\u001922</string>
+    </test>
+    <test label="U+1907
+U+1922">
+      <comment>cha-limb ukar-limb</comment>
+      <string>\u001907\u001922</string>
+    </test>
+    <test label="U+1907
+U+192A
+U+1922">
+      <comment>cha-limb subra-limb ukar-limb</comment>
+      <string>\u001907\u00192A\u001922</string>
+    </test>
+    <test label="U+1908
+U+1922">
+      <comment>ja-limb ukar-limb</comment>
+      <string>\u001908\u001922</string>
+    </test>
+    <test label="U+1908
+U+192A
+U+1922">
+      <comment>ja-limb subra-limb ukar-limb</comment>
+      <string>\u001908\u00192A\u001922</string>
+    </test>
+    <test label="U+1909
+U+1922">
+      <comment>jha-limb ukar-limb</comment>
+      <string>\u001909\u001922</string>
+    </test>
+    <test label="U+1909
+U+192A
+U+1922">
+      <comment>jha-limb subra-limb ukar-limb</comment>
+      <string>\u001909\u00192A\u001922</string>
+    </test>
+    <test label="U+190A
+U+1922">
+      <comment>yan-limb ukar-limb</comment>
+      <string>\u00190A\u001922</string>
+    </test>
+    <test label="U+190A
+U+192A
+U+1922">
+      <comment>yan-limb subra-limb ukar-limb</comment>
+      <string>\u00190A\u00192A\u001922</string>
+    </test>
+    <test label="U+190B
+U+1922">
+      <comment>ta-limb ukar-limb</comment>
+      <string>\u00190B\u001922</string>
+    </test>
+    <test label="U+190B
+U+192A
+U+1922">
+      <comment>ta-limb subra-limb ukar-limb</comment>
+      <string>\u00190B\u00192A\u001922</string>
+    </test>
+    <test label="U+190C
+U+1922">
+      <comment>tha-limb ukar-limb</comment>
+      <string>\u00190C\u001922</string>
+    </test>
+    <test label="U+190C
+U+192A
+U+1922">
+      <comment>tha-limb subra-limb ukar-limb</comment>
+      <string>\u00190C\u00192A\u001922</string>
+    </test>
+    <test label="U+190D
+U+1922">
+      <comment>da-limb ukar-limb</comment>
+      <string>\u00190D\u001922</string>
+    </test>
+    <test label="U+190D
+U+192A
+U+1922">
+      <comment>da-limb subra-limb ukar-limb</comment>
+      <string>\u00190D\u00192A\u001922</string>
+    </test>
+    <test label="U+190E
+U+1922">
+      <comment>dha-limb ukar-limb</comment>
+      <string>\u00190E\u001922</string>
+    </test>
+    <test label="U+190E
+U+192A
+U+1922">
+      <comment>dha-limb subra-limb ukar-limb</comment>
+      <string>\u00190E\u00192A\u001922</string>
+    </test>
+    <test label="U+190F
+U+1922">
+      <comment>na-limb ukar-limb</comment>
+      <string>\u00190F\u001922</string>
+    </test>
+    <test label="U+190F
+U+192A
+U+1922">
+      <comment>na-limb subra-limb ukar-limb</comment>
+      <string>\u00190F\u00192A\u001922</string>
+    </test>
+    <test label="U+1910
+U+1922">
+      <comment>pa-limb ukar-limb</comment>
+      <string>\u001910\u001922</string>
+    </test>
+    <test label="U+1910
+U+192A
+U+1922">
+      <comment>pa-limb subra-limb ukar-limb</comment>
+      <string>\u001910\u00192A\u001922</string>
+    </test>
+    <test label="U+1911
+U+1922">
+      <comment>pha-limb ukar-limb</comment>
+      <string>\u001911\u001922</string>
+    </test>
+    <test label="U+1911
+U+192A
+U+1922">
+      <comment>pha-limb subra-limb ukar-limb</comment>
+      <string>\u001911\u00192A\u001922</string>
+    </test>
+    <test label="U+1912
+U+1922">
+      <comment>ba-limb ukar-limb</comment>
+      <string>\u001912\u001922</string>
+    </test>
+    <test label="U+1912
+U+192A
+U+1922">
+      <comment>ba-limb subra-limb ukar-limb</comment>
+      <string>\u001912\u00192A\u001922</string>
+    </test>
+    <test label="U+1913
+U+1922">
+      <comment>bha-limb ukar-limb</comment>
+      <string>\u001913\u001922</string>
+    </test>
+    <test label="U+1913
+U+192A
+U+1922">
+      <comment>bha-limb subra-limb ukar-limb</comment>
+      <string>\u001913\u00192A\u001922</string>
+    </test>
+    <test label="U+1914
+U+1922">
+      <comment>ma-limb ukar-limb</comment>
+      <string>\u001914\u001922</string>
+    </test>
+    <test label="U+1914
+U+192A
+U+1922">
+      <comment>ma-limb subra-limb ukar-limb</comment>
+      <string>\u001914\u00192A\u001922</string>
+    </test>
+    <test label="U+1915
+U+1922">
+      <comment>ya-limb ukar-limb</comment>
+      <string>\u001915\u001922</string>
+    </test>
+    <test label="U+1915
+U+192A
+U+1922">
+      <comment>ya-limb subra-limb ukar-limb</comment>
+      <string>\u001915\u00192A\u001922</string>
+    </test>
+    <test label="U+1916
+U+1922">
+      <comment>ra-limb ukar-limb</comment>
+      <string>\u001916\u001922</string>
+    </test>
+    <test label="U+1916
+U+192A
+U+1922">
+      <comment>ra-limb subra-limb ukar-limb</comment>
+      <string>\u001916\u00192A\u001922</string>
+    </test>
+    <test label="U+1917
+U+1922">
+      <comment>la-limb ukar-limb</comment>
+      <string>\u001917\u001922</string>
+    </test>
+    <test label="U+1917
+U+192A
+U+1922">
+      <comment>la-limb subra-limb ukar-limb</comment>
+      <string>\u001917\u00192A\u001922</string>
+    </test>
+    <test label="U+1918
+U+1922">
+      <comment>wa-limb ukar-limb</comment>
+      <string>\u001918\u001922</string>
+    </test>
+    <test label="U+1918
+U+192A
+U+1922">
+      <comment>wa-limb subra-limb ukar-limb</comment>
+      <string>\u001918\u00192A\u001922</string>
+    </test>
+    <test label="U+1919
+U+1922">
+      <comment>sha-limb ukar-limb</comment>
+      <string>\u001919\u001922</string>
+    </test>
+    <test label="U+1919
+U+192A
+U+1922">
+      <comment>sha-limb subra-limb ukar-limb</comment>
+      <string>\u001919\u00192A\u001922</string>
+    </test>
+    <test label="U+191A
+U+1922">
+      <comment>ssa-limb ukar-limb</comment>
+      <string>\u00191A\u001922</string>
+    </test>
+    <test label="U+191A
+U+192A
+U+1922">
+      <comment>ssa-limb subra-limb ukar-limb</comment>
+      <string>\u00191A\u00192A\u001922</string>
+    </test>
+    <test label="U+191B
+U+1922">
+      <comment>sa-limb ukar-limb</comment>
+      <string>\u00191B\u001922</string>
+    </test>
+    <test label="U+191B
+U+192A
+U+1922">
+      <comment>sa-limb subra-limb ukar-limb</comment>
+      <string>\u00191B\u00192A\u001922</string>
+    </test>
+    <test label="U+191C
+U+1922">
+      <comment>ha-limb ukar-limb</comment>
+      <string>\u00191C\u001922</string>
+    </test>
+    <test label="U+191C
+U+192A
+U+1922">
+      <comment>ha-limb subra-limb ukar-limb</comment>
+      <string>\u00191C\u00192A\u001922</string>
+    </test>
+    <test label="U+191D
+U+1922">
+      <comment>gyan-limb ukar-limb</comment>
+      <string>\u00191D\u001922</string>
+    </test>
+    <test label="U+191D
+U+192A
+U+1922">
+      <comment>gyan-limb subra-limb ukar-limb</comment>
+      <string>\u00191D\u00192A\u001922</string>
+    </test>
+    <test label="U+191E
+U+1922">
+      <comment>tra-limb ukar-limb</comment>
+      <string>\u00191E\u001922</string>
+    </test>
+    <test label="U+191E
+U+192A
+U+1922">
+      <comment>tra-limb subra-limb ukar-limb</comment>
+      <string>\u00191E\u00192A\u001922</string>
+    </test>
+    <test label="U+1921
+U+193A">
+      <comment>ikar-limb kemphreng-limb</comment>
+      <string>\u001901\u001921\u00193A</string>
+    </test>
+    <test label="U+1923
+U+193A">
+      <comment>eekar-limb kemphreng-limb</comment>
+      <string>\u001923\u00193A</string>
+    </test>
+    <test label="U+1924
+U+193A">
+      <comment>aikar-limb kemphreng-limb</comment>
+      <string>\u001924\u00193A</string>
+    </test>
+    <test label="U+1929
+U+1920">
+      <comment>subya-limb akar-limb</comment>
+      <string>\u001929\u001920</string>
+    </test>
+    <test label="U+1929
+U+1920
+U+193A">
+      <comment>subya-limb akar-limb kemphreng-limb</comment>
+      <string>\u001929\u001920\u00193A</string>
+    </test>
+    <test label="U+1929
+U+1922">
+      <comment>subya-limb ukar-limb</comment>
+      <string>\u001929\u001922</string>
+    </test>
+    <test label="U+1929
+U+1922
+U+193A">
+      <comment>subya-limb ukar-limb kemphreng-limb</comment>
+      <string>\u001929\u001922\u00193A</string>
+    </test>
+    <test label="U+1929
+U+1927">
+      <comment>subya-limb ekar-limb</comment>
+      <string>\u001929\u001927</string>
+    </test>
+    <test label="U+1929
+U+1927
+U+193A">
+      <comment>subya-limb ekar-limb kemphreng-limb</comment>
+      <string>\u001929\u001927\u00193A</string>
+    </test>
+    <test label="U+1929
+U+1928">
+      <comment>subya-limb okar-limb</comment>
+      <string>\u001929\u001928</string>
+    </test>
+    <test label="U+1929
+U+1928
+U+193A">
+      <comment>subya-limb okar-limb kemphreng-limb</comment>
+      <string>\u001929\u001928\u00193A</string>
+    </test>
+    <test label="U+1929
+U+193A">
+      <comment>subya-limb kemphreng-limb</comment>
+      <string>\u001929\u00193A</string>
+    </test>
+    <test label="U+192A
+U+1922">
+      <comment>subra-limb ukar-limb</comment>
+      <string>\u00192A\u001922</string>
+    </test>
+    <test label="U+192B
+U+1920">
+      <comment>subwa-limb akar-limb</comment>
+      <string>\u00192B\u001920</string>
+    </test>
+    <test label="U+192B
+U+1920
+U+193A">
+      <comment>subwa-limb akar-limb kemphreng-limb</comment>
+      <string>\u00192B\u001920\u00193A</string>
+    </test>
+    <test label="U+192B
+U+1922">
+      <comment>subwa-limb ukar-limb</comment>
+      <string>\u00192B\u001922</string>
+    </test>
+    <test label="U+192B
+U+1922
+U+193A">
+      <comment>subwa-limb ukar-limb kemphreng-limb</comment>
+      <string>\u00192B\u001922\u00193A</string>
+    </test>
+    <test label="U+192B
+U+1927">
+      <comment>subwa-limb ekar-limb</comment>
+      <string>\u00192B\u001927</string>
+    </test>
+    <test label="U+192B
+U+1927
+U+193A">
+      <comment>subwa-limb ekar-limb kemphreng-limb</comment>
+      <string>\u00192B\u001927\u00193A</string>
+    </test>
+    <test label="U+192B
+U+1928">
+      <comment>subwa-limb okar-limb</comment>
+      <string>\u00192B\u001928</string>
+    </test>
+    <test label="U+192B
+U+1928
+U+193A">
+      <comment>subwa-limb okar-limb kemphreng-limb</comment>
+      <string>\u00192B\u001928\u00193A</string>
+    </test>
+    <test label="U+192B
+U+193A">
+      <comment>subwa-limb kemphreng-limb</comment>
+      <string>\u00192B\u00193A</string>
+    </test>
+  </testgroup>
+</ftml>
