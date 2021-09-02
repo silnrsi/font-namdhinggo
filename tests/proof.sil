@@ -19,9 +19,10 @@
 \patterngroup[name="matras"]{ᤠᤡᤢᤣᤤᤥᤦᤧᤨ}
 \patterngroup[name="subjoin"]{ᤩᤪᤫ}
 \patterngroup[name="kemphreng"]{᤺}
+\pattern[chars="C",reps="group_cons",format="list",heading="Consonants in Frames"]{ᤀCᤀCᤖCᤖCᤜCᤜCᤐCᤐCᤒCᤒCᤀ}
 \pattern[chars="C,M",reps="group_cons,group_matras",heading=Cons+Matras]{CM}
 \pattern[chars="C,M,K",reps="group_cons,group_matras,group_kemphreng",heading=Cons+Matras+Length]{CMK}
-\pattern[chars="C,S,M",reps="group_cons,group_subjoin,group_matras",heading=Cons+Subjoin+Matras+Length]{CSM}
+\pattern[chars="C,S,M",reps="group_cons,group_subjoin,group_matras",heading=Cons+Subjoin+Matras]{CSM}
 \pattern[chars="C,S,M,K",reps="group_cons,group_subjoin,group_matras,group_kemphreng",heading=Cons+Subjoin+Matras+Length]{CSMK}
 \pattern[chars="C,C",reps="group_cons,group_cons",heading=Cons+I+Length+Cons+A]{Cᤡ᤺Cᤠ}
 
