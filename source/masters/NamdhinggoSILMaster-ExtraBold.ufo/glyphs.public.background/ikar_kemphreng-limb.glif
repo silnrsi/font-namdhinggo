@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ikar_kemphreng-limb" format="2">
+  <outline>
+    <contour>
+      <point x="176" y="970" type="line"/>
+      <point x="150" y="942"/>
+      <point x="33" y="851"/>
+      <point x="7" y="830" type="curve"/>
+      <point x="46" y="785" type="line"/>
+      <point x="459" y="785" type="line"/>
+      <point x="508" y="810"/>
+      <point x="601" y="883"/>
+      <point x="635" y="919" type="curve"/>
+      <point x="600" y="970" type="line"/>
+    </contour>
+  </outline>
+</glyph>

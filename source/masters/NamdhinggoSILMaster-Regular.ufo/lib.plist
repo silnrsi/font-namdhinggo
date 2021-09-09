@@ -15,9 +15,9 @@
 /kha-limb/jha-limb/pha-limb/pa-limb/sha-limb/ma-limb/yan-limb/da-limb/ssa-limb 
 /wa-limb/ka-limb/na-limb/tha-limb/gha-limb/vowelcarrier-limb/ta-limb/ga-limb/ha-limb/ya-limb/tra-limb/gyan-limb 
 /space/subra_ukar-limb/space/ukar-limb/nga_ukar-limb/cha_subra_ukar-limb/ja_ukar-limb/dha_subra_ukar-limb/bha_ukar-limb/ra_ukar-limb/sa_subra_ukar-limb</string>
-    <string>/akar-limb/space/space/akar-limb.widC/space/space/akar-limb.widD/eekar-limb/aikar-limb/space/ekar-limb/space/okar-limb/space/subya-limb/space/subwa-limb/space/kemphreng-limb/space/kemphreng-limb.widC</string>
-    <string>/akar-limb/space/space/akar-limb.widC/space/space/akar-limb.widD/space/ikar-limb/space/ikar_kemphreng-limb/space/ukar-limb/space/ukar-limb.altA/space/ukar-limb.altB/space/ukar-limb.altC/space/eekar-limb/space/eekar_kemphreng-limb/space/aikar-limb/space/aikar_kemphreng-limb/space/ookar-limb/space/aukar-limb/space/ekar-limb/space/okar-limb/space/subya-limb/space/subya_akar-limb/space/subya_akar_kemphreng-limb/space/subya_ukar-limb/space/subya_ukar_kemphreng-limb/space/subya_ekar-limb/space/subya_ekar_kemphreng-limb/space/subya_okar-limb/space/subya_okar_kemphreng-limb/space/subya_kemphreng-limb/space/subra-limb/space/space/subra_ukar-limb/space/subwa-limb/space/subwa_akar-limb/space/subwa_akar_kemphreng-limb/space/subwa_ukar-limb/space/subwa_ukar_kemphreng-limb/space/subwa_ekar-limb/space/subwa_ekar_kemphreng-limb/space/subwa_okar-limb/space/subwa_okar_kemphreng-limb/space/subwa_kemphreng-limb/space/smallka-limb/space/smallnga-limb/space/smallanusvara-limb/space/smallta-limb/space/smallna-limb/space/la-limb/space/smallpa-limb/space/smallma-limb/smallra-limb/smallla-limb/mukphreng-limb/space/kemphreng-limb/space/kemphreng-limb.widC</string>
+    <string>/akar-limb/space/space/akar-limb.widC/space/space/akar-limb.widD/ra-limb/ikar-limb/smallta-limb/bha-limb/ikar_kemphreng-limb/space/ukar-limb/space/ukar-limb.altA/space/ukar-limb.altB/space/ukar-limb.altC/space/sa-limb/eekar-limb/ga-limb/eekar-limb/space/eekar_kemphreng-limb/ha-limb/aikar-limb/space/aikar_kemphreng-limb/space/space/ookar-limb/space/aukar-limb/space/ekar-limb/space/okar-limb/space/subya-limb/space/subya_akar-limb/space/subya_akar_kemphreng-limb/space/subya_ukar-limb/space/subya_ukar_kemphreng-limb/space/subya_ekar-limb/space/subya_ekar_kemphreng-limb/space/subya_okar-limb/space/subya_okar_kemphreng-limb/space/subya_kemphreng-limb/space/subra-limb/space/space/subra_ukar-limb/space/subwa-limb/space/subwa_akar-limb/space/subwa_akar_kemphreng-limb/space/subwa_ukar-limb/space/subwa_ukar_kemphreng-limb/space/subwa_ekar-limb/space/subwa_ekar_kemphreng-limb/space/subwa_okar-limb/space/subwa_okar_kemphreng-limb/space/subwa_kemphreng-limb/space/ikar-limb/smallka-limb/space/bha-limb/ikar_kemphreng-limb/smallka-limb/vowelcarrier-limb/smallka-limb/space/smallnga-limb/space/smallanusvara-limb/space/smallta-limb/space/ikar-limb/smallna-limb/space/smallna-limb/space/la-limb/space/smallpa-limb/space/smallma-limb/smallra-limb/smallla-limb/mukphreng-limb/space/kemphreng-limb/space/kemphreng-limb.widC</string>
     <string>/loo-limb/exclam-limb/question-limb/zero-limb/one-limb/two-limb/three-limb/four-limb/five-limb/six-limb/seven-limb/eight-limb/nine-limb</string>
+    <string>/aikar_kemphreng-limb</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
@@ -490,19 +490,25 @@
     <string>bullet</string>
     <string>ellipsis</string>
     <string>hyphenpoint</string>
+    <string>lineseparator</string>
+    <string>paraseparator</string>
     <string>nnbsp</string>
     <string>perthousand</string>
     <string>guilsinglleft</string>
     <string>guilsinglright</string>
     <string>fraction</string>
     <string>wj</string>
+    <string>foursuperior</string>
+    <string>rupee</string>
     <string>Euro</string>
+    <string>inrupee</string>
     <string>trademark</string>
     <string>Omega</string>
     <string>partialdiff</string>
     <string>Delta</string>
     <string>product</string>
     <string>summation</string>
+    <string>minus</string>
     <string>bulletoperator</string>
     <string>radical</string>
     <string>infinity</string>
@@ -511,6 +517,7 @@
     <string>notequal</string>
     <string>lessequal</string>
     <string>greaterequal</string>
+    <string>openbox</string>
     <string>lozenge</string>
     <string>dottedcircle</string>
     <string>fi</string>
@@ -671,6 +678,8 @@
     <string>uniFB02</string>
     <key>four-limb</key>
     <string>uni194A</string>
+    <key>foursuperior</key>
+    <string>uni2074</string>
     <key>ga-limb</key>
     <string>uni1903</string>
     <key>ga_subra_ukar-limb</key>
@@ -705,6 +714,8 @@
     <string>uni1921</string>
     <key>ikar_kemphreng-limb</key>
     <string>uni1921193A</string>
+    <key>inrupee</key>
+    <string>uni20B9</string>
     <key>ja-limb</key>
     <string>uni1908</string>
     <key>ja_subra_ukar-limb</key>
@@ -739,6 +750,8 @@
     <string>uni1917192A1922</string>
     <key>la_ukar-limb</key>
     <string>uni19171922</string>
+    <key>lineseparator</key>
+    <string>uni2028</string>
     <key>loo-limb</key>
     <string>uni1940</string>
     <key>ma-limb</key>
@@ -777,12 +790,16 @@
     <string>uni00B9</string>
     <key>ookar-limb</key>
     <string>uni1925</string>
+    <key>openbox</key>
+    <string>uni2423</string>
     <key>pa-limb</key>
     <string>uni1910</string>
     <key>pa_subra_ukar-limb</key>
     <string>uni1910192A1922</string>
     <key>pa_ukar-limb</key>
     <string>uni19101922</string>
+    <key>paraseparator</key>
+    <string>uni2029</string>
     <key>pha-limb</key>
     <string>uni1911</string>
     <key>pha_subra_ukar-limb</key>
@@ -797,6 +814,8 @@
     <string>uni1916192A1922</string>
     <key>ra_ukar-limb</key>
     <string>uni19161922</string>
+    <key>rupee</key>
+    <string>uni20A8</string>
     <key>sa-limb</key>
     <string>uni191B</string>
     <key>sa_subra_ukar-limb</key>
