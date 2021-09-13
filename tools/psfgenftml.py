@@ -47,6 +47,7 @@ def doit(args):
     matras = [uid for uid in uids if 'VOWEL SIGN' in get_ucd(uid, 'na')]
     glides = [uid for uid in uids if 'SUBJOINED' in get_ucd(uid, 'na')]
     finals = [uid for uid in uids if 'LIMBU SMALL' in get_ucd(uid, 'na')]
+    digits = [uid for uid in uids if builder.char(uid).general == 'Nd' and uid in block]
 
     k = 0x193A  # Kemphreng
     ukar = matras[2]
@@ -112,6 +113,21 @@ def doit(args):
                     builder.render(special.uids, ftml)
                     ftml.closeTest()
                 ftml.clearLang()
+
+        # Characters used to create SILE test data
+        ftml.startTestGroup('Proof')
+        for uid in consonants:
+            builder.render((uid,), ftml)
+        ftml.closeTest()
+        for uid in matras:
+            builder.render((uid,), ftml)
+        ftml.closeTest()
+        for uid in glides:
+            builder.render((uid,), ftml)
+        ftml.closeTest()
+        for uid in digits:
+            builder.render((uid,), ftml)
+        ftml.closeTest()
 
     if test.lower().startswith("diac"):
         # Diac attachment:

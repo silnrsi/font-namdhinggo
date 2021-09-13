@@ -24,7 +24,12 @@
 \pattern[chars="C,M,K",reps="group_cons,group_matras,group_kemphreng",heading=Cons+Matras+Length]{CMK}
 \pattern[chars="C,S,M",reps="group_cons,group_subjoin,group_matras",heading=Cons+Subjoin+Matras]{CSM}
 \pattern[chars="C,S,M,K",reps="group_cons,group_subjoin,group_matras,group_kemphreng",heading=Cons+Subjoin+Matras+Length]{CSMK}
-\pattern[chars="C,C",reps="group_cons,group_cons",heading=Cons+I+Length+Cons+A]{Cᤡ᤺Cᤠ}
+
+\subsection{Kerning between ikar with kemphreng and akar}
+
+\patterngroup[name="sortedcons"]{ᤚᤉᤋᤄᤕᤃᤁᤏᤖᤎᤞᤘᤍᤆᤒᤔᤝᤜᤗᤌᤙᤈᤇᤓᤊᤛᤅᤂᤐᤑ}
+\pattern[chars="@",reps="group_sortedcons",heading="Sorted by consonants' U AP x coordinate"]{ᤁᤡ᤺@ᤠ}
+\pattern[chars="C,C",reps="group_cons,group_cons",heading="The marks in a frame"]{Cᤡ᤺Cᤠ}
 
 \subsection{Digits}
 

@@ -675,4 +675,22 @@ U+193A">
       <string>\u00192B\u00193A</string>
     </test>
   </testgroup>
+  <testgroup label="Proof">
+    <test label="U+1900">
+      <comment>vowelcarrier-limb</comment>
+      <string>\u001900 \u001901 \u001902 \u001903 \u001904 \u001905 \u001906 \u001907 \u001908 \u001909 \u00190A \u00190B \u00190C \u00190D \u00190E \u00190F \u001910 \u001911 \u001912 \u001913 \u001914 \u001915 \u001916 \u001917 \u001918 \u001919 \u00191A \u00191B \u00191C \u00191D \u00191E</string>
+    </test>
+    <test label="U+1920">
+      <comment>akar-limb</comment>
+      <string>\u001901\u001920 \u001901\u001921 \u001901\u001922 \u001923 \u001924 \u001925 \u001926 \u001901\u001927 \u001901\u001928</string>
+    </test>
+    <test label="U+1929">
+      <comment>subya-limb</comment>
+      <string>\u001929 \u00192A \u00192B</string>
+    </test>
+    <test label="U+1946">
+      <comment>zero-limb</comment>
+      <string>\u001946 \u001947 \u001948 \u001949 \u00194A \u00194B \u00194C \u00194D \u00194E \u00194F</string>
+    </test>
+  </testgroup>
 </ftml>
