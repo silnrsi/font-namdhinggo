@@ -8,6 +8,7 @@ __author__ = 'Bob Hallissy'
 import re
 from silfont.core import execute
 import silfont.ftml_builder as FB
+from palaso.unicode.ucd import get_ucd
 
 argspec = [
     ('ifont', {'help': 'Input UFO'}, {'type': 'infont'}),
@@ -36,6 +37,19 @@ def doit(args):
 
     # Override default base (25CC) for displaying combining marks:
     builder.diacBase = 0x1901   # ka
+
+    # Specify block of primary script
+    block = range(0x1900, 0x194F+1)
+
+    # Useful ranges of codepoints
+    uids = sorted(builder.uids())
+    consonants = [uid for uid in uids if builder.char(uid).general == 'Lo' and uid in block]
+    matras = [uid for uid in uids if 'VOWEL SIGN' in get_ucd(uid, 'na')]
+    glides = [uid for uid in uids if 'SUBJOINED' in get_ucd(uid, 'na')]
+    finals = [uid for uid in uids if 'LIMBU SMALL' in get_ucd(uid, 'na')]
+
+    k = 0x193A  # Kemphreng
+    ukar = matras[2]
 
     # Initialize FTML document:
     # Default name for test: AllChars or something based on the csvdata file:
@@ -67,7 +81,7 @@ def doit(args):
     if test.lower().startswith("allchars"):
         # all chars that should be in the font:
         ftml.startTestGroup('Encoded characters')
-        for uid in sorted(builder.uids()):
+        for uid in uids:
             if uid < 32: continue
             c = builder.char(uid)
             # iterate over all permutations of feature settings that might affect this character:
@@ -107,9 +121,9 @@ def doit(args):
         repBase = list(filter(lambda x: x in builder.uids(), (0x1901, 0x1900, 0x191D, 0x191E)))
 
         ftml.startTestGroup('Representative diacritics on all bases that take diacritics')
-        for uid in sorted(builder.uids()):
+        for uid in uids:
             # ignore bases outside of the primary script:
-            if uid < 0x1900 or uid > 0x194F: continue
+            if uid not in block: continue
             c = builder.char(uid)
             # Always process Lo, but others only if that take marks:
             if c.general == 'Lo' or c.isBase:
@@ -122,9 +136,9 @@ def doit(args):
                 ftml.closeTest()
 
         ftml.startTestGroup('All diacritics on representative bases')
-        for uid in sorted(builder.uids()):
+        for uid in uids:
             # ignore marks outside of the primary script:
-            if uid < 0x1900 or uid in range(0xFE00, 0xFE10): continue
+            if uid not in block: continue
             c = builder.char(uid)
             if c.general == 'Mn':
                 for base in repBase:
@@ -133,6 +147,34 @@ def doit(args):
                         builder.render((base,uid), ftml, keyUID = uid, addBreaks = False)
                     ftml.clearFeatures()
                 ftml.closeTest()
+
+    if test.lower().startswith("matras"):
+        # Combinations with matras:
+
+        ftml.startTestGroup('Consonants with vowels or Kemphreng')
+        for c in consonants:
+            for m in matras + [k]:
+                builder.render((c,m), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
+            ftml.closeTest()
+
+        ftml.startTestGroup('Consonants with vowels and kemphreng')
+        for c in consonants:
+            for m in matras:
+                builder.render((c,m,k), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
+            ftml.closeTest()
+
+        ftml.startTestGroup('Consonants with glide + Ukar + Kemphreng')
+        for c in consonants:
+            for g in glides:
+                builder.render((c,g,ukar,k), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
+            ftml.closeTest()
+
+        ftml.startTestGroup('Consonants with Vowels + (Kemphreng) + small final')
+        for c in consonants:
+            for m in matras:
+                for f in finals:
+                    builder.render((c,m,f,c,m,k,f), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
+            ftml.closeTest()
 
     # Write the output ftml file
     ftml.writeFile(args.output)

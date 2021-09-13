@@ -11,7 +11,7 @@ then
 fi
 
 # configure tests
-tests="AllChars Diac"
+tests="AllChars Diac Matras"
 urls='url(../references/NamdhinggoSIL-Regular.ttf)=RefRegular url(../results/NamdhinggoSIL-Regular.ttf)=Regular url(../results/NamdhinggoSILBook-Regular.ttf)=BookRegular url(../results/NamdhinggoSILBook-Bold.ttf)=Bold url(../results/NamdhinggoSILBook-Bold.ttf)=BookBold'
 ufo='source/masters/NamdhinggoSILMaster-Regular.ufo'
 
