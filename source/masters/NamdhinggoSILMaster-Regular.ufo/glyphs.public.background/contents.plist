@@ -4,8 +4,12 @@
 <dict>
   <key>ca-limb</key>
   <string>ca-limb.glif</string>
+  <key>ka_ukar-limb</key>
+  <string>ka_ukar-limb.glif</string>
   <key>ta-limb</key>
   <string>ta-limb.glif</string>
+  <key>ta_ukar-limb</key>
+  <string>ta_ukar-limb.glif</string>
   <key>ukar-limb</key>
   <string>ukar-limb.glif</string>
   <key>ukar-limb.altA</key>
