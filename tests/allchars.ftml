@@ -167,6 +167,10 @@
       <comment>summation</comment>
       <string>\u002211 \u002212</string>
     </test>
+    <test label="U+2215">
+      <comment>divisionslash</comment>
+      <string>\u002215</string>
+    </test>
     <test label="U+2219">
       <comment>bulletoperator</comment>
       <string>\u002219 \u00221A</string>
