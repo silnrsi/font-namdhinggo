@@ -10,6 +10,8 @@ FAMILY = APPNAME
 getufoinfo('source/masters/' + FAMILY  + 'Master-Regular.ufo')
 # BUILDLABEL = 'beta1'
 
+TEXTSIZE = 16
+
 # Set up the FTML tests
 ftmlTest('tools/ftml-smith.xsl')
 
