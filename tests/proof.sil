@@ -15,7 +15,9 @@
 
 \proof{ᤀᤁᤂᤃᤄᤅᤆᤇᤈᤉᤊᤋᤌᤍᤎᤏᤐᤑᤒᤓᤔᤕᤖᤗᤘᤙᤚᤛᤜᤝᤞ}
 
-\patterngroup[name="cons"]{ᤀᤁᤂᤃᤄᤅᤆᤇᤈᤉᤊᤋᤌᤍᤎᤏᤐᤑᤒᤓᤔᤕᤖᤗᤘᤙᤚᤛᤜᤝᤞ}
+\patterngroup[name="cons"]{ᤀᤁᤂᤃᤄᤅᤆᤇᤈᤉᤊᤋᤌᤍᤎ}
+\patterngroup[name="cons2"]{ᤏᤐᤑᤒᤓᤔᤕᤖᤗ}
+\patterngroup[name="cons3"]{ᤘᤙᤚᤛᤜᤝᤞ}
 \patterngroup[name="matras"]{ᤠᤡᤢᤣᤤᤥᤦᤧᤨ}
 \patterngroup[name="subjoin"]{ᤩᤪᤫ}
 \patterngroup[name="kemphreng"]{᤺}
@@ -31,7 +33,11 @@
 
 \patterngroup[name="sortedcons"]{ᤚᤉᤋᤄᤕᤃᤁᤏᤖᤎᤞᤘᤍᤆᤒᤔᤝᤜᤗᤌᤙᤈᤇᤓᤊᤛᤅᤂᤐᤑ}
 \pattern[chars="@",reps="group_sortedcons",heading="Sorted by consonants' U AP x coordinate"]{ᤁᤡ᤺@ᤠ}
-\pattern[chars="C,C",reps="group_cons,group_cons",format="para",heading="The marks in a frame"]{Cᤡ᤺Cᤠ}
+\pattern[chars="C,C",reps="group_cons,group_cons",format="list",heading="The first set of marks in a frame"]{Cᤡ᤺Cᤠ}
+
+\pattern[chars="C,C",reps="group_cons2,group_cons2",format="list",heading="The second set of marks in a frame"]{Cᤡ᤺Cᤠ}
+
+\pattern[chars="C,C",reps="group_cons3,group_cons3",format="list",heading="The second set of marks in a frame"]{Cᤡ᤺Cᤠ}
 
 \subsection{Digits}
 
