@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kemphreng-limb" format="2">
   <unicode hex="193A"/>
-  <anchor x="-260" y="1250" name="_K"/>
+  <anchor x="-260" y="1220" name="_K"/>
   <outline>
     <contour>
       <point x="-519" y="1387" type="curve" smooth="yes"/>

@@ -4,21 +4,21 @@
   <unicode hex="1939"/>
   <outline>
     <contour>
-      <point x="6" y="36" type="curve"/>
-      <point x="-10" y="-79"/>
-      <point x="-47" y="-185"/>
-      <point x="-109" y="-256" type="curve" smooth="yes"/>
-      <point x="-112" y="-259"/>
-      <point x="-57" y="-310"/>
-      <point x="-50" y="-310" type="curve"/>
-      <point x="75" y="-195"/>
-      <point x="246" y="6"/>
-      <point x="265" y="108" type="curve"/>
-      <point x="254" y="121"/>
-      <point x="225" y="154"/>
-      <point x="214" y="164" type="curve"/>
-      <point x="161" y="131"/>
-      <point x="47" y="67"/>
+      <point x="-10" y="46" type="curve"/>
+      <point x="-10" y="-69"/>
+      <point x="-33" y="-175"/>
+      <point x="-95" y="-266" type="curve"/>
+      <point x="-88" y="-280"/>
+      <point x="-37" y="-320"/>
+      <point x="-30" y="-320" type="curve"/>
+      <point x="95" y="-205"/>
+      <point x="246" y="-2"/>
+      <point x="255" y="120" type="curve"/>
+      <point x="244" y="133"/>
+      <point x="216" y="166"/>
+      <point x="205" y="176" type="curve"/>
+      <point x="152" y="143"/>
+      <point x="31" y="67"/>
     </contour>
   </outline>
 </glyph>

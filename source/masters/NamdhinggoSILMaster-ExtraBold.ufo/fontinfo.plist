@@ -15,7 +15,7 @@ with Reserved Font Names "Namdhinggo" and "SIL".
   <key>familyName</key>
   <string>Namdhinggo SIL Master</string>
   <key>openTypeHeadCreated</key>
-  <string>2021/09/13 11:51:17</string>
+  <string>2021/09/21 11:37:38</string>
   <key>openTypeHheaAscender</key>
   <integer>1600</integer>
   <key>openTypeHheaDescender</key>
@@ -258,7 +258,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>versionMajor</key>
   <integer>2</integer>
   <key>versionMinor</key>
-  <integer>202</integer>
+  <integer>203</integer>
   <key>xHeight</key>
   <integer>500</integer>
 </dict>
