@@ -3,5 +3,5 @@
 echo "make backup of current glyphs file"
 cp -v source/masters/NamdhinggoSIL.glyphs "source/masters/NamdhinggoSIL-`date +%Y-%m-%d-%Hh%Mm%Ss`.glyphs"
 
-echo "Generating UFOs from current glyphs file"
+echo "Generating new glyphs file (overwriting the current one)"
 psfufo2glyphs source/NamdhinggoSIL.designspace source/masters/NamdhinggoSIL.glyphs
