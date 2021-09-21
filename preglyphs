@@ -1,7 +1,11 @@
 #!/bin/sh
 
-echo "make backup of current glyphs file"
-cp -v source/masters/NamdhinggoSIL.glyphs "source/masters/NamdhinggoSIL-`date +%Y-%m-%d-%Hh%Mm%Ss`.glyphs"
+# Is the current glyphs file newer than the canonical UFOs?
+if [ source/masters/NamdhinggoSIL.glyphs -nt source/masters/NamdhinggoSILMaster-Regular.ufo/fontinfo.plist ]
+then
+	echo "Making backup of current glyphs file as it is newer than the UFOs"
+	cp -v source/masters/NamdhinggoSIL.glyphs "source/masters/NamdhinggoSIL-`date +%Y-%m-%d-%Hh%Mm%Ss`.glyphs"
+fi
 
 echo "Generating new glyphs file (overwriting the current one)"
 psfufo2glyphs source/NamdhinggoSIL.designspace source/masters/NamdhinggoSIL.glyphs
