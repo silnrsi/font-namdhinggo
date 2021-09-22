@@ -18,7 +18,7 @@
         </axis>
     </axes>
     <sources>
-        <source familyname="Namdhinggo SIL Master" filename="masters/NamdhinggoSILMaster-Regular.ufo" name="Namdhinggo SIL Regular" stylename="Regular">
+        <source familyname="Namdhinggo" filename="masters/Namdhinggo-Regular.ufo" name="Namdhinggo Regular" stylename="Regular">
             <lib copy="1" />
             <groups copy="1" />
             <features copy="1" />
@@ -29,7 +29,7 @@
                 <dimension name="custom" xvalue="0.000000" />
             </location>
         </source>
-        <source familyname="Namdhinggo SIL Master" filename="masters/NamdhinggoSILMaster-ExtraBold.ufo" name="Namdhinggo SIL Extra Bold" stylename="Extra Bold">
+        <source familyname="Namdhinggo" filename="masters/Namdhinggo-ExtraBold.ufo" name="Namdhinggo Extra Bold" stylename="Extra Bold">
             <location>
                 <dimension name="weight" xvalue="800.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -38,7 +38,7 @@
         </source>
     </sources>
     <instances>
-        <instance familyname="Namdhinggo" filename="instances/Namdhinggo-Regular.ufo" name="Namdhinggo Regular" stylemapfamilyname="Namdhinggo" stylemapstylename="regular" stylename="Regular" postscriptfontname="Namdhinggo-Regular">
+        <instance familyname="Namdhinggo" filename="instances/Namdhinggo-Regular.ufo" name="Namdhinggo Regular" stylename="Regular" postscriptfontname="Namdhinggo-Regular">
             <location>
                 <dimension name="weight" xvalue="400.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -47,7 +47,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Namdhinggo" filename="instances/Namdhinggo-Medium.ufo" name="Namdhinggo Medium" stylemapfamilyname="Namdhinggo" stylemapstylename="medium" stylename="Medium" postscriptfontname="Namdhinggo-Medium">
+        <instance familyname="Namdhinggo" filename="instances/Namdhinggo-Medium.ufo" name="Namdhinggo Medium" stylename="Medium" postscriptfontname="Namdhinggo-Medium">
             <location>
                 <dimension name="weight" xvalue="500.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -56,7 +56,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Namdhinggo" filename="instances/Namdhinggo-Bold.ufo" name="Namdhinggo Bold" stylemapfamilyname="Namdhinggo" stylemapstylename="bold" stylename="Bold" postscriptfontname="Namdhinggo-Bold">
+        <instance familyname="Namdhinggo" filename="instances/Namdhinggo-Bold.ufo" name="Namdhinggo Bold" stylename="Bold" postscriptfontname="Namdhinggo-Bold">
             <location>
                 <dimension name="weight" xvalue="700.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -65,7 +65,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Namdhinggo" filename="instances/Namdhinggo-ExtraBold.ufo" name="Namdhinggo Extra Bold" stylemapfamilyname="Namdhinggo" stylemapstylename="extrabold" stylename="Extra Bold"  postscriptfontname="Namdhinggo-ExtraBold">
+        <instance familyname="Namdhinggo" filename="instances/Namdhinggo-ExtraBold.ufo" name="Namdhinggo Extra Bold" stylename="ExtraBold" postscriptfontname="Namdhinggo-ExtraBold">
             <location>
                 <dimension name="weight" xvalue="800.000000" />
                 <dimension name="width" xvalue="100.000000" />
