@@ -2,10 +2,8 @@
 <glyph name="tra_ukar-limb" format="2">
   <advance width="1099"/>
   <anchor x="520" y="1050" name="K"/>
-  <anchor x="510" y="-100" name="L"/>
   <anchor x="770" y="1050" name="O"/>
   <anchor x="510" y="1050" name="U"/>
-  <anchor x="900" y="50" name="V"/>
   <outline>
     <contour>
       <point x="189" y="970" type="line"/>
