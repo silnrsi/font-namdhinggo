@@ -526,6 +526,8 @@
     <string>openbox</string>
     <string>lozenge</string>
     <string>dottedcircle</string>
+    <string>sidebearingleft</string>
+    <string>sidebearingright</string>
     <string>fi</string>
     <string>fl</string>
     <string>VS1</string>
@@ -846,6 +848,10 @@
     <string>uni1919192A1922</string>
     <key>sha_ukar-limb</key>
     <string>uni19191922</string>
+    <key>sidebearingleft</key>
+    <string>uniF130</string>
+    <key>sidebearingright</key>
+    <string>uniF131</string>
     <key>six-limb</key>
     <string>uni194C</string>
     <key>smallanusvara-limb</key>

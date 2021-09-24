@@ -207,6 +207,10 @@
       <comment>dottedcircle</comment>
       <string>\u0025CC</string>
     </test>
+    <test label="U+F130">
+      <comment>sidebearingleft</comment>
+      <string>\u00F130 \u00F131</string>
+    </test>
     <test label="U+FB01">
       <comment>fi</comment>
       <string>\u00FB01 \u00FB02</string>
