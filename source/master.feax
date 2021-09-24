@@ -132,15 +132,13 @@ lookup IkarK {
     sub ikar-limb kemphreng-limb by ikar_kemphreng-limb;
 } IkarK;
 
-lookup GlideIkar_target {
-  lookupflag 0;
-    #  subrule of type ADJUST_SINGLE
-    pos @YaWa <0 0 -475 0>;
-} GlideIkar_target;
-
 lookup GlideIkar {
   lookupflag 0;
-    pos @YaWa' lookup GlideIkar_target @Ikar;
+    do for g = @YaWa;
+      let w = -ADVx(g);
+      {
+      pos $g' <0 0 $w 0> @Ikar;
+      }
 } GlideIkar;
 
 lookup IkarKWid_target { # The IkarKWid lookup target adds 110 units of width to the IkarKemphreng ligature

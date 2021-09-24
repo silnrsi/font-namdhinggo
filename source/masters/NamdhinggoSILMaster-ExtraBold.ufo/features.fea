@@ -696,15 +696,11 @@ lookup IkarK {
     sub ikar-limb kemphreng-limb by ikar_kemphreng-limb;
 } IkarK;
 
-lookup GlideIkar_target {
-    lookupflag 0;
-    #  subrule of type ADJUST_SINGLE
-    pos @YaWa <0 0 -475 0>;
-} GlideIkar_target;
-
 lookup GlideIkar {
     lookupflag 0;
-    pos @YaWa' lookup GlideIkar_target @Ikar;
+            pos subya-limb' <0 0 -567 0> @Ikar;
+        pos subwa-limb' <0 0 -474 0> @Ikar;
+
 } GlideIkar;
 
 lookup IkarKWid_target {
