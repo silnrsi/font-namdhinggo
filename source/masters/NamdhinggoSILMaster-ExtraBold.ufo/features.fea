@@ -703,21 +703,50 @@ lookup GlideIkar {
 
 } GlideIkar;
 
-lookup IkarKWid_target {
-    # The IkarKWid lookup target adds 110 units of width to the IkarKemphreng ligature
-    lookupflag 0;
-    #  subrule of type ADJUST_SINGLE
-    pos ikar_kemphreng-limb <0 0 110 0>;
-} IkarKWid_target;
-
 lookup IkarKWid {
     lookupflag 0;
     # The IkarKWid lookup, applied to the Kern feature,
-    # kerns the IkarKemphreng ligature when followed by a consonant with akar on it.
+    # kerns the IkarKemphreng ligature when followed by a consonant with akar on it
+    # if a clash would result (which is most cases).
     # This prevents the akar from overprinting the rightmost dot of the kemphreng.
     # (The dot overhangs to the right slightly,
-    # which is OK unless the following character has akar on it).
-    pos ikar_kemphreng-limb' lookup IkarKWid_target @Cons akar-limb;
+    # which is OK unless the following character has akar on it
+    # that is too far to the left (which as noted above, is most cases)).
+    # Each consonant needs a different amount of kerning, depending on where
+    # the akar is above it. The location of the akar is positioned by the the
+    # U anchor. Therefore, the horizontal position of the U anchor can be
+    # used to calculate the amount of kerning. The consonant specified below
+    # (pha-limb) needs no kerning, so it helps calculate the amount of kern.
+            pos ikar_kemphreng-limb' <0 0 222 0> ka-limb akar-limb;
+        pos ikar_kemphreng-limb' <0 0 61 0> kha-limb akar-limb;
+        pos ikar_kemphreng-limb' <0 0 214 0> ga-limb akar-limb;
+        pos ikar_kemphreng-limb' <0 0 209 0> gha-limb akar-limb;
+        pos ikar_kemphreng-limb' <0 0 59 0> nga-limb akar-limb;
+        pos ikar_kemphreng-limb' <0 0 153 0> ca-limb akar-limb;
+        pos ikar_kemphreng-limb' <0 0 99 0> cha-limb akar-limb;
+        pos ikar_kemphreng-limb' <0 0 85 0> ja-limb akar-limb;
+        pos ikar_kemphreng-limb' <0 0 259 0> jha-limb akar-limb;
+        pos ikar_kemphreng-limb' <0 0 104 0> yan-limb akar-limb;
+        pos ikar_kemphreng-limb' <0 0 256 0> ta-limb akar-limb;
+        pos ikar_kemphreng-limb' <0 0 113 0> tha-limb akar-limb;
+        pos ikar_kemphreng-limb' <0 0 164 0> da-limb akar-limb;
+        pos ikar_kemphreng-limb' <0 0 139 0> dha-limb akar-limb;
+        pos ikar_kemphreng-limb' <0 0 222 0> na-limb akar-limb;
+        pos ikar_kemphreng-limb' <0 0 23 0> pa-limb akar-limb;
+        pos ikar_kemphreng-limb' <0 0 111 0> ba-limb akar-limb;
+        pos ikar_kemphreng-limb' <0 0 109 0> bha-limb akar-limb;
+        pos ikar_kemphreng-limb' <0 0 161 0> ma-limb akar-limb;
+        pos ikar_kemphreng-limb' <0 0 226 0> ya-limb akar-limb;
+        pos ikar_kemphreng-limb' <0 0 184 0> ra-limb akar-limb;
+        pos ikar_kemphreng-limb' <0 0 162 0> la-limb akar-limb;
+        pos ikar_kemphreng-limb' <0 0 173 0> wa-limb akar-limb;
+        pos ikar_kemphreng-limb' <0 0 111 0> sha-limb akar-limb;
+        pos ikar_kemphreng-limb' <0 0 319 0> ssa-limb akar-limb;
+        pos ikar_kemphreng-limb' <0 0 77 0> sa-limb akar-limb;
+        pos ikar_kemphreng-limb' <0 0 146 0> ha-limb akar-limb;
+        pos ikar_kemphreng-limb' <0 0 80 0> gyan-limb akar-limb;
+        pos ikar_kemphreng-limb' <0 0 149 0> tra-limb akar-limb;
+
 } IkarKWid;
 
 lookup Akar {

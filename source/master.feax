@@ -141,20 +141,27 @@ lookup GlideIkar {
       }
 } GlideIkar;
 
-lookup IkarKWid_target { # The IkarKWid lookup target adds 110 units of width to the IkarKemphreng ligature
-  lookupflag 0;
-    #  subrule of type ADJUST_SINGLE
-    pos ikar_kemphreng-limb <0 0 110 0>;
-} IkarKWid_target;
-
 lookup IkarKWid {
   lookupflag 0;
   # The IkarKWid lookup, applied to the Kern feature,
-  # kerns the IkarKemphreng ligature when followed by a consonant with akar on it.
+  # kerns the IkarKemphreng ligature when followed by a consonant with akar on it
+  # if a clash would result (which is most cases).
   # This prevents the akar from overprinting the rightmost dot of the kemphreng.
   # (The dot overhangs to the right slightly,
-  # which is OK unless the following character has akar on it).
-    pos ikar_kemphreng-limb' lookup IkarKWid_target @Cons akar-limb;
+  # which is OK unless the following character has akar on it
+  # that is too far to the left (which as noted above, is most cases)).
+
+  # Each consonant needs a different amount of kerning, depending on where
+  # the akar is above it. The location of the akar is positioned by the the
+  # U anchor. Therefore, the horizontal position of the U anchor can be
+  # used to calculate the amount of kerning. The consonant specified below
+  # (pha-limb) needs no kerning, so it helps calculate the amount of kern.
+    do for c = @Cons;
+      let d = APx("pha-limb", "U") - APx(c, "U");
+      if d > 0;
+      {
+      pos ikar_kemphreng-limb' <0 0 $d 0> $c akar-limb;
+      }
 } IkarKWid;
 
 lookup Akar {
