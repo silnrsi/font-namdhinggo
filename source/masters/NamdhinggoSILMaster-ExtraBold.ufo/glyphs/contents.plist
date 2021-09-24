@@ -722,6 +722,10 @@
   <string>sha_subra_ukar-limb.glif</string>
   <key>sha_ukar-limb</key>
   <string>sha_ukar-limb.glif</string>
+  <key>sidebearingleft</key>
+  <string>sidebearingleft.glif</string>
+  <key>sidebearingright</key>
+  <string>sidebearingright.glif</string>
   <key>six</key>
   <string>six.glif</string>
   <key>six-limb</key>
