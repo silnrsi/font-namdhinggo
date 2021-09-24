@@ -1,13 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yacute" format="2">
-  <advance width="1047"/>
+  <advance width="990"/>
   <unicode hex="00FD"/>
-  <anchor x="826" y="-100" name="L"/>
-  <anchor x="1050" y="900" name="R"/>
-  <anchor x="463" y="1493" name="U"/>
+  <anchor x="781" y="-95" name="L"/>
+  <anchor x="993" y="851" name="R"/>
+  <anchor x="438" y="1412" name="U"/>
   <outline>
-    <component base="y"/>
-    <component base="CombAcute" xOffset="1087"/>
+    <contour>
+      <point x="979" y="804" type="curve"/>
+      <point x="979" y="880" type="line"/>
+      <point x="672" y="880" type="line"/>
+      <point x="672" y="804" type="line"/>
+      <point x="748" y="792"/>
+      <point x="752" y="778"/>
+      <point x="737" y="740" type="curve" smooth="yes"/>
+      <point x="560" y="295" type="line"/>
+      <point x="374" y="740" type="line" smooth="yes"/>
+      <point x="357" y="780"/>
+      <point x="365" y="793"/>
+      <point x="454" y="804" type="curve"/>
+      <point x="454" y="880" type="line"/>
+      <point x="10" y="880" type="line"/>
+      <point x="10" y="804" type="line"/>
+      <point x="73" y="790"/>
+      <point x="101" y="774"/>
+      <point x="115" y="740" type="curve" smooth="yes"/>
+      <point x="434" y="-22" type="line"/>
+      <point x="407" y="-87" type="line" smooth="yes"/>
+      <point x="361" y="-196"/>
+      <point x="310" y="-235"/>
+      <point x="263" y="-251" type="curve" smooth="yes"/>
+      <point x="217" y="-267"/>
+      <point x="147" y="-259"/>
+      <point x="83" y="-217" type="curve"/>
+      <point x="44" y="-241"/>
+      <point x="-62" y="-373"/>
+      <point x="-62" y="-396" type="curve" smooth="yes"/>
+      <point x="-62" y="-420"/>
+      <point x="42" y="-464"/>
+      <point x="138" y="-464" type="curve" smooth="yes"/>
+      <point x="307" y="-464"/>
+      <point x="451" y="-347"/>
+      <point x="559" y="-69" type="curve" smooth="yes"/>
+      <point x="875" y="740" type="line" smooth="yes"/>
+      <point x="889" y="777"/>
+      <point x="903" y="786"/>
+    </contour>
+    <contour>
+      <point x="457" y="982" type="curve"/>
+      <point x="827" y="1341" type="line"/>
+      <point x="796" y="1395" type="line"/>
+      <point x="767" y="1404"/>
+      <point x="592" y="1433"/>
+      <point x="563" y="1435" type="curve"/>
+      <point x="368" y="1025" type="line"/>
+      <point x="381" y="1014"/>
+      <point x="434" y="986"/>
+    </contour>
   </outline>
   <lib>
     <dict>
