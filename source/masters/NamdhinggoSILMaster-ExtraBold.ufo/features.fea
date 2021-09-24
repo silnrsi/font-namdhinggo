@@ -62,7 +62,7 @@
 # baseClass [z zcaron] <anchor 457 0> @H;
 
 # AP: L
-@L = [A Aacute Acircumflex Adieresis Agrave Aring Atilde AE B C Ccedilla D E Eacute Ecircumflex Edieresis Egrave Eth F G H I Iacute Icircumflex Idieresis Igrave J K L M N Ntilde O Oacute Ocircumflex Odieresis Ograve Otilde OE Oslash Y Yacute Ydieresis P Q R S Scaron T Thorn U Uacute Ucircumflex Udieresis Ugrave V W X Z Zcaron a aacute acircumflex adieresis agrave aring atilde ae b ba-limb bha-limb dha-limb c ca-limb ccedilla cha-limb d da-limb dotlessi i iacute icircumflex idieresis igrave l dottedcircle e eacute ecircumflex edieresis egrave eth f fi fl florin foursuperior g ga-limb germandbls gha-limb gyan-limb h n ntilde ha-limb j ja-limb jha-limb k ka-limb kha-limb la-limb m ma-limb na-limb nga-limb nnbsp o oacute ocircumflex odieresis ograve otilde oe oslash p thorn pa-limb pha-limb pi q r ra-limb vowelcarrier-limb s scaron sa-limb sha-limb smallka-limb smallla-limb smallma-limb smallna-limb smallnga-limb smallpa-limb ssa-limb t ta-limb tha-limb tra-limb u uacute ucircumflex udieresis ugrave v w wa-limb x y yacute ydieresis ya-limb yan-limb z zcaron];
+@L = [A Aacute Acircumflex Adieresis Agrave Aring Atilde AE B C Ccedilla D E Eacute Ecircumflex Edieresis Egrave Eth F G H I Iacute Icircumflex Idieresis Igrave J K L M N Ntilde O Oacute Ocircumflex Odieresis Ograve Otilde OE Oslash Y Yacute Ydieresis P Q R S Scaron T Thorn U Uacute Ucircumflex Udieresis Ugrave V W X Z Zcaron a aacute acircumflex adieresis agrave aring atilde ae b ba-limb bha-limb dha-limb c ca-limb ccedilla cha-limb d da-limb dotlessi i iacute icircumflex idieresis igrave l dottedcircle e eacute ecircumflex edieresis egrave eight four nine one seven six three two zero eth f fi fl five florin foursuperior g ga-limb germandbls gha-limb gyan-limb h n ntilde ha-limb j ja-limb jha-limb k ka-limb kha-limb la-limb m ma-limb na-limb nga-limb nnbsp o oacute ocircumflex odieresis ograve otilde oe oslash p thorn pa-limb pha-limb pi q r ra-limb vowelcarrier-limb s scaron sa-limb sha-limb smallka-limb smallla-limb smallma-limb smallna-limb smallnga-limb smallpa-limb ssa-limb t ta-limb tha-limb tra-limb u uacute ucircumflex udieresis ugrave v w wa-limb x y yacute ydieresis ya-limb yan-limb z zcaron];
 # baseClass [A Aacute Acircumflex Adieresis Agrave Aring Atilde] <anchor 619 -97> @L;
 # baseClass AE <anchor 872 -97> @L;
 # baseClass B <anchor 571 -97> @L;
@@ -108,9 +108,11 @@
 # baseClass [dotlessi i iacute icircumflex idieresis igrave l] <anchor 305 -95> @L;
 # baseClass dottedcircle <anchor 533 -100> @L;
 # baseClass [e eacute ecircumflex edieresis egrave] <anchor 502 -95> @L;
+# baseClass [eight four nine one seven six three two zero] <anchor 521 -100> @L;
 # baseClass eth <anchor 495 -95> @L;
 # baseClass f <anchor 307 -95> @L;
 # baseClass [fi fl] <anchor 872 -95> @L;
+# baseClass five <anchor 523 -100> @L;
 # baseClass florin <anchor 262 -568> @L;
 # baseClass foursuperior <anchor 353 528> @L;
 # baseClass g <anchor 502 -568> @L;
@@ -218,7 +220,7 @@
 # baseClass yan-limb <anchor 609 1050> @O;
 
 # AP: U
-@U = [A AE Aacute Agrave Acircumflex Adieresis Atilde Aring B C Ccedilla D E Eacute Egrave Ecircumflex Edieresis Eth F G H I Iacute Igrave Icircumflex Idieresis J K L M N V Ntilde O OE Oacute Ograve Ocircumflex Odieresis Otilde Oslash Y P Q R S Scaron T Thorn U Uacute Ugrave Ucircumflex Udieresis W X Yacute Ydieresis Z Zcaron a aacute acircumflex adieresis ae agrave aring atilde b ba-limb sha-limb bha-limb c ccedilla ca-limb cha-limb d da-limb dha-limb dotlessi i dottedcircle e eacute ecircumflex edieresis egrave eth f fi fl florin foursuperior g ga-limb germandbls gha-limb tra_subra_ukar-limb tra_ukar-limb gyan-limb gyan_subra_ukar-limb gyan_ukar-limb h ha-limb iacute icircumflex idieresis igrave j ja-limb jha-limb k ka-limb na-limb kha-limb l la-limb m ma-limb n nga-limb nnbsp ntilde o oacute ocircumflex odieresis oe ograve oslash otilde p pa-limb pha-limb pi q r ra-limb vowelcarrier-limb s sa-limb scaron ssa-limb t ta-limb tha-limb thorn tra-limb u uacute ucircumflex udieresis ugrave v w wa-limb x y ya-limb yacute yan-limb ydieresis z zcaron];
+@U = [A AE Aacute Agrave Acircumflex Adieresis Atilde Aring B C Ccedilla D E Eacute Egrave Ecircumflex Edieresis Eth F G H I Iacute Igrave Icircumflex Idieresis J K L M N V Ntilde O OE Oacute Ograve Ocircumflex Odieresis Otilde Oslash Y P Q R S Scaron T Thorn U Uacute Ugrave Ucircumflex Udieresis W X Yacute Ydieresis Z Zcaron a aacute acircumflex adieresis ae agrave aring atilde b ba-limb sha-limb bha-limb c ccedilla ca-limb cha-limb d da-limb dha-limb dotlessi i dottedcircle e eacute ecircumflex edieresis egrave eight four nine one seven six three two zero eth f fi fl five florin foursuperior g ga-limb germandbls gha-limb tra_subra_ukar-limb tra_ukar-limb gyan-limb gyan_subra_ukar-limb gyan_ukar-limb h ha-limb iacute icircumflex idieresis igrave j ja-limb jha-limb k ka-limb na-limb kha-limb l la-limb m ma-limb n nga-limb nnbsp ntilde o oacute ocircumflex odieresis oe ograve oslash otilde p pa-limb pha-limb pi q r ra-limb vowelcarrier-limb s sa-limb scaron ssa-limb t ta-limb tha-limb thorn tra-limb u uacute ucircumflex udieresis ugrave v w wa-limb x y ya-limb yacute yan-limb ydieresis z zcaron];
 @U_MarkBase = [akar-limb.widC akar-limb.widD];
 # baseClass A <anchor 619 1323> @U;
 # baseClass AE <anchor 945 1323> @U;
@@ -294,9 +296,11 @@
 # baseClass ecircumflex <anchor 512 1436> @U;
 # baseClass edieresis <anchor 512 1389> @U;
 # baseClass egrave <anchor 512 1412> @U;
+# baseClass [eight four nine one seven six three two zero] <anchor 521 1370> @U;
 # baseClass eth <anchor 498 1533> @U;
 # baseClass f <anchor 467 1533> @U;
 # baseClass [fi fl] <anchor 872 1533> @U;
+# baseClass five <anchor 523 1370> @U;
 # baseClass florin <anchor 262 1599> @U;
 # baseClass foursuperior <anchor 353 1364> @U;
 # baseClass g <anchor 502 993> @U;
@@ -797,9 +801,11 @@ lookup Akar {
     pos base ecircumflex <anchor 512 1436> mark @_U;
     pos base edieresis <anchor 512 1389> mark @_U;
     pos base egrave <anchor 512 1412> mark @_U;
+    pos base [eight four nine one seven six three two zero] <anchor 521 1370> mark @_U;
     pos base eth <anchor 498 1533> mark @_U;
     pos base f <anchor 467 1533> mark @_U;
     pos base [fi fl] <anchor 872 1533> mark @_U;
+    pos base five <anchor 523 1370> mark @_U;
     pos base florin <anchor 262 1599> mark @_U;
     pos base foursuperior <anchor 353 1364> mark @_U;
     pos base g <anchor 502 993> mark @_U;
