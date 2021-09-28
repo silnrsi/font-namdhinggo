@@ -28,6 +28,34 @@
   <string>C_.glif</string>
   <key>Ccedilla</key>
   <string>C_cedilla.glif</string>
+  <key>CombAcute</key>
+  <string>C_ombA_cute.glif</string>
+  <key>CombAcute.LP</key>
+  <string>C_ombA_cute.L_P_.glif</string>
+  <key>CombCaron</key>
+  <string>C_ombC_aron.glif</string>
+  <key>CombCaron.LP</key>
+  <string>C_ombC_aron.L_P_.glif</string>
+  <key>CombCedilla</key>
+  <string>C_ombC_edilla.glif</string>
+  <key>CombCircum</key>
+  <string>C_ombC_ircum.glif</string>
+  <key>CombCircum.LP</key>
+  <string>C_ombC_ircum.L_P_.glif</string>
+  <key>CombDiaer</key>
+  <string>C_ombD_iaer.glif</string>
+  <key>CombDiaer.LP</key>
+  <string>C_ombD_iaer.L_P_.glif</string>
+  <key>CombGrave</key>
+  <string>C_ombG_rave.glif</string>
+  <key>CombGrave.LP</key>
+  <string>C_ombG_rave.L_P_.glif</string>
+  <key>CombRingAbv</key>
+  <string>C_ombR_ingA_bv.glif</string>
+  <key>CombTilde</key>
+  <string>C_ombT_ilde.glif</string>
+  <key>CombTilde.LP</key>
+  <string>C_ombT_ilde.L_P_.glif</string>
   <key>D</key>
   <string>D_.glif</string>
   <key>Delta</key>
