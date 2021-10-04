@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="na_ukar-limb" format="2">
-  <advance width="975"/>
+  <advance width="1035"/>
   <anchor x="515" y="1050" name="K"/>
   <outline>
     <component base="ka_ukar-limb"/>

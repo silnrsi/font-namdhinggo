@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="subya_ekar-limb" format="2">
-  <advance width="477"/>
-  <anchor x="-300" y="1250" name="K"/>
-  <anchor x="-300" y="1050" name="_O"/>
+  <advance width="581"/>
+  <anchor x="-270" y="1250" name="K"/>
+  <anchor x="-270" y="1050" name="_O"/>
   <outline>
-    <component base="ekar-limb"/>
-    <component base="subya-limb" xOffset="-30"/>
+    <component base="ekar-limb" xOffset="30"/>
+    <component base="subya-limb"/>
   </outline>
 </glyph>

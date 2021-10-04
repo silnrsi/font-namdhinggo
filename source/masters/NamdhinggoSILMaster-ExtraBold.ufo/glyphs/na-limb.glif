@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="na-limb" format="2">
-  <advance width="1015"/>
+  <advance width="1035"/>
   <unicode hex="190F"/>
   <anchor x="515" y="1050" name="K"/>
   <anchor x="480" y="-100" name="L"/>
