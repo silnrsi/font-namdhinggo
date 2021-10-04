@@ -753,6 +753,7 @@ lookup IkarKWid {
         pos ikar_kemphreng-limb' <0 0 145 0> ha-limb akar-limb;
         pos ikar_kemphreng-limb' <0 0 80 0> gyan-limb akar-limb;
         pos ikar_kemphreng-limb' <0 0 149 0> tra-limb akar-limb;
+        pos ikar_kemphreng-limb' <0 0 184 0> vowelcarrier-limb akar-limb;
 
 } IkarKWid;
 

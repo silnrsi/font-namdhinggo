@@ -31,13 +31,13 @@
 
 \subsection{Kerning between ikar with kemphreng and akar}
 
-\patterngroup[name="sortedcons"]{ᤚᤉᤋᤄᤕᤃᤁᤏᤖᤎᤞᤘᤍᤆᤒᤔᤝᤜᤗᤌᤙᤈᤇᤓᤊᤛᤅᤂᤐᤑ}
+\patterngroup[name="sortedcons"]{ᤚᤉᤋᤄᤕᤃᤁᤏᤖᤎᤞᤘᤀᤍᤆᤒᤔᤝᤜᤗᤌᤙᤈᤇᤓᤊᤛᤅᤂᤐᤑ}
 \pattern[chars="@",reps="group_sortedcons",heading="Sorted by consonants' U AP x coordinate"]{ᤁᤡ᤺@ᤠ}
-\pattern[chars="C,C",reps="group_cons,group_cons",format="list",heading="The first set of marks in a frame"]{Cᤡ᤺Cᤠ}
+\pattern[chars="C,c",reps="group_cons,group_cons",heading="Marks in consonant frame"]{Cᤡ᤺cᤠ}
 
-\pattern[chars="C,C",reps="group_cons2,group_cons2",format="list",heading="The second set of marks in a frame"]{Cᤡ᤺Cᤠ}
+\pattern[chars="C,c",reps="group_cons2,group_cons2",heading="Marks in consonant frame 2"]{Cᤡ᤺cᤠ}
 
-\pattern[chars="C,C",reps="group_cons3,group_cons3",format="list",heading="The second set of marks in a frame"]{Cᤡ᤺Cᤠ}
+\pattern[chars="C,c",reps="group_cons3,group_cons3",heading="Marks in consonant frame 3"]{Cᤡ᤺cᤠ}
 
 \subsection{Digits}
 
