@@ -308,6 +308,7 @@
     <string>tilde</string>
     <string>hungarumlaut</string>
     <string>cgj</string>
+    <string>Omega</string>
     <string>pi</string>
     <string>dandadbl</string>
     <string>vowelcarrier-limb</string>
@@ -514,7 +515,7 @@
     <string>Euro</string>
     <string>inrupee</string>
     <string>trademark</string>
-    <string>Omega</string>
+    <string>Ohm</string>
     <string>partialdiff</string>
     <string>Delta</string>
     <string>product</string>
@@ -574,6 +575,8 @@
     <string>uni200A</string>
     <key>ObjectReplChar</key>
     <string>uniFFFC</string>
+    <key>Ohm</key>
+    <string>uni2126</string>
     <key>PuncSpace</key>
     <string>uni2008</string>
     <key>ReplChar</key>

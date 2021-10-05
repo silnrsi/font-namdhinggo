@@ -1,32 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="circumflex" format="2">
-  <advance width="693"/>
+  <advance width="686"/>
   <unicode hex="02C6"/>
   <outline>
     <contour>
-      <point x="651" y="1036" type="curve"/>
-      <point x="400" y="1397" type="line"/>
-      <point x="292" y="1397" type="line"/>
-      <point x="207" y="1277"/>
-      <point x="123" y="1156"/>
-      <point x="39" y="1036" type="curve"/>
-      <point x="57" y="1012"/>
-      <point x="66" y="998"/>
-      <point x="87" y="989" type="curve"/>
-      <point x="173" y="1070"/>
-      <point x="259" y="1150"/>
-      <point x="345" y="1232" type="curve"/>
-      <point x="431" y="1150"/>
-      <point x="519" y="1070"/>
-      <point x="606" y="989" type="curve"/>
-      <point x="628" y="998"/>
-      <point x="636" y="1012"/>
+      <point x="673" y="1052" type="curve"/>
+      <point x="418" y="1420" type="line"/>
+      <point x="280" y="1420" type="line"/>
+      <point x="14" y="1052" type="line"/>
+      <point x="32" y="1028"/>
+      <point x="64" y="990"/>
+      <point x="84" y="981" type="curve"/>
+      <point x="348" y="1178" type="line"/>
+      <point x="614" y="981" type="line"/>
+      <point x="635" y="990"/>
+      <point x="658" y="1028"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.18,0.16,0.78,1</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,39 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hungarumlaut" format="2">
-  <advance width="727"/>
+  <advance width="719"/>
   <unicode hex="02DD"/>
   <outline>
     <contour>
-      <point x="659" y="1346" type="line"/>
-      <point x="636" y="1388" type="line"/>
-      <point x="609" y="1397"/>
-      <point x="543" y="1408"/>
-      <point x="511" y="1412" type="curve"/>
-      <point x="351" y="1018" type="line"/>
-      <point x="374" y="1003"/>
-      <point x="389" y="993"/>
-      <point x="411" y="989" type="curve"/>
+      <point x="438" y="981" type="curve"/>
+      <point x="691" y="1346" type="line"/>
+      <point x="661" y="1404" type="line"/>
+      <point x="635" y="1413"/>
+      <point x="514" y="1424"/>
+      <point x="483" y="1428" type="curve"/>
+      <point x="347" y="1025" type="line"/>
+      <point x="371" y="1010"/>
+      <point x="417" y="986"/>
     </contour>
     <contour>
-      <point x="377" y="1346" type="curve"/>
-      <point x="369" y="1360"/>
-      <point x="362" y="1374"/>
-      <point x="355" y="1388" type="curve"/>
-      <point x="329" y="1397"/>
-      <point x="261" y="1408"/>
-      <point x="230" y="1412" type="curve"/>
-      <point x="68" y="1018" type="line"/>
-      <point x="93" y="1003"/>
-      <point x="109" y="993"/>
-      <point x="130" y="989" type="curve"/>
-      <point x="212" y="1108"/>
-      <point x="294" y="1227"/>
+      <point x="128" y="981" type="curve"/>
+      <point x="381" y="1346" type="line"/>
+      <point x="351" y="1404" type="line"/>
+      <point x="326" y="1413"/>
+      <point x="205" y="1424"/>
+      <point x="174" y="1428" type="curve"/>
+      <point x="37" y="1025" type="line"/>
+      <point x="62" y="1010"/>
+      <point x="108" y="986"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.18,0.16,0.78,1</string>
-    </dict>
-  </lib>
 </glyph>

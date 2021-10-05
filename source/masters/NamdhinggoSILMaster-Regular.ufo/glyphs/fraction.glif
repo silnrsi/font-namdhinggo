@@ -1,29 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fraction" format="2">
-  <advance width="1096"/>
+  <advance width="909"/>
   <unicode hex="2044"/>
   <outline>
     <contour>
-      <point x="1017" y="1171" type="curve"/>
-      <point x="992" y="1198" type="line"/>
-      <point x="965" y="1192"/>
-      <point x="924" y="1177"/>
-      <point x="899" y="1165" type="curve"/>
-      <point x="642" y="766"/>
-      <point x="386" y="366"/>
-      <point x="129" y="-32" type="curve"/>
-      <point x="155" y="-60" type="line"/>
-      <point x="189" y="-51"/>
-      <point x="223" y="-42"/>
-      <point x="253" y="-27" type="curve"/>
-      <point x="507" y="372"/>
-      <point x="763" y="771"/>
+      <point x="128" y="-116" type="curve"/>
+      <point x="907" y="1258" type="line"/>
+      <point x="875" y="1288" type="line"/>
+      <point x="847" y="1280"/>
+      <point x="813" y="1263"/>
+      <point x="783" y="1246" type="curve"/>
+      <point x="2" y="-128" type="line"/>
+      <point x="34" y="-160" type="line"/>
+      <point x="69" y="-147"/>
+      <point x="95" y="-135"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.18,0.16,0.78,1</string>
-    </dict>
-  </lib>
 </glyph>

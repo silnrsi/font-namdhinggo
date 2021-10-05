@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="logicalnot" format="2">
-  <advance width="927"/>
+  <advance width="923"/>
   <unicode hex="00AC"/>
   <outline>
     <contour>
-      <point x="857" y="220" type="curve"/>
-      <point x="857" y="566" type="line"/>
-      <point x="827" y="588" type="line"/>
-      <point x="93" y="588" type="line"/>
-      <point x="82" y="563"/>
-      <point x="67" y="525"/>
-      <point x="61" y="499" type="curve"/>
-      <point x="86" y="475" type="line"/>
-      <point x="743" y="475" type="line"/>
-      <point x="743" y="194" type="line"/>
-      <point x="768" y="168" type="line"/>
-      <point x="799" y="179"/>
-      <point x="831" y="201"/>
+      <point x="852" y="220" type="curve"/>
+      <point x="852" y="566" type="line"/>
+      <point x="823" y="588" type="line"/>
+      <point x="823" y="588"/>
+      <point x="833" y="588"/>
+      <point x="96" y="588" type="curve"/>
+      <point x="84" y="564"/>
+      <point x="69" y="525"/>
+      <point x="63" y="499" type="curve"/>
+      <point x="88" y="475" type="line"/>
+      <point x="738" y="475" type="line"/>
+      <point x="738" y="194" type="line"/>
+      <point x="764" y="168" type="line"/>
+      <point x="795" y="179"/>
+      <point x="827" y="201"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.18,0.16,0.78,1</string>
-    </dict>
-  </lib>
 </glyph>
