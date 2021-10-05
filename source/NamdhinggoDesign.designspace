@@ -4,7 +4,7 @@
         <axis default="400.0" maximum="800.0" minimum="400.0" name="weight" tag="wght">
             <map input="400.0" output="400.0" />
             <map input="500.0" output="500.0" />
-            <map input="700.0" output="700.0" />
+            <map input="700.0" output="740.0" />
             <map input="800.0" output="800.0" />
             <labelname xml:lang="en">Weight</labelname>
         </axis>
@@ -58,7 +58,7 @@
         </instance>
         <instance familyname="Namdhinggo" filename="instances/Namdhinggo-Bold.ufo" name="Namdhinggo Bold" stylename="Bold" postscriptfontname="Namdhinggo-Bold">
             <location>
-                <dimension name="weight" xvalue="700.000000" />
+                <dimension name="weight" xvalue="740.000000" />
                 <dimension name="width" xvalue="100.000000" />
                 <dimension name="custom" xvalue="0.000000" />
             </location>
