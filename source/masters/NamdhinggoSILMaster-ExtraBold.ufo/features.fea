@@ -60,7 +60,7 @@
 # baseClass [z zcaron] <anchor 455 0> @H;
 
 # AP: L
-@L = [A Aacute Acircumflex Adieresis Agrave Aring Atilde AE B C Ccedilla D E Eacute Ecircumflex Edieresis Egrave Eth F G H I Iacute Icircumflex Idieresis Igrave J K L M N Ntilde O Oacute Ocircumflex Odieresis Ograve Otilde OE Ohm Omega Oslash Y Yacute Ydieresis P Q R S Scaron T Thorn U Uacute Ucircumflex Udieresis Ugrave V W X Z Zcaron a aacute acircumflex adieresis agrave aring atilde ae b eth ba-limb bha-limb c ca-limb ccedilla cedilla cha-limb d da-limb dha-limb dotlessi f i iacute icircumflex idieresis igrave l dottedcircle e eacute ecircumflex edieresis egrave eight four nine one seven six three two zero fi fl five florin foursuperior onesuperior threesuperior twosuperior g ga-limb germandbls gha-limb gyan-limb h n ntilde ha-limb j ja-limb jha-limb k ka-limb kha-limb la-limb m ma-limb na-limb nga-limb nnbsp o oacute ocircumflex odieresis ograve otilde oe ogonek oslash p thorn pa-limb pha-limb pi q r ra-limb vowelcarrier-limb s scaron sa-limb sha-limb smallka-limb smallla-limb smallma-limb smallna-limb smallnga-limb smallpa-limb ssa-limb summation t ta-limb tha-limb tra-limb u uacute ucircumflex udieresis ugrave v w wa-limb x y yacute ydieresis ya-limb yan-limb z zcaron];
+@L = [A Aacute Acircumflex Adieresis Agrave Aring Atilde AE B C Ccedilla D E Eacute Ecircumflex Edieresis Egrave Eth F G H I Iacute Icircumflex Idieresis Igrave J K L M N Ntilde O Oacute Ocircumflex Odieresis Ograve Otilde OE Ohm Omega Oslash Y Yacute Ydieresis P Q R S Scaron T Thorn U Uacute Ucircumflex Udieresis Ugrave V W X Z Zcaron a aacute acircumflex adieresis agrave aring atilde ae b eth ba-limb bha-limb c ca-limb ccedilla cedilla cha-limb colontriangularmod d da-limb dha-limb dotlessi f i iacute icircumflex idieresis igrave l dottedcircle e eacute ecircumflex edieresis egrave eight four nine one seven six three two zero fi fl five florin foursuperior onesuperior threesuperior twosuperior g ga-limb germandbls gha-limb gyan-limb h n ntilde ha-limb j ja-limb jha-limb k ka-limb kha-limb la-limb m ma-limb na-limb nga-limb nnbsp o oacute ocircumflex odieresis ograve otilde oe ogonek oslash p thorn pa-limb pha-limb pi q r ra-limb vowelcarrier-limb s scaron sa-limb sha-limb smallka-limb smallla-limb smallma-limb smallna-limb smallnga-limb smallpa-limb ssa-limb summation t ta-limb tha-limb tra-limb u uacute ucircumflex udieresis ugrave v w wa-limb x y yacute ydieresis ya-limb yan-limb z zcaron];
 # baseClass [A Aacute Acircumflex Adieresis Agrave Aring Atilde] <anchor 615 -97> @L;
 # baseClass AE <anchor 866 -97> @L;
 # baseClass B <anchor 569 -97> @L;
@@ -104,6 +104,7 @@
 # baseClass ccedilla <anchor 485 -568> @L;
 # baseClass cedilla <anchor 228 -568> @L;
 # baseClass cha-limb <anchor 604 -100> @L;
+# baseClass colontriangularmod <anchor 249 -88> @L;
 # baseClass d <anchor 533 -95> @L;
 # baseClass da-limb <anchor 555 -100> @L;
 # baseClass dha-limb <anchor 610 -100> @L;
@@ -222,7 +223,7 @@
 # baseClass yan-limb <anchor 609 1050> @O;
 
 # AP: U
-@U = [A AE Aacute Agrave Acircumflex Adieresis Atilde Aring B C Ccedilla D E Eacute Egrave Ecircumflex Edieresis Eth F G H I Iacute Igrave Icircumflex Idieresis J K L M N V Ntilde O OE Oacute Ograve Ocircumflex Odieresis Otilde Oslash Y P Q R S Scaron T Thorn U Uacute Ugrave Ucircumflex Udieresis W X Yacute Ydieresis Z Zcaron a aacute acircumflex acute grave adieresis ae agrave aring asciicircum atilde b ba-limb sha-limb bha-limb breve c ccedilla ca-limb caron cha-limb d da-limb dha-limb dieresis dotlessi i dottedcircle e eacute ecircumflex edieresis egrave eight four nine one seven six three two zero eth f fi fl five florin foursuperior onesuperior threesuperior twosuperior g ga-limb germandbls gha-limb tra_subra_ukar-limb tra_ukar-limb gyan-limb gyan_subra_ukar-limb gyan_ukar-limb h ha-limb iacute icircumflex idieresis igrave j ja-limb jha-limb k ka-limb na-limb kha-limb l la-limb m ma-limb n nga-limb nnbsp ntilde o oacute ocircumflex odieresis oe ograve oslash otilde p pa-limb pha-limb pi q r ra-limb vowelcarrier-limb s sa-limb scaron ssa-limb summation t ta-limb tha-limb thorn tra-limb u uacute ucircumflex udieresis ugrave v w wa-limb x y ya-limb yacute yan-limb ydieresis z zcaron];
+@U = [A AE Aacute Agrave Acircumflex Adieresis Atilde Aring B C Ccedilla D E Eacute Egrave Ecircumflex Edieresis Eth F G H I Iacute Igrave Icircumflex Idieresis J K L M N V Ntilde O OE Oacute Ograve Ocircumflex Odieresis Otilde Oslash Y P Q R S Scaron T Thorn U Uacute Ugrave Ucircumflex Udieresis W X Yacute Ydieresis Z Zcaron a aacute acircumflex acute grave adieresis ae agrave aring asciicircum atilde b ba-limb sha-limb bha-limb breve c ccedilla ca-limb caron cha-limb colontriangularmod d da-limb dha-limb dieresis dotlessi i dottedcircle e eacute ecircumflex edieresis egrave eight four nine one seven six three two zero eth f fi fl five florin foursuperior onesuperior threesuperior twosuperior g ga-limb germandbls gha-limb tra_subra_ukar-limb tra_ukar-limb gyan-limb gyan_subra_ukar-limb gyan_ukar-limb h ha-limb iacute icircumflex idieresis igrave j ja-limb jha-limb k ka-limb na-limb kha-limb l la-limb m ma-limb n nga-limb nnbsp ntilde o oacute ocircumflex odieresis oe ograve oslash otilde p pa-limb pha-limb pi q r ra-limb vowelcarrier-limb s sa-limb scaron ssa-limb summation t ta-limb tha-limb thorn tra-limb u uacute ucircumflex udieresis ugrave v w wa-limb x y ya-limb yacute yan-limb ydieresis z zcaron];
 @U_MarkBase = [akar-limb.widC akar-limb.widD];
 # baseClass A <anchor 615 1323> @U;
 # baseClass AE <anchor 938 1323> @U;
@@ -292,6 +293,7 @@
 # baseClass ca-limb <anchor 566 1050> @U;
 # baseClass caron <anchor 344 1334> @U;
 # baseClass cha-limb <anchor 620 1050> @U;
+# baseClass colontriangularmod <anchor 249 924> @U;
 # baseClass d <anchor 533 1599> @U;
 # baseClass da-limb <anchor 555 1050> @U;
 # baseClass dha-limb <anchor 580 1050> @U;
@@ -841,6 +843,7 @@ lookup Akar {
     pos base ca-limb <anchor 566 1050> mark @_U;
     pos base caron <anchor 344 1334> mark @_U;
     pos base cha-limb <anchor 620 1050> mark @_U;
+    pos base colontriangularmod <anchor 249 924> mark @_U;
     pos base d <anchor 533 1599> mark @_U;
     pos base da-limb <anchor 555 1050> mark @_U;
     pos base dha-limb <anchor 580 1050> mark @_U;
