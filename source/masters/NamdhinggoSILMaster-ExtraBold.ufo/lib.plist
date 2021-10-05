@@ -75,6 +75,19 @@
       <key>shiftY</key>
       <integer>0</integer>
     </dict>
+    <key>latinmath</key>
+    <dict>
+      <key>adjustMetrics</key>
+      <integer>0</integer>
+      <key>scaleX</key>
+      <real>0.870</real>
+      <key>scaleY</key>
+      <real>0.880</real>
+      <key>shiftX</key>
+      <integer>0</integer>
+      <key>shiftY</key>
+      <integer>0</integer>
+    </dict>
     <key>latinuppercase</key>
     <dict>
       <key>adjustMetrics</key>
