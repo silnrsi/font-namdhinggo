@@ -2,8 +2,6 @@
 <glyph name="colontriangularmod" format="2">
   <advance width="497"/>
   <unicode hex="02D0"/>
-  <anchor x="249" y="-88" name="L"/>
-  <anchor x="249" y="924" name="U"/>
   <outline>
     <contour>
       <point x="249" y="483" type="line"/>
@@ -16,4 +14,10 @@
       <point x="419" y="0" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>
