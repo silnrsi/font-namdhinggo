@@ -5,9 +5,7 @@
     <fontscale>200</fontscale>
     <fontsrc label="RefRegular">url(../references/NamdhinggoSIL-Regular.ttf)</fontsrc>
     <fontsrc label="Regular">url(../results/NamdhinggoSIL-Regular.ttf)</fontsrc>
-    <fontsrc label="BookRegular">url(../results/NamdhinggoSILBook-Regular.ttf)</fontsrc>
-    <fontsrc label="Bold">url(../results/NamdhinggoSILBook-Bold.ttf)</fontsrc>
-    <fontsrc label="BookBold">url(../results/NamdhinggoSILBook-Bold.ttf)</fontsrc>
+    <fontsrc label="Bold">url(../results/NamdhinggoSIL-Bold.ttf)</fontsrc>
     <title>Diac auto</title>
   </head>
   <testgroup label="Representative diacritics on all bases that take diacritics">

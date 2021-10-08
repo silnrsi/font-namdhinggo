@@ -5,9 +5,7 @@
     <fontscale>200</fontscale>
     <fontsrc label="RefRegular">url(../references/NamdhinggoSIL-Regular.ttf)</fontsrc>
     <fontsrc label="Regular">url(../results/NamdhinggoSIL-Regular.ttf)</fontsrc>
-    <fontsrc label="BookRegular">url(../results/NamdhinggoSILBook-Regular.ttf)</fontsrc>
-    <fontsrc label="Bold">url(../results/NamdhinggoSILBook-Bold.ttf)</fontsrc>
-    <fontsrc label="BookBold">url(../results/NamdhinggoSILBook-Bold.ttf)</fontsrc>
+    <fontsrc label="Bold">url(../results/NamdhinggoSIL-Bold.ttf)</fontsrc>
     <title>AllChars auto</title>
   </head>
   <testgroup label="Encoded characters">
@@ -58,6 +56,10 @@
     <test label="U+034F">
       <comment>cgj</comment>
       <string>\u001901\u00034F</string>
+    </test>
+    <test label="U+03A9">
+      <comment>Omega</comment>
+      <string>\u0003A9</string>
     </test>
     <test label="U+03C0">
       <comment>pi</comment>
@@ -148,7 +150,7 @@
       <string>\u002122</string>
     </test>
     <test label="U+2126">
-      <comment>Omega</comment>
+      <comment>Ohm</comment>
       <string>\u002126</string>
     </test>
     <test label="U+2202">
