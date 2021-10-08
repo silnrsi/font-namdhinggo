@@ -11,6 +11,6 @@ For practical information about using, modifying and redistributing this font se
 
 For more details about this project, including changelog, making contributions, and acknowledgements see [FONTLOG.txt](FONTLOG.txt).
 
-See the website (http://scripts.sil.org/NamdhinggoSIL) for further documentation.
+See the website (https://software.sil.org/namdhinggo/) for further documentation.
 
 Enjoy!

@@ -21,6 +21,11 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
+8 October 2021 (SIL WSTech Team) Namdhinggo SIL version 2.900
+- Added additional weights in two families, with a slightly heavier 'Book' family
+- Improved kerning
+- Intended as a test version only
+
 28 May 2021 (Bobby de Vos) Namdhinggo SIL version 2.000
 - Made a ligature lookup required so the ligature does not have to be manually enabled
 - Removed Limbu script lookups, the default OpenType shaper is used instead
@@ -66,10 +71,10 @@ Acknowledgements
 be sure to add your name (N), email (E), web-address (W) and description
 (D). This list is sorted by last name in alphabetical order.)
 
-N: Victor Gaultney
+N: Victor Gaultney, Becca Spalinger
 E: fonts@sil.org
 W: https://software.sil.org/namdhinggo/
-D: designer
+D: Designers
 
 N: Bobby de Vos, Steve Smith
 E: fonts@sil.org

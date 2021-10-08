@@ -12,7 +12,7 @@ Namdhinggo SIL is released under the SIL Open Font License.
 
 See the OFL and OFL-FAQ for details of the SIL Open Font License.
 For more details about this project, including changelog, making contributions, and acknowledgements see FONTLOG.
-See the website (http://scripts.sil.org/NamdhinggoSIL) for further documentation.
+See the website (https://software.sil.org/namdhinggo/) for further documentation.
 
 TIPS
 ====
@@ -52,6 +52,6 @@ CONTACT
 ========
 For more information please visit the Namdhinggo SIL page on SIL International's
 Computers and Writing systems website:
-http://scripts.sil.org/NamdhinggoSIL
+https://software.sil.org/namdhinggo/
 
 Or send an email to fonts@sil.org

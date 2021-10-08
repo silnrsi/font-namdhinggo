@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
-  <uniqueid id="org.sil.fonts.NamdhinggoSIL.2.204" />
+  <uniqueid id="org.sil.fonts.NamdhinggoSIL.2.900" />
   <vendor name="SIL International" url="http://scripts.sil.org/" />
   <credits>
     <credit
-      name="Victor Gaultney"
+      name="Victor Gaultney, Becca Spalinger"
       url="https://software.sil.org/namdhinggo/"
-      role="designer"
+      role="Designers"
     />
     <credit
       name="Bobby de Vos, Steve Smith"
@@ -25,6 +25,11 @@
       ChangeLog
       ---------
       (This should list both major and minor changes, most recent first.)
+      
+      8 October 2021 (SIL WSTech Team) Namdhinggo SIL version 2.900
+      - Added additional weights in two families, with a slightly heavier 'Book' family
+      - Improved kerning
+      - Intended as a test version only
       
       28 May 2021 (Bobby de Vos) Namdhinggo SIL version 2.000
       - Made a ligature lookup required so the ligature does not have to be manually enabled
