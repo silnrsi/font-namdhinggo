@@ -4,6 +4,7 @@
         <axis default="400.0" maximum="800.0" minimum="400.0" name="weight" tag="wght">
             <map input="400.0" output="400.0" />
             <map input="500.0" output="500.0" />
+            <map input="600.0" output="600.0" />
             <map input="700.0" output="740.0" />
             <map input="800.0" output="800.0" />
             <labelname xml:lang="en">Weight</labelname>
