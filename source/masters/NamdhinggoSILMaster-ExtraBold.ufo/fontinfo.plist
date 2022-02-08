@@ -7,7 +7,7 @@
   <key>capHeight</key>
   <integer>1150</integer>
   <key>copyright</key>
-  <string>Copyright (c) 2002-2021, SIL International (http://www.sil.org/),
+  <string>Copyright (c) 2002-2022, SIL International (http://www.sil.org/),
 with Reserved Font Names "Namdhinggo" and "SIL".
 </string>
   <key>descender</key>
@@ -15,7 +15,7 @@ with Reserved Font Names "Namdhinggo" and "SIL".
   <key>familyName</key>
   <string>Namdhinggo SIL Master</string>
   <key>openTypeHeadCreated</key>
-  <string>2021/10/08 12:08:17</string>
+  <string>2022/02/08 11:18:04</string>
   <key>openTypeHheaAscender</key>
   <integer>1600</integer>
   <key>openTypeHheaDescender</key>
@@ -29,7 +29,7 @@ with Reserved Font Names "Namdhinggo" and "SIL".
   <key>openTypeNameDesignerURL</key>
   <string>http://scripts.sil.org/</string>
   <key>openTypeNameLicense</key>
-  <string>Copyright (c) 2002-2021, SIL International (http://www.sil.org/),
+  <string>Copyright (c) 2002-2022, SIL International (http://www.sil.org/),
 with Reserved Font Names "Namdhinggo" and "SIL".
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
@@ -135,7 +135,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Extra Bold</string>
   <key>openTypeNameUniqueID</key>
-  <string>SIL International: Namdhinggo SIL Master Extra Bold: 2021</string>
+  <string>SIL International: Namdhinggo SIL Master Extra Bold: 2022</string>
   <key>openTypeNameVersion</key>
   <string>Version 2.901</string>
   <key>openTypeOS2CodePageRanges</key>
