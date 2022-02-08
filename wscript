@@ -21,7 +21,6 @@ designspace('source/' + FAMILY + '.designspace',
             target = process("${DS:FILENAME_BASE}.ttf",
                 cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['${DS:FILE}'])
             ),
-            instanceparams = '-W',
             opentype = fea(genout + '${DS:FILENAME_BASE}.fea',
                 mapfile = genout + '${DS:FILENAME_BASE}.map',
                 master = 'source/master.feax',

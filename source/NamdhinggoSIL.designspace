@@ -48,8 +48,7 @@
             <info />
             <kerning />
         </instance>
-        <!--
-        <instance familyname="Namdhinggo SIL Book" filename="instances/NamdhinggoSILBook-Regular.ufo" name="Namdhinggo SIL Book Regular" stylemapfamilyname="Namdhinggo SIL Book" stylemapstylename="regular" stylename="Regular" postscriptfontname="NamdhinggoSILBook-Regular">
+        <instance familyname="Namdhinggo SIL" filename="instances/NamdhinggoSIL-Medium.ufo" name="Namdhinggo SIL Medium" stylemapfamilyname="Namdhinggo SIL Medium" stylemapstylename="regular" stylename="Medium" postscriptfontname="NamdhinggoSIL-Medium">
             <location>
                 <dimension name="weight" xvalue="500.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -58,7 +57,15 @@
             <info />
             <kerning />
         </instance>
-        -->
+        <instance familyname="Namdhinggo SIL" filename="instances/NamdhinggoSIL-SemiBold.ufo" name="Namdhinggo SIL SemiBold" stylemapfamilyname="Namdhinggo SIL SemiBold" stylemapstylename="regular" stylename="SemiBold" postscriptfontname="NamdhinggoSIL-SemiBold">
+            <location>
+                <dimension name="weight" xvalue="600.000000" />
+                <dimension name="width" xvalue="100.000000" />
+                <dimension name="custom" xvalue="0.000000" />
+            </location>
+            <info />
+            <kerning />
+        </instance>
         <instance familyname="Namdhinggo SIL" filename="instances/NamdhinggoSIL-Bold.ufo" name="Namdhinggo SIL Bold" stylemapfamilyname="Namdhinggo SIL" stylemapstylename="bold" stylename="Bold" postscriptfontname="NamdhinggoSIL-Bold">
             <location>
                 <dimension name="weight" xvalue="740.000000" />
@@ -68,8 +75,7 @@
             <info />
             <kerning />
         </instance>
-        <!--
-        <instance familyname="Namdhinggo SIL Book" filename="instances/NamdhinggoSILBook-Bold.ufo" name="Namdhinggo SIL Book Bold" stylemapfamilyname="Namdhinggo SIL Book" stylemapstylename="bold" stylename="Bold"  postscriptfontname="NamdhinggoSILBook-Bold">
+        <instance familyname="Namdhinggo SIL" filename="instances/NamdhinggoSIL-ExtraBold.ufo" name="Namdhinggo SIL ExtraBold" stylemapfamilyname="Namdhinggo SIL ExtraBold" stylemapstylename="regular" stylename="ExtraBold"  postscriptfontname="NamdhinggoSIL-ExtraBold">
             <location>
                 <dimension name="weight" xvalue="800.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -78,6 +84,5 @@
             <info />
             <kerning />
         </instance>
-        -->
     </instances>
 </designspace>
