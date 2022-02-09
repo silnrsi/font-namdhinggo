@@ -30,7 +30,7 @@
                 <dimension name="custom" xvalue="0.000000" />
             </location>
         </source>
-        <source familyname="Namdhinggo Master" filename="masters/Namdhinggo-ExtraBold.ufo" name="Namdhinggo Extra Bold" stylename="Extra Bold">
+        <source familyname="Namdhinggo Master" filename="masters/Namdhinggo-ExtraBold.ufo" name="Namdhinggo ExtraBold" stylename="ExtraBold">
             <location>
                 <dimension name="weight" xvalue="800.000000" />
                 <dimension name="width" xvalue="100.000000" />
