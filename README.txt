@@ -1,14 +1,14 @@
 README
-Namdhinggo SIL
-==============
+Namdhinggo
+==========
 
-Thank you for your interest in the Namdhinggo SIL font.
+Thank you for your interest in the Namdhinggo font.
 We hope you find it useful!
 
-Namdhinggo SIL provides glyphs for all Limbu characters and some Latin.
+Namdhinggo provides glyphs for all Limbu characters and some Latin.
 Please read the online documentation to see what ranges are supported.
 
-Namdhinggo SIL is released under the SIL Open Font License.
+Namdhinggo is released under the SIL Open Font License.
 
 See the OFL and OFL-FAQ for details of the SIL Open Font License.
 For more details about this project, including changelog, making contributions, and acknowledgements see FONTLOG.
@@ -50,7 +50,7 @@ various operating systems.
 
 CONTACT
 ========
-For more information please visit the Namdhinggo SIL page on SIL International's
+For more information please visit the Namdhinggo page on SIL International's
 Computers and Writing systems website:
 https://software.sil.org/namdhinggo/
 

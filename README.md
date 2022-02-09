@@ -1,6 +1,6 @@
-# Namdhinggo SIL
+# Namdhinggo
 
-Namdhinggo SIL is a Unicode font for the Limbu writing system of Nepal. It provides glyphs for all Limbu characters and some Latin.
+Namdhinggo is a Unicode font for the Limbu writing system of Nepal. It provides glyphs for all Limbu characters and some Latin.
 
 ## Project status [![Build Status](http://build.palaso.org/app/rest/builds/buildType:Fonts_Namdhinggo/statusIcon)](http://build.palaso.org/viewType.html?buildTypeId=Fonts_Namdhinggo&guest=1)
 
