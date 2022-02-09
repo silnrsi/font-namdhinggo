@@ -1,5 +1,5 @@
 #!/bin/sh
 
-psffixffglifs -p checkfix=fix source/masters/NamdhinggoSILMaster-Regular.ufo   -l source/logs/fixff.log &
-psffixffglifs -p checkfix=fix source/masters/NamdhinggoSILMaster-ExtraBold.ufo -l source/logs/fixff.log &
+psffixffglifs -p checkfix=fix source/masters/Namdhinggo-Regular.ufo   -l source/logs/fixff.log &
+psffixffglifs -p checkfix=fix source/masters/Namdhinggo-ExtraBold.ufo -l source/logs/fixff.log &
 ./preflight

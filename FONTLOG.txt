@@ -1,9 +1,9 @@
 FONTLOG
-Namdhinggo SIL Font
+Namdhinggo Font
 ========================
 
-This file provides detailed information on the Namdhinggo SIL font. This
-information should be distributed along with the Namdhinggo SIL font and
+This file provides detailed information on the Namdhinggo font. This
+information should be distributed along with the Namdhinggo font and
 any derivative works.
 
 
@@ -23,6 +23,7 @@ ChangeLog
 
 unreleased
 - Switch to a non-RIBBI build for more weights
+- Remove SIL suffix from font name
 
 8 October 2021 (SIL WSTech Team) Namdhinggo SIL version 2.900
 - Added additional bold weight
@@ -83,7 +84,7 @@ N: Bobby de Vos, Steve Smith
 E: fonts@sil.org
 D: Font engineers
 
-The Namdhinggo SIL project is maintained by SIL International.
+The Namdhinggo project is maintained by SIL International.
 
-For more information please visit the Namdhinggo SIL page on SIL International's
+For more information please visit the Namdhinggo page on SIL International's
 Computers and Writing systems website: https://software.sil.org/namdhinggo/

@@ -1,4 +1,4 @@
 #!/bin/sh
 
 echo "Generating new glyphs file"
-psfufo2glyphs source/NamdhinggoSIL.designspace source/masters/NamdhinggoSIL.glyphs
+psfufo2glyphs source/Namdhinggo.designspace source/masters/Namdhinggo.glyphs

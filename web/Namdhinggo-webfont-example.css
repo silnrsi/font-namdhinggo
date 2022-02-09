@@ -1,7 +1,7 @@
 /*
-NamdhinggoSIL-webfont-example.html
-Namdhinggo SIL
-This file is part of Namdhinggo SIL font family (https://software.sil.org/namdhinggo/).
+Namdhinggo-webfont-example.html
+Namdhinggo
+This file is part of Namdhinggo font family (https://software.sil.org/namdhinggo/).
 
 Copyright (c) 2002-2022, SIL International (http://www.sil.org/),
 with Reserved Font Names "Namdhinggo" and "SIL".
@@ -15,15 +15,15 @@ You should have received a copy of the license along with this Font Software.
 If this is not the case, go to (http://scripts.sil.org/OFL) for all the details including a FAQ.
 */
 
-/* use Namdhinggo SIL - Regular in .woff format */
+/* use Namdhinggo - Regular in .woff format */
 @font-face {
-  font-family: NamdhinggoSILW;
-  src: url(NamdhinggoSIL-Regular.woff2);
+  font-family: NamdhinggoW;
+  src: url(Namdhinggo-Regular.woff2);
 }
 
-/* set body to use Namdhinggo SIL in .woff format */
+/* set body to use Namdhinggo in .woff format */
 body {
-  font-family: NamdhinggoSILW, sans-serif;
+  font-family: NamdhinggoW, sans-serif;
     /* fall back to sans serif so that it's really obvious if the fonts don't load */
 }
 

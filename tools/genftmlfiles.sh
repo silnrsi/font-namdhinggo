@@ -12,8 +12,8 @@ fi
 
 # configure tests
 tests="AllChars Diac Matras"
-urls='url(../references/NamdhinggoSIL-Regular.ttf)=RefRegular url(../results/NamdhinggoSIL-Regular.ttf)=Regular url(../results/NamdhinggoSIL-Bold.ttf)=Bold'
-ufo='source/masters/NamdhinggoSILMaster-Regular.ufo'
+urls='url(../references/Namdhinggo-Regular.ttf)=RefRegular url(../results/Namdhinggo-Regular.ttf)=Regular url(../results/Namdhinggo-Bold.ttf)=Bold'
+ufo='source/masters/Namdhinggo-Regular.ufo'
 
 # list all the fonts to test
 fonts=''
