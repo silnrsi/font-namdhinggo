@@ -21,9 +21,10 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
-unreleased
+9 Feb 2022 (SIL WSTech Team) Namdhinggo version 2.950
 - Switch to a non-RIBBI build for more weights
 - Remove SIL suffix from font name
+- Intended as a test version only
 
 8 October 2021 (SIL WSTech Team) Namdhinggo SIL version 2.900
 - Added additional bold weight
