@@ -15,7 +15,7 @@ with Reserved Font Names "Namdhinggo" and "SIL".
   <key>familyName</key>
   <string>Namdhinggo</string>
   <key>openTypeHeadCreated</key>
-  <string>2022/02/09 10:21:40</string>
+  <string>2022/03/01 13:24:44</string>
   <key>openTypeHheaAscender</key>
   <integer>1600</integer>
   <key>openTypeHheaDescender</key>
@@ -229,8 +229,6 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   </array>
   <key>postscriptFontName</key>
   <string>Namdhinggo-ExtraBold</string>
-  <key>postscriptFullName</key>
-  <string>Namdhinggo ExtraBold</string>
   <key>postscriptStemSnapH</key>
   <array>
     <integer>125</integer>
@@ -248,10 +246,6 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <integer>-235</integer>
   <key>postscriptUnderlineThickness</key>
   <integer>130</integer>
-  <key>styleMapFamilyName</key>
-  <string>Namdhinggo</string>
-  <key>styleMapStyleName</key>
-  <string>bold</string>
   <key>styleName</key>
   <string>ExtraBold</string>
   <key>trademark</key>
