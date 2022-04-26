@@ -21,6 +21,9 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
+29 Apr 2022 (SIL WSTech Team) Namdhinggo version 3.000
+- Add documentation
+
 9 Feb 2022 (SIL WSTech Team) Namdhinggo version 2.950
 - Switch to a non-RIBBI build for more weights
 - Remove SIL suffix from font name

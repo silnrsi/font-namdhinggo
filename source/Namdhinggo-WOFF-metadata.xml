@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
-  <uniqueid id="org.sil.fonts.Namdhinggo.2.950" />
+  <uniqueid id="org.sil.fonts.Namdhinggo.3.000" />
   <vendor name="SIL International" url="http://scripts.sil.org/" />
   <credits>
     <credit
@@ -25,6 +25,9 @@
       ChangeLog
       ---------
       (This should list both major and minor changes, most recent first.)
+      
+      29 Apr 2022 (SIL WSTech Team) Namdhinggo version 3.000
+      - Add documentation
       
       9 Feb 2022 (SIL WSTech Team) Namdhinggo version 2.950
       - Switch to a non-RIBBI build for more weights
