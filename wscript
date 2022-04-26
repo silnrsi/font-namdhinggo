@@ -17,11 +17,10 @@ ftmlTest('tools/ftml-smith.xsl')
 
 genout = 'generated/'
 
-cmds = [cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/instances/${DS:FILENAME_BASE}.ufo'])]
 designspace('source/' + FAMILY + '.designspace',
-            target = process("${DS:FILENAME_BASE}.ttf", *cmds),
-            #     cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/instances/${DS:FILENAME_BASE}.ufo'])
-            # ),
+            target = process("${DS:FILENAME_BASE}.ttf",
+                cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['${source}'])
+            ),
             opentype = fea(genout + '${DS:FILENAME_BASE}.fea',
                 mapfile = genout + '${DS:FILENAME_BASE}.map',
                 master = 'source/master.feax',
