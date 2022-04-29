@@ -4,17 +4,10 @@ fontversion: 3.000
 ---
 
 ### 29 Apr 2022 (SIL WSTech Team) Namdhinggo version 3.000
-- Add documentation
-
-### 9 Feb 2022 (SIL WSTech Team) Namdhinggo version 2.950
-- Switch to a non-RIBBI build for more weights
+- Added additional weights: Medium, Semibold, Bold, ExtraBold
 - Remove SIL suffix from font name
-- Intended as a test version only
-
-### 8 October 2021 (SIL WSTech Team) Namdhinggo SIL version 2.900
-- Added additional bold weight
 - Improved kerning
-- Intended as a test version only
+- Added documentation
 
 ### 28 May 2021 (Bobby de Vos) Namdhinggo SIL version 2.000
 - Made a ligature lookup required so the ligature does not have to be manually enabled

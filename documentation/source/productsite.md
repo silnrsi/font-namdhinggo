@@ -1,13 +1,13 @@
-title: Namdhinggo - Developer Information
+title: Namdhinggo - Product Site
 fontversion: 3.000
 ---
 
-![Namdhinggo - Banner](assets/images/Namdhinggo_banner.png){.fullsize}
+![Namdhinggo - Banner](assets/images/Limbu_banner.png){.fullsize}
 <!-- PRODUCT SITE IMAGE SRC https://software.sil.org/wp/wp-content/uploads/2022/04/Limbu_banner.png -->
 
-## About
+<h2 id="about">About</h2>
 
-**Namdhinggo** is a Unicode font for the Limbu writing system of Nepal. It provides glyphs for all Limbu characters and some Latin.
+Namdhinggo is a Unicode font for the Limbu writing system of Nepal. It provides glyphs for all Limbu characters and some Latin.
 
 The Limbu, or Kirat Sirijonga, script is used by around 400,000 people in Nepal and India. This Unicode-encoded font has been designed to support literacy and materials development in the Limbu language.
 
@@ -45,27 +45,29 @@ Two separate Keyman keyboards are available.
 
 This font is designed to work with the OpenType advanced font technology. To take advantage of the advanced typographic capability of this font, you must be using applications that provide an adequate level of support for OpenType. See the Release Notes for version 2.000 below for more details.
 
-## Downloads
+<h2 id="downloads">Downloads</h2>
 
-#### License
+### License
 
 This font is licensed under the [SIL Open Font License (OFL)](https://scripts.sil.org/OFL)
 
 ![SIL Open Font License (OFL)](https://scripts.sil.org/OFL){.fullsize}
 <!-- PRODUCT SITE IMAGE SRC https://software.sil.org/wp/wp-content/uploads/2019/03/OFL_logo_rect_color.png -->
 
-### Fonts
+### Current Version
+
 [sil_download style="table" sort="name" where="info.type == 'font'"]
 
-### Release Notes for v2.000
+#### Release Notes
 
-- Enabled new characters from Unicode 7(U+191D and U+191E) and related conjuncts
-- Improved OpenType Code
+- Added additional weights: Medium, Semibold, Bold, ExtraBold
+- Remove SIL suffix from font name
+- Improved kerning
+- Added documentation
 
-The OpenType improvements allow the font to work in applications that use HarfBuzz (such as Firefox, Chrome, Android, and LibreOffice) and InDesign (2020 and 2021). The font will not work in DirectWrite applications (such as Microsoft Word for Windows) until a fix (already coded) is released.
+### Previous versions
 
-### Previous version
-[sil_download style="table" sort="name" where="info.type == 'prev font'"]
+[sil_download style="table" sort="-date" where="info.type == 'prev font'"]
 
 ### Legacy font (obsolete)
 
@@ -74,7 +76,7 @@ The OpenType improvements allow the font to work in applications that use HarfBu
 
 [top]
 
-## Support
+<h2 id="support">Support</h2>
 
 As these fonts and utilities are distributed at no cost, we are unable to provide a commercial level of personal technical support. We will, however, try to resolve problems that are reported to us.
 
@@ -92,7 +94,7 @@ To enable us to accept contributions in a way that honors your contribution and 
 
 [top]
 
-## Contact
+<h2 id="contact">Contact</h2>
 
 General troubleshooting information, including frequently asked questions, can be found in the documentation. Additional information is also available on the general [Font FAQ](https://scripts.sil.org/FontFAQ) page. If that fails to answer your question, send an email via this contact form.
 
@@ -103,8 +105,7 @@ Before requesting technical support, please:
 
 ### Language Software Community
 
-![Go to Language Software Community for SIL Fonts](https://community.software.sil.org/c/silfonts){.fullsize}
-<!-- PRODUCT SITE IMAGE SRC /wp/wp-content/uploads/2017/02/LSC_icon_80x80.png -->
+[prodSupport lscpath='c/silfonts']
 
 Support from other software users may be available through the [SIL Language Software Community](//community.software.sil.org/c/silfonts) This community will be growing to become the major source of software support.</p>
 

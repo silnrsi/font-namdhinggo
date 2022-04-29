@@ -3,6 +3,9 @@ title: Namdhinggo - About
 fontversion: 3.000
 ---
 
+![Namdhinggo - Banner](assets/images/Limbu_banner.png){.fullsize}
+<!-- PRODUCT SITE IMAGE SRC https://software.sil.org/wp/wp-content/uploads/2022/04/Limbu_banner.png -->
+
 ## About this project
 
 Namdhinggo is a Unicode font for the Limbu writing system of Nepal. It provides glyphs for all Limbu characters and some Latin.

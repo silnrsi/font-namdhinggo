@@ -26,8 +26,8 @@ See [Character set support](charset.md) for details of the Unicode characters su
 
 ## Rendering and application support
 
-The font will work in applications that use HarfBuzz (such as Firefox, Chrome, Android, and LibreOffice) and InDesign (2020 and later).
-The font will not work in DirectWrite applications (such as Microsoft Word on Windows) until a fix (already coded) is released with Windows 11.
+- The font will work in applications that use HarfBuzz (such as Firefox, Chrome, Android, and LibreOffice) and InDesign (2020 and later).
+- The font will not work in DirectWrite applications (such as Microsoft Word on Windows) prior to Windows 11, which contains a fix for Limbu script shaping.
 
 ## Web fonts
 
