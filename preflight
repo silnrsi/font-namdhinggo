@@ -15,7 +15,7 @@ psfsetpsnames -i source/glyph_data.csv source/masters/Namdhinggo-Regular.ufo
 psfsyncmasters --complex -q source/Namdhinggo.designspace
 
 # Create WOFF metadata file
-psfmakewoffmetadata -n Namdhinggo -i org.sil.fonts -o source/Namdhinggo-WOFF-metadata.xml source/masters/Namdhinggo-Regular.ufo # --populateufowoff --force
+psfmakewoffmetadata -n Namdhinggo -i org.sil.fonts -o source/Namdhinggo-WOFF-metadata.xml source/masters/Namdhinggo-Regular.ufo
 
 # Update FEA in UFO
 psfmakefea -o source/masters/Namdhinggo-Regular.ufo/features.fea   -i source/master.feax source/masters/Namdhinggo-Regular.ufo   &
