@@ -2,7 +2,9 @@
 <glyph name="dottedcircle" format="2">
   <advance width="1066"/>
   <unicode hex="25CC"/>
+  <anchor x="991" y="0" name="G"/>
   <anchor x="533" y="0" name="H"/>
+  <anchor x="533" y="916" name="K"/>
   <anchor x="533" y="-100" name="L"/>
   <anchor x="583" y="0" name="O"/>
   <anchor x="533" y="1000" name="U"/>

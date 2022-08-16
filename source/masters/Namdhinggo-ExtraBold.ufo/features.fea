@@ -409,9 +409,10 @@
 # baseClass [u uacute ucircumflex udieresis ugrave] <anchor 1195 851> @R;
 
 # AP: G
-@G = [Ohm Omega subwa-limb subya-limb];
+@G = [Ohm Omega dottedcircle subwa-limb subya-limb];
 # baseClass Ohm <anchor 61 1192> @G;
 # baseClass Omega <anchor 65 1260> @G;
+# baseClass dottedcircle <anchor 991 0> @G;
 # baseClass subwa-limb <anchor -133 -40> @G;
 # baseClass subya-limb <anchor -121 -40> @G;
 
@@ -423,7 +424,7 @@ markClass subwa_okar_kemphreng-limb <anchor -318 1291> @_K;
 markClass [subya_kemphreng-limb subya_okar_kemphreng-limb] <anchor -230 1250> @_K;
 
 # AP: K
-@K = [ba-limb cha_subra_ukar-limb ja-limb ba_subra_ukar-limb ba_ukar-limb ja_subra_ukar-limb ja_ukar-limb ma-limb tra-limb yan_subra_ukar-limb yan_ukar-limb bha-limb bha_subra_ukar-limb dha-limb nga_subra_ukar-limb bha_ukar-limb ha_subra_ukar-limb ha_ukar-limb ca-limb ca_subra_ukar-limb ca_ukar-limb ga_subra_ukar-limb cha-limb nga-limb nga_ukar-limb cha_ukar-limb yan-limb da-limb wa_subra_ukar-limb wa_ukar-limb da_subra_ukar-limb da_ukar-limb ga-limb dha_subra_ukar-limb sha_subra_ukar-limb dha_ukar-limb ga_ukar-limb gha-limb gha_subra_ukar-limb gha_ukar-limb ka_subra_ukar-limb ka_ukar-limb gyan-limb gyan_subra_ukar-limb gyan_ukar-limb ha-limb ikar-limb jha-limb jha_subra_ukar-limb jha_ukar-limb ka-limb kha-limb tha_ukar-limb kha_subra_ukar-limb kha_ukar-limb la-limb la_subra_ukar-limb la_ukar-limb ma_subra_ukar-limb ma_ukar-limb na-limb na_subra_ukar-limb na_ukar-limb pa-limb pha_subra_ukar-limb pha_ukar-limb pa_subra_ukar-limb pa_ukar-limb pha-limb ra-limb ra_subra_ukar-limb ra_ukar-limb sha_ukar-limb tra_subra_ukar-limb tra_ukar-limb sa-limb sa_subra_ukar-limb sa_ukar-limb sha-limb ssa-limb ssa_subra_ukar-limb ssa_ukar-limb ta-limb ta_subra_ukar-limb ta_ukar-limb tha-limb tha_subra_ukar-limb vowelcarrier-limb vowelcarrier_ukar-limb wa-limb ya-limb ya_subra_ukar-limb ya_ukar-limb];
+@K = [ba-limb cha_subra_ukar-limb ja-limb ba_subra_ukar-limb ba_ukar-limb ja_subra_ukar-limb ja_ukar-limb ma-limb tra-limb yan_subra_ukar-limb yan_ukar-limb bha-limb bha_subra_ukar-limb dha-limb nga_subra_ukar-limb bha_ukar-limb ha_subra_ukar-limb ha_ukar-limb ca-limb ca_subra_ukar-limb ca_ukar-limb ga_subra_ukar-limb cha-limb nga-limb nga_ukar-limb cha_ukar-limb yan-limb da-limb wa_subra_ukar-limb wa_ukar-limb da_subra_ukar-limb da_ukar-limb ga-limb dha_subra_ukar-limb sha_subra_ukar-limb dha_ukar-limb dottedcircle ga_ukar-limb gha-limb gha_subra_ukar-limb gha_ukar-limb ka_subra_ukar-limb ka_ukar-limb gyan-limb gyan_subra_ukar-limb gyan_ukar-limb ha-limb ikar-limb jha-limb jha_subra_ukar-limb jha_ukar-limb ka-limb kha-limb tha_ukar-limb kha_subra_ukar-limb kha_ukar-limb la-limb la_subra_ukar-limb la_ukar-limb ma_subra_ukar-limb ma_ukar-limb na-limb na_subra_ukar-limb na_ukar-limb pa-limb pha_subra_ukar-limb pha_ukar-limb pa_subra_ukar-limb pa_ukar-limb pha-limb ra-limb ra_subra_ukar-limb ra_ukar-limb sha_ukar-limb tra_subra_ukar-limb tra_ukar-limb sa-limb sa_subra_ukar-limb sa_ukar-limb sha-limb ssa-limb ssa_subra_ukar-limb ssa_ukar-limb ta-limb ta_subra_ukar-limb ta_ukar-limb tha-limb tha_subra_ukar-limb vowelcarrier-limb vowelcarrier_ukar-limb wa-limb ya-limb ya_subra_ukar-limb ya_ukar-limb];
 @K_MarkBase = [akar-limb ekar-limb okar-limb subwa_akar-limb subwa_ekar-limb subya_akar-limb subya_ekar-limb];
 # baseClass [ba-limb cha_subra_ukar-limb ja-limb] <anchor 650 1050> @K;
 # baseClass [ba_subra_ukar-limb ba_ukar-limb ja_subra_ukar-limb ja_ukar-limb ma-limb tra-limb yan_subra_ukar-limb yan_ukar-limb] <anchor 580 1050> @K;
@@ -438,6 +439,7 @@ markClass [subya_kemphreng-limb subya_okar_kemphreng-limb] <anchor -230 1250> @_
 # baseClass [da_subra_ukar-limb da_ukar-limb ga-limb] <anchor 570 1050> @K;
 # baseClass [dha_subra_ukar-limb sha_subra_ukar-limb] <anchor 530 1050> @K;
 # baseClass dha_ukar-limb <anchor 566 1050> @K;
+# baseClass dottedcircle <anchor 533 916> @K;
 # baseClass ga_ukar-limb <anchor 607 1050> @K;
 # baseClass gha-limb <anchor 550 1050> @K;
 # baseClass [gha_subra_ukar-limb gha_ukar-limb ka_subra_ukar-limb ka_ukar-limb] <anchor 500 1050> @K;
@@ -947,6 +949,7 @@ lookup Kemphreng {
     pos base [da_subra_ukar-limb da_ukar-limb ga-limb] <anchor 570 1050> mark @_K;
     pos base [dha_subra_ukar-limb sha_subra_ukar-limb] <anchor 530 1050> mark @_K;
     pos base dha_ukar-limb <anchor 566 1050> mark @_K;
+    pos base dottedcircle <anchor 533 916> mark @_K;
     pos base ga_ukar-limb <anchor 607 1050> mark @_K;
     pos base gha-limb <anchor 550 1050> mark @_K;
     pos base [gha_subra_ukar-limb gha_ukar-limb ka_subra_ukar-limb ka_ukar-limb] <anchor 500 1050> mark @_K;
@@ -1062,6 +1065,7 @@ lookup GlideU {
     # (There is already a ligature for each consonant with the Ra+Ukar combination).
     pos base Ohm <anchor 61 1192> mark @_G;
     pos base Omega <anchor 65 1260> mark @_G;
+    pos base dottedcircle <anchor 991 0> mark @_G;
     pos base subwa-limb <anchor -133 -40> mark @_G;
     pos base subya-limb <anchor -121 -40> mark @_G;
     # was @MARK_U
