@@ -14,8 +14,6 @@ The Limbu, or Kirat Sirijonga, script is used by around 400,000 people in Nepal 
 
 According to traditional histories the Limbu script was developed by King Sirijonga in the 9th Century. It then fell out of use before being reintroduced in the 18th century by Teongsi Sirijonga (1704-1741) whom many felt to be the reincarnation of the first Sirijonga. The modern Sirijonga was apparently martyred in 1741 for the sake of this script by lamas in Sikkim. The script was named 'Sirijonga' in his honour by the Limbu scholar Iman Singh Chemjong.
 
-For more information on the visual characteristics of the font family see [Design](design.md).
-
 ## Future plans
 
 Please send us your requests using the [form on the font website](https://software.sil.org/namdhinggo/#contact). If you are interested in helping us make the fonts better see the [Developer](developer.md) page.

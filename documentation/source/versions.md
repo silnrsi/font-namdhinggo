@@ -15,7 +15,7 @@ The latest version of the fonts is always available from the [Namdhinggo downloa
 
 ## Previous versions
 
-Previous versions remain available from the [Download page](https://software.sil.org/namdhinggo/#downloads).
+Previous versions remain available from the [Namdhinggo download page](https://software.sil.org/namdhinggo/#downloads).
 
 ## Change history
 
