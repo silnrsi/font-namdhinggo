@@ -15,6 +15,7 @@ argspec = [
     ('output', {'help': 'Output file ftml in XML format', 'nargs': '?'}, {'type': 'outfile', 'def': '_out.ftml'}),
     ('-i','--input', {'help': 'Glyph info csv file'}, {'type': 'incsv', 'def': 'glyph_data.csv'}),
     ('-f','--fontcode', {'help': 'letter to filter for glyph_data'},{}),
+    ('--prevfont', {'help': 'font file of previous version'}, {'type': 'filename', 'def': None}),
     ('-l','--log', {'help': 'Set log file name'}, {'type': 'outfile', 'def': '_ftml.log'}),
     ('--langs', {'help':'List of bcp47 language tags', 'default': None}, {}),
     ('--rtl', {'help': 'enable right-to-left features', 'action': 'store_true'}, {}),
@@ -27,6 +28,13 @@ argspec = [
     ('--xsl', {'help': 'XSL stylesheet to use'}, {}),
 ]
 
+ageToFlag = 14.0
+ageColor = '#FFC8A0'      # light orange -- marks if there is a char from above Unicode version or later
+missingColor = '#FFE0E0'  # light red -- mark if a char is missing from UFO
+newColor = '#F0FFF0'      # light green -- mark if char is not in previous version (if --prevFont supplied)
+backgroundLegend = f'Background colors: light orange: includes a character from Unicode version {ageToFlag} or later; ' + \
+                   'light red: a character is missing from UFO; ' \
+                   'light green: a character is new in this version of the font'
 
 def doit(args):
     logger = args.logger
@@ -37,6 +45,7 @@ def doit(args):
 
     # Override default base (25CC) for displaying combining marks:
     builder.diacBase = 0x1901   # ka
+    dotted_circle = 0x25CC
 
     # Specify block of primary script
     block = range(0x1900, 0x194F+1)
@@ -48,6 +57,7 @@ def doit(args):
     glides = [uid for uid in uids if 'SUBJOINED' in get_ucd(uid, 'na')]
     finals = [uid for uid in uids if 'LIMBU SMALL' in get_ucd(uid, 'na')]
     digits = [uid for uid in uids if builder.char(uid).general == 'Nd' and uid in block]
+    punct = [uid for uid in uids if get_ucd(uid, 'gc').startswith('P')]
 
     k = 0x193A  # Kemphreng
     ukar = matras[2]
@@ -76,8 +86,27 @@ def doit(args):
         except ValueError:
             fontsrc.append(sl)
             labels.append(None)
-    ftml = FB.FTML(test, logger, rendercheck=not args.norendercheck, fontscale=args.scale,
+    ftml = FB.FTML(test, logger, comment=backgroundLegend, rendercheck=not args.norendercheck, fontscale=args.scale,
                    widths=widths, xslfn=args.xsl, fontsrc=fontsrc, fontlabel=labels, defaultrtl=args.rtl)
+
+    if args.prevfont is not None:
+        try:
+            from fontTools.ttLib import TTFont
+            font = TTFont(args.prevfont)
+            prevCmap = font.getBestCmap()
+        except:
+            logger.log(f'Unable to open previous font {args.prevfont}', 'S')
+
+
+    def setBackgroundColor(uids):
+        # if any uid in uids is missing from the UFO, set test background color to missingColor
+        if any(uid in builder.uidsMissingFromUFO for uid in uids):
+            ftml.setBackground(missingColor)
+        # else if any uid in uids has Unicode age >= ageToFlag, then set the test background color to ageColor
+        elif max(map(lambda x: float(get_ucd(x, 'age')), uids)) >= ageToFlag:
+            ftml.setBackground(ageColor)
+        elif args.prevfont and any(uid not in prevCmap for uid in uids):
+            ftml.setBackground(newColor)
 
     if test.lower().startswith("allchars"):
         # all chars that should be in the font:
@@ -85,69 +114,64 @@ def doit(args):
         for uid in uids:
             if uid < 32: continue
             c = builder.char(uid)
-            # iterate over all permutations of feature settings that might affect this character:
-            for featlist in builder.permuteFeatures(uids = (uid,)):
+            setBackgroundColor((uid,))
+            for featlist in builder.permuteFeatures(uids=(uid,)):
                 ftml.setFeatures(featlist)
                 builder.render((uid,), ftml)
                 # Don't close test -- collect consecutive encoded chars in a single row
             ftml.clearFeatures()
-            for langID in sorted(c.langs):
-                ftml.setLang(langID)
-                builder.render((uid,), ftml)
-            ftml.clearLang()
+            if len(c.langs):
+                for langID in builder.allLangs:
+                    ftml.setLang(langID)
+                    builder.render((uid,), ftml)
+                ftml.clearLang()
+            ftml.clearBackground()
 
         # Add unencoded specials and ligatures -- i.e., things with a sequence of USVs in the glyph_data:
         ftml.startTestGroup('Specials & ligatures from glyph_data')
         for basename in builder.specials():
             special = builder.special(basename)
-            # iterate over all permutations of feature settings that might affect this special
-            for featlist in builder.permuteFeatures(uids = special.uids):
+            setBackgroundColor(special.uids)
+            for featlist in builder.permuteFeatures(uids=special.uids, feats=special.feats):
                 ftml.setFeatures(featlist)
                 builder.render(special.uids, ftml)
                 # close test so each special is on its own row:
                 ftml.closeTest()
             ftml.clearFeatures()
             if len(special.langs):
-                for langID in sorted(special.langs):
+                for langID in builder.allLangs:
                     ftml.setLang(langID)
                     builder.render(special.uids, ftml)
                     ftml.closeTest()
                 ftml.clearLang()
+            ftml.clearBackground()
 
         # Characters used to create SILE test data
         ftml.startTestGroup('Proof')
-        for uid in consonants:
-            builder.render((uid,), ftml)
-        ftml.closeTest()
-        for uid in matras:
-            builder.render((uid,), ftml)
-        ftml.closeTest()
-        for uid in glides:
-            builder.render((uid,), ftml)
-        ftml.closeTest()
-        for uid in digits:
-            builder.render((uid,), ftml)
-        ftml.closeTest()
+        for section in (consonants, matras, glides, digits, punct):
+            builder.render(section, ftml)
+            ftml.closeTest()
 
     if test.lower().startswith("diac"):
         # Diac attachment:
 
         # Representative base and diac chars:
         repDiac = list(filter(lambda x: x in builder.uids(), (0x193A, 0x1939, 0x193B)))
-        repBase = list(filter(lambda x: x in builder.uids(), (0x1901, 0x1900, 0x191D, 0x191E)))
+        repBase = list(filter(lambda x: x in builder.uids(), (0x1901, 0x1900, 0x191D, 0x191E, dotted_circle)))
 
         ftml.startTestGroup('Representative diacritics on all bases that take diacritics')
         for uid in uids:
             # ignore bases outside of the primary script:
             if uid not in block: continue
             c = builder.char(uid)
-            # Always process Lo, but others only if that take marks:
+            # Always process Lo, but others only if they take marks:
             if c.general == 'Lo' or c.isBase:
                 for diac in repDiac:
-                    for featlist in builder.permuteFeatures(uids = (uid,diac)):
+                    setBackgroundColor((uid,diac))
+                    for featlist in builder.permuteFeatures(uids=(uid,diac)):
                         ftml.setFeatures(featlist)
                         # Don't automatically separate connecting or mirrored forms into separate lines:
-                        builder.render((uid,diac), ftml, addBreaks = False)
+                        builder.render((uid,diac), ftml, addBreaks=False)
                     ftml.clearFeatures()
                 ftml.closeTest()
 
@@ -158,15 +182,13 @@ def doit(args):
             c = builder.char(uid)
             if c.general == 'Mn':
                 for base in repBase:
-                    for featlist in builder.permuteFeatures(uids = (uid,base)):
+                    for featlist in builder.permuteFeatures(uids=(uid,base)):
                         ftml.setFeatures(featlist)
-                        builder.render((base,uid), ftml, keyUID = uid, addBreaks = False)
+                        builder.render((base,uid), ftml, keyUID=uid, addBreaks=False)
                     ftml.clearFeatures()
                 ftml.closeTest()
 
     if test.lower().startswith("matras"):
-        # Combinations with matras:
-
         ftml.startTestGroup('Consonants with vowels or Kemphreng')
         for c in consonants:
             for m in matras + [k]:

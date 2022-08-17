@@ -2,6 +2,7 @@
 <?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
 <ftml version="1.0">
   <head>
+    <comment>Background colors: light orange: includes a character from Unicode version 14.0 or later; light red: a character is missing from UFO; light green: a character is new in this version of the font</comment>
     <fontscale>200</fontscale>
     <fontsrc label="RefRegular">url(../references/Namdhinggo-Regular.ttf)</fontsrc>
     <fontsrc label="Regular">url(../results/Namdhinggo-Regular.ttf)</fontsrc>
@@ -214,47 +215,47 @@ U+193A">
     <test label="U+1901
 U+1920">
       <comment>ka-limb akar-limb</comment>
-      <string>\u001901\u001920 \u001900\u001920 \u00191D\u001920 \u00191E\u001920</string>
+      <string>\u001901\u001920 \u001900\u001920 \u00191D\u001920 \u00191E\u001920 \u0025CC\u001920</string>
     </test>
     <test label="U+1901
 U+1921">
       <comment>ka-limb ikar-limb</comment>
-      <string>\u001901\u001921 \u001900\u001921 \u00191D\u001921 \u00191E\u001921</string>
+      <string>\u001901\u001921 \u001900\u001921 \u00191D\u001921 \u00191E\u001921 \u0025CC\u001921</string>
     </test>
     <test label="U+1901
 U+1922">
       <comment>ka-limb ukar-limb</comment>
-      <string>\u001901\u001922 \u001900\u001922 \u00191D\u001922 \u00191E\u001922</string>
+      <string>\u001901\u001922 \u001900\u001922 \u00191D\u001922 \u00191E\u001922 \u0025CC\u001922</string>
     </test>
     <test label="U+1901
 U+1927">
       <comment>ka-limb ekar-limb</comment>
-      <string>\u001901\u001927 \u001900\u001927 \u00191D\u001927 \u00191E\u001927</string>
+      <string>\u001901\u001927 \u001900\u001927 \u00191D\u001927 \u00191E\u001927 \u0025CC\u001927</string>
     </test>
     <test label="U+1901
 U+1928">
       <comment>ka-limb okar-limb</comment>
-      <string>\u001901\u001928 \u001900\u001928 \u00191D\u001928 \u00191E\u001928</string>
+      <string>\u001901\u001928 \u001900\u001928 \u00191D\u001928 \u00191E\u001928 \u0025CC\u001928</string>
     </test>
     <test label="U+1901
 U+1932">
       <comment>ka-limb smallanusvara-limb</comment>
-      <string>\u001901\u001932 \u001900\u001932 \u00191D\u001932 \u00191E\u001932</string>
+      <string>\u001901\u001932 \u001900\u001932 \u00191D\u001932 \u00191E\u001932 \u0025CC\u001932</string>
     </test>
     <test label="U+1901
 U+1939">
       <comment>ka-limb mukphreng-limb</comment>
-      <string>\u001901\u001939 \u001900\u001939 \u00191D\u001939 \u00191E\u001939</string>
+      <string>\u001901\u001939 \u001900\u001939 \u00191D\u001939 \u00191E\u001939 \u0025CC\u001939</string>
     </test>
     <test label="U+1901
 U+193A">
       <comment>ka-limb kemphreng-limb</comment>
-      <string>\u001901\u00193A \u001900\u00193A \u00191D\u00193A \u00191E\u00193A</string>
+      <string>\u001901\u00193A \u001900\u00193A \u00191D\u00193A \u00191E\u00193A \u0025CC\u00193A</string>
     </test>
     <test label="U+1901
 U+193B">
       <comment>ka-limb sai-limb</comment>
-      <string>\u001901\u00193B \u001900\u00193B \u00191D\u00193B \u00191E\u00193B</string>
+      <string>\u001901\u00193B \u001900\u00193B \u00191D\u00193B \u00191E\u00193B \u0025CC\u00193B</string>
     </test>
   </testgroup>
 </ftml>
