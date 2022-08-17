@@ -137,7 +137,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>openTypeNameUniqueID</key>
   <string>SIL International: Namdhinggo ExtraBold: 2022</string>
   <key>openTypeNameVersion</key>
-  <string>Version 3.000</string>
+  <string>Version 3.001</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -256,7 +256,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>versionMajor</key>
   <integer>3</integer>
   <key>versionMinor</key>
-  <integer>0</integer>
+  <integer>1</integer>
   <key>woffMetadataCredits</key>
   <dict>
     <key>credits</key>

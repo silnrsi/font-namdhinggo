@@ -1,4 +1,4 @@
-fontversion: 3.000
+fontversion: 3.001
 
 - Added additional weights: Medium, Semibold, Bold, ExtraBold
 - Remove SIL suffix from font name

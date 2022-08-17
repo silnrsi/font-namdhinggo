@@ -1,6 +1,6 @@
 ---
 title: Namdhinggo - Documentation
-fontversion: 3.000
+fontversion: 3.001
 ---
 
 Thank you for your interest in the Namdhinggo fonts for the Limbu script.

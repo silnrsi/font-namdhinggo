@@ -1,6 +1,6 @@
 ---
 title: Namdhinggo - Developer Information
-fontversion: 3.000
+fontversion: 3.001
 ---
 
 ## Welcome font developers!
