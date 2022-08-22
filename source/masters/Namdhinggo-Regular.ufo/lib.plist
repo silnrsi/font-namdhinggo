@@ -1008,5 +1008,18 @@
     <key>zwsp</key>
     <string>uni200B</string>
   </dict>
+  <key>public.skipExportGlyphs</key>
+  <array>
+    <string>akar-limb.widC</string>
+    <string>akar-limb.widD</string>
+    <string>ukar-limb.altA</string>
+    <string>ukar-limb.altB</string>
+    <string>ukar-limb.altC</string>
+    <string>subra_ukar-limb</string>
+    <string>kemphreng-limb.widC</string>
+    <string>sai-limb.widA</string>
+    <string>sai-limb.widB</string>
+    <string>sai-limb.widC</string>
+  </array>
 </dict>
 </plist>

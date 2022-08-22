@@ -1,21 +1,7 @@
 
 # Main Classes
 @GDEF_bases = [.notdef .null A AE Aacute Acircumflex Adieresis Agrave Aring Atilde B C Ccedilla D Delta E Eacute Ecircumflex Edieresis Egrave EmQuad EmSpace EnQuad EnSpace Eth Euro F FigureSpace FourPerEmSpace G H HairSpace I Iacute Icircumflex Idieresis Igrave J K L M N Ntilde O OE Oacute ObjectReplChar Ocircumflex Odieresis Ograve Ohm Omegagreek Oslash Otilde P PuncSpace Q R ReplChar S Scaron SixPerEmSpace T ThinSpace Thorn ThreePerEmSpace U Uacute Ucircumflex Udieresis Ugrave V VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS9 W X Y Yacute Ydieresis Z Zcaron a aacute acircumflex acute adieresis ae agrave aikar-limb ampersand approxequal aring asciicircum asciitilde asterisk at atilde aukar-limb b ba-limb ba_subra_ukar-limb ba_ukar-limb backslash bar bha-limb bha_subra_ukar-limb bha_ukar-limb braceleft braceright bracketleft bracketright breve brokenbar bullet bulletoperator c ca-limb ca_subra_ukar-limb ca_ukar-limb caron ccedilla cedilla cent cgj cha-limb cha_subra_ukar-limb cha_ukar-limb circumflex colon colontriangularmod comma copyright currency d da-limb da_subra_ukar-limb da_ukar-limb dagger daggerdbl dandadbl degree dha-limb dha_subra_ukar-limb dha_ukar-limb dieresis divide divisionslash dollar dotaccent dotlessi dottedcircle e eacute ecircumflex edieresis eekar-limb egrave eight eight-limb ellipsis emdash endash equal eth exclam exclam-limb exclamdown f fi figuredash five five-limb fl florin four four-limb foursuperior fraction g ga-limb ga_subra_ukar-limb ga_ukar-limb germandbls gha-limb gha_subra_ukar-limb gha_ukar-limb grave greater greaterequal guillemotleft guillemotright guilsinglleft guilsinglright gyan-limb gyan_subra_ukar-limb gyan_ukar-limb h ha-limb ha_subra_ukar-limb ha_ukar-limb horizontalbar hungarumlaut hyphen hyphenpoint hyphentwo i iacute icircumflex idieresis igrave ikar-limb ikar_kemphreng-limb infinity inrupee integral j ja-limb ja_subra_ukar-limb ja_ukar-limb jha-limb jha_subra_ukar-limb jha_ukar-limb k ka-limb ka_subra_ukar-limb ka_ukar-limb kha-limb kha_subra_ukar-limb kha_ukar-limb l la-limb la_subra_ukar-limb la_ukar-limb less lessequal lineseparator logicalnot loo-limb lozenge m ma-limb ma_subra_ukar-limb ma_ukar-limb macron minus mu mukphreng-limb multiply n na-limb na_subra_ukar-limb na_ukar-limb nbhyphen nbsp nga-limb nga_subra_ukar-limb nga_ukar-limb nine nine-limb nnbsp nonmarkingreturn notequal ntilde numbersign o oacute ocircumflex odieresis oe ogonek ograve one one-limb onehalf onequarter onesuperior ookar-limb openbox ordfeminine ordmasculine oslash otilde p pa-limb pa_subra_ukar-limb pa_ukar-limb paragraph paraseparator parenleft parenright partialdiff percent period periodcentered perthousand pha-limb pha_subra_ukar-limb pha_ukar-limb pi plus plusminus product q question question-limb questiondown quotedbl quotedblbase quotedblleft quotedblright quoteleft quoteright quotesinglbase quotesingle r ra-limb ra_subra_ukar-limb ra_ukar-limb radical registered ring rupee s sa-limb sa_subra_ukar-limb sa_ukar-limb scaron section semicolon seven seven-limb sha-limb sha_subra_ukar-limb sha_ukar-limb sidebearingleft sidebearingright six six-limb slash smallka-limb smallla-limb smallma-limb smallna-limb smallnga-limb smallpa-limb smallra-limb smallta-limb softhyphen space ssa-limb ssa_subra_ukar-limb ssa_ukar-limb sterling subra-limb subwa-limb subya-limb summation t ta-limb ta_subra_ukar-limb ta_ukar-limb tha-limb tha_subra_ukar-limb tha_ukar-limb thorn three three-limb threequarters threesuperior tilde tra-limb tra_subra_ukar-limb tra_ukar-limb trademark two two-limb twosuperior u uacute ucircumflex udieresis ugrave underscore v vowelcarrier-limb vowelcarrier_ukar-limb w wa-limb wa_subra_ukar-limb wa_ukar-limb wj x y ya-limb ya_subra_ukar-limb ya_ukar-limb yacute yan-limb yan_subra_ukar-limb yan_ukar-limb ydieresis yen z zcaron zero zero-limb zwj zwnbsp zwnj zwsp];
-@GDEF_marks = [aikar_kemphreng-limb akar-limb akar-limb.widC akar-limb.widD eekar_kemphreng-limb ekar-limb kemphreng-limb kemphreng-limb.widC okar-limb sai-limb sai-limb.widA sai-limb.widB sai-limb.widC smallanusvara-limb subra_ukar-limb subwa_akar-limb subwa_akar_kemphreng-limb subwa_ekar-limb subwa_ekar_kemphreng-limb subwa_kemphreng-limb subwa_okar-limb subwa_okar_kemphreng-limb subwa_ukar-limb subwa_ukar_kemphreng-limb subya_akar-limb subya_akar_kemphreng-limb subya_ekar-limb subya_ekar_kemphreng-limb subya_kemphreng-limb subya_okar-limb subya_okar_kemphreng-limb subya_ukar-limb subya_ukar_kemphreng-limb ukar-limb ukar-limb.altA ukar-limb.altB ukar-limb.altC];
-@c_altA = [ukar-limb.altA];
-@cno_altA = [ukar-limb];
-@c_altB = [ukar-limb.altB];
-@cno_altB = [ukar-limb];
-@c_altC = [ukar-limb.altC];
-@cno_altC = [ukar-limb];
-@c_widA = [sai-limb.widA];
-@cno_widA = [sai-limb];
-@c_widB = [sai-limb.widB];
-@cno_widB = [sai-limb];
-@c_widC = [akar-limb.widC kemphreng-limb.widC sai-limb.widC];
-@cno_widC = [akar-limb kemphreng-limb sai-limb];
-@c_widD = [akar-limb.widD];
-@cno_widD = [akar-limb];
+@GDEF_marks = [aikar_kemphreng-limb akar-limb eekar_kemphreng-limb ekar-limb kemphreng-limb okar-limb sai-limb smallanusvara-limb subwa_akar-limb subwa_akar_kemphreng-limb subwa_ekar-limb subwa_ekar_kemphreng-limb subwa_kemphreng-limb subwa_okar-limb subwa_okar_kemphreng-limb subwa_ukar-limb subwa_ukar_kemphreng-limb subya_akar-limb subya_akar_kemphreng-limb subya_ekar-limb subya_ekar_kemphreng-limb subya_kemphreng-limb subya_okar-limb subya_okar_kemphreng-limb subya_ukar-limb subya_ukar_kemphreng-limb ukar-limb];
 
 # Positioning classes and statements
 
@@ -216,7 +202,6 @@
 
 # AP: U
 @U = [A AE Aacute Agrave Acircumflex Adieresis Atilde Aring B C Ccedilla D Z E Eacute Egrave Ecircumflex Edieresis Eth F G H I Iacute Igrave Icircumflex Idieresis J K L M N V Ntilde O OE Oacute Ograve Ocircumflex Odieresis Otilde Oslash Y P Q R S Scaron T Thorn U Uacute Ugrave Ucircumflex Udieresis W X Yacute Ydieresis Zcaron a aacute acircumflex acute grave adieresis ae agrave aring asciicircum atilde b k ba-limb ma-limb bha-limb breve c ccedilla ca-limb caron cha-limb d da-limb vowelcarrier-limb dha-limb tra-limb tra_subra_ukar-limb tra_ukar-limb dieresis dotlessi i dottedcircle e eacute ecircumflex edieresis egrave eight five four nine one seven six three two zero eth f fi fl florin foursuperior g ga-limb germandbls gha-limb gyan-limb gyan_subra_ukar-limb gyan_ukar-limb h ha-limb iacute icircumflex idieresis igrave j ja-limb jha-limb ka-limb kha-limb l la-limb m n na-limb nga-limb nnbsp ntilde o oacute ocircumflex odieresis oe ograve onesuperior oslash otilde p pa-limb pha-limb pi q r ra-limb s sa-limb scaron sha-limb ssa-limb summation t ta-limb tha-limb thorn threesuperior twosuperior u uacute ucircumflex udieresis ugrave v w wa-limb x y ya-limb yacute yan-limb ydieresis z zcaron];
-@U_MarkBase = [akar-limb.widC akar-limb.widD];
 # baseClass A <anchor 581 1323> @U;
 # baseClass AE <anchor 894 1323> @U;
 # baseClass [Aacute Agrave] <anchor 581 1648> @U;
@@ -368,8 +353,6 @@
 # baseClass ydieresis <anchor 502 1368> @U;
 # baseClass z <anchor 458 993> @U;
 # baseClass zcaron <anchor 458 1381> @U;
-# baseClass akar-limb.widC <anchor -320 1250> @U_MarkBase;
-# baseClass akar-limb.widD <anchor -380 1250> @U_MarkBase;
 
 # AP: R
 @R = [E Eacute Ecircumflex Edieresis Egrave I Iacute Icircumflex Idieresis Igrave L O Oacute Ocircumflex Odieresis Ograve Otilde U Uacute Ucircumflex Udieresis Ugrave a aacute acircumflex adieresis agrave aring atilde ae b c ccedilla d dotlessi i iacute icircumflex idieresis igrave e eacute ecircumflex edieresis egrave fi fl g k l nnbsp o oacute ocircumflex odieresis ograve otilde oe oslash p q t u uacute ucircumflex udieresis ugrave y yacute ydieresis];
@@ -409,7 +392,6 @@
 
 # AP: _K
 markClass [aikar_kemphreng-limb eekar_kemphreng-limb kemphreng-limb subwa_kemphreng-limb subwa_okar_kemphreng-limb subwa_ukar_kemphreng-limb subya_kemphreng-limb subya_okar_kemphreng-limb subya_ukar_kemphreng-limb] <anchor -260 1250> @_K;
-markClass kemphreng-limb.widC <anchor -260 1050> @_K;
 
 # AP: K
 @K = [ba-limb ba_subra_ukar-limb ba_ukar-limb ja-limb ja_subra_ukar-limb ja_ukar-limb yan-limb yan_subra_ukar-limb yan_ukar-limb bha-limb bha_subra_ukar-limb bha_ukar-limb ha-limb ha_subra_ukar-limb ha_ukar-limb nga-limb nga_subra_ukar-limb nga_ukar-limb sa-limb sa_subra_ukar-limb sa_ukar-limb ca-limb ca_subra_ukar-limb ca_ukar-limb ga-limb ga_subra_ukar-limb ga_ukar-limb cha-limb cha_subra_ukar-limb cha_ukar-limb da-limb da_subra_ukar-limb da_ukar-limb dha-limb dha_subra_ukar-limb dha_ukar-limb dottedcircle gha-limb gha_subra_ukar-limb gha_ukar-limb ka-limb ka_subra_ukar-limb ka_ukar-limb gyan-limb gyan_subra_ukar-limb gyan_ukar-limb ikar-limb jha-limb jha_subra_ukar-limb jha_ukar-limb ta-limb ta_subra_ukar-limb ta_ukar-limb kha-limb kha_subra_ukar-limb kha_ukar-limb pa-limb pa_subra_ukar-limb pa_ukar-limb la-limb la_subra_ukar-limb la_ukar-limb ma-limb ma_subra_ukar-limb ma_ukar-limb na-limb na_subra_ukar-limb na_ukar-limb pha-limb pha_subra_ukar-limb pha_ukar-limb ra-limb ra_subra_ukar-limb ra_ukar-limb sha-limb sha_subra_ukar-limb sha_ukar-limb tra-limb tra_subra_ukar-limb tra_ukar-limb ssa-limb ssa_subra_ukar-limb ssa_ukar-limb tha-limb tha_subra_ukar-limb tha_ukar-limb vowelcarrier-limb vowelcarrier_ukar-limb wa-limb wa_subra_ukar-limb wa_ukar-limb ya-limb ya_subra_ukar-limb ya_ukar-limb];
@@ -442,8 +424,6 @@ markClass kemphreng-limb.widC <anchor -260 1050> @_K;
 
 # AP: _U
 markClass [akar-limb subwa_akar-limb subwa_akar_kemphreng-limb subya_akar-limb subya_akar_kemphreng-limb] <anchor -500 1050> @_U;
-markClass akar-limb.widC <anchor -560 1050> @_U;
-markClass akar-limb.widD <anchor -640 1050> @_U;
 
 # AP: V
 @V = [ba-limb bha-limb ca-limb cha-limb da-limb dha-limb ga-limb gha-limb gyan-limb ha-limb ja-limb jha-limb ka-limb na-limb kha-limb la-limb ma-limb nga-limb pa-limb pha-limb ra-limb sa-limb sha-limb ssa-limb ta-limb tha-limb tra-limb vowelcarrier-limb wa-limb ya-limb yan-limb];
@@ -484,13 +464,10 @@ markClass [okar-limb subwa_okar-limb subwa_okar_kemphreng-limb subya_okar-limb s
 
 # AP: _L
 markClass sai-limb <anchor -525 -100> @_L;
-markClass sai-limb.widA <anchor -415 -100> @_L;
-markClass sai-limb.widB <anchor -500 -100> @_L;
-markClass sai-limb.widC <anchor -600 -100> @_L;
 markClass smallanusvara-limb <anchor -542 -100> @_L;
 
 # AP: _V
-markClass [subra_ukar-limb subwa_ukar-limb subwa_ukar_kemphreng-limb subya_ukar-limb subya_ukar_kemphreng-limb ukar-limb ukar-limb.altA ukar-limb.altB ukar-limb.altC] <anchor -100 50> @_V;
+markClass [subwa_ukar-limb subwa_ukar_kemphreng-limb subya_ukar-limb subya_ukar_kemphreng-limb ukar-limb] <anchor -100 50> @_V;
 
 # AP: _G
 markClass ukar-limb <anchor -150 -15> @_G;
