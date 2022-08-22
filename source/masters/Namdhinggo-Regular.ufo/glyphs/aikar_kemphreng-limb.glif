@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="aikar_kemphreng-limb" format="2">
-  <advance width="1070"/>
   <anchor x="-260" y="1250" name="_K"/>
   <outline>
     <component base="kemphreng-limb"/>
