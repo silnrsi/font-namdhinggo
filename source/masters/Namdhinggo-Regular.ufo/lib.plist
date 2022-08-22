@@ -312,7 +312,7 @@
     <string>tilde</string>
     <string>hungarumlaut</string>
     <string>cgj</string>
-    <string>Omega</string>
+    <string>Omegagreek</string>
     <string>pi</string>
     <string>dandadbl</string>
     <string>vowelcarrier-limb</string>
@@ -580,7 +580,9 @@
     <key>ObjectReplChar</key>
     <string>uniFFFC</string>
     <key>Ohm</key>
-    <string>uni2126</string>
+    <string>Omega</string>
+    <key>Omegagreek</key>
+    <string>uni03A9</string>
     <key>PuncSpace</key>
     <string>uni2008</string>
     <key>ReplChar</key>

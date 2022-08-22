@@ -104,8 +104,8 @@
   <string>O_grave.glif</string>
   <key>Ohm</key>
   <string>O_hm.glif</string>
-  <key>Omega</key>
-  <string>O_mega.glif</string>
+  <key>Omegagreek</key>
+  <string>O_megagreek.glif</string>
   <key>Oslash</key>
   <string>O_slash.glif</string>
   <key>Otilde</key>
