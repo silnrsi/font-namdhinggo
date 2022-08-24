@@ -3,6 +3,10 @@ title: Namdhinggo - Version History
 fontversion: 3.001
 ---
 
+### 24 Apr 2022 (SIL WSTech Team) Namdhinggo version 3.001
+- Improve spacing within some conjuncts
+- Minor technical improvements
+
 ### 29 Apr 2022 (SIL WSTech Team) Namdhinggo version 3.000
 - Added additional weights: Medium, SemiBold, Bold, ExtraBold
 - Removed SIL suffix from font name
