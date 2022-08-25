@@ -4,7 +4,7 @@ fontversion: 3.001
 ---
 
 ### 24 Apr 2022 (SIL WSTech Team) Namdhinggo version 3.001
-- Improve spacing within some conjuncts
+- Improve spacing within some conjuncts in some applications
 - Minor technical improvements
 
 ### 29 Apr 2022 (SIL WSTech Team) Namdhinggo version 3.000

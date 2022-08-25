@@ -653,7 +653,7 @@ lookup GlideIkar {
 
 lookup IkarKWid {
     lookupflag 0;
-    # The IkarKWid lookup, applied to the Kern feature,
+    # The IkarKWid lookup, applied to the Dist feature,
     # kerns the IkarKemphreng ligature when followed by a consonant with akar on it
     # if a clash would result (which is most cases).
     # This prevents the akar from overprinting the rightmost dot of the kemphreng.
@@ -971,16 +971,6 @@ feature ccmp {
     lookup GlideVowelDecomp;
 } ccmp;
 
-feature kern {
-    # Kerning
-    script DFLT;
-    # Default
-    language dflt;
-    # Default
-    lookup GlideIkar;
-    lookup IkarKWid;
-} kern;
-
 feature rlig {
     # Required Ligatures
     script DFLT;
@@ -991,6 +981,16 @@ feature rlig {
     lookup Ukar;
     lookup IkarK;
 } rlig;
+
+feature dist {
+    # Distance
+    script DFLT;
+    # Default
+    language dflt;
+    # Default
+    lookup GlideIkar;
+    lookup IkarKWid;
+} dist;
 
 feature mark {
     # Mark Positioning

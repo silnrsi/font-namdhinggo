@@ -1,3 +1,3 @@
 fontversion: 3.001
 
-- Improve spacing within some conjuncts
+- Improve spacing within some conjuncts in some applications
