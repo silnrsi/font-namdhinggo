@@ -1,6 +1,6 @@
 ---
 title: Namdhinggo - About
-fontversion: 3.001
+fontversion: 3.002
 ---
 
 ![Namdhinggo - Banner](assets/images/Limbu_banner.png){.fullsize}

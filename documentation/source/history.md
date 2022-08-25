@@ -1,6 +1,6 @@
 ---
 title: Namdhinggo - Version History
-fontversion: 3.001
+fontversion: 3.002
 ---
 
 ### 24 Apr 2022 (SIL WSTech Team) Namdhinggo version 3.001
