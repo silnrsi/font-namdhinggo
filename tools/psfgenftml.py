@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-'generate ftml tests from glyph_data.csv and UFO'
+__doc__ = '''generate ftml tests from glyph_data.csv and UFO'''
 __url__ = 'http://github.com/silnrsi/pysilfont'
-__copyright__ = 'Copyright (c) 2018,2021 SIL International  (http://www.sil.org)'
+__copyright__ = 'Copyright (c) 2018-2022 SIL International  (http://www.sil.org)'
 __license__ = 'Released under the MIT License (http://opensource.org/licenses/MIT)'
 __author__ = 'Bob Hallissy'
 
@@ -190,7 +190,7 @@ def doit(args):
 
     if test.lower().startswith("matras"):
         ftml.startTestGroup('Consonants with vowels or Kemphreng')
-        for c in consonants:
+        for c in consonants + [dotted_circle]:
             for m in matras + [k]:
                 builder.render((c,m), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
             ftml.closeTest()

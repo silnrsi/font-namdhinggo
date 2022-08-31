@@ -134,6 +134,10 @@
       <comment>tra-limb</comment>
       <string>\u00191E\u001920 \u00191E\u001921 \u00191E\u001922 \u00191E\u001923 \u00191E\u001924 \u00191E\u001925 \u00191E\u001926 \u00191E\u001927 \u00191E\u001928 \u00191E\u00193A</string>
     </test>
+    <test label="25CC">
+      <comment>dottedcircle</comment>
+      <string>\u0025CC\u001920 \u0025CC\u001921 \u0025CC\u001922 \u0025CC\u001923 \u0025CC\u001924 \u0025CC\u001925 \u0025CC\u001926 \u0025CC\u001927 \u0025CC\u001928 \u0025CC\u00193A</string>
+    </test>
   </testgroup>
   <testgroup label="Consonants with vowels and kemphreng">
     <test label="1900">
