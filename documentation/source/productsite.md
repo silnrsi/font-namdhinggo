@@ -3,8 +3,6 @@ title: Namdhinggo - Product Site
 fontversion: 3.002
 ---
 
-# Namdhinggo
-
 ![Namdhinggo - Banner](assets/images/Limbu_banner.png){.fullsize}
 <!-- PRODUCT SITE IMAGE SRC https://software.sil.org/wp/wp-content/uploads/2022/05/Limbu_banner.png -->
 <!-- <figcaption>Namdhinggo</figcaption> -->
@@ -51,12 +49,9 @@ These fonts are licensed under the [SIL Open Font License (OFL)](https://scripts
 
 [sil_download style="table" sort="name" where="info.type == 'font'"]
 
-#### Release Notes for v3.000
+#### Release Notes for v3.001
 
-- Added additional weights: Medium, SemiBold, Bold, ExtraBold
-- Remove SIL suffix from font name
-- Improved kerning
-- Added documentation
+- Improve spacing within some conjuncts in some applications
 
 ### Previous Versions
 

@@ -1,6 +1,4 @@
 
-# Namdhinggo
-
 <img class='fullsize' alt='Namdhinggo - Banner' src='https://software.sil.org/wp/wp-content/uploads/2022/05/Limbu_banner.png' />
 <!-- [caption]<em>Namdhinggo</em>[/caption] -->
 
@@ -45,12 +43,9 @@ These fonts are licensed under the [SIL Open Font License (OFL)](https://scripts
 
 [sil_download style="table" sort="name" where="info.type == 'font'"]
 
-#### Release Notes for v3.000
+#### Release Notes for v3.001
 
-- Added additional weights: Medium, SemiBold, Bold, ExtraBold
-- Remove SIL suffix from font name
-- Improved kerning
-- Added documentation
+- Improve spacing within some conjuncts in some applications
 
 ### Previous Versions
 
