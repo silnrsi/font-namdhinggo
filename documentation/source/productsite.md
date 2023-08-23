@@ -5,7 +5,6 @@ fontversion: 3.002
 
 ![Namdhinggo - Banner](assets/images/Limbu_banner.png){.fullsize}
 <!-- PRODUCT SITE IMAGE SRC https://software.sil.org/wp/wp-content/uploads/2022/05/Limbu_banner.png -->
-<!-- <figcaption>Namdhinggo</figcaption> -->
 
 <h2 id="about">About</h2>
 
