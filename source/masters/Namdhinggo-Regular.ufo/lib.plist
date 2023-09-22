@@ -314,6 +314,7 @@
     <string>cgj</string>
     <string>Omegagreek</string>
     <string>pi</string>
+    <string>danda</string>
     <string>dandadbl</string>
     <string>vowelcarrier-limb</string>
     <string>vowelcarrier_ukar-limb</string>
@@ -673,6 +674,8 @@
     <string>uni190D192A1922</string>
     <key>da_ukar-limb</key>
     <string>uni190D1922</string>
+    <key>danda</key>
+    <string>uni0964</string>
     <key>dandadbl</key>
     <string>uni0965</string>
     <key>dha-limb</key>

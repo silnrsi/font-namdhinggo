@@ -47,8 +47,8 @@
 
 \subsection{Punctuation}
 
-\proof{॥᥄᥅᥀}
-\pattern[chars="@",reps="group_cons",format="list"]{@॥@᥄@᥅@᥀@}
+\proof{!"#&'()*,-./:;?[]_·।॥᥀᥄᥅‐‑‒–—―‘’‚“”•…‧}
+\pattern[chars="@",reps="group_cons",format="list"]{@!@"@#@&@'@(@)@*@,@-@.@/@:@;@?@[@]@_@।@॥@᥀@᥄@᥅@‐@‑@‒@–@—@―@‘@’@‚@“@”@•@…@‧}
 
 \subsection{Spaces}
 

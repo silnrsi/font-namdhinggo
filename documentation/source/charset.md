@@ -20,7 +20,7 @@ Latin Extended B|U+0192
 Spacing Modifier Letters|U+02C6..U+02C7, U+02D0, U+02D8..U+02DD
 Combining Diacritical Marks|U+034F
 Greek And Coptic|U+03A9, U+03C0
-Devanagari|U+0965
+Devanagari|U+0964..U+0965
 Limbu|U+1900..U+191E, U+1920..U+192B, U+1930..U+193B, U+1940, U+1944..U+194F
 General Punctuation|U+2000..U+200D, U+2010..U+2015, U+2018..U+201A, U+201C..U+201E, U+2020..U+2022, U+2026..U+2029, U+202F..U+2030, U+2039..U+203A, U+2044, U+2060
 Superscripts And Subscripts|U+2074
@@ -35,5 +35,5 @@ Variation Selectors|U+FE00..U+FE0F
 Arabic Presentation Forms B|U+FEFF
 Specials|U+FFFC..U+FFFD
 
-The Devanagari "bit" is set in this font to prevent unwarranted font switching when U+0965 DEVANAGARI DOUBLE DANDA is used.
-However, U+0965 is the only character from the Devanagari block in this font.
+The Devanagari "bit" is set in this font to prevent unwarranted font switching when U+0965 DEVANAGARI DOUBLE DANDA or U+0964 DEVANAGARI DANDA is used.
+However, U+0964 and U+0965 are the only characters from the Devanagari block in this font.

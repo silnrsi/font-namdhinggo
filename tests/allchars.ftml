@@ -66,9 +66,9 @@
       <comment>pi</comment>
       <string>\u0003C0</string>
     </test>
-    <test label="U+0965">
-      <comment>dandadbl</comment>
-      <string>\u000965</string>
+    <test label="U+0964">
+      <comment>danda</comment>
+      <string>\u000964 \u000965</string>
     </test>
     <test label="U+1900">
       <comment>vowelcarrier-limb</comment>
@@ -782,6 +782,7 @@ U+00B6
 U+00B7
 U+00BB
 U+00BF
+U+0964
 U+0965
 U+1944
 U+1945
@@ -805,8 +806,8 @@ U+2027
 U+2030
 U+2039
 U+203A">
-      <comment>exclam quotedbl numbersign percent ampersand quotesingle parenleft parenright asterisk comma hyphen period slash colon semicolon question at bracketleft backslash bracketright underscore braceleft braceright exclamdown section guillemotleft paragraph periodcentered guillemotright questiondown dandadbl exclam-limb question-limb hyphentwo nbhyphen figuredash endash emdash horizontalbar quoteleft quoteright quotesinglbase quotedblleft quotedblright quotedblbase dagger daggerdbl bullet ellipsis hyphenpoint perthousand guilsinglleft guilsinglright</comment>
-      <string>!"#%&amp;'()*,-./:;?@[\]_{}\u0000A1\u0000A7\u0000AB\u0000B6\u0000B7\u0000BB\u0000BF\u000965\u001944\u001945\u002010\u002011\u002012\u002013\u002014\u002015\u002018\u002019\u00201A\u00201C\u00201D\u00201E\u002020\u002021\u002022\u002026\u002027\u002030\u002039\u00203A</string>
+      <comment>exclam quotedbl numbersign percent ampersand quotesingle parenleft parenright asterisk comma hyphen period slash colon semicolon question at bracketleft backslash bracketright underscore braceleft braceright exclamdown section guillemotleft paragraph periodcentered guillemotright questiondown danda dandadbl exclam-limb question-limb hyphentwo nbhyphen figuredash endash emdash horizontalbar quoteleft quoteright quotesinglbase quotedblleft quotedblright quotedblbase dagger daggerdbl bullet ellipsis hyphenpoint perthousand guilsinglleft guilsinglright</comment>
+      <string>!"#%&amp;'()*,-./:;?@[\]_{}\u0000A1\u0000A7\u0000AB\u0000B6\u0000B7\u0000BB\u0000BF\u000964\u000965\u001944\u001945\u002010\u002011\u002012\u002013\u002014\u002015\u002018\u002019\u00201A\u00201C\u00201D\u00201E\u002020\u002021\u002022\u002026\u002027\u002030\u002039\u00203A</string>
     </test>
   </testgroup>
 </ftml>
