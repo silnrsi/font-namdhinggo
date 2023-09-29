@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
   <uniqueid id="org.sil.fonts.namdhinggo.3.002" />
-  <vendor name="SIL International" url="http://scripts.sil.org/" />
+  <vendor name="SIL International" url="https://software.sil.org/wstech/" />
   <credits>
     <credit
       name="Victor Gaultney, Becca Spalinger"
@@ -22,12 +22,12 @@
   </description>
   <license url="https://scripts.sil.org/OFL" id="org.sil.ofl.1.1">
     <text lang="en">
-      Copyright (c) 2002-2023, SIL International (http://www.sil.org/),
+      Copyright (c) 2002-2023, SIL International (https://www.sil.org/),
       with Reserved Font Names "Namdhinggo" and "SIL".
       
       This Font Software is licensed under the SIL Open Font License, Version 1.1.
       This license is copied below, and is also available with a FAQ at:
-      http://scripts.sil.org/OFL
+      https://scripts.sil.org/OFL
       
       
       -----------------------------------------------------------
@@ -120,7 +120,7 @@
   </license>
   <copyright>
     <text lang="en">
-      Copyright (c) 2002-2023, SIL International (http://www.sil.org/),
+      Copyright (c) 2002-2023, SIL International (https://www.sil.org/),
       with Reserved Font Names "Namdhinggo" and "SIL".
     </text>
   </copyright>

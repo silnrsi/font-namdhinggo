@@ -12,7 +12,7 @@ psfsetglyphorder --header sort_final -i source/glyph_data.csv source/masters/Nam
 psfsetpsnames -i source/glyph_data.csv source/masters/Namdhinggo-Regular.ufo
 
 # Sync glyph orders, psnames, and other metadata
-psfsyncmasters --complex -q source/Namdhinggo.designspace
+psfsyncmasters -q source/Namdhinggo.designspace
 
 # Create WOFF metadata file
 psfmakewoffmetadata -n namdhinggo -i org.sil.fonts -o source/Namdhinggo-WOFF-metadata.xml source/masters/Namdhinggo-Regular.ufo

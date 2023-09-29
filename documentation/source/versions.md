@@ -7,7 +7,7 @@ fontversion: 3.002
 
 If you would like stay informed of updates to Namdhinggo and other SIL fonts, please subscribe to the [SIL Font News Announcement List](https://groups.google.com/a/groups.sil.org/forum/#!forum/sil-font-news). For more information see [About](about.md).
 
-Our font announcements are also available through Twitter [@silfonts](http://twitter.com/silfonts).
+Our font announcements are also available through Twitter [\@silfonts](http://twitter.com/silfonts).
 
 ## Current version
 
