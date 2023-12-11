@@ -1,4 +1,4 @@
-# Namdhinggo [![Build Status](http://build.palaso.org/app/rest/builds/buildType:Fonts_Namdhinggo/statusIcon)](http://build.palaso.org/viewType.html?buildTypeId=Fonts_Namdhinggo&guest=1)
+# Namdhinggo [![Build Status](https://build.palaso.org/app/rest/builds/buildType:Fonts_Namdhinggo/statusIcon)](http://build.palaso.org/viewType.html?buildTypeId=Fonts_Namdhinggo&guest=1)
 
 This project provides a free and open font family for the Limbu script of Nepal.
 This project uses a UFO-based design and production workflow, with all sources in open formats and a completely open-source build toolkit.
