@@ -39,7 +39,7 @@ This font is designed to work with OpenType advanced font technology. To take ad
 
 ### License
 
-These fonts are licensed under the [SIL Open Font License (OFL)](https://scripts.sil.org/OFL)
+These fonts are licensed under the [SIL Open Font License (OFL)](https://openfontlicense.org)
 
 ![SIL Open Font License (OFL)](assets/images/OFL_logo_rect_color.png){.fullsize}
 <!-- PRODUCT SITE IMAGE SRC https://software.sil.org/wp/wp-content/uploads/2019/03/OFL_logo_rect_color.png -->
