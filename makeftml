@@ -12,7 +12,7 @@ fi
 
 # configure tests
 tests="AllChars Diac Matras"
-urls='url(../references/Namdhinggo-Regular.ttf)=RefRegular url(../results/Namdhinggo-Regular.ttf)=Regular url(../results/Namdhinggo-Bold.ttf)=Bold'
+urls='url(../references/Namdhinggo-Regular.ttf)=RefR url(../references/Namdhinggo-Bold.ttf)=RefB url(../results/Namdhinggo-Regular.ttf)=R url(../results/Namdhinggo-Bold.ttf)=B url(../references/NotoSansLimbu-Regular.ttf)=noto'
 ufo='source/masters/Namdhinggo-Regular.ufo'
 
 # list all the fonts to test
@@ -29,7 +29,7 @@ do
 	title="\"${test} auto\""
 	ftml=tests/${base}.ftml
 	log=tests/logs/${base}.log
-	eval tools/psfgenftml.py -q -t "$title" --scale 200 --norendercheck -i source/glyph_data.csv --xsl ../tools/ftml.xsl "$fonts" -l $log $ufo $ftml &
+	eval tools/psfgenftml.py -q -t "$title" --scale 200 --norendercheck -i source/glyph_data.csv --xsl ../tools/ftml.xsl --prevfont references/Namdhinggo-Regular.ttf "$fonts" -l $log $ufo $ftml &
 done
 wait
 echo "done."

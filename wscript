@@ -3,6 +3,7 @@
 
 # override the default folders
 DOCDIR = ['documentation', 'web']
+TESTDIR = ['tests', '../font-namdhinggo-private/tests']
 
 # set the font name, version, licensing and description
 APPNAME = "Namdhinggo"

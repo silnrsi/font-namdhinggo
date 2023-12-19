@@ -4,9 +4,11 @@
   <head>
     <comment>Background colors: light orange: includes a character from Unicode version 14.0 or later; light red: a character is missing from UFO; light green: a character is new in this version of the font</comment>
     <fontscale>200</fontscale>
-    <fontsrc label="RefRegular">url(../references/Namdhinggo-Regular.ttf)</fontsrc>
-    <fontsrc label="Regular">url(../results/Namdhinggo-Regular.ttf)</fontsrc>
-    <fontsrc label="Bold">url(../results/Namdhinggo-Bold.ttf)</fontsrc>
+    <fontsrc label="RefR">url(../references/Namdhinggo-Regular.ttf)</fontsrc>
+    <fontsrc label="RefB">url(../references/Namdhinggo-Bold.ttf)</fontsrc>
+    <fontsrc label="R">url(../results/Namdhinggo-Regular.ttf)</fontsrc>
+    <fontsrc label="B">url(../results/Namdhinggo-Bold.ttf)</fontsrc>
+    <fontsrc label="noto">url(../references/NotoSansLimbu-Regular.ttf)</fontsrc>
     <title>AllChars auto</title>
   </head>
   <testgroup label="Encoded characters">
@@ -66,9 +68,13 @@
       <comment>pi</comment>
       <string>\u0003C0</string>
     </test>
-    <test label="U+0964">
+    <test background="#f0fff0" label="U+0964">
       <comment>danda</comment>
-      <string>\u000964 \u000965</string>
+      <string>\u000964</string>
+    </test>
+    <test label="U+0965">
+      <comment>dandadbl</comment>
+      <string>\u000965</string>
     </test>
     <test label="U+1900">
       <comment>vowelcarrier-limb</comment>
