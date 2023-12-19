@@ -16,6 +16,9 @@ This font was designed to support literacy and materials development work in the
 
 (This should list both major and minor changes, most recent first.)
 
+### 19 Dec 2023 (SIL WSTech Team) Namdhinggo version 3.100
+- Add single danda (U+0964)
+
 ### 24 Apr 2022 (SIL WSTech Team) Namdhinggo version 3.001
 - Improve spacing within some conjuncts in some applications
 - Minor technical improvements

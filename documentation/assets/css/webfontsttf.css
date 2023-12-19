@@ -9,9 +9,24 @@ This Font Software is licensed under the SIL Open Font License, Version 1.1.
     src: url("../../../results/Namdhinggo-Regular.ttf") format("truetype");
 }
 @font-face {
+    font-family: Namdhinggo-M;
+    src: url("../../../results/Namdhinggo-Medium.ttf") format("truetype");
+}
+@font-face {
+    font-family: Namdhinggo-SB;
+    src: url("../../../results/Namdhinggo-SemiBold.ttf") format("truetype");
+}
+@font-face {
     font-family: Namdhinggo-B;
     src: url("../../../results/Namdhinggo-Bold.ttf") format("truetype");
 }
+@font-face {
+    font-family: Namdhinggo-XB;
+    src: url("../../../results/Namdhinggo-ExtraBold.ttf") format("truetype");
+}
 
-.namdhinggo-R { font-family: Namdhinggo-R; }
-.namdhinggo-B { font-family: Namdhinggo-B; }
+.namdhinggo-R  { font-family: Namdhinggo-R; }
+.namdhinggo-M  { font-family: Namdhinggo-M; }
+.namdhinggo-SB { font-family: Namdhinggo-SB; }
+.namdhinggo-B  { font-family: Namdhinggo-B; }
+.namdhinggo-XB { font-family: Namdhinggo-XB; }

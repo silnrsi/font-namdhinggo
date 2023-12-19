@@ -3,6 +3,9 @@ title: Namdhinggo - Version History
 fontversion: 3.002
 ---
 
+### 19 Dec 2023 (SIL WSTech Team) Namdhinggo version 3.100
+- Add single danda (U+0964)
+
 ### 24 Apr 2022 (SIL WSTech Team) Namdhinggo version 3.001
 - Improve spacing within some conjuncts in some applications
 - Minor technical improvements
