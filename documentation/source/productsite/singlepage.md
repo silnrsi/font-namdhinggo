@@ -1,6 +1,5 @@
 
 <img class='fullsize' alt='Namdhinggo - Banner' src='https://software.sil.org/wp/wp-content/uploads/2022/05/Limbu_banner.png' />
-<!-- [caption]<em>Namdhinggo</em>[/caption] -->
 
 <h2 id="about">About</h2>
 
@@ -35,7 +34,7 @@ This font is designed to work with OpenType advanced font technology. To take ad
 
 ### License
 
-These fonts are licensed under the [SIL Open Font License (OFL)](https://scripts.sil.org/OFL)
+These fonts are licensed under the [SIL Open Font License (OFL)](https://openfontlicense.org)
 
 <img class='fullsize' alt='SIL Open Font License (OFL)' src='https://software.sil.org/wp/wp-content/uploads/2019/03/OFL_logo_rect_color.png' />
 
@@ -43,9 +42,9 @@ These fonts are licensed under the [SIL Open Font License (OFL)](https://scripts
 
 [sil_download style="table" sort="name" where="info.type == 'font'"]
 
-#### Release Notes for v3.001
+#### Release Notes for v3.100
 
-- Improve spacing within some conjuncts in some applications
+- Add single danda (U+0964)
 
 ### Previous Versions
 
