@@ -1,6 +1,6 @@
 ---
 title: Namdhinggo - Product Site
-fontversion: 3.002
+fontversion: 3.100
 ---
 
 ![Namdhinggo - Banner](assets/images/Limbu_banner.png){.fullsize}
@@ -48,9 +48,9 @@ These fonts are licensed under the [SIL Open Font License (OFL)](https://openfon
 
 [sil_download style="table" sort="name" where="info.type == 'font'"]
 
-#### Release Notes for v3.001
+#### Release Notes for v3.100
 
-- Improve spacing within some conjuncts in some applications
+- Add single danda (U+0964)
 
 ### Previous Versions
 
