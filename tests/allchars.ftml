@@ -68,13 +68,9 @@
       <comment>pi</comment>
       <string>\u0003C0</string>
     </test>
-    <test background="#f0fff0" label="U+0964">
+    <test label="U+0964">
       <comment>danda</comment>
-      <string>\u000964</string>
-    </test>
-    <test label="U+0965">
-      <comment>dandadbl</comment>
-      <string>\u000965</string>
+      <string>\u000964 \u000965</string>
     </test>
     <test label="U+1900">
       <comment>vowelcarrier-limb</comment>

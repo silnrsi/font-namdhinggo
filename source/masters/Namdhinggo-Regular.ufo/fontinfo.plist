@@ -137,7 +137,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>openTypeNameUniqueID</key>
   <string>SIL International: Namdhinggo Regular: 2023</string>
   <key>openTypeNameVersion</key>
-  <string>Version 3.100</string>
+  <string>Version 3.101</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -256,7 +256,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>versionMajor</key>
   <integer>3</integer>
   <key>versionMinor</key>
-  <integer>100</integer>
+  <integer>101</integer>
   <key>woffMetadataCredits</key>
   <dict>
     <key>credits</key>

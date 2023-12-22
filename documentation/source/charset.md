@@ -1,6 +1,6 @@
 ---
 title: Namdhinggo - Character Set Support
-fontversion: 3.100
+fontversion: 3.101
 ---
 
 Namdhinggo supports the Limbu script, the double danda from Devanagari, and a basic set of Latin characters.
