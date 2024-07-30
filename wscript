@@ -21,7 +21,9 @@ ftmlTest('tools/ftml-smith.xsl')
 
 genout = 'generated/'
 
-designspace('source/' + FAMILY + '.designspace',
+#for dspace in ('Upright', 'Oblique'):
+for dspace in ('Upright',):
+    designspace('source/' + FAMILY + dspace + '.designspace',
             target = process("${DS:FILENAME_BASE}.ttf",
                 cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['${source}'])
             ),

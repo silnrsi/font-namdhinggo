@@ -1,8 +1,10 @@
 #!/bin/sh
 
 # This normalization will also run check and fix routines
-psfnormalize -p checkfix=fix source/masters/Namdhinggo-Regular.ufo   &
-psfnormalize -p checkfix=fix source/masters/Namdhinggo-ExtraBold.ufo &
+psfnormalize -p checkfix=fix source/masters/Namdhinggo-Regular.ufo          &
+psfnormalize -p checkfix=fix source/masters/Namdhinggo-ExtraBold.ufo        &
+#psfnormalize -p checkfix=fix source/masters/Namdhinggo-Italic.ufo          &
+#psfnormalize -p checkfix=fix source/masters/Namdhinggo-ExtraBoldItalic.ufo &
 wait
 
 # Update glyph order in Regular UFO
@@ -12,12 +14,15 @@ psfsetglyphorder --header sort_final -i source/glyph_data.csv source/masters/Nam
 psfsetpsnames -i source/glyph_data.csv source/masters/Namdhinggo-Regular.ufo
 
 # Sync glyph orders, psnames, and other metadata
-psfsyncmasters -q source/Namdhinggo.designspace
+psfsyncmasters -q source/NamdhinggoUpright.designspace
+#psfsyncmasters -q source/NamdhinggoUpright.designspace source/NamdhinggoOblique.designspace
 
 # Create WOFF metadata file
 psfmakewoffmetadata -n namdhinggo -i org.sil.fonts -o source/Namdhinggo-WOFF-metadata.xml source/masters/Namdhinggo-Regular.ufo
 
 # Update FEA in UFO
-psfmakefea -o source/masters/Namdhinggo-Regular.ufo/features.fea   -i source/master.feax source/masters/Namdhinggo-Regular.ufo   &
-psfmakefea -o source/masters/Namdhinggo-ExtraBold.ufo/features.fea -i source/master.feax source/masters/Namdhinggo-ExtraBold.ufo &
+psfmakefea -o source/masters/Namdhinggo-Regular.ufo/features.fea   -i source/master.feax source/masters/Namdhinggo-Regular.ufo          &
+psfmakefea -o source/masters/Namdhinggo-ExtraBold.ufo/features.fea -i source/master.feax source/masters/Namdhinggo-ExtraBold.ufo        &
+#psfmakefea -o source/masters/Namdhinggo-ExtraBold.ufo/features.fea -i source/master.feax source/masters/Namdhinggo-Italic.ufo          &
+#psfmakefea -o source/masters/Namdhinggo-ExtraBold.ufo/features.fea -i source/master.feax source/masters/Namdhinggo-ExtraBoldItalic.ufo &
 wait
