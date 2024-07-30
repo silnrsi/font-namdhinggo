@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
-  <uniqueid id="org.sil.fonts.namdhinggo.3.101" />
+  <uniqueid id="org.sil.fonts.namdhinggo.3.900" />
   <vendor name="SIL International" url="https://software.sil.org/wstech/" />
   <credits>
     <credit
@@ -20,7 +20,7 @@
       This font was designed to support literacy and materials development work in the Limbu language.
     </text>
   </description>
-  <license url="https://openfontlicense.org" id="org.sil.ofl.1.1">
+  <license url="https://openfontlicense.org" id="org.openfontlicense.1.1">
     <text lang="en">
       Copyright (c) 2002-2023, SIL International (https://www.sil.org/),
       with Reserved Font Names "Namdhinggo" and "SIL".
