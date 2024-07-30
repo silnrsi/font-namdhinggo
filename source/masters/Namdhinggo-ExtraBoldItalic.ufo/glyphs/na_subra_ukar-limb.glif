@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="na_subra_ukar-limb" format="2">
+  <advance width="1035"/>
+  <anchor x="515" y="1050" name="K"/>
+  <outline>
+    <component base="ka_subra_ukar-limb"/>
+    <contour>
+      <point x="375" y="410" type="line"/>
+      <point x="397" y="380" type="line"/>
+      <point x="849" y="380" type="line"/>
+      <point x="875" y="403"/>
+      <point x="951" y="491"/>
+      <point x="966" y="516" type="curve"/>
+      <point x="922" y="565" type="line"/>
+      <point x="539" y="565" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="subwa_okar_kemphreng-limb" format="2">
+  <anchor x="-318" y="1291" name="_K"/>
+  <anchor x="-216" y="1050" name="_O"/>
+  <outline>
+    <component base="okar-limb" xOffset="-30"/>
+    <component base="kemphreng-limb" xOffset="50" yOffset="240"/>
+    <component base="subwa-limb"/>
+  </outline>
+</glyph>

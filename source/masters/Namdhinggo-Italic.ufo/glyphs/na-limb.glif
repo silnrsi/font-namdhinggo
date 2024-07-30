@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="na-limb" format="2">
+  <advance width="995"/>
+  <unicode hex="190F"/>
+  <anchor x="515" y="1050" name="K"/>
+  <anchor x="480" y="-100" name="L"/>
+  <anchor x="778" y="1050" name="O"/>
+  <anchor x="497" y="1050" name="U"/>
+  <anchor x="920" y="50" name="V"/>
+  <outline>
+    <component base="ka-limb"/>
+    <contour>
+      <point x="382" y="443" type="line"/>
+      <point x="404" y="413" type="line"/>
+      <point x="856" y="413" type="line"/>
+      <point x="882" y="436"/>
+      <point x="906" y="469"/>
+      <point x="921" y="494" type="curve"/>
+      <point x="889" y="538" type="line"/>
+      <point x="546" y="538" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

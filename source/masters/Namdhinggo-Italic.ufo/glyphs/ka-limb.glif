@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ka-limb" format="2">
+  <advance width="975"/>
+  <unicode hex="1901"/>
+  <anchor x="500" y="1050" name="K"/>
+  <anchor x="485" y="-100" name="L"/>
+  <anchor x="755" y="1050" name="O"/>
+  <anchor x="487" y="1050" name="U"/>
+  <anchor x="920" y="50" name="V"/>
+  <outline>
+    <contour>
+      <point x="132" y="970" type="curve"/>
+      <point x="103" y="949"/>
+      <point x="66" y="915"/>
+      <point x="42" y="885" type="curve"/>
+      <point x="73" y="845" type="line"/>
+      <point x="71" y="845"/>
+      <point x="773" y="845"/>
+      <point x="681" y="845" type="curve"/>
+      <point x="720" y="875" type="line"/>
+      <point x="441" y="615"/>
+      <point x="168" y="239"/>
+      <point x="40" y="30" type="curve"/>
+      <point x="62" y="0" type="line"/>
+      <point x="880" y="0" type="line"/>
+      <point x="906" y="23"/>
+      <point x="930" y="59"/>
+      <point x="945" y="85" type="curve"/>
+      <point x="912" y="125" type="line"/>
+      <point x="195" y="125" type="line"/>
+      <point x="241" y="101" type="line"/>
+      <point x="372" y="313"/>
+      <point x="687" y="699"/>
+      <point x="932" y="930" type="curve"/>
+      <point x="907" y="970" type="line"/>
+      <point x="907" y="970"/>
+      <point x="131" y="970"/>
+    </contour>
+  </outline>
+</glyph>

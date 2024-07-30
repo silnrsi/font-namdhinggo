@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="four-limb" format="2">
+  <advance width="903"/>
+  <unicode hex="194A"/>
+  <outline>
+    <contour>
+      <point x="853" y="124" type="curve"/>
+      <point x="666" y="431"/>
+      <point x="478" y="681"/>
+      <point x="275" y="970" type="curve"/>
+      <point x="225" y="1000" type="line"/>
+      <point x="192" y="976"/>
+      <point x="80" y="897"/>
+      <point x="50" y="861" type="curve"/>
+      <point x="269" y="544"/>
+      <point x="493" y="254"/>
+      <point x="651" y="-11" type="curve"/>
+      <point x="702" y="-34" type="line"/>
+      <point x="731" y="-10"/>
+      <point x="833" y="90"/>
+    </contour>
+    <contour>
+      <point x="836" y="953" type="curve"/>
+      <point x="803" y="1000" type="line"/>
+      <point x="766" y="984"/>
+      <point x="669" y="960"/>
+      <point x="628" y="931" type="curve"/>
+      <point x="454" y="594"/>
+      <point x="296" y="347"/>
+      <point x="50" y="9" type="curve"/>
+      <point x="91" y="-34" type="line"/>
+      <point x="131" y="-23"/>
+      <point x="244" y="3"/>
+      <point x="269" y="20" type="curve"/>
+      <point x="461" y="360"/>
+      <point x="659" y="669"/>
+    </contour>
+  </outline>
+</glyph>

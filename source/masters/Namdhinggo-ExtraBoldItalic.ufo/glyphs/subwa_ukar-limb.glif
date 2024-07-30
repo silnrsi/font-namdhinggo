@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="subwa_ukar-limb" format="2">
+  <anchor x="-100" y="50" name="_V"/>
+  <outline>
+    <component base="ukar-limb" xOffset="10"/>
+    <component base="subwa-limb"/>
+  </outline>
+</glyph>

@@ -2,7 +2,7 @@
 
 # Produce individual UFOs from Glyphs files
 psfglyphs2ufo --nofea source/masters/NamdhinggoUpright.glyphs source/masters
-#psfglyphs2ufo --nofea source/masters/NamdhinggoOblique.glyphs source/masters
+psfglyphs2ufo --nofea source/masters/NamdhinggoOblique.glyphs source/masters
 
 # This normalization will also run check and fix routines
 # psfnormalize -p checkfix=fix source/masters/Namdhinggo-Regular.ufo &
@@ -14,7 +14,7 @@ psfglyphs2ufo --nofea source/masters/NamdhinggoUpright.glyphs source/masters
 # Fix problem with non-spacing marks due to glyphsLib bug
 psfremovegliflibkeys source/masters/Namdhinggo-Regular.ufo         com.schriftgestaltung.Glyphs.originalWidth  -l source/logs/widthfixR.log
 psfremovegliflibkeys source/masters/Namdhinggo-ExtraBold.ufo       com.schriftgestaltung.Glyphs.originalWidth  -l source/logs/widthfixR.log
-#psfremovegliflibkeys source/masters/Namdhinggo-Italic.ufo          com.schriftgestaltung.Glyphs.originalWidth  -l source/logs/widthfixR.log
-#psfremovegliflibkeys source/masters/Namdhinggo-ExtraBoldItalic.ufo com.schriftgestaltung.Glyphs.originalWidth  -l source/logs/widthfixR.log
+psfremovegliflibkeys source/masters/Namdhinggo-Italic.ufo          com.schriftgestaltung.Glyphs.originalWidth  -l source/logs/widthfixR.log
+psfremovegliflibkeys source/masters/Namdhinggo-ExtraBoldItalic.ufo com.schriftgestaltung.Glyphs.originalWidth  -l source/logs/widthfixR.log
 
 ./preflight

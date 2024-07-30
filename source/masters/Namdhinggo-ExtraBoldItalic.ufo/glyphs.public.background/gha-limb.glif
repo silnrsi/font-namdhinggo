@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gha-limb" format="2">
+  <outline>
+    <contour>
+      <point x="710" y="-3" type="move"/>
+      <point x="710" y="-3"/>
+      <point x="768" y="-34"/>
+      <point x="768" y="-34" type="curve"/>
+      <point x="859" y="-6"/>
+      <point x="951" y="66"/>
+      <point x="963" y="97" type="curve"/>
+    </contour>
+    <contour>
+      <point x="140" y="970" type="move"/>
+      <point x="110" y="949"/>
+      <point x="24" y="865"/>
+      <point x="1" y="835" type="curve"/>
+      <point x="40" y="785" type="line"/>
+    </contour>
+  </outline>
+</glyph>

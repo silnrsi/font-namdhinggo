@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sai-limb.widC" format="2">
+  <anchor x="-654" y="-30" name="_L"/>
+  <outline>
+    <contour>
+      <point x="-1140" y="-80" type="line"/>
+      <point x="-1179" y="-101"/>
+      <point x="-1256" y="-181"/>
+      <point x="-1279" y="-215" type="curve"/>
+      <point x="-1240" y="-265" type="line"/>
+      <point x="-208" y="-265" type="line"/>
+      <point x="-147" y="-228"/>
+      <point x="-81" y="-171"/>
+      <point x="-50" y="-130" type="curve"/>
+      <point x="-85" y="-80" type="line"/>
+    </contour>
+  </outline>
+</glyph>
