@@ -43,9 +43,7 @@
 [/ha-limb/ta-limb/sa-limb/ma_ukar-limb ]{/ba-limb/dha-limb/tha_ukar-limb }.¡/cha-limb ¦­/na-limb ¿/da-limb/hyphentwo/nbhyphen/figuredash/endash/emdash/horizontalbar/quoteleft/quoteright ;/quotesinglbase/quotedblleft/quotedblright/quotedblbase</string>
     <string>+,/gha-limb ./ma-limb :/cha-limb ;&lt;=&gt;«±»×÷/colontriangularmod/la-limb/ta-limb/kha-limb ./ellipsis/guilsinglleft/ra-limb/wa-limb/guilsinglright/na-limb/one-limb/bulletoperator/seven-limb/radical/five-limb/infinity/three-limb 
 /two-limb/six-limb/approxequal/notequal/lessequal/nine-limb/greaterequal</string>
-    <string>/dandadbl/danda</string>
-    <string>/oe</string>
-    <string>A</string>
+    <string>/vowelcarrier-limb/vowelcarrier_ukar-limb/ka-limb/na-limb/ssa-limb/wa-limb/kha-limb/jha-limb/space</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

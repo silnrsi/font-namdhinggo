@@ -10,20 +10,22 @@
   <outline>
     <component base="ka-limb"/>
     <contour>
-      <point x="382" y="443" type="line"/>
-      <point x="404" y="413" type="line"/>
-      <point x="856" y="413" type="line"/>
-      <point x="882" y="436"/>
-      <point x="906" y="469"/>
-      <point x="921" y="494" type="curve"/>
-      <point x="889" y="538" type="line"/>
-      <point x="546" y="538" type="line"/>
+      <point x="442" y="443" type="line"/>
+      <point x="464" y="418" type="line"/>
+      <point x="916" y="418" type="line"/>
+      <point x="942" y="441"/>
+      <point x="966" y="469"/>
+      <point x="981" y="494" type="curve"/>
+      <point x="949" y="533" type="line"/>
+      <point x="606" y="533" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
       <string>CP</string>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
     </dict>
   </lib>
 </glyph>
