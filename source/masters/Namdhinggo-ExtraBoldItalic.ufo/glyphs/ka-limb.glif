@@ -2,11 +2,11 @@
 <glyph name="ka-limb" format="2">
   <advance width="1015"/>
   <unicode hex="1901"/>
-  <anchor x="424" y="1050" name="K"/>
-  <anchor x="409" y="-100" name="L"/>
-  <anchor x="679" y="1050" name="O"/>
-  <anchor x="411" y="1050" name="U"/>
-  <anchor x="844" y="50" name="V"/>
+  <anchor x="510" y="1050" name="K"/>
+  <anchor x="495" y="-100" name="L"/>
+  <anchor x="765" y="1050" name="O"/>
+  <anchor x="497" y="1050" name="U"/>
+  <anchor x="930" y="50" name="V"/>
   <outline>
     <contour>
       <point x="442" y="970" type="curve"/>
