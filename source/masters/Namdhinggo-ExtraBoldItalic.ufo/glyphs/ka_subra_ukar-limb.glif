@@ -5,26 +5,26 @@
   <outline>
     <component base="ka_ukar-limb"/>
     <contour>
-      <point x="452" y="118" type="curve"/>
-      <point x="299" y="-3"/>
-      <point x="218" y="-57"/>
-      <point x="100" y="-131" type="curve"/>
-      <point x="127" y="-168" type="line"/>
-      <point x="229" y="-104"/>
-      <point x="278" y="-74"/>
-      <point x="414" y="5" type="curve"/>
-      <point x="368" y="19" type="line"/>
-      <point x="398" y="-63"/>
-      <point x="449" y="-117"/>
-      <point x="519" y="-171" type="curve"/>
-      <point x="560" y="-145"/>
-      <point x="581" y="-110"/>
-      <point x="610" y="-56" type="curve"/>
-      <point x="565" y="-16"/>
-      <point x="527" y="18"/>
-      <point x="516" y="79" type="curve"/>
-      <point x="505" y="90"/>
-      <point x="480" y="114"/>
+      <point x="435" y="97" type="curve"/>
+      <point x="282" y="-24"/>
+      <point x="162" y="-99"/>
+      <point x="43" y="-172" type="curve"/>
+      <point x="70" y="-209" type="line"/>
+      <point x="172" y="-145"/>
+      <point x="261" y="-92"/>
+      <point x="397" y="-16" type="curve"/>
+      <point x="351" y="-2" type="line"/>
+      <point x="381" y="-84"/>
+      <point x="427" y="-138"/>
+      <point x="497" y="-192" type="curve"/>
+      <point x="538" y="-166"/>
+      <point x="559" y="-131"/>
+      <point x="588" y="-77" type="curve"/>
+      <point x="543" y="-37"/>
+      <point x="510" y="-3"/>
+      <point x="499" y="58" type="curve"/>
+      <point x="488" y="69"/>
+      <point x="463" y="93"/>
     </contour>
   </outline>
   <lib>

@@ -4,6 +4,8 @@
 <dict>
   <key>ca-limb</key>
   <string>ca-limb.glif</string>
+  <key>ga_subra_ukar-limb</key>
+  <string>ga_subra_ukar-limb.glif</string>
   <key>ka_ukar-limb</key>
   <string>ka_ukar-limb.glif</string>
   <key>ta-limb</key>
