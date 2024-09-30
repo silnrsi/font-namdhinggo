@@ -10,14 +10,14 @@
   <outline>
     <component base="ka-limb"/>
     <contour>
-      <point x="437" y="443" type="line"/>
-      <point x="459" y="418" type="line"/>
-      <point x="920" y="418" type="line"/>
-      <point x="947" y="441"/>
-      <point x="971" y="469"/>
-      <point x="986" y="494" type="curve"/>
-      <point x="954" y="533" type="line"/>
-      <point x="604" y="533" type="line"/>
+      <point x="429" y="443" type="line"/>
+      <point x="452" y="418" type="line"/>
+      <point x="926" y="418" type="line"/>
+      <point x="954" y="441"/>
+      <point x="979" y="469"/>
+      <point x="994" y="494" type="curve"/>
+      <point x="961" y="533" type="line"/>
+      <point x="601" y="533" type="line"/>
     </contour>
   </outline>
   <lib>
