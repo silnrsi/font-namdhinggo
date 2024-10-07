@@ -4,11 +4,11 @@
   <outline>
     <contour>
       <point x="430" y="82" type="curve"/>
-      <point x="265" y="-39"/>
-      <point x="144" y="-101"/>
+      <point x="296" y="-17"/>
+      <point x="144" y="-104"/>
       <point x="17" y="-163" type="curve"/>
       <point x="32" y="-192" type="line"/>
-      <point x="149" y="-146"/>
+      <point x="152" y="-148"/>
       <point x="250" y="-106"/>
       <point x="404" y="-11" type="curve"/>
       <point x="347" y="-14" type="line"/>
