@@ -5,26 +5,26 @@
   <outline>
     <component base="nga_ukar-limb"/>
     <contour>
-      <point x="380" y="82" type="curve"/>
-      <point x="215" y="-39"/>
-      <point x="94" y="-101"/>
-      <point x="-33" y="-163" type="curve"/>
-      <point x="-18" y="-192" type="line"/>
-      <point x="99" y="-146"/>
-      <point x="200" y="-106"/>
-      <point x="354" y="-11" type="curve"/>
-      <point x="297" y="-14" type="line"/>
-      <point x="324" y="-94"/>
-      <point x="371" y="-139"/>
-      <point x="447" y="-193" type="curve"/>
-      <point x="489" y="-169"/>
-      <point x="508" y="-146"/>
-      <point x="534" y="-104" type="curve"/>
-      <point x="480" y="-67"/>
-      <point x="421" y="-22"/>
-      <point x="414" y="66" type="curve"/>
-      <point x="409" y="72"/>
-      <point x="397" y="78"/>
+      <point x="390" y="82" type="curve"/>
+      <point x="225" y="-39"/>
+      <point x="104" y="-101"/>
+      <point x="-23" y="-163" type="curve"/>
+      <point x="-8" y="-192" type="line"/>
+      <point x="109" y="-146"/>
+      <point x="210" y="-106"/>
+      <point x="364" y="-11" type="curve"/>
+      <point x="307" y="-14" type="line"/>
+      <point x="334" y="-94"/>
+      <point x="381" y="-139"/>
+      <point x="457" y="-193" type="curve"/>
+      <point x="499" y="-169"/>
+      <point x="518" y="-146"/>
+      <point x="544" y="-104" type="curve"/>
+      <point x="490" y="-67"/>
+      <point x="431" y="-22"/>
+      <point x="424" y="66" type="curve"/>
+      <point x="419" y="72"/>
+      <point x="407" y="78"/>
     </contour>
   </outline>
   <lib>

@@ -4,7 +4,7 @@
   <anchor x="650" y="1050" name="K"/>
   <outline>
     <component base="cha_ukar-limb"/>
-    <component base="_subra" xOffset="160" yOffset="-10"/>
+    <component base="_subra" xOffset="154"/>
   </outline>
   <lib>
     <dict>

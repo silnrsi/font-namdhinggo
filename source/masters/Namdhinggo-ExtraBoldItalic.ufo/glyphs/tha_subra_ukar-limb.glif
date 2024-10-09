@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tha_subra_ukar-limb" format="2">
-  <advance width="1260"/>
+  <advance width="1294"/>
   <outline>
     <component base="tha_ukar-limb"/>
-    <component base="_subra" xOffset="220"/>
+    <component base="_subra" xOffset="210"/>
   </outline>
   <lib>
     <dict>

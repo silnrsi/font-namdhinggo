@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ya-limb" format="2">
-  <advance width="944"/>
-  <unicode hex="1915"/>
-  <anchor x="480" y="1050" name="K"/>
-  <anchor x="470" y="-100" name="L"/>
-  <anchor x="730" y="1050" name="O"/>
-  <anchor x="470" y="1050" name="U"/>
-  <anchor x="875" y="50" name="V"/>
+<glyph name="tra-limb" format="2">
   <outline>
     <contour>
       <point x="429" y="970" type="line"/>
@@ -16,7 +9,7 @@
       <point x="335" y="855" type="line"/>
       <point x="834" y="855" type="line"/>
       <point x="807" y="875" type="line"/>
-      <point x="672" y="772"/>
+      <point x="672" y="770"/>
       <point x="561" y="687"/>
       <point x="440" y="577" type="curve"/>
       <point x="460" y="549" type="line"/>
@@ -54,22 +47,16 @@
       <point x="909" y="298"/>
       <point x="909" y="520" type="curve" smooth="yes"/>
       <point x="909" y="626"/>
-      <point x="846" y="694"/>
-      <point x="751" y="694" type="curve" smooth="yes"/>
+      <point x="846" y="695"/>
+      <point x="751" y="694" type="curve"/>
       <point x="709" y="694"/>
-      <point x="692" y="694"/>
+      <point x="696" y="696"/>
       <point x="618" y="659" type="curve"/>
       <point x="645" y="654" type="line"/>
       <point x="764" y="762"/>
-      <point x="869" y="834"/>
+      <point x="869" y="830"/>
       <point x="1011" y="930" type="curve"/>
       <point x="1000" y="970" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
-    </dict>
-  </lib>
 </glyph>

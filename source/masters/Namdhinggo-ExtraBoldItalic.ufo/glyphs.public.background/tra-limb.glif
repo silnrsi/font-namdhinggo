@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ya-limb" format="2">
-  <advance width="996"/>
-  <unicode hex="1915"/>
-  <anchor x="432" y="1050" name="K"/>
-  <anchor x="422" y="-100" name="L"/>
-  <anchor x="682" y="1050" name="O"/>
-  <anchor x="422" y="1050" name="U"/>
-  <anchor x="847" y="50" name="V"/>
+<glyph name="tra-limb" format="2">
   <outline>
     <contour>
       <point x="458" y="970" type="line"/>
@@ -66,10 +59,4 @@
       <point x="1047" y="970" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
-    </dict>
-  </lib>
 </glyph>

@@ -9,38 +9,44 @@
   <anchor x="994" y="50" name="V"/>
   <outline>
     <contour>
-      <point x="809" y="886" type="curve"/>
-      <point x="605" y="882" type="line"/>
-      <point x="447" y="764"/>
-      <point x="152" y="445"/>
-      <point x="50" y="277" type="curve"/>
-      <point x="86" y="237" type="line"/>
-      <point x="267" y="238"/>
-      <point x="668" y="118"/>
-      <point x="909" y="-34" type="curve"/>
-      <point x="948" y="-16"/>
-      <point x="1051" y="69"/>
-      <point x="1063" y="100" type="curve"/>
-      <point x="1049" y="318"/>
-      <point x="1045" y="577"/>
-      <point x="1056" y="920" type="curve"/>
-      <point x="1021" y="970" type="line"/>
-      <point x="196" y="970" type="line"/>
-      <point x="167" y="949"/>
-      <point x="79" y="865"/>
-      <point x="56" y="835" type="curve"/>
-      <point x="96" y="785" type="line"/>
-      <point x="812" y="785" type="line"/>
-      <point x="807" y="474"/>
-      <point x="801" y="312"/>
-      <point x="815" y="146" type="curve"/>
-      <point x="982" y="208" type="line"/>
-      <point x="800" y="305"/>
-      <point x="531" y="392"/>
-      <point x="313" y="411" type="curve"/>
-      <point x="326" y="332" type="line"/>
-      <point x="407" y="479"/>
-      <point x="616" y="729"/>
+      <point x="979" y="886" type="curve"/>
+      <point x="794" y="882" type="line"/>
+      <point x="614" y="764"/>
+      <point x="244" y="445"/>
+      <point x="98" y="277" type="curve"/>
+      <point x="117" y="237" type="line"/>
+      <point x="281" y="238"/>
+      <point x="603" y="118"/>
+      <point x="770" y="-34" type="curve"/>
+      <point x="811" y="-16"/>
+      <point x="931" y="69"/>
+      <point x="952" y="100" type="curve"/>
+      <point x="1010" y="318"/>
+      <point x="1091" y="577"/>
+      <point x="1212" y="920" type="curve"/>
+      <point x="1197" y="970" type="line"/>
+      <point x="455" y="970" type="line"/>
+      <point x="422" y="949"/>
+      <point x="315" y="865"/>
+      <point x="285" y="835" type="curve"/>
+      <point x="305" y="785" type="line"/>
+      <point x="949" y="785" type="line"/>
+      <point x="843" y="474"/>
+      <point x="785" y="312"/>
+      <point x="744" y="146" type="curve"/>
+      <point x="904" y="198" type="line"/>
+      <point x="772" y="295"/>
+      <point x="558" y="382"/>
+      <point x="368" y="401" type="curve"/>
+      <point x="364" y="332" type="line"/>
+      <point x="485" y="479"/>
+      <point x="754" y="729"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
 </glyph>

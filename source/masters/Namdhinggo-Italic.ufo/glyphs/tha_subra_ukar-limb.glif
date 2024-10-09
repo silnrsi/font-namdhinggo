@@ -3,7 +3,7 @@
   <advance width="1112"/>
   <outline>
     <component base="tha_ukar-limb"/>
-    <component base="_subra" xOffset="120"/>
+    <component base="_subra" xOffset="110"/>
   </outline>
   <lib>
     <dict>
