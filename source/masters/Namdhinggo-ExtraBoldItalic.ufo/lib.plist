@@ -37,10 +37,11 @@
     <string>+,/gha-limb ./ma-limb :/cha-limb ;&lt;=&gt;«±»×÷/colontriangularmod/la-limb/ta-limb/kha-limb ./ellipsis/guilsinglleft/ra-limb/wa-limb/guilsinglright/na-limb/one-limb/bulletoperator/seven-limb/radical/five-limb/infinity/three-limb 
 /two-limb/six-limb/approxequal/notequal/lessequal/nine-limb/greaterequal</string>
     <string>/danda/dandadbl/vowelcarrier-limb/danda/vowelcarrier_ukar-limb/danda/ka-limb/danda/ka_ukar-limb/ka_subra_ukar-limb/danda/ma-limb/danda/ma_ukar-limb/danda/ma_subra_ukar-limb/danda/kha-limb/danda/kha_ukar-limb/danda/kha_subra_ukar-limb/danda/ga-limb/danda/ga_ukar-limb/danda/ga_subra_ukar-limb/danda/nga-limb/danda/nga_ukar-limb/danda/nga_subra_ukar-limb/danda 
-/danda/na-limb/danda/na_ukar-limb/na_subra_ukar-limb/danda/cha-limb/danda/cha_ukar-limb/cha_subra_ukar-limb/danda/gyan-limb/danda/gyan_ukar-limb/gyan_subra_ukar-limb/ya-limb/ya_ukar-limb/ya_subra_ukar-limb/tra-limb/tra_ukar-limb/tra_subra_ukar-limb/space 
-/danda/jha-limb/danda/jha_ukar-limb/jha_subra_ukar-limb/danda/dha-limb/danda/dha_ukar-limb/dha_subra_ukar-limb/danda/wa-limb/danda/wa_ukar-limb/wa_subra_ukar-limb/danda/ssa-limb/danda/ssa_ukar-limb/ssa_subra_ukar-limb/danda/da-limb/danda/da_ukar-limb/da_subra_ukar-limb/danda/ta-limb/danda/ta_ukar-limb/ta_subra_ukar-limb/danda/tha-limb/danda/tha_ukar-limb/tha_subra_ukar-limb/danda/yan-limb/danda/yan_ukar-limb/yan_subra_ukar-limb 
-/danda/pa-limb/danda/pa_ukar-limb/pa_subra_ukar-limb/danda/pha-limb/danda/pha_ukar-limb/pha_subra_ukar-limb/cha-limb/cha_ukar-limb/ha-limb/ha_ukar-limb/ha_subra_ukar-limb</string>
-    <string>/gyan-limb</string>
+/danda/na-limb/danda/na_ukar-limb/na_subra_ukar-limb/danda/cha-limb/danda/cha_ukar-limb/cha_subra_ukar-limb/danda/ba-limb/danda/ba_ukar-limb/ba_subra_ukar-limb/danda/ha-limb/ha_ukar-limb/ha_subra_ukar-limb/danda/gyan-limb/danda/gyan_ukar-limb/gyan_subra_ukar-limb/danda/ya-limb/danda/ya_ukar-limb/ya_subra_ukar-limb/danda/tra-limb/danda/tra_ukar-limb/tra_subra_ukar-limb/danda/space 
+/danda/jha-limb/danda/jha_ukar-limb/jha_subra_ukar-limb/danda/dha-limb/danda/dha_ukar-limb/dha_subra_ukar-limb/danda/wa-limb/danda/wa_ukar-limb/wa_subra_ukar-limb/danda/gha-limb/danda/gha_ukar-limb/gha_subra_ukar-limb/danda/ssa-limb/danda/ssa_ukar-limb/ssa_subra_ukar-limb 
+/danda/da-limb/danda/da_ukar-limb/da_subra_ukar-limb/danda/la-limb/danda/la_ukar-limb/la_subra_ukar-limb/danda/ta-limb/danda/ta_ukar-limb/ta_subra_ukar-limb/danda 
+/danda/tha-limb/danda/tha_ukar-limb/tha_subra_ukar-limb/danda/yan-limb/danda/yan_ukar-limb/yan_subra_ukar-limb/danda/bha-limb/danda/bha_ukar-limb/bha_subra_ukar-limb 
+/danda/pa-limb/danda/pa_ukar-limb/pa_subra_ukar-limb/danda/pha-limb/danda/pha_ukar-limb/pha_subra_ukar-limb</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
