@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gyan_ukar-limb" format="2">
-  <advance width="965"/>
+  <advance width="925"/>
   <anchor x="289" y="1050" name="K"/>
   <anchor x="519" y="1050" name="O"/>
   <anchor x="279" y="1050" name="U"/>
   <outline>
     <component base="gyan-limb"/>
     <contour>
-      <point x="49" y="-479" type="curve" smooth="yes"/>
-      <point x="345" y="-479"/>
-      <point x="530" y="-250"/>
-      <point x="584" y="-60" type="curve" smooth="yes"/>
-      <point x="601" y="-1"/>
-      <point x="632" y="69"/>
-      <point x="668" y="120" type="curve"/>
-      <point x="425" y="-4" type="line"/>
-      <point x="380" y="-223"/>
-      <point x="300" y="-387"/>
-      <point x="149" y="-387" type="curve" smooth="yes"/>
-      <point x="55" y="-387"/>
-      <point x="5" y="-364"/>
-      <point x="5" y="-321" type="curve" smooth="yes"/>
-      <point x="5" y="-277"/>
-      <point x="55" y="-226"/>
-      <point x="109" y="-226" type="curve" smooth="yes"/>
-      <point x="133" y="-226"/>
-      <point x="163" y="-244"/>
-      <point x="163" y="-277" type="curve" smooth="yes"/>
-      <point x="163" y="-321"/>
-      <point x="118" y="-373"/>
-      <point x="58" y="-373" type="curve" smooth="yes"/>
-      <point x="29" y="-373"/>
-      <point x="16" y="-364"/>
-      <point x="5" y="-334" type="curve"/>
-      <point x="9" y="-378"/>
-      <point x="31" y="-403"/>
-      <point x="79" y="-424" type="curve"/>
-      <point x="173" y="-393"/>
-      <point x="287" y="-282"/>
-      <point x="287" y="-226" type="curve" smooth="yes"/>
-      <point x="287" y="-165"/>
-      <point x="226" y="-143"/>
-      <point x="181" y="-143" type="curve" smooth="yes"/>
-      <point x="68" y="-143"/>
-      <point x="-109" y="-274"/>
-      <point x="-109" y="-378" type="curve" smooth="yes"/>
-      <point x="-109" y="-428"/>
-      <point x="-78" y="-479"/>
+      <point x="143" y="-479" type="curve" smooth="yes"/>
+      <point x="439" y="-479"/>
+      <point x="624" y="-250"/>
+      <point x="678" y="-60" type="curve" smooth="yes"/>
+      <point x="695" y="-1"/>
+      <point x="726" y="69"/>
+      <point x="762" y="120" type="curve"/>
+      <point x="519" y="-4" type="line"/>
+      <point x="474" y="-223"/>
+      <point x="394" y="-387"/>
+      <point x="243" y="-387" type="curve" smooth="yes"/>
+      <point x="149" y="-387"/>
+      <point x="99" y="-364"/>
+      <point x="99" y="-321" type="curve" smooth="yes"/>
+      <point x="99" y="-277"/>
+      <point x="149" y="-226"/>
+      <point x="203" y="-226" type="curve" smooth="yes"/>
+      <point x="227" y="-226"/>
+      <point x="257" y="-244"/>
+      <point x="257" y="-277" type="curve" smooth="yes"/>
+      <point x="257" y="-321"/>
+      <point x="212" y="-373"/>
+      <point x="152" y="-373" type="curve" smooth="yes"/>
+      <point x="123" y="-373"/>
+      <point x="110" y="-364"/>
+      <point x="99" y="-334" type="curve"/>
+      <point x="103" y="-378"/>
+      <point x="125" y="-403"/>
+      <point x="173" y="-424" type="curve"/>
+      <point x="267" y="-393"/>
+      <point x="381" y="-282"/>
+      <point x="381" y="-226" type="curve" smooth="yes"/>
+      <point x="381" y="-165"/>
+      <point x="320" y="-143"/>
+      <point x="275" y="-143" type="curve" smooth="yes"/>
+      <point x="162" y="-143"/>
+      <point x="-15" y="-274"/>
+      <point x="-15" y="-378" type="curve" smooth="yes"/>
+      <point x="-15" y="-428"/>
+      <point x="16" y="-479"/>
     </contour>
   </outline>
   <lib>

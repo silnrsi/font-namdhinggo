@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ja_subra_ukar-limb" format="2">
-  <advance width="1101"/>
-  <anchor x="580" y="1050" name="K"/>
+  <advance width="1098"/>
+  <anchor x="901" y="1050" name="K"/>
   <outline>
     <component base="ja_ukar-limb"/>
-    <component base="_subra" xOffset="120"/>
+    <component base="_subra" xOffset="170"/>
   </outline>
   <lib>
     <dict>

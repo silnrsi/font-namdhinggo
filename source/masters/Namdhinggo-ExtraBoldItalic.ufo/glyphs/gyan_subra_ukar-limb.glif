@@ -6,7 +6,7 @@
   <anchor x="589" y="1050" name="U"/>
   <outline>
     <component base="gyan_ukar-limb"/>
-    <component base="_subra" xOffset="-40" yOffset="50"/>
+    <component base="_subra" xOffset="28" yOffset="50"/>
   </outline>
   <lib>
     <dict>

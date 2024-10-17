@@ -2,11 +2,11 @@
 <glyph name="dha-limb" format="2">
   <advance width="1020"/>
   <unicode hex="190E"/>
-  <anchor x="530" y="1050" name="K"/>
-  <anchor x="510" y="-100" name="L"/>
-  <anchor x="680" y="1050" name="O"/>
-  <anchor x="510" y="1050" name="U"/>
-  <anchor x="832" y="50" name="V"/>
+  <anchor x="853" y="1050" name="K"/>
+  <anchor x="461" y="-100" name="L"/>
+  <anchor x="988" y="1050" name="O"/>
+  <anchor x="835" y="1050" name="U"/>
+  <anchor x="800" y="50" name="V"/>
   <outline>
     <contour>
       <point x="396" y="970" type="line"/>

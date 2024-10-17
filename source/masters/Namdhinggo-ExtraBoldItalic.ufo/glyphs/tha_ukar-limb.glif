@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tha_ukar-limb" format="2">
-  <advance width="1294"/>
-  <anchor x="706" y="1050" name="K"/>
-  <anchor x="596" y="-100" name="L"/>
-  <anchor x="689" y="1050" name="O"/>
-  <anchor x="596" y="1050" name="U"/>
-  <anchor x="985" y="50" name="V"/>
+  <advance width="1256"/>
+  <anchor x="1014" y="1050" name="K"/>
+  <anchor x="550" y="-100" name="L"/>
+  <anchor x="1008" y="1050" name="O"/>
+  <anchor x="924" y="1050" name="U"/>
+  <anchor x="949" y="50" name="V"/>
   <outline>
     <contour>
       <point x="418" y="-34" type="curve" smooth="yes"/>
