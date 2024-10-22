@@ -4,14 +4,22 @@
 <dict>
   <key>aikar-limb</key>
   <string>aikar-limb.glif</string>
-  <key>akar-limb</key>
-  <string>akar-limb.glif</string>
-  <key>cha-limb</key>
-  <string>cha-limb.glif</string>
+  <key>ca-limb</key>
+  <string>ca-limb.glif</string>
+  <key>cha_subra_ukar-limb</key>
+  <string>cha_subra_ukar-limb.glif</string>
+  <key>ga-limb</key>
+  <string>ga-limb.glif</string>
+  <key>gha-limb</key>
+  <string>gha-limb.glif</string>
+  <key>gyan-limb</key>
+  <string>gyan-limb.glif</string>
   <key>ikar_kemphreng-limb</key>
   <string>ikar_kemphreng-limb.glif</string>
   <key>ka-limb</key>
   <string>ka-limb.glif</string>
+  <key>la-limb</key>
+  <string>la-limb.glif</string>
   <key>nga_ukar-limb</key>
   <string>nga_ukar-limb.glif</string>
   <key>oe</key>
@@ -22,5 +30,15 @@
   <string>sa-limb.glif</string>
   <key>sai-limb</key>
   <string>sai-limb.glif</string>
+  <key>ssa-limb</key>
+  <string>ssa-limb.glif</string>
+  <key>tha-limb</key>
+  <string>tha-limb.glif</string>
+  <key>vowelcarrier-limb</key>
+  <string>vowelcarrier-limb.glif</string>
+  <key>wa-limb</key>
+  <string>wa-limb.glif</string>
+  <key>ya-limb</key>
+  <string>ya-limb.glif</string>
 </dict>
 </plist>

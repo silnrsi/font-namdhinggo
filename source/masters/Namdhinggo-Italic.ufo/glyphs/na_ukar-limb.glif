@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="na_ukar-limb" format="2">
-  <advance width="995"/>
-  <anchor x="828" y="1050" name="K"/>
+  <advance width="896"/>
+  <anchor x="771" y="945" name="K"/>
   <outline>
     <component base="ka_ukar-limb"/>
     <contour>
-      <point x="519" y="443" type="line"/>
-      <point x="542" y="418" type="line"/>
-      <point x="986" y="418" type="line"/>
-      <point x="1014" y="441"/>
-      <point x="1039" y="469"/>
-      <point x="1054" y="494" type="curve"/>
-      <point x="1021" y="533" type="line"/>
-      <point x="661" y="533" type="line"/>
+      <point x="473" y="399" type="line"/>
+      <point x="484" y="372" type="line"/>
+      <point x="891" y="372" type="line"/>
+      <point x="921" y="392"/>
+      <point x="953" y="422"/>
+      <point x="973" y="445" type="curve"/>
+      <point x="957" y="484" type="line"/>
+      <point x="649" y="484" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
       <string>CP</string>
-      <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
     </dict>
   </lib>
 </glyph>

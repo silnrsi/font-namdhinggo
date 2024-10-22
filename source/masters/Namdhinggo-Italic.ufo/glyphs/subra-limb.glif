@@ -3,32 +3,26 @@
   <unicode hex="192A"/>
   <outline>
     <contour>
-      <point x="-351" y="-305" type="line"/>
-      <point x="-265" y="-239"/>
-      <point x="-158" y="-151"/>
-      <point x="-65" y="-52" type="curve"/>
-      <point x="-103" y="-52" type="line"/>
-      <point x="-95" y="-163"/>
-      <point x="-76" y="-249"/>
-      <point x="-9" y="-305" type="curve"/>
-      <point x="30" y="-278"/>
-      <point x="65" y="-242"/>
-      <point x="93" y="-191" type="curve"/>
-      <point x="50" y="-144"/>
-      <point x="29" y="-47"/>
-      <point x="29" y="57" type="curve"/>
-      <point x="27" y="58"/>
-      <point x="4" y="71"/>
-      <point x="-2" y="76" type="curve"/>
-      <point x="-139" y="-63"/>
-      <point x="-234" y="-159"/>
-      <point x="-370" y="-273" type="curve"/>
+      <point x="-424" y="-274" type="line"/>
+      <point x="-340" y="-215"/>
+      <point x="-236" y="-136"/>
+      <point x="-147" y="-47" type="curve"/>
+      <point x="-185" y="-37" type="line"/>
+      <point x="-170" y="-155"/>
+      <point x="-156" y="-220"/>
+      <point x="-82" y="-274" type="curve"/>
+      <point x="-43" y="-250"/>
+      <point x="-10" y="-218"/>
+      <point x="16" y="-172" type="curve"/>
+      <point x="-28" y="-130"/>
+      <point x="-51" y="-42"/>
+      <point x="-55" y="51" type="curve"/>
+      <point x="-58" y="52"/>
+      <point x="-81" y="64"/>
+      <point x="-88" y="68" type="curve"/>
+      <point x="-224" y="-57"/>
+      <point x="-312" y="-143"/>
+      <point x="-444" y="-246" type="curve"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
-    </dict>
-  </lib>
 </glyph>

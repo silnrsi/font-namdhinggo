@@ -5,10 +5,4 @@
     <component base="kemphreng-limb" xOffset="30" yOffset="10"/>
     <component base="subya-limb"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.25,0.25,0.25,1</string>
-    </dict>
-  </lib>
 </glyph>

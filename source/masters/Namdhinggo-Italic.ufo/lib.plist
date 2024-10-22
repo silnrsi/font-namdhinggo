@@ -32,14 +32,15 @@
   <string>3260</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
+    <string>/ba-limb/loo-limb/exclam-limb/ca-limb/question-limb/zero-limb/ka-limb/one-limb/sha-limb 
+/two-limb/three-limb/ka-limb/four-limb/five-limb/ba-limb/kha-limb/six-limb/la-limb/seven-limb/eight-limb/nine-limb/ra-limb</string>
+    <string>/dandadbl/vowelcarrier-limb/vowelcarrier_ukar-limb/ka-limb/ka_ukar-limb/ka_subra_ukar-limb z/kha-limb/kha_ukar-limb/kha_subra_ukar-limb/ga-limb/ga_ukar-limb/ga_subra_ukar-limb/gha-limb/gha_ukar-limb/gha_subra_ukar-limb/nga-limb/nga_ukar-limb/nga_subra_ukar-limb/ca-limb/ca_ukar-limb/ca_subra_ukar-limb/cha-limb/cha_ukar-limb/cha_subra_ukar-limb/ja-limb/ja_ukar-limb/ja_subra_ukar-limb/jha-limb/jha_ukar-limb/jha_subra_ukar-limb t/yan-limb/yan_ukar-limb/yan_subra_ukar-limb/ta-limb/ta_ukar-limb/ta_subra_ukar-limb/tha-limb/tha_ukar-limb/tha_subra_ukar-limb/da-limb/da_ukar-limb/da_subra_ukar-limb/dha-limb/dha_ukar-limb/dha_subra_ukar-limb/na-limb/na_ukar-limb/na_subra_ukar-limb/pa-limb/pa_ukar-limb/pa_subra_ukar-limb/pha-limb/pha_ukar-limb/pha_subra_ukar-limb/ba-limb/ba_ukar-limb/ba_subra_ukar-limb/bha-limb/bha_ukar-limb/bha_subra_ukar-limb/ma-limb/ma_ukar-limb/ma_subra_ukar-limb/ya-limb/ya_ukar-limb/ya_subra_ukar-limb/ra-limb/ra_ukar-limb/ra_subra_ukar-limb/la-limb/la_ukar-limb/la_subra_ukar-limb/wa-limb/wa_ukar-limb/wa_subra_ukar-limb/sha-limb/sha_ukar-limb/sha_subra_ukar-limb/ssa-limb/ssa_ukar-limb/ssa_subra_ukar-limb l/sa-limb/sa_ukar-limb/sa_subra_ukar-limb/ha-limb/ha_ukar-limb/ha_subra_ukar-limb/gyan-limb/gyan_ukar-limb/gyan_subra_ukar-limb/tra-limb/tra_ukar-limb/tra_subra_ukar-limb</string>
+    <string>/ga-limb/la-limb/gha-limb/exclam-limb .!"/dha-limb/kha-limb/bha-limb "#/ba-limb 
+/pa-limb $/ja-limb/ca-limb/wa-limb/ring %/ssa-limb/tra-limb '
+(/ma-limb/ra-limb/sa-limb )/gha-limb -/na-limb///ga-limb/pha-limb |/ka-limb/kha-limb/backslash/la-limb .¿/ba-limb ?/question-limb 
+[/ha-limb/ta-limb/sa-limb/ma_ukar-limb ]{/ba-limb/dha-limb/tha_ukar-limb }.¡/cha-limb ¦­/na-limb ¿/da-limb/hyphentwo/nbhyphen/figuredash/endash/emdash/horizontalbar/quoteleft/quoteright ;/quotesinglbase/quotedblleft/quotedblright/quotedblbase</string>
     <string>+,/gha-limb ./ma-limb :/cha-limb ;&lt;=&gt;«±»×÷/colontriangularmod/la-limb/ta-limb/kha-limb ./ellipsis/guilsinglleft/ra-limb/wa-limb/guilsinglright/na-limb/one-limb/bulletoperator/seven-limb/radical/five-limb/infinity/three-limb 
 /two-limb/six-limb/approxequal/notequal/lessequal/nine-limb/greaterequal</string>
-    <string>/danda/dandadbl/vowelcarrier-limb/vowelcarrier_ukar-limb/ka-limb/smallta-limb/ka_ukar-limb/ka_subra_ukar-limb/ma-limb/ma_ukar-limb/ma_subra_ukar-limb/kha-limb/kha_ukar-limb/kha_subra_ukar-limb/ga-limb/ga_ukar-limb/ga_subra_ukar-limb/nga-limb/nga_ukar-limb/nga_subra_ukar-limb 
-/na-limb/na_ukar-limb/na_subra_ukar-limb/cha-limb/cha_ukar-limb/cha_subra_ukar-limb/ba-limb/ba_ukar-limb/ba_subra_ukar-limb/ha-limb/ha_ukar-limb/ha_subra_ukar-limb/gyan-limb/gyan_ukar-limb/gyan_subra_ukar-limb/ya-limb/ya_ukar-limb/ya_subra_ukar-limb/tra-limb/tra_ukar-limb/tra_subra_ukar-limb 
-/jha-limb/jha_ukar-limb/jha_subra_ukar-limb/dha-limb/dha_ukar-limb/dha_subra_ukar-limb/wa-limb/wa_ukar-limb/wa_subra_ukar-limb/gha-limb/gha_ukar-limb/gha_subra_ukar-limb/ssa-limb/ssa_ukar-limb/ssa_subra_ukar-limb/ca-limb/ca_ukar-limb/ca_subra_ukar-limb 
-/da-limb/da_ukar-limb/da_subra_ukar-limb/la-limb/la_ukar-limb/la_subra_ukar-limb/aikar-limb/ta-limb/ta_ukar-limb/ta_subra_ukar-limb/ja-limb/ja_ukar-limb/ja_subra_ukar-limb/eekar-limb/space 
-/tha_ukar-limb/tha_subra_ukar-limb/yan-limb/aikar-limb/yan_ukar-limb/yan_subra_ukar-limb/bha-limb/bha_ukar-limb/bha_subra_ukar-limb/space 
-/pa-limb/pa_ukar-limb/pa_subra_ukar-limb/pha-limb/pha_ukar-limb/pha_subra_ukar-limb/ba-limb/smallka-limb</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
@@ -584,6 +585,8 @@
   </array>
   <key>public.postscriptNames</key>
   <dict>
+    <key>Delta</key>
+    <string>uni0394</string>
     <key>EmQuad</key>
     <string>uni2001</string>
     <key>EmSpace</key>
@@ -808,6 +811,8 @@
     <string>uni1914192A1922</string>
     <key>ma_ukar-limb</key>
     <string>uni19141922</string>
+    <key>mu</key>
+    <string>uni03BC</string>
     <key>mukphreng-limb</key>
     <string>uni1939</string>
     <key>na-limb</key>
@@ -1031,18 +1036,5 @@
     <key>zwsp</key>
     <string>uni200B</string>
   </dict>
-  <key>public.skipExportGlyphs</key>
-  <array>
-    <string>akar-limb.widC</string>
-    <string>akar-limb.widD</string>
-    <string>ukar-limb.altA</string>
-    <string>ukar-limb.altB</string>
-    <string>ukar-limb.altC</string>
-    <string>subra_ukar-limb</string>
-    <string>kemphreng-limb.widC</string>
-    <string>sai-limb.widA</string>
-    <string>sai-limb.widB</string>
-    <string>sai-limb.widC</string>
-  </array>
 </dict>
 </plist>

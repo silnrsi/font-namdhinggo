@@ -5,10 +5,4 @@
     <component base="okar-limb" xOffset="-30"/>
     <component base="subwa-limb"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.25,0.25,0.25,1</string>
-    </dict>
-  </lib>
 </glyph>

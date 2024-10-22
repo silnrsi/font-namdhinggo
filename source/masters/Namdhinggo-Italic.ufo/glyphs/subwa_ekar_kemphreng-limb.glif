@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="subwa_ekar_kemphreng-limb" format="2">
-  <anchor x="-300" y="1050" name="_O"/>
+  <anchor x="37" y="945" name="_O"/>
   <outline>
     <component base="ekar-limb"/>
-    <component base="kemphreng-limb" xOffset="-40"/>
+    <component base="kemphreng-limb" xOffset="-36"/>
     <component base="subwa-limb"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.25,0.25,0.25,1</string>
-    </dict>
-  </lib>
 </glyph>
