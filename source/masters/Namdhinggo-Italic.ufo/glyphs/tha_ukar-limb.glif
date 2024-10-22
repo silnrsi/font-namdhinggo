@@ -2,10 +2,6 @@
 <glyph name="tha_ukar-limb" format="2">
   <advance width="1112"/>
   <anchor x="969" y="1050" name="K"/>
-  <anchor x="505" y="-100" name="L"/>
-  <anchor x="963" y="1050" name="O"/>
-  <anchor x="879" y="1050" name="U"/>
-  <anchor x="904" y="50" name="V"/>
   <outline>
     <contour>
       <point x="398" y="-34" type="curve" smooth="yes"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="la_subra_ukar-limb" format="2">
   <advance width="1097"/>
-  <anchor x="585" y="1050" name="K"/>
+  <anchor x="905" y="1050" name="K"/>
   <outline>
     <component base="la_ukar-limb"/>
     <component base="_subra" xOffset="150" yOffset="20"/>

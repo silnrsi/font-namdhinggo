@@ -5,13 +5,13 @@
   <outline>
     <component base="akar-limb" xOffset="-150"/>
     <contour>
-      <point x="-39" y="1080" type="line"/>
-      <point x="18" y="1105"/>
-      <point x="120" y="1169"/>
-      <point x="163" y="1205" type="curve"/>
-      <point x="148" y="1255" type="line"/>
-      <point x="-304" y="1255" type="line"/>
-      <point x="-304" y="1080" type="line"/>
+      <point x="-309" y="1070" type="line"/>
+      <point x="-252" y="1095"/>
+      <point x="-150" y="1139"/>
+      <point x="-107" y="1175" type="curve"/>
+      <point x="-122" y="1225" type="line"/>
+      <point x="-574" y="1225" type="line"/>
+      <point x="-574" y="1070" type="line"/>
     </contour>
   </outline>
   <lib>

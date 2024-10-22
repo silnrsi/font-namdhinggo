@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ga_ukar-limb" format="2">
   <advance width="949"/>
-  <anchor x="540" y="1050" name="K"/>
+  <anchor x="860" y="1050" name="K"/>
   <outline>
     <component base="ga-limb"/>
     <contour>

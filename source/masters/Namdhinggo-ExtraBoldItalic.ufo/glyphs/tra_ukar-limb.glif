@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tra_ukar-limb" format="2">
   <advance width="1099"/>
-  <anchor x="520" y="1050" name="K"/>
-  <anchor x="770" y="1050" name="O"/>
-  <anchor x="510" y="1050" name="U"/>
+  <anchor x="900" y="1050" name="K"/>
+  <anchor x="1125" y="1050" name="O"/>
+  <anchor x="891" y="1050" name="U"/>
   <outline>
     <component base="tra-limb"/>
     <contour>

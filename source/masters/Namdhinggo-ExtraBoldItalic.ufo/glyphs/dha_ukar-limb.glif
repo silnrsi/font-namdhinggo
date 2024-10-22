@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dha_ukar-limb" format="2">
   <advance width="1130"/>
-  <anchor x="566" y="1050" name="K"/>
+  <anchor x="1007" y="1050" name="K"/>
   <outline>
     <component base="dha-limb"/>
     <contour>
-      <point x="199" y="-476" type="curve" smooth="yes"/>
-      <point x="796" y="-476"/>
-      <point x="1074" y="-7"/>
-      <point x="1139" y="491" type="curve"/>
-      <point x="918" y="374" type="line"/>
-      <point x="865" y="50"/>
-      <point x="620" y="-363"/>
-      <point x="320" y="-363" type="curve" smooth="yes"/>
-      <point x="249" y="-363"/>
-      <point x="195" y="-363"/>
-      <point x="195" y="-326" type="curve" smooth="yes"/>
-      <point x="195" y="-279"/>
-      <point x="238" y="-235"/>
-      <point x="275" y="-235" type="curve" smooth="yes"/>
-      <point x="296" y="-235"/>
-      <point x="309" y="-246"/>
-      <point x="309" y="-267" type="curve" smooth="yes"/>
-      <point x="309" y="-301"/>
-      <point x="281" y="-359"/>
-      <point x="229" y="-359" type="curve" smooth="yes"/>
-      <point x="205" y="-359"/>
-      <point x="194" y="-338"/>
-      <point x="193" y="-326" type="curve"/>
-      <point x="193" y="-365"/>
-      <point x="241" y="-388"/>
-      <point x="267" y="-399" type="curve"/>
-      <point x="367" y="-361"/>
-      <point x="466" y="-313"/>
-      <point x="466" y="-202" type="curve" smooth="yes"/>
-      <point x="466" y="-160"/>
-      <point x="436" y="-130"/>
-      <point x="376" y="-130" type="curve" smooth="yes"/>
-      <point x="232" y="-130"/>
-      <point x="46" y="-280"/>
-      <point x="46" y="-381" type="curve" smooth="yes"/>
-      <point x="46" y="-441"/>
-      <point x="92" y="-476"/>
+      <point x="319" y="-476" type="curve" smooth="yes"/>
+      <point x="916" y="-476"/>
+      <point x="1194" y="-7"/>
+      <point x="1259" y="491" type="curve"/>
+      <point x="1038" y="374" type="line"/>
+      <point x="985" y="50"/>
+      <point x="740" y="-363"/>
+      <point x="440" y="-363" type="curve" smooth="yes"/>
+      <point x="369" y="-363"/>
+      <point x="315" y="-363"/>
+      <point x="315" y="-326" type="curve" smooth="yes"/>
+      <point x="315" y="-279"/>
+      <point x="358" y="-235"/>
+      <point x="395" y="-235" type="curve" smooth="yes"/>
+      <point x="416" y="-235"/>
+      <point x="429" y="-246"/>
+      <point x="429" y="-267" type="curve" smooth="yes"/>
+      <point x="429" y="-301"/>
+      <point x="401" y="-359"/>
+      <point x="349" y="-359" type="curve" smooth="yes"/>
+      <point x="325" y="-359"/>
+      <point x="314" y="-338"/>
+      <point x="313" y="-326" type="curve"/>
+      <point x="313" y="-365"/>
+      <point x="361" y="-388"/>
+      <point x="387" y="-399" type="curve"/>
+      <point x="487" y="-361"/>
+      <point x="586" y="-313"/>
+      <point x="586" y="-202" type="curve" smooth="yes"/>
+      <point x="586" y="-160"/>
+      <point x="556" y="-130"/>
+      <point x="496" y="-130" type="curve" smooth="yes"/>
+      <point x="352" y="-130"/>
+      <point x="166" y="-280"/>
+      <point x="166" y="-381" type="curve" smooth="yes"/>
+      <point x="166" y="-441"/>
+      <point x="212" y="-476"/>
     </contour>
   </outline>
   <lib>

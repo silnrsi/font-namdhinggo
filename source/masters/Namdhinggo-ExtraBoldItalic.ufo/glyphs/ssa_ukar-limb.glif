@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ssa_ukar-limb" format="2">
   <advance width="915"/>
-  <anchor x="430" y="1050" name="K"/>
+  <anchor x="747" y="1050" name="K"/>
   <outline>
     <component base="ssa-limb"/>
     <contour>

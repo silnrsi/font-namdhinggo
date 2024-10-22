@@ -2,11 +2,11 @@
 <glyph name="pa-limb" format="2">
   <advance width="1394"/>
   <unicode hex="1910"/>
-  <anchor x="991" y="1050" name="K"/>
-  <anchor x="596" y="-100" name="L"/>
-  <anchor x="1207" y="1050" name="O"/>
-  <anchor x="970" y="1050" name="U"/>
-  <anchor x="1104" y="50" name="V"/>
+  <anchor x="1027" y="1050" name="K"/>
+  <anchor x="632" y="-100" name="L"/>
+  <anchor x="1243" y="1050" name="O"/>
+  <anchor x="1006" y="1050" name="U"/>
+  <anchor x="1140" y="50" name="V"/>
   <outline>
     <contour>
       <point x="771" y="1000" type="curve"/>

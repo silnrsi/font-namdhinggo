@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ka_ukar-limb" format="2">
   <advance width="975"/>
-  <anchor x="500" y="1050" name="K"/>
+  <anchor x="828" y="1050" name="K"/>
   <outline>
     <component base="ka-limb"/>
     <contour>

@@ -4,6 +4,8 @@
 <dict>
   <key>aikar-limb</key>
   <string>aikar-limb.glif</string>
+  <key>akar-limb</key>
+  <string>akar-limb.glif</string>
   <key>cha-limb</key>
   <string>cha-limb.glif</string>
   <key>ikar_kemphreng-limb</key>
@@ -20,7 +22,5 @@
   <string>sa-limb.glif</string>
   <key>sai-limb</key>
   <string>sai-limb.glif</string>
-  <key>tha-limb</key>
-  <string>tha-limb.glif</string>
 </dict>
 </plist>

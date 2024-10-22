@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gyan_ukar-limb" format="2">
   <advance width="1105"/>
-  <anchor x="842" y="1050" name="K"/>
-  <anchor x="1049" y="1050" name="O"/>
-  <anchor x="833" y="1050" name="U"/>
+  <anchor x="962" y="1050" name="K"/>
+  <anchor x="1169" y="1050" name="O"/>
+  <anchor x="953" y="1050" name="U"/>
   <outline>
     <component base="gyan-limb"/>
     <contour>

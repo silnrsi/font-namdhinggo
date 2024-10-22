@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="da_ukar-limb" format="2">
   <advance width="1094"/>
-  <anchor x="570" y="1050" name="K"/>
+  <anchor x="929" y="1050" name="K"/>
   <outline>
     <component base="da-limb"/>
     <contour>
