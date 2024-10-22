@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="subwa_ekar_kemphreng-limb" format="2">
-  <anchor x="-290" y="1050" name="_O"/>
+  <anchor x="46" y="945" name="_O"/>
   <outline>
-    <component base="ekar-limb" xOffset="10"/>
-    <component base="kemphreng-limb" xOffset="30" yOffset="40"/>
+    <component base="ekar-limb" xOffset="9"/>
+    <component base="kemphreng-limb" xOffset="39" yOffset="36"/>
     <component base="subwa-limb"/>
   </outline>
 </glyph>

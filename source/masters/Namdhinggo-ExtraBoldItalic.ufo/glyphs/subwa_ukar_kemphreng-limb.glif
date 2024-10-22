@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="subwa_ukar_kemphreng-limb" format="2">
-  <anchor x="-260" y="1250" name="_K"/>
-  <anchor x="-100" y="50" name="_V"/>
+  <anchor x="132" y="1125" name="_K"/>
+  <anchor x="-75" y="45" name="_V"/>
   <outline>
     <component base="ukar-limb"/>
     <component base="kemphreng-limb"/>

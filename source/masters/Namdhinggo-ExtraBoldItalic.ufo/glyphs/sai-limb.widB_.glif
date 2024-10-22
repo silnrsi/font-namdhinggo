@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sai-limb.widB" format="2">
-  <anchor x="-504" y="-35" name="_L"/>
+  <anchor x="-464" y="-31" name="_L"/>
   <outline>
     <contour>
-      <point x="-900" y="-80" type="line"/>
-      <point x="-939" y="-101"/>
-      <point x="-1016" y="-181"/>
-      <point x="-1039" y="-215" type="curve"/>
-      <point x="-1000" y="-265" type="line"/>
-      <point x="-208" y="-265" type="line"/>
-      <point x="-147" y="-228"/>
-      <point x="-81" y="-171"/>
-      <point x="-50" y="-130" type="curve"/>
-      <point x="-85" y="-80" type="line"/>
+      <point x="-833" y="-72" type="line"/>
+      <point x="-875" y="-91"/>
+      <point x="-967" y="-163"/>
+      <point x="-998" y="-193" type="curve"/>
+      <point x="-977" y="-238" type="line"/>
+      <point x="-265" y="-238" type="line"/>
+      <point x="-199" y="-205"/>
+      <point x="-123" y="-154"/>
+      <point x="-83" y="-117" type="curve"/>
+      <point x="-100" y="-72" type="line"/>
     </contour>
   </outline>
 </glyph>

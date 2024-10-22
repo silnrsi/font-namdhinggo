@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="subya_akar_kemphreng-limb" format="2">
-  <anchor x="-500" y="1050" name="_U"/>
+  <anchor x="-143" y="945" name="_U"/>
   <outline>
-    <component base="akar-limb" xOffset="-30"/>
-    <component base="kemphreng-limb" xOffset="-30" yOffset="50"/>
-    <component base="subya-limb" xOffset="-30"/>
+    <component base="akar-limb" xOffset="-27"/>
+    <component base="kemphreng-limb" xOffset="-12" yOffset="45"/>
+    <component base="subya-limb" xOffset="-27"/>
   </outline>
 </glyph>
