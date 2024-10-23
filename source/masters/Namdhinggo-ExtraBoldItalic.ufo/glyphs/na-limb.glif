@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="na-limb" format="2">
-  <advance width="1035"/>
+  <advance width="932"/>
   <unicode hex="190F"/>
-  <anchor x="515" y="1050" name="K"/>
-  <anchor x="480" y="-100" name="L"/>
-  <anchor x="778" y="1050" name="O"/>
-  <anchor x="497" y="1050" name="U"/>
-  <anchor x="920" y="50" name="V"/>
+  <anchor x="805" y="1050" name="K"/>
+  <anchor x="400" y="-100" name="L"/>
+  <anchor x="1041" y="1050" name="O"/>
+  <anchor x="788" y="1050" name="U"/>
+  <anchor x="844" y="50" name="V"/>
   <outline>
     <component base="ka-limb"/>
     <contour>
-      <point x="375" y="410" type="line"/>
-      <point x="397" y="380" type="line"/>
-      <point x="849" y="380" type="line"/>
-      <point x="875" y="403"/>
-      <point x="951" y="491"/>
-      <point x="966" y="516" type="curve"/>
-      <point x="922" y="565" type="line"/>
-      <point x="539" y="565" type="line"/>
+      <point x="471" y="410" type="line"/>
+      <point x="481" y="380" type="line"/>
+      <point x="888" y="380" type="line"/>
+      <point x="918" y="403"/>
+      <point x="1015" y="491"/>
+      <point x="1037" y="516" type="curve"/>
+      <point x="1013" y="565" type="line"/>
+      <point x="669" y="565" type="line"/>
     </contour>
   </outline>
   <lib>

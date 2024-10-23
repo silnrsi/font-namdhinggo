@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="smallra-limb" format="2">
-  <advance width="419"/>
+  <advance width="377"/>
   <unicode hex="1937"/>
   <outline>
     <contour>
-      <point x="62" y="29" type="curve"/>
-      <point x="148" y="-38"/>
-      <point x="257" y="-160"/>
-      <point x="313" y="-270" type="curve"/>
-      <point x="375" y="-228"/>
-      <point x="399" y="-210"/>
-      <point x="419" y="-193" type="curve"/>
-      <point x="380" y="-66"/>
-      <point x="333" y="79"/>
-      <point x="251" y="163" type="curve"/>
-      <point x="185" y="151"/>
-      <point x="84" y="73"/>
+      <point x="65" y="29" type="curve"/>
+      <point x="121" y="-38"/>
+      <point x="179" y="-160"/>
+      <point x="194" y="-270" type="curve"/>
+      <point x="263" y="-228"/>
+      <point x="291" y="-210"/>
+      <point x="314" y="-193" type="curve"/>
+      <point x="321" y="-66"/>
+      <point x="325" y="79"/>
+      <point x="279" y="163" type="curve"/>
+      <point x="216" y="151"/>
+      <point x="99" y="73"/>
     </contour>
   </outline>
 </glyph>

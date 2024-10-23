@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="subya_akar-limb" format="2">
-  <anchor x="-260" y="1250" name="K"/>
-  <anchor x="-500" y="1050" name="_U"/>
+  <anchor x="172" y="1250" name="K"/>
+  <anchor x="-109" y="1050" name="_U"/>
   <outline>
-    <component base="akar-limb" xOffset="-30"/>
-    <component base="subya-limb" xOffset="-30"/>
+    <component base="akar-limb" xOffset="-27"/>
+    <component base="subya-limb" xOffset="-27"/>
   </outline>
 </glyph>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="mukphreng-limb" format="2">
-  <advance width="285"/>
+  <advance width="257"/>
   <unicode hex="1939"/>
   <outline>
     <contour>
-      <point x="46" y="26" type="curve"/>
-      <point x="30" y="-89"/>
-      <point x="-7" y="-195"/>
-      <point x="-69" y="-266" type="curve"/>
-      <point x="-62" y="-279"/>
-      <point x="-37" y="-300"/>
-      <point x="-30" y="-300" type="curve"/>
-      <point x="95" y="-185"/>
-      <point x="226" y="6"/>
-      <point x="245" y="108" type="curve"/>
-      <point x="234" y="121"/>
-      <point x="225" y="134"/>
-      <point x="214" y="144" type="curve"/>
-      <point x="161" y="111"/>
-      <point x="87" y="64"/>
+      <point x="50" y="26" type="curve"/>
+      <point x="-2" y="-89"/>
+      <point x="-70" y="-195"/>
+      <point x="-149" y="-266" type="curve"/>
+      <point x="-146" y="-279"/>
+      <point x="-131" y="-300"/>
+      <point x="-124" y="-300" type="curve"/>
+      <point x="25" y="-185"/>
+      <point x="205" y="6"/>
+      <point x="256" y="108" type="curve"/>
+      <point x="250" y="121"/>
+      <point x="246" y="134"/>
+      <point x="239" y="144" type="curve"/>
+      <point x="181" y="111"/>
+      <point x="99" y="64"/>
     </contour>
   </outline>
 </glyph>

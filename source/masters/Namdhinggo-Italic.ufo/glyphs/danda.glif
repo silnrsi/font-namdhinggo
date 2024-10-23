@@ -1,31 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="danda" format="2">
-  <advance width="405"/>
+  <advance width="365"/>
   <unicode hex="0964"/>
   <outline>
     <contour>
-      <point x="126" y="933" type="curve"/>
-      <point x="119" y="808"/>
-      <point x="117" y="411"/>
-      <point x="133" y="-6" type="curve"/>
-      <point x="133" y="-6"/>
-      <point x="181" y="-34"/>
-      <point x="181" y="-34" type="curve"/>
-      <point x="211" y="-16"/>
-      <point x="272" y="36"/>
-      <point x="285" y="67" type="curve"/>
-      <point x="263" y="372"/>
-      <point x="260" y="698"/>
-      <point x="279" y="967" type="curve"/>
-      <point x="243" y="999" type="line"/>
-      <point x="201" y="986"/>
-      <point x="159" y="964"/>
+      <point x="417" y="933" type="curve"/>
+      <point x="370" y="808"/>
+      <point x="239" y="411"/>
+      <point x="118" y="-6" type="curve"/>
+      <point x="118" y="-6"/>
+      <point x="152" y="-34"/>
+      <point x="152" y="-34" type="curve"/>
+      <point x="185" y="-16"/>
+      <point x="256" y="36"/>
+      <point x="278" y="67" type="curve"/>
+      <point x="358" y="372"/>
+      <point x="461" y="698"/>
+      <point x="565" y="967" type="curve"/>
+      <point x="543" y="999" type="line"/>
+      <point x="501" y="986"/>
+      <point x="456" y="964"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.5,0.09,0.79,1</string>
-    </dict>
-  </lib>
 </glyph>

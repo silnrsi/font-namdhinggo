@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ekar-limb" format="2">
   <unicode hex="1927"/>
-  <anchor x="-300" y="1250" name="K"/>
-  <anchor x="-300" y="1050" name="_O"/>
+  <anchor x="136" y="1250" name="K"/>
+  <anchor x="71" y="1050" name="_O"/>
   <outline>
     <contour>
-      <point x="-809" y="1372" type="curve"/>
-      <point x="-732" y="1288"/>
-      <point x="-529" y="1123"/>
-      <point x="-375" y="1054" type="curve"/>
-      <point x="-344" y="1076"/>
-      <point x="-335" y="1092"/>
-      <point x="-315" y="1110" type="curve"/>
-      <point x="-432" y="1206"/>
-      <point x="-611" y="1378"/>
-      <point x="-683" y="1463" type="curve"/>
-      <point x="-729" y="1441"/>
-      <point x="-779" y="1406"/>
+      <point x="-282" y="1372" type="curve"/>
+      <point x="-240" y="1288"/>
+      <point x="-111" y="1123"/>
+      <point x="5" y="1054" type="curve"/>
+      <point x="40" y="1076"/>
+      <point x="53" y="1092"/>
+      <point x="77" y="1110" type="curve"/>
+      <point x="3" y="1206"/>
+      <point x="-102" y="1378"/>
+      <point x="-139" y="1463" type="curve"/>
+      <point x="-188" y="1441"/>
+      <point x="-244" y="1406"/>
     </contour>
   </outline>
 </glyph>

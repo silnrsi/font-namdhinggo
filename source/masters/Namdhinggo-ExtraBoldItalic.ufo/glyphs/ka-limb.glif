@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ka-limb" format="2">
-  <advance width="1015"/>
+  <advance width="914"/>
   <unicode hex="1901"/>
-  <anchor x="510" y="1050" name="K"/>
-  <anchor x="495" y="-100" name="L"/>
-  <anchor x="765" y="1050" name="O"/>
-  <anchor x="497" y="1050" name="U"/>
-  <anchor x="930" y="50" name="V"/>
+  <anchor x="800" y="1050" name="K"/>
+  <anchor x="413" y="-100" name="L"/>
+  <anchor x="1030" y="1050" name="O"/>
+  <anchor x="788" y="1050" name="U"/>
+  <anchor x="853" y="50" name="V"/>
   <outline>
     <contour>
-      <point x="179" y="970" type="curve"/>
-      <point x="150" y="949"/>
-      <point x="75" y="876"/>
-      <point x="41" y="835" type="curve"/>
-      <point x="80" y="785" type="line"/>
-      <point x="98" y="785"/>
-      <point x="803" y="785"/>
-      <point x="711" y="785" type="curve"/>
-      <point x="700" y="875" type="line"/>
-      <point x="441" y="645"/>
-      <point x="188" y="289"/>
-      <point x="40" y="50" type="curve"/>
-      <point x="72" y="0" type="line"/>
-      <point x="870" y="0" type="line"/>
-      <point x="896" y="23"/>
-      <point x="970" y="109"/>
-      <point x="985" y="135" type="curve"/>
-      <point x="942" y="185" type="line"/>
-      <point x="205" y="185" type="line"/>
-      <point x="291" y="101" type="line"/>
-      <point x="422" y="313"/>
-      <point x="723" y="679"/>
-      <point x="968" y="910" type="curve"/>
-      <point x="930" y="970" type="line"/>
-      <point x="930" y="970"/>
-      <point x="178" y="970"/>
+      <point x="476" y="970" type="curve"/>
+      <point x="443" y="949"/>
+      <point x="352" y="876"/>
+      <point x="308" y="835" type="curve"/>
+      <point x="327" y="785" type="line"/>
+      <point x="343" y="785"/>
+      <point x="978" y="785"/>
+      <point x="895" y="785" type="curve"/>
+      <point x="914" y="875" type="line"/>
+      <point x="606" y="645"/>
+      <point x="263" y="289"/>
+      <point x="52" y="50" type="curve"/>
+      <point x="65" y="0" type="line"/>
+      <point x="783" y="0" type="line"/>
+      <point x="814" y="23"/>
+      <point x="908" y="109"/>
+      <point x="930" y="135" type="curve"/>
+      <point x="908" y="185" type="line"/>
+      <point x="245" y="185" type="line"/>
+      <point x="295" y="101" type="line"/>
+      <point x="481" y="313"/>
+      <point x="871" y="679"/>
+      <point x="1167" y="910" type="curve"/>
+      <point x="1152" y="970" type="line"/>
+      <point x="1152" y="970"/>
+      <point x="475" y="970"/>
     </contour>
   </outline>
 </glyph>
