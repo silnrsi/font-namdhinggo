@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="na_ukar-limb" format="2">
-  <advance width="896"/>
-  <anchor x="771" y="945" name="K"/>
+  <advance width="995"/>
+  <anchor x="515" y="1050" name="K"/>
   <outline>
     <component base="ka_ukar-limb"/>
     <contour>
-      <point x="473" y="399" type="line"/>
-      <point x="484" y="372" type="line"/>
-      <point x="891" y="372" type="line"/>
-      <point x="921" y="392"/>
-      <point x="953" y="422"/>
-      <point x="973" y="445" type="curve"/>
-      <point x="957" y="484" type="line"/>
-      <point x="649" y="484" type="line"/>
+      <point x="382" y="443" type="line"/>
+      <point x="404" y="413" type="line"/>
+      <point x="856" y="413" type="line"/>
+      <point x="882" y="436"/>
+      <point x="906" y="469"/>
+      <point x="921" y="494" type="curve"/>
+      <point x="889" y="538" type="line"/>
+      <point x="546" y="538" type="line"/>
     </contour>
   </outline>
   <lib>

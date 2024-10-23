@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ookar-limb" format="2">
-  <advance width="504"/>
+  <advance width="560"/>
   <unicode hex="1925"/>
   <outline>
     <component base="eekar-limb"/>
-    <component base="akar-limb" xOffset="27"/>
+    <component base="akar-limb" xOffset="30"/>
   </outline>
 </glyph>

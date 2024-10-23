@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="subya_akar_kemphreng-limb" format="2">
-  <anchor x="-143" y="945" name="_U"/>
+  <anchor x="-500" y="1050" name="_U"/>
   <outline>
     <component base="akar-limb"/>
     <component base="kemphreng-limb"/>

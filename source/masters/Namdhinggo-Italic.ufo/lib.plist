@@ -41,6 +41,9 @@
 [/ha-limb/ta-limb/sa-limb/ma_ukar-limb ]{/ba-limb/dha-limb/tha_ukar-limb }.¡/cha-limb ¦­/na-limb ¿/da-limb/hyphentwo/nbhyphen/figuredash/endash/emdash/horizontalbar/quoteleft/quoteright ;/quotesinglbase/quotedblleft/quotedblright/quotedblbase</string>
     <string>+,/gha-limb ./ma-limb :/cha-limb ;&lt;=&gt;«±»×÷/colontriangularmod/la-limb/ta-limb/kha-limb ./ellipsis/guilsinglleft/ra-limb/wa-limb/guilsinglright/na-limb/one-limb/bulletoperator/seven-limb/radical/five-limb/infinity/three-limb 
 /two-limb/six-limb/approxequal/notequal/lessequal/nine-limb/greaterequal</string>
+    <string>/dandadbl/danda</string>
+    <string>/oe</string>
+    <string>A</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
@@ -585,8 +588,6 @@
   </array>
   <key>public.postscriptNames</key>
   <dict>
-    <key>Delta</key>
-    <string>uni0394</string>
     <key>EmQuad</key>
     <string>uni2001</string>
     <key>EmSpace</key>
@@ -811,8 +812,6 @@
     <string>uni1914192A1922</string>
     <key>ma_ukar-limb</key>
     <string>uni19141922</string>
-    <key>mu</key>
-    <string>uni03BC</string>
     <key>mukphreng-limb</key>
     <string>uni1939</string>
     <key>na-limb</key>
@@ -1036,5 +1035,18 @@
     <key>zwsp</key>
     <string>uni200B</string>
   </dict>
+  <key>public.skipExportGlyphs</key>
+  <array>
+    <string>akar-limb.widC</string>
+    <string>akar-limb.widD</string>
+    <string>ukar-limb.altA</string>
+    <string>ukar-limb.altB</string>
+    <string>ukar-limb.altC</string>
+    <string>subra_ukar-limb</string>
+    <string>kemphreng-limb.widC</string>
+    <string>sai-limb.widA</string>
+    <string>sai-limb.widB</string>
+    <string>sai-limb.widC</string>
+  </array>
 </dict>
 </plist>

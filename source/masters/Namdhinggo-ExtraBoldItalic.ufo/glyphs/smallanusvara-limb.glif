@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="smallanusvara-limb" format="2">
   <unicode hex="1932"/>
-  <anchor x="-528" y="-72" name="_L"/>
+  <anchor x="-561" y="-80" name="_L"/>
   <outline>
     <contour>
-      <point x="-391" y="-263" type="curve"/>
-      <point x="-360" y="-167"/>
-      <point x="-396" y="-94"/>
-      <point x="-489" y="-94" type="curve"/>
-      <point x="-610" y="-94"/>
-      <point x="-778" y="-211"/>
-      <point x="-815" y="-327" type="curve"/>
-      <point x="-848" y="-427"/>
-      <point x="-799" y="-488"/>
-      <point x="-720" y="-488" type="curve"/>
-      <point x="-590" y="-488"/>
-      <point x="-423" y="-361"/>
+      <point x="-340" y="-292" type="curve"/>
+      <point x="-340" y="-186"/>
+      <point x="-406" y="-104"/>
+      <point x="-509" y="-104" type="curve"/>
+      <point x="-644" y="-104"/>
+      <point x="-788" y="-235"/>
+      <point x="-788" y="-363" type="curve"/>
+      <point x="-788" y="-474"/>
+      <point x="-712" y="-542"/>
+      <point x="-624" y="-542" type="curve"/>
+      <point x="-480" y="-542"/>
+      <point x="-340" y="-401"/>
     </contour>
     <contour>
-      <point x="-671" y="-283" type="curve"/>
-      <point x="-657" y="-242"/>
-      <point x="-621" y="-204"/>
-      <point x="-591" y="-204" type="curve"/>
-      <point x="-544" y="-204"/>
-      <point x="-516" y="-233"/>
-      <point x="-535" y="-293" type="curve"/>
-      <point x="-549" y="-335"/>
-      <point x="-577" y="-371"/>
-      <point x="-615" y="-371" type="curve"/>
-      <point x="-659" y="-371"/>
-      <point x="-689" y="-340"/>
+      <point x="-643" y="-314" type="curve"/>
+      <point x="-643" y="-269"/>
+      <point x="-616" y="-227"/>
+      <point x="-583" y="-227" type="curve"/>
+      <point x="-531" y="-227"/>
+      <point x="-489" y="-259"/>
+      <point x="-489" y="-326" type="curve"/>
+      <point x="-489" y="-372"/>
+      <point x="-507" y="-412"/>
+      <point x="-549" y="-412" type="curve"/>
+      <point x="-598" y="-412"/>
+      <point x="-643" y="-378"/>
     </contour>
   </outline>
 </glyph>

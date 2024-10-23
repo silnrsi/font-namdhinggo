@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dandadbl" format="2">
-  <advance width="779"/>
+  <advance width="865"/>
   <unicode hex="0965"/>
   <outline>
     <component base="danda"/>
-    <component base="danda" xOffset="324"/>
+    <component base="danda" xOffset="360"/>
   </outline>
 </glyph>
