@@ -4,10 +4,20 @@
 <dict>
   <key>ca-limb</key>
   <string>ca-limb.glif</string>
+  <key>cha-limb</key>
+  <string>cha-limb.glif</string>
   <key>divide</key>
   <string>divide.glif</string>
+  <key>ha-limb</key>
+  <string>ha-limb.glif</string>
+  <key>jha-limb</key>
+  <string>jha-limb.glif</string>
   <key>ka_ukar-limb</key>
   <string>ka_ukar-limb.glif</string>
+  <key>kha-limb</key>
+  <string>kha-limb.glif</string>
+  <key>nga-limb</key>
+  <string>nga-limb.glif</string>
   <key>ta-limb</key>
   <string>ta-limb.glif</string>
   <key>ta_ukar-limb</key>
@@ -20,5 +30,7 @@
   <string>ukar-limb.altB_.glif</string>
   <key>ukar-limb.altC</key>
   <string>ukar-limb.altC_.glif</string>
+  <key>yan-limb</key>
+  <string>yan-limb.glif</string>
 </dict>
 </plist>

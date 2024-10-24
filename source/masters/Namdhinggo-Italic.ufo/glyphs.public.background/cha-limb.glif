@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cha-limb" format="2">
+  <outline>
+    <contour>
+      <point x="752" y="904" type="line"/>
+      <point x="547" y="848"/>
+      <point x="275" y="590"/>
+      <point x="206" y="372" type="curve" smooth="yes"/>
+      <point x="121" y="97"/>
+      <point x="281" y="-34"/>
+      <point x="467" y="-34" type="curve" smooth="yes"/>
+      <point x="636" y="-34"/>
+      <point x="803" y="27"/>
+      <point x="982" y="179" type="curve"/>
+      <point x="968" y="225" type="line"/>
+      <point x="847" y="143"/>
+      <point x="717" y="96"/>
+      <point x="589" y="96" type="curve" smooth="yes"/>
+      <point x="442" y="96"/>
+      <point x="280" y="187"/>
+      <point x="355" y="424" type="curve" smooth="yes"/>
+      <point x="431" y="671"/>
+      <point x="685" y="848"/>
+      <point x="899" y="892" type="curve"/>
+    </contour>
+  </outline>
+</glyph>
