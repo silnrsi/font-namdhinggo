@@ -28,6 +28,8 @@
   <string>ta-limb.glif</string>
   <key>ta_ukar-limb</key>
   <string>ta_ukar-limb.glif</string>
+  <key>tra-limb</key>
+  <string>tra-limb.glif</string>
   <key>ukar-limb</key>
   <string>ukar-limb.glif</string>
   <key>ukar-limb.altA</key>
@@ -36,6 +38,8 @@
   <string>ukar-limb.altB_.glif</string>
   <key>ukar-limb.altC</key>
   <string>ukar-limb.altC_.glif</string>
+  <key>wa-limb</key>
+  <string>wa-limb.glif</string>
   <key>yan-limb</key>
   <string>yan-limb.glif</string>
 </dict>
