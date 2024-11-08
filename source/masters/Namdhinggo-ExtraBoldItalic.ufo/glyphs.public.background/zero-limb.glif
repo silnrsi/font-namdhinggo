@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zero-limb" format="2">
+  <outline>
+    <contour>
+      <point x="188" y="439" type="curve" smooth="yes"/>
+      <point x="95" y="154"/>
+      <point x="174" y="-34"/>
+      <point x="398" y="-34" type="curve" smooth="yes"/>
+      <point x="674" y="-34"/>
+      <point x="907" y="243"/>
+      <point x="999" y="525" type="curve" smooth="yes"/>
+      <point x="1091" y="810"/>
+      <point x="1018" y="995"/>
+      <point x="805" y="995" type="curve" smooth="yes"/>
+      <point x="527" y="995"/>
+      <point x="281" y="725"/>
+    </contour>
+    <contour>
+      <point x="438" y="527" type="curve" smooth="yes"/>
+      <point x="505" y="733"/>
+      <point x="632" y="845"/>
+      <point x="695" y="845" type="curve" smooth="yes"/>
+      <point x="808" y="845"/>
+      <point x="822" y="670"/>
+      <point x="748" y="440" type="curve" smooth="yes"/>
+      <point x="681" y="235"/>
+      <point x="570" y="116"/>
+      <point x="499" y="116" type="curve" smooth="yes"/>
+      <point x="431" y="116"/>
+      <point x="329" y="193"/>
+    </contour>
+  </outline>
+</glyph>

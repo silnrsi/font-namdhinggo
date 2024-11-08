@@ -17,7 +17,7 @@ with Reserved Font Names "Namdhinggo" and "SIL".
   <key>italicAngle</key>
   <integer>-18</integer>
   <key>openTypeHeadCreated</key>
-  <string>2024/11/07 18:52:57</string>
+  <string>2024/11/08 14:41:42</string>
   <key>openTypeHheaAscender</key>
   <integer>1600</integer>
   <key>openTypeHheaDescender</key>
@@ -249,6 +249,10 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <integer>-235</integer>
   <key>postscriptUnderlineThickness</key>
   <integer>130</integer>
+  <key>styleMapFamilyName</key>
+  <string>Namdhinggo</string>
+  <key>styleMapStyleName</key>
+  <string>italic</string>
   <key>styleName</key>
   <string>Italic</string>
   <key>trademark</key>
@@ -259,40 +263,6 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <integer>3</integer>
   <key>versionMinor</key>
   <integer>900</integer>
-  <key>woffMetadataCredits</key>
-  <dict>
-    <key>credits</key>
-    <array>
-      <dict>
-        <key>name</key>
-        <string>Victor Gaultney, Becca Spalinger</string>
-        <key>role</key>
-        <string>Designers</string>
-        <key>url</key>
-        <string>https://software.sil.org/namdhinggo/</string>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>Bobby de Vos, Steve Smith</string>
-        <key>role</key>
-        <string>Font engineers</string>
-      </dict>
-    </array>
-  </dict>
-  <key>woffMetadataDescription</key>
-  <dict>
-    <key>text</key>
-    <array>
-      <dict>
-        <key>text</key>
-        <string>The Limbu, or Kirat Sirijonga, script is used by around 400,000 people in Nepal.
-The Limbu, or Kirat Sirijonga, script is used by around 400,000 people in Nepal and India.
-This font was designed to support literacy and materials development work in the Limbu language.</string>
-      </dict>
-    </array>
-    <key>url</key>
-    <string>https://software.sil.org/</string>
-  </dict>
   <key>xHeight</key>
   <integer>500</integer>
 </dict>

@@ -586,9 +586,13 @@
     <string>zwnbsp</string>
     <string>ObjectReplChar</string>
     <string>ReplChar</string>
+    <string>_subra</string>
+    <string>_ukar_bowl</string>
   </array>
   <key>public.postscriptNames</key>
   <dict>
+    <key>Delta</key>
+    <string>uni0394</string>
     <key>EmQuad</key>
     <string>uni2001</string>
     <key>EmSpace</key>
@@ -813,6 +817,8 @@
     <string>uni1914192A1922</string>
     <key>ma_ukar-limb</key>
     <string>uni19141922</string>
+    <key>mu</key>
+    <string>uni03BC</string>
     <key>mukphreng-limb</key>
     <string>uni1939</string>
     <key>na-limb</key>
@@ -1036,18 +1042,5 @@
     <key>zwsp</key>
     <string>uni200B</string>
   </dict>
-  <key>public.skipExportGlyphs</key>
-  <array>
-    <string>akar-limb.widC</string>
-    <string>akar-limb.widD</string>
-    <string>ukar-limb.altA</string>
-    <string>ukar-limb.altB</string>
-    <string>ukar-limb.altC</string>
-    <string>subra_ukar-limb</string>
-    <string>kemphreng-limb.widC</string>
-    <string>sai-limb.widA</string>
-    <string>sai-limb.widB</string>
-    <string>sai-limb.widC</string>
-  </array>
 </dict>
 </plist>

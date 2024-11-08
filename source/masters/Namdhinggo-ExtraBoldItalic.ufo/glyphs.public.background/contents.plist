@@ -12,6 +12,10 @@
   <string>cha-limb.glif</string>
   <key>cha_subra_ukar-limb</key>
   <string>cha_subra_ukar-limb.glif</string>
+  <key>exclam-limb</key>
+  <string>exclam-limb.glif</string>
+  <key>five-limb</key>
+  <string>five-limb.glif</string>
   <key>ga-limb</key>
   <string>ga-limb.glif</string>
   <key>gha-limb</key>
@@ -32,24 +36,34 @@
   <string>kha-limb.glif</string>
   <key>la-limb</key>
   <string>la-limb.glif</string>
+  <key>loo-limb</key>
+  <string>loo-limb.glif</string>
   <key>nga-limb</key>
   <string>nga-limb.glif</string>
   <key>nga_ukar-limb</key>
   <string>nga_ukar-limb.glif</string>
   <key>oe</key>
   <string>oe.glif</string>
+  <key>one-limb</key>
+  <string>one-limb.glif</string>
+  <key>question-limb</key>
+  <string>question-limb.glif</string>
   <key>ra-limb</key>
   <string>ra-limb.glif</string>
   <key>sa-limb</key>
   <string>sa-limb.glif</string>
   <key>sai-limb</key>
   <string>sai-limb.glif</string>
+  <key>six-limb</key>
+  <string>six-limb.glif</string>
   <key>ssa-limb</key>
   <string>ssa-limb.glif</string>
   <key>ta-limb</key>
   <string>ta-limb.glif</string>
   <key>tha-limb</key>
   <string>tha-limb.glif</string>
+  <key>three-limb</key>
+  <string>three-limb.glif</string>
   <key>tra-limb</key>
   <string>tra-limb.glif</string>
   <key>wa-limb</key>
@@ -58,5 +72,7 @@
   <string>ya-limb.glif</string>
   <key>yan-limb</key>
   <string>yan-limb.glif</string>
+  <key>zero-limb</key>
+  <string>zero-limb.glif</string>
 </dict>
 </plist>
