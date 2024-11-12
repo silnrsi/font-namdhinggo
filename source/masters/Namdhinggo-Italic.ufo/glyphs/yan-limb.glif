@@ -13,7 +13,7 @@
       <point x="937" y="455"/>
       <point x="814" y="655"/>
       <point x="626" y="655" type="curve" smooth="yes"/>
-      <point x="381" y="655"/>
+      <point x="361" y="655"/>
       <point x="119" y="388"/>
       <point x="119" y="153" type="curve" smooth="yes"/>
       <point x="119" y="48"/>
@@ -36,7 +36,7 @@
       <point x="252" y="141"/>
       <point x="252" y="230" type="curve" smooth="yes"/>
       <point x="252" y="352"/>
-      <point x="384" y="544"/>
+      <point x="404" y="544"/>
       <point x="542" y="544" type="curve" smooth="yes"/>
       <point x="763" y="544"/>
       <point x="839" y="342"/>

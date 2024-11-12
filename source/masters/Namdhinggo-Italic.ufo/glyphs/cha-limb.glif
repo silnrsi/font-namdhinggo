@@ -54,14 +54,14 @@
       <point x="563" y="329" type="curve"/>
       <point x="573" y="292" type="line"/>
       <point x="855" y="292"/>
-      <point x="898" y="297"/>
-      <point x="912" y="304" type="curve"/>
-      <point x="947" y="323"/>
-      <point x="994" y="359"/>
-      <point x="1030" y="398" type="curve"/>
-      <point x="1020" y="428" type="line"/>
-      <point x="1005" y="419"/>
-      <point x="925" y="414"/>
+      <point x="902" y="297"/>
+      <point x="916" y="304" type="curve"/>
+      <point x="951" y="323"/>
+      <point x="998" y="359"/>
+      <point x="1034" y="398" type="curve"/>
+      <point x="1024" y="428" type="line"/>
+      <point x="1009" y="419"/>
+      <point x="929" y="414"/>
       <point x="740" y="415" type="curve"/>
       <point x="805" y="490"/>
       <point x="866" y="561"/>
