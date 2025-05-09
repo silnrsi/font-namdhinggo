@@ -21,8 +21,8 @@ psfsyncmasters -q source/NamdhinggoUpright.designspace
 psfmakewoffmetadata -n namdhinggo -i org.sil.fonts -o source/Namdhinggo-WOFF-metadata.xml source/masters/Namdhinggo-Regular.ufo
 
 # Update FEA in UFO
-psfmakefea -o source/masters/Namdhinggo-Regular.ufo/features.fea   -i source/master.feax source/masters/Namdhinggo-Regular.ufo         &
-psfmakefea -o source/masters/Namdhinggo-ExtraBold.ufo/features.fea -i source/master.feax source/masters/Namdhinggo-ExtraBold.ufo       &
-psfmakefea -o source/masters/Namdhinggo-ExtraBold.ufo/features.fea -i source/master.feax source/masters/Namdhinggo-Italic.ufo          &
-psfmakefea -o source/masters/Namdhinggo-ExtraBold.ufo/features.fea -i source/master.feax source/masters/Namdhinggo-ExtraBoldItalic.ufo &
+makefea -o source/masters/Namdhinggo-Regular.ufo/features.fea         -i source/master.feax source/masters/Namdhinggo-Regular.ufo         &
+makefea -o source/masters/Namdhinggo-ExtraBold.ufo/features.fea       -i source/master.feax source/masters/Namdhinggo-ExtraBold.ufo       &
+makefea -o source/masters/Namdhinggo-Italic.ufo/features.fea          -i source/master.feax source/masters/Namdhinggo-Italic.ufo          &
+makefea -o source/masters/Namdhinggo-ExtraBoldItalic.ufo/features.fea -i source/master.feax source/masters/Namdhinggo-ExtraBoldItalic.ufo &
 wait

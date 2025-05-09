@@ -51,7 +51,7 @@ GlyphClassDef
 
 lookup OoAuDecomp {
   lookupflag 0;
-  # The OoAuDecomp substitution rule replaces the OO and AU vowels with their visually constitutent components A plus EE or AI respectively. This is so that the 'A' portion can be positioned independently over the consonant when a Glide occurs between the consonant and the vowel.
+  # The OoAuDecomp substitution rule replaces the OO and AU vowels with their visually constituent components A plus EE or AI respectively. This is so that the 'A' portion can be positioned independently over the consonant when a Glide occurs between the consonant and the vowel.
     sub ookar-limb by akar-limb eekar-limb;
     sub aukar-limb by akar-limb aikar-limb;
 } OoAuDecomp;
