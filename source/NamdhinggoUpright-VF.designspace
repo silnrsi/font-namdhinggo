@@ -39,7 +39,7 @@
         </source>
     </sources>
     <instances>
-        <instance familyname="Namdhinggo VF" filename="instances/NamdhinggoVF-Regular.ufo" name="Namdhinggo VF Regular" stylename="Regular" postscriptfontname="NamdhinggoVF-Regular">
+        <instance familyname="Namdhinggo" filename="instances/Namdhinggo-Regular.ufo" name="Namdhinggo Regular" stylename="Regular" postscriptfontname="Namdhinggo-Regular">
             <location>
                 <dimension name="weight" xvalue="400.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -48,7 +48,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Namdhinggo VF" filename="instances/NamdhinggoVF-Medium.ufo" name="Namdhinggo VF Medium" stylename="Medium" postscriptfontname="NamdhinggoVF-Medium">
+        <instance familyname="Namdhinggo" filename="instances/Namdhinggo-Medium.ufo" name="Namdhinggo Medium" stylename="Medium" postscriptfontname="Namdhinggo-Medium">
             <location>
                 <dimension name="weight" xvalue="500.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -57,7 +57,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Namdhinggo VF" filename="instances/NamdhinggoVF-SemiBold.ufo" name="Namdhinggo VF SemiBold" stylename="SemiBold" postscriptfontname="NamdhinggoVF-SemiBold">
+        <instance familyname="Namdhinggo" filename="instances/Namdhinggo-SemiBold.ufo" name="Namdhinggo SemiBold" stylename="SemiBold" postscriptfontname="Namdhinggo-SemiBold">
             <location>
                 <dimension name="weight" xvalue="600.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -66,7 +66,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Namdhinggo VF" filename="instances/NamdhinggoVF-Bold.ufo" name="Namdhinggo VF Bold" stylename="Bold" postscriptfontname="NamdhinggoVF-Bold">
+        <instance familyname="Namdhinggo" filename="instances/Namdhinggo-Bold.ufo" name="Namdhinggo Bold" stylename="Bold" postscriptfontname="Namdhinggo-Bold">
             <location>
                 <dimension name="weight" xvalue="740.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -75,7 +75,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Namdhinggo VF" filename="instances/NamdhinggoVF-ExtraBold.ufo" name="Namdhinggo VF ExtraBold" stylename="ExtraBold" postscriptfontname="NamdhinggoVF-ExtraBold">
+        <instance familyname="Namdhinggo" filename="instances/Namdhinggo-ExtraBold.ufo" name="Namdhinggo ExtraBold" stylename="ExtraBold" postscriptfontname="Namdhinggo-ExtraBold">
             <location>
                 <dimension name="weight" xvalue="800.000000" />
                 <dimension name="width" xvalue="100.000000" />
