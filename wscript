@@ -1,6 +1,11 @@
 #!/usr/bin/python3
 # this is a smith configuration file
 
+# command line options
+opts = preprocess_args(
+    {'opt' : '-r'}, # only build the regular font
+    )
+
 # override the default folders
 DOCDIR = ['documentation', 'web']
 TESTDIR = ['tests', '../font-namdhinggo-private/tests']
@@ -27,6 +32,7 @@ for dspace in ('Upright', 'Oblique'):
             target = process("${DS:FILENAME_BASE}.ttf",
                 cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['${source}'])
             ),
+            instances = ['Namdhinggo Regular'] if '-r' in opts else None,
             opentype = fea(genout + '${DS:FILENAME_BASE}.fea',
                 mapfile = genout + '${DS:FILENAME_BASE}.map',
                 master = 'source/master.feax',
