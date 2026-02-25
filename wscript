@@ -27,11 +27,14 @@ ftmlTest('tools/ftml-smith.xsl')
 genout = 'generated/'
 
 #for dspace in ('Upright',):
+cmds = [
+    cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['${source}']),
+    cmd('gftools fix-nonhinting -q --no-backup ${DEP} ${TGT}'),
+    ]
+
 for dspace in ('Upright', 'Oblique'):
     designspace('source/' + FAMILY + dspace + '.designspace',
-            target = process("${DS:FILENAME_BASE}.ttf",
-                cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['${source}'])
-            ),
+            target = process("${DS:FILENAME_BASE}.ttf", *cmds),
             instances = ['Namdhinggo Regular'] if '-r' in opts else None,
             opentype = fea(genout + '${DS:FILENAME_BASE}.fea',
                 mapfile = genout + '${DS:FILENAME_BASE}.map',
