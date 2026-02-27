@@ -11,15 +11,32 @@
     -->
     <title>Issues</title>
   </head>
-  <testgroup label="kerning between imatra with kemphreng and amatra">
+  <testgroup label="kerning between imatra and amatra">
     <test label="ssa">
-      <string>\u1901\u1921\u193a\u191a\u1920</string>
+      <string>\u1901\u1921\u191a\u1920 \u1901\u1921\u00ad\u191a\u1920</string>
+    </test>
+    <test label="na">
+      <string>\u190f\u1921\u190f\u1920 \u190f\u1921\u00ad\u190f\u1920</string>
     </test>
     <test label="la">
-      <string>\u1901\u1921\u193a\u1917\u1920</string>
+      <string>\u1901\u1921\u1917\u1920 \u1901\u1921\u00ad\u1917\u1920</string>
     </test>
     <test label="pha">
-      <string>\u1901\u1921\u193a\u1911\u1920</string>
+      <string>\u1901\u1921\u1911\u1920 \u1901\u1921\u00ad\u1911\u1920</string>
+    </test>
+  </testgroup>
+  <testgroup label="kerning between imatra with kemphreng and amatra">
+    <test label="ssa">
+      <string>\u1901\u1921\u193a\u191a\u1920 \u1901\u1921\u00ad\u193a\u191a\u1920</string>
+    </test>
+    <test label="na">
+      <string>\u190f\u1921\u193a\u190f\u1920 \u190f\u1921\u00ad\u193a\u190f\u1920</string>
+    </test>
+    <test label="la">
+      <string>\u1901\u1921\u193a\u1917\u1920 \u1901\u1921\u00ad\u193a\u1917\u1920</string>
+    </test>
+    <test label="pha">
+      <string>\u1901\u1921\u193a\u1911\u1920 \u1901\u1921\u00ad\u193a\u1911\u1920</string>
     </test>
   </testgroup>
   <testgroup label="kerning with subs and imatra">

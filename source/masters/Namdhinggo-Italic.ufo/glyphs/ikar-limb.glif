@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ikar-limb" format="2">
-  <advance width="383"/>
   <unicode hex="1921"/>
-  <anchor x="-263" y="1050" name="K"/>
+  <anchor x="383" y="0" name="_adv"/>
   <outline>
     <contour>
       <point x="384" y="970" type="line"/>

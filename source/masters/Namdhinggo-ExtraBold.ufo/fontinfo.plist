@@ -13,7 +13,7 @@
   <key>familyName</key>
   <string>Namdhinggo</string>
   <key>openTypeHeadCreated</key>
-  <string>2026/02/25 06:09:12</string>
+  <string>2026/02/26 19:00:12</string>
   <key>openTypeHheaAscender</key>
   <integer>1600</integer>
   <key>openTypeHheaDescender</key>
@@ -83,7 +83,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameUniqueID</key>
   <string>SIL International: Namdhinggo ExtraBold: 2026</string>
   <key>openTypeNameVersion</key>
-  <string>Version 3.900</string>
+  <string>Version 3.190</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -202,7 +202,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>versionMajor</key>
   <integer>3</integer>
   <key>versionMinor</key>
-  <integer>900</integer>
+  <integer>190</integer>
   <key>woffMetadataCredits</key>
   <dict>
     <key>credits</key>

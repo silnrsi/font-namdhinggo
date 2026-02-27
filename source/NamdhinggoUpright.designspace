@@ -39,7 +39,7 @@
         </source>
     </sources>
     <instances>
-        <instance familyname="Namdhinggo" filename="instances/Namdhinggo-Regular.ufo" name="Namdhinggo Regular" stylemapfamilyname="Namdhinggo" stylemapstylename="regular" stylename="Regular" postscriptfontname="Namdhinggo-Regular">
+        <instance familyname="Namdhinggo Test A" filename="instances/NamdhinggoTestA-Regular.ufo" name="Namdhinggo Test A Regular" stylemapfamilyname="Namdhinggo Test A" stylemapstylename="regular" stylename="Regular" postscriptfontname="NamdhinggoTestA-Regular">
             <location>
                 <dimension name="weight" xvalue="400.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -48,7 +48,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Namdhinggo" filename="instances/Namdhinggo-Medium.ufo" name="Namdhinggo Medium" stylemapfamilyname="Namdhinggo Medium" stylemapstylename="regular" stylename="Medium" postscriptfontname="Namdhinggo-Medium">
+        <instance familyname="Namdhinggo Test A" filename="instances/NamdhinggoTestA-Medium.ufo" name="Namdhinggo Test A Medium" stylemapfamilyname="Namdhinggo Test A Medium" stylemapstylename="regular" stylename="Medium" postscriptfontname="NamdhinggoTestA-Medium">
             <location>
                 <dimension name="weight" xvalue="500.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -57,7 +57,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Namdhinggo" filename="instances/Namdhinggo-SemiBold.ufo" name="Namdhinggo SemiBold" stylemapfamilyname="Namdhinggo SemiBold" stylemapstylename="regular" stylename="SemiBold" postscriptfontname="Namdhinggo-SemiBold">
+        <instance familyname="Namdhinggo Test A" filename="instances/NamdhinggoTestA-SemiBold.ufo" name="Namdhinggo Test A SemiBold" stylemapfamilyname="Namdhinggo Test A SemiBold" stylemapstylename="regular" stylename="SemiBold" postscriptfontname="NamdhinggoTestA-SemiBold">
             <location>
                 <dimension name="weight" xvalue="600.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -66,7 +66,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Namdhinggo" filename="instances/Namdhinggo-Bold.ufo" name="Namdhinggo Bold" stylemapfamilyname="Namdhinggo" stylemapstylename="bold" stylename="Bold" postscriptfontname="Namdhinggo-Bold">
+        <instance familyname="Namdhinggo Test A" filename="instances/NamdhinggoTestA-Bold.ufo" name="Namdhinggo Test A Bold" stylemapfamilyname="Namdhinggo Test A" stylemapstylename="bold" stylename="Bold" postscriptfontname="NamdhinggoTestA-Bold">
             <location>
                 <dimension name="weight" xvalue="740.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -75,7 +75,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Namdhinggo" filename="instances/Namdhinggo-ExtraBold.ufo" name="Namdhinggo ExtraBold" stylemapfamilyname="Namdhinggo ExtraBold" stylemapstylename="regular" stylename="ExtraBold"  postscriptfontname="Namdhinggo-ExtraBold">
+        <instance familyname="Namdhinggo Test A" filename="instances/NamdhinggoTestA-ExtraBold.ufo" name="Namdhinggo Test A ExtraBold" stylemapfamilyname="Namdhinggo Test A ExtraBold" stylemapstylename="regular" stylename="ExtraBold"  postscriptfontname="NamdhinggoTestA-ExtraBold">
             <location>
                 <dimension name="weight" xvalue="800.000000" />
                 <dimension name="width" xvalue="100.000000" />

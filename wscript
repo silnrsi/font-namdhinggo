@@ -32,7 +32,8 @@ cmds = [
     cmd('gftools fix-nonhinting -q --no-backup ${DEP} ${TGT}'),
     ]
 
-for dspace in ('Upright', 'Oblique'):
+# for dspace in ('Upright', 'Oblique'):
+for dspace in ('Upright',):
     designspace('source/' + FAMILY + dspace + '.designspace',
             target = process("${DS:FILENAME_BASE}.ttf", *cmds),
             instances = ['Namdhinggo Regular'] if '-r' in opts else None,

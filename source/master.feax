@@ -132,6 +132,15 @@ lookup IkarK {
     sub ikar-limb kemphreng-limb by ikar_kemphreng-limb;
 } IkarK;
 
+lookup Ikar {
+  lookupflag 0;
+    do for g = ikar-limb;
+      let a = APx(g, "_adv");
+      {
+      pos $g' <0 0 $a 0>;
+      }
+} Ikar;
+
 lookup GlideIkar {
   lookupflag 0;
     do for g = @YaWa;
@@ -217,6 +226,7 @@ feature rlig {  # Required Ligatures
 } rlig;
 
 feature dist {  # Distance
+    lookup Ikar;
     lookup GlideIkar;
     lookup IkarKWid;
 } dist;

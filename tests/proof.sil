@@ -29,10 +29,17 @@
 \pattern[chars="C,S,M",reps="group_cons,group_subjoin,group_matras",heading=Cons+Subjoin+Matras]{CSM}
 \pattern[chars="C,S,M,K",reps="group_cons,group_subjoin,group_matras,group_kemphreng",format="para",heading=Cons+Subjoin+Matras+Length]{CSMK}
 
-\subsection{Kerning between ikar with kemphreng and akar}
-
 \patterngroup[name="sortedcons"]{ᤚᤉᤋᤄᤕᤃᤁᤏᤖᤎᤞᤘᤀᤍᤆᤒᤔᤝᤜᤗᤌᤙᤈᤇᤓᤊᤛᤅᤂᤐᤑ}
+
+\subsection{Kerning between ikar and akar}
+\pattern[chars="@",reps="group_sortedcons",heading="Sorted by consonants' U AP x coordinate"]{ᤁᤡ@ᤠ}
+
+\subsection{Kerning between ikar with kemphreng and akar}
 \pattern[chars="@",reps="group_sortedcons",heading="Sorted by consonants' U AP x coordinate"]{ᤁᤡ᤺@ᤠ}
+
+\subsection{Kerning between ikar and akar}
+\pattern[chars="@",reps="group_sortedcons",heading="Sorted by consonants' U AP x coordinate"]{ᤁᤡ@ᤠ}
+
 \pattern[chars="C,c",reps="group_cons,group_cons",heading="Marks in consonant frame"]{Cᤡ᤺cᤠ}
 
 \pattern[chars="C,c",reps="group_cons2,group_cons2",heading="Marks in consonant frame 2"]{Cᤡ᤺cᤠ}
