@@ -45,6 +45,6 @@ for dspace in ('Upright', 'Oblique'):
             version = VERSION,
             woff = woff('web/${DS:FILENAME_BASE}',
                 metadata = f'../source/{FAMILY}-WOFF-metadata.xml'),
-            script = ['DFLT'],
+            script = ['limb', 'DFLT'],
             pdf = fret(params='-oi')
             )

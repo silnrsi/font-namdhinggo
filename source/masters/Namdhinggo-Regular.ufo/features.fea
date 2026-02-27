@@ -478,6 +478,7 @@ markClass ukar-limb <anchor -150 -15> @_G;
 #  Language Systems
 #**********************************
 languagesystem DFLT dflt;
+languagesystem limb dflt;
 #**********************************
 #  Glyphs
 #**********************************
@@ -960,10 +961,6 @@ lookup GlideU {
 #**********************************
 feature ccmp {
     # Glyph Composition/Decomposition
-    script DFLT;
-    # Default
-    language dflt;
-    # Default
     lookup OoAuDecomp;
     lookup EeAiKComp;
     lookup EeAiKDecomp;
@@ -973,10 +970,6 @@ feature ccmp {
 
 feature rlig {
     # Required Ligatures
-    script DFLT;
-    # Default
-    language dflt;
-    # Default
     lookup RaUkar;
     lookup Ukar;
     lookup IkarK;
@@ -984,20 +977,12 @@ feature rlig {
 
 feature dist {
     # Distance
-    script DFLT;
-    # Default
-    language dflt;
-    # Default
     lookup GlideIkar;
     lookup IkarKWid;
 } dist;
 
 feature mark {
     # Mark Positioning
-    script DFLT;
-    # Default
-    language dflt;
-    # Default
     lookup Akar;
     lookup Kemphreng;
     lookup EO;
@@ -1005,10 +990,6 @@ feature mark {
 
 feature mkmk {
     # Mark to Mark Positioning
-    script DFLT;
-    # Default
-    language dflt;
-    # Default
     lookup VKem;
     lookup GlideU;
 } mkmk;

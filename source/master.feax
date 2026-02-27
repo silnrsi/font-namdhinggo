@@ -3,7 +3,7 @@
 #**********************************
 
 languagesystem DFLT dflt;
-
+languagesystem limb dflt;
 
 #**********************************
 #  Glyphs
@@ -203,41 +203,31 @@ lookup GlideU {
 #**********************************
 
 feature ccmp {  # Glyph Composition/Decomposition
-    script DFLT;  # Default
-        language dflt;  # Default
-            lookup OoAuDecomp;
-            lookup EeAiKComp;
-            lookup EeAiKDecomp;
-            lookup GlideVowelComp;
-            lookup GlideVowelDecomp;
+    lookup OoAuDecomp;
+    lookup EeAiKComp;
+    lookup EeAiKDecomp;
+    lookup GlideVowelComp;
+    lookup GlideVowelDecomp;
 } ccmp;
 
 feature rlig {  # Required Ligatures
-    script DFLT;  # Default
-        language dflt;  # Default
-            lookup RaUkar;
-            lookup Ukar;
-            lookup IkarK;
+    lookup RaUkar;
+    lookup Ukar;
+    lookup IkarK;
 } rlig;
 
 feature dist {  # Distance
-    script DFLT;  # Default
-        language dflt;  # Default
-            lookup GlideIkar;
-            lookup IkarKWid;
+    lookup GlideIkar;
+    lookup IkarKWid;
 } dist;
 
 feature mark {  # Mark Positioning
-    script DFLT;  # Default
-        language dflt;  # Default
-            lookup Akar;
-            lookup Kemphreng;
-            lookup EO;
+    lookup Akar;
+    lookup Kemphreng;
+    lookup EO;
 } mark;
 
 feature mkmk {  # Mark to Mark Positioning
-    script DFLT;  # Default
-        language dflt;  # Default
-            lookup VKem;
-            lookup GlideU;
+    lookup VKem;
+    lookup GlideU;
 } mkmk;
