@@ -132,6 +132,39 @@ lookup IkarK {
     sub ikar-limb kemphreng-limb by ikar_kemphreng-limb;
 } IkarK;
 
+lookup SpecialHyphenation {
+  lookupflag 0;
+    sub hyphen by equal;
+} SpecialHyphenation;
+
+lookup Limb2LatnDigits {
+  lookupflag 0;
+    sub zero-limb by zero;
+    sub one-limb by one;
+    sub two-limb by two;
+    sub three-limb by three;
+    sub four-limb by four;
+    sub five-limb by five;
+    sub six-limb by six;
+    sub seven-limb by seven;
+    sub eight-limb by eight;
+    sub nine-limb by nine;
+} Limb2LatnDigits;
+
+lookup Latn2LimbDigits {
+  lookupflag 0;
+    sub zero by zero-limb;
+    sub one by one-limb;
+    sub two by two-limb;
+    sub three by three-limb;
+    sub four by four-limb;
+    sub five by five-limb;
+    sub six by six-limb;
+    sub seven by seven-limb;
+    sub eight by eight-limb;
+    sub nine by nine-limb;
+} Latn2LimbDigits;
+
 lookup Ikar {
   lookupflag 0;
     do for g = ikar-limb;
@@ -224,6 +257,27 @@ feature rlig {  # Required Ligatures
     lookup Ukar;
     lookup IkarK;
 } rlig;
+
+feature ss18 {
+  featureNames {
+    name 3 1 0x409 "Special Hyphenation";
+    };
+    lookup SpecialHyphenation;
+} ss18;
+
+feature ss19 {
+  featureNames {
+    name 3 1 0x409 "Limbu to Latin Digits";
+    };
+    lookup Limb2LatnDigits;
+} ss19;
+
+feature ss20 {
+  featureNames {
+    name 3 1 0x409 "Latin to Limbu Digits";
+    };
+    lookup Latn2LimbDigits;
+} ss20;
 
 feature dist {  # Distance
     lookup Ikar;
