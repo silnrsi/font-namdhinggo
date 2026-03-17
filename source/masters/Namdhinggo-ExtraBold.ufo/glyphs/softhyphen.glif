@@ -1,8 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="softhyphen" format="2">
-  <advance width="873"/>
+  <advance width="744"/>
   <unicode hex="00AD"/>
   <outline>
-    <component base="hyphen"/>
+    <contour>
+      <point x="83" y="526" type="line"/>
+      <point x="574" y="526" type="line"/>
+      <point x="613" y="546"/>
+      <point x="664" y="604"/>
+      <point x="693" y="634" type="curve"/>
+      <point x="664" y="674" type="line"/>
+      <point x="154" y="674" type="line"/>
+      <point x="131" y="658"/>
+      <point x="94" y="618"/>
+      <point x="51" y="563" type="curve"/>
+    </contour>
+    <contour>
+      <point x="83" y="266" type="line"/>
+      <point x="574" y="266" type="line"/>
+      <point x="613" y="286"/>
+      <point x="664" y="344"/>
+      <point x="693" y="374" type="curve"/>
+      <point x="664" y="414" type="line"/>
+      <point x="154" y="414" type="line"/>
+      <point x="131" y="398"/>
+      <point x="94" y="358"/>
+      <point x="51" y="303" type="curve"/>
+    </contour>
   </outline>
 </glyph>
