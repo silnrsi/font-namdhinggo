@@ -673,7 +673,7 @@ lookup IkarK {
 
 lookup SpecialHyphenation {
     lookupflag 0;
-    sub hyphen by equal;
+    sub hyphen by softhyphen;
 } SpecialHyphenation;
 
 lookup Limb2LatnDigits {
