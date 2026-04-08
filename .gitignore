@@ -10,21 +10,19 @@ results/**
 buildlinux2/**
 bin/**
 source/temp/*
+source/masters/temp/*
 source/backups/*
-graide/**
 
-# general project work
-bugs/**
-dev/**
-
+# temporary fontdocs files
+documentation/source/pdftemp/
+# documentation/source/productsite/
+web/*.woff*
 
 # general backup files
 *~
 *.swp
 *.autosave
 *(Autosaved)*
-*.log
-
 
 # OS X
 *.DS_STORE
@@ -51,7 +49,6 @@ Thumbs.db
 ehthumbs.db
 *.lnk
 
-
 # AFDKO
 current.fpr
 
@@ -59,8 +56,8 @@ current.fpr
 *.bak
 *.vfbak
 *.~tt
-+.idea/*
-
+.idea/*
+.vscode/*
 
 # Shares
 .AppleDB
@@ -110,5 +107,5 @@ $RECYCLE.BIN/
 *$py.class
 __pycache__/
 
-# ignore the glyphs file
+# Glyphs.App
 *.glyphs
