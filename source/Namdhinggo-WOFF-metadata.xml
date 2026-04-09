@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
   <uniqueid id="org.sil.fonts.namdhinggo.3.190" />
-  <vendor name="SIL International" url="https://software.sil.org/wstech/" />
+  <vendor name="SIL Global" url="https://software.sil.org/wstech/" />
   <credits>
     <credit
       name="Victor Gaultney, Becca Spalinger"
@@ -73,6 +73,6 @@
     </text>
   </copyright>
   <trademark>
-    <text lang="en">Namdhinggo and SIL are trademarks of SIL International.</text>
+    <text lang="en">Namdhinggo and SIL are trademarks of SIL Global.</text>
   </trademark>
 </metadata>

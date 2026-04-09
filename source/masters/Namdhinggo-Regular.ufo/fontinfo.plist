@@ -73,7 +73,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameLicenseURL</key>
   <string>https://openfontlicense.org</string>
   <key>openTypeNameManufacturer</key>
-  <string>SIL International</string>
+  <string>SIL Global</string>
   <key>openTypeNameManufacturerURL</key>
   <string>https://software.sil.org/wstech/</string>
   <key>openTypeNamePreferredFamilyName</key>
@@ -81,7 +81,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Regular</string>
   <key>openTypeNameUniqueID</key>
-  <string>SIL International: Namdhinggo Regular: 2026</string>
+  <string>SIL Global: Namdhinggo Regular: 2026</string>
   <key>openTypeNameVersion</key>
   <string>Version 3.190</string>
   <key>openTypeOS2CodePageRanges</key>
@@ -196,7 +196,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>styleName</key>
   <string>Regular</string>
   <key>trademark</key>
-  <string>Namdhinggo and SIL are trademarks of SIL International.</string>
+  <string>Namdhinggo and SIL are trademarks of SIL Global.</string>
   <key>unitsPerEm</key>
   <integer>2048</integer>
   <key>versionMajor</key>

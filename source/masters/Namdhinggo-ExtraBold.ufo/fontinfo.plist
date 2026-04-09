@@ -13,7 +13,7 @@
   <key>familyName</key>
   <string>Namdhinggo</string>
   <key>openTypeHeadCreated</key>
-  <string>2026/03/17 08:15:13</string>
+  <string>2026/04/09 09:19:25</string>
   <key>openTypeHheaAscender</key>
   <integer>1600</integer>
   <key>openTypeHheaDescender</key>
@@ -73,7 +73,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameLicenseURL</key>
   <string>https://openfontlicense.org</string>
   <key>openTypeNameManufacturer</key>
-  <string>SIL International</string>
+  <string>SIL Global</string>
   <key>openTypeNameManufacturerURL</key>
   <string>https://software.sil.org/wstech/</string>
   <key>openTypeNamePreferredFamilyName</key>
@@ -81,7 +81,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>ExtraBold</string>
   <key>openTypeNameUniqueID</key>
-  <string>SIL International: Namdhinggo ExtraBold: 2026</string>
+  <string>SIL Global: Namdhinggo ExtraBold: 2026</string>
   <key>openTypeNameVersion</key>
   <string>Version 3.190</string>
   <key>openTypeOS2CodePageRanges</key>
@@ -196,7 +196,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>styleName</key>
   <string>ExtraBold</string>
   <key>trademark</key>
-  <string>Namdhinggo and SIL are trademarks of SIL International.</string>
+  <string>Namdhinggo and SIL are trademarks of SIL Global.</string>
   <key>unitsPerEm</key>
   <integer>2048</integer>
   <key>versionMajor</key>
