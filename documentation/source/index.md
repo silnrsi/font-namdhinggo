@@ -17,6 +17,7 @@ This documentation is a set of HTML pages that can be viewed in any modern web b
 - [Resources](resources.md) — Help with installation and use
 - [FAQ](faq.md) — Common questions and answers
 - [Character set support](charset.md) — Details of Unicode characters that are supported
+- [Font features](features.md) — Using font features
 - [Support](support.md) — How to get additional support
 - [Developer information](developer.md) — How to modify and build the fonts
 - [Versions](versions.md) - Sources for alternate versions
