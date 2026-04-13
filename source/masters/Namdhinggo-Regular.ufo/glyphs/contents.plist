@@ -4,8 +4,6 @@
 <dict>
   <key>.notdef</key>
   <string>_notdef.glif</string>
-  <key>.null</key>
-  <string>_null.glif</string>
   <key>A</key>
   <string>A_.glif</string>
   <key>AE</key>
@@ -568,8 +566,6 @@
   <string>nine-limb.glif</string>
   <key>nnbsp</key>
   <string>nnbsp.glif</string>
-  <key>nonmarkingreturn</key>
-  <string>nonmarkingreturn.glif</string>
   <key>notequal</key>
   <string>notequal.glif</string>
   <key>ntilde</key>
