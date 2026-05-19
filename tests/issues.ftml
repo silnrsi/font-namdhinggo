@@ -3,14 +3,30 @@
 <ftml version="1.0">
   <head>
     <fontscale>300</fontscale>
-    <fontsrc label="RefRegular">url(../references/Namdhinggo-Regular.ttf)</fontsrc>
-    <fontsrc label="Regular">url(../results/Namdhinggo-Regular.ttf)</fontsrc>
-    <fontsrc label="Bold">url(../results/Namdhinggo-Bold.ttf)</fontsrc>
-    <!--
+    <fontsrc label="refR">url(../references/Namdhinggo-Regular.ttf)</fontsrc>
+    <fontsrc label="refB">url(../references/Namdhinggo-Bold.ttf)</fontsrc>
+    <fontsrc label="R">url(../results/Namdhinggo-Regular.ttf)</fontsrc>
+    <fontsrc label="B">url(../results/Namdhinggo-Bold.ttf)</fontsrc>
     <fontsrc label="Noto">url(../references/NotoSansLimbu-Regular.ttf)</fontsrc>
-    -->
+    <styles>
+      <style feats="'ss18' 1" name="ss18_1"/>
+    </styles>
     <title>Issues</title>
   </head>
+  <testgroup label="double hyphen">
+    <test label="U+002D U+00AD U+2010 U+2011">
+      <comment>hyphen softhyphen hyphentwo nbhyphen</comment>
+      <string>\uf130\u002d\uf131 \uf130\u00ad\uf131 \uf130\u2010\uf131 \uf130\u2011\uf131</string>
+    </test>
+    <test label="U+002D U+00AD U+2010 U+2011 (ss18)" stylename="ss18_1">
+      <comment>hyphen softhyphen hyphentwo nbhyphen</comment>
+      <string>\uf130\u002d\uf131 \uf130\u00ad\uf131 \uf130\u2010\uf131 \uf130\u2011\uf131</string>
+    </test>
+    <test label="U+002D U+2212">
+      <comment>hyphen minus</comment>
+      <string>\uf130\u002D\uf131 \uf130\u2212\uf131</string>
+    </test>
+  </testgroup>
   <testgroup label="kerning between imatra and amatra">
     <test label="ssa">
       <string>\u1901\u1921\u191a\u1920 \u1901\u1921\u00ad\u191a\u1920</string>
