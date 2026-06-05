@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="exclam-limb" format="2">
+  <unicode hex="1944"/>
   <outline>
     <contour>
       <point x="599" y="-218" type="curve" smooth="yes"/>
