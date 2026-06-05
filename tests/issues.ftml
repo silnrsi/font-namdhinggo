@@ -167,4 +167,9 @@
       <string>\u1900\u1921\u193A\u1900\u1920</string>
     </test>
   </testgroup>
+  <testgroup label="linespacing">
+    <test label="glyph height">
+      <string>\u00c0\u1907\u1928\u193a\ufffc\u1901\u1921\u193a\u191a\u1920\ufffd\u1900</string>
+    </test>
+  </testgroup>
 </ftml>

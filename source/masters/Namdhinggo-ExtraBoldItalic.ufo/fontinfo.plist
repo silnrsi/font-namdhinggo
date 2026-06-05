@@ -5,7 +5,7 @@
   <key>ascender</key>
   <integer>1600</integer>
   <key>capHeight</key>
-  <integer>1150</integer>
+  <integer>970</integer>
   <key>copyright</key>
   <string>Copyright (c) 2002-2026, SIL Global (https://www.sil.org/)</string>
   <key>descender</key>
@@ -15,7 +15,7 @@
   <key>italicAngle</key>
   <integer>-18</integer>
   <key>openTypeHeadCreated</key>
-  <string>2026/04/13 06:48:33</string>
+  <string>2026/06/05 07:26:35</string>
   <key>openTypeHheaAscender</key>
   <integer>1600</integer>
   <key>openTypeHheaDescender</key>
@@ -168,7 +168,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2WidthClass</key>
   <integer>5</integer>
   <key>openTypeOS2WinAscent</key>
-  <integer>1778</integer>
+  <integer>1781</integer>
   <key>openTypeOS2WinDescent</key>
   <integer>550</integer>
   <key>postscriptBlueValues</key>
