@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../tools/ftml.xsl"?>
+<ftml version="1.0">
+  <head>
+    <fontscale>200</fontscale>
+    <fontsrc label="refR">url(../references/Namdhinggo-Regular.ttf)</fontsrc>
+    <fontsrc label="refB">url(../references/Namdhinggo-Bold.ttf)</fontsrc>
+    <!--
+    <fontsrc label="refI">url(../references/Namdhinggo-Italic.ttf)</fontsrc>
+    <fontsrc label="refBI">url(../references/Namdhinggo-BoldItalic.ttf)</fontsrc>
+    -->
+    <fontsrc label="R">url(../results/Namdhinggo-Regular.ttf)</fontsrc>
+    <fontsrc label="B">url(../results/Namdhinggo-Bold.ttf)</fontsrc>
+    <!--
+    <fontsrc label="I">url(../results/Namdhinggo-BoldItalic.ttf)</fontsrc>
+    <fontsrc label="BI">url(../results/Namdhinggo-BoldItalic.ttf)</fontsrc>
+    -->
+    <fontsrc label="Noto">url(../references/NotoSansLimbu-Regular.ttf)</fontsrc>
+    <styles>
+      <style feats="'ss19' 1" name="ss19_1"/>
+      <style feats="'ss20' 1" name="ss20_1"/>
+    </styles>
+    <title>Digits</title>
+  </head>
+  <testgroup label="Limbu digits">
+    <test label="Limbu codepoints">
+      <string>\u1946\u1947\u1948\u1949\u194A\u194B\u194C\u194D\u194E\u194F</string>
+    </test>
+    <test label="Latin codepoints" stylename="ss19_1">
+      <string>0123456789</string>
+    </test>
+  </testgroup>
+  <testgroup label="Latin digits">
+    <test label="Limbu codepoints" stylename="ss20_1">
+      <string>\u1946\u1947\u1948\u1949\u194A\u194B\u194C\u194D\u194E\u194F</string>
+    </test>
+    <test label="Latin codepoints">
+      <string>0123456789</string>
+    </test>
+  </testgroup>
+</ftml>

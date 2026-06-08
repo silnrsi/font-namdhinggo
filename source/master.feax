@@ -137,20 +137,6 @@ lookup SpecialHyphenation {
     sub hyphen by softhyphen;
 } SpecialHyphenation;
 
-lookup Limb2LatnDigits {
-  lookupflag 0;
-    sub zero-limb by zero;
-    sub one-limb by one;
-    sub two-limb by two;
-    sub three-limb by three;
-    sub four-limb by four;
-    sub five-limb by five;
-    sub six-limb by six;
-    sub seven-limb by seven;
-    sub eight-limb by eight;
-    sub nine-limb by nine;
-} Limb2LatnDigits;
-
 lookup Latn2LimbDigits {
   lookupflag 0;
     sub zero by zero-limb;
@@ -164,6 +150,20 @@ lookup Latn2LimbDigits {
     sub eight by eight-limb;
     sub nine by nine-limb;
 } Latn2LimbDigits;
+
+lookup Limb2LatnDigits {
+  lookupflag 0;
+    sub zero-limb by zero;
+    sub one-limb by one;
+    sub two-limb by two;
+    sub three-limb by three;
+    sub four-limb by four;
+    sub five-limb by five;
+    sub six-limb by six;
+    sub seven-limb by seven;
+    sub eight-limb by eight;
+    sub nine-limb by nine;
+} Limb2LatnDigits;
 
 lookup Ikar {
   lookupflag 0;
@@ -267,16 +267,16 @@ feature ss18 {
 
 feature ss19 {
   featureNames {
-    name 3 1 0x409 "Limbu to Latin Digits";
+    name 3 1 0x409 "Latin to Limbu Digits";
     };
-    lookup Limb2LatnDigits;
+    lookup Latn2LimbDigits;
 } ss19;
 
 feature ss20 {
   featureNames {
-    name 3 1 0x409 "Latin to Limbu Digits";
+    name 3 1 0x409 "Limbu to Latin Digits";
     };
-    lookup Latn2LimbDigits;
+    lookup Limb2LatnDigits;
 } ss20;
 
 feature dist {  # Distance
