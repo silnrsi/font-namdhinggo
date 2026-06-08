@@ -63,10 +63,10 @@ echo "     > versions.html > versions.pdf"
 pandoc -s -f markdown-smart --template documentation/source/templatepdf.html documentation/source/versions.md -o documentation/source/pdftemp/versions.html --lua-filter=documentation/source/pandocfilters/filter-pdf.lua
 weasyprint documentation/source/pdftemp/versions.html documentation/pdf/versions.pdf
 
-echo "     >>> PRODUCT SITE HTML (documentation/source/productsite/)"
+echo "     >>> PRODUCT SITE WP HTML (documentation/source/productsite/)"
 mkdir -p documentation/source/productsite
 
-echo "     > singlepage.md"
+echo "     > singlepage.wphtml"
 python3 documentation/source/makepsmd.py documentation/source/productsite.md documentation/source/productsite/singlepage.md -q
 pandoc --wrap preserve -f markdown-smart -o documentation/source/productsite/singlepage.html -L documentation/source/pandocfilters/filter-wp.lua documentation/source/productsite/singlepage.md
 python3 documentation/source/makepshtml.py documentation/source/productsite/singlepage.html documentation/source/productsite/singlepage.wphtml -q
