@@ -11,7 +11,6 @@ The Limbu, or Kirat Sirijonga, script is used by around 400,000 people in Nepal.
 
 This font was designed to support literacy and materials development work in the Limbu language.
 
-
 ## ChangeLog
 
 (This should list both major and minor changes, most recent first.)

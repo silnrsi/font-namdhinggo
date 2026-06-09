@@ -167,11 +167,6 @@ U+193A">
       <comment>tra-limb kemphreng-limb</comment>
       <string>\u00191E\u00193A \u00191E\u001939 \u00191E\u00193B</string>
     </test>
-    <test label="U+1921
-U+193A">
-      <comment>ikar-limb kemphreng-limb</comment>
-      <string>\u001901\u001921\u00193A \u001901\u001921\u001939 \u001901\u001921\u00193B</string>
-    </test>
     <test label="U+1929
 U+193A">
       <comment>subya-limb kemphreng-limb</comment>

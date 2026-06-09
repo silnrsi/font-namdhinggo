@@ -125,13 +125,13 @@
   </testgroup>
   <testgroup label="glides">
     <test label="ya">
-      <string>\u1901\u1929\u1920\u1931</string>
+      <string>\u1901\u1929\u1920\u1931 \u191b\u1929\u1920\u1917</string>
     </test>
     <test label="ra">
-      <string>\u1901\u192a\u1920\u1931</string>
+      <string>\u1901\u192a\u1920\u1931 \u191b\u192a\u1920\u1917</string>
     </test>
     <test label="wa">
-      <string>\u1901\u192b\u1920\u1931</string>
+      <string>\u1901\u192b\u1920\u1931 \u191b\u192b\u1920\u1917</string>
     </test>
   </testgroup>
   <testgroup label="New characters added in TUS 7.0, along with the needed conjuncts">
