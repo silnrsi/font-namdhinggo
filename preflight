@@ -26,3 +26,4 @@ makefea -o source/masters/Namdhinggo-ExtraBold.ufo/features.fea       -i source/
 makefea -o source/masters/Namdhinggo-Italic.ufo/features.fea          -i source/master.feax source/masters/Namdhinggo-Italic.ufo          &
 makefea -o source/masters/Namdhinggo-ExtraBoldItalic.ufo/features.fea -i source/master.feax source/masters/Namdhinggo-ExtraBoldItalic.ufo &
 wait
+makevfea source/masters/*.ufo

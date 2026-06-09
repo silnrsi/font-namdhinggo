@@ -1,10 +1,7 @@
-
 # Main Classes
 @GDEF_bases = [.notdef A AE Aacute Acircumflex Adieresis Agrave Aring Atilde B C Ccedilla D Delta E Eacute Ecircumflex Edieresis Egrave EmQuad EmSpace EnQuad EnSpace Eth Euro F FigureSpace FourPerEmSpace G H HairSpace I Iacute Icircumflex Idieresis Igrave J K L M N Ntilde O OE Oacute ObjectReplChar Ocircumflex Odieresis Ograve Ohm Omegagreek Oslash Otilde P PuncSpace Q R ReplChar S Scaron SixPerEmSpace T ThinSpace Thorn ThreePerEmSpace U Uacute Ucircumflex Udieresis Ugrave V W X Y Yacute Ydieresis Z Zcaron a aacute acircumflex acute adieresis ae agrave aikar-limb ampersand approxequal aring asciicircum asciitilde asterisk at atilde aukar-limb b ba-limb ba_subra_ukar-limb ba_ukar-limb backslash bar bha-limb bha_subra_ukar-limb bha_ukar-limb braceleft braceright bracketleft bracketright breve brokenbar bullet bulletoperator c ca-limb ca_subra_ukar-limb ca_ukar-limb caron ccedilla cedilla cent cha-limb cha_subra_ukar-limb cha_ukar-limb circumflex colon colontriangularmod comma copyright currency d da-limb da_subra_ukar-limb da_ukar-limb dagger daggerdbl danda dandadbl degree dha-limb dha_subra_ukar-limb dha_ukar-limb dieresis divide divisionslash dollar dotaccent dotlessi dottedcircle e eacute ecircumflex edieresis eekar-limb egrave eight eight-limb ellipsis emdash endash equal eth exclam exclam-limb exclamdown f fi figuredash five five-limb fl florin four four-limb foursuperior fraction g ga-limb ga_subra_ukar-limb ga_ukar-limb germandbls gha-limb gha_subra_ukar-limb gha_ukar-limb grave greater greaterequal guillemotleft guillemotright guilsinglleft guilsinglright gyan-limb gyan_subra_ukar-limb gyan_ukar-limb h ha-limb ha_subra_ukar-limb ha_ukar-limb horizontalbar hungarumlaut hyphen hyphenpoint hyphentwo i iacute icircumflex idieresis igrave ikar_kemphreng-limb infinity inrupee integral j ja-limb ja_subra_ukar-limb ja_ukar-limb jha-limb jha_subra_ukar-limb jha_ukar-limb k ka-limb ka_subra_ukar-limb ka_ukar-limb kha-limb kha_subra_ukar-limb kha_ukar-limb l la-limb la_subra_ukar-limb la_ukar-limb less lessequal lineseparator logicalnot loo-limb lozenge m ma-limb ma_subra_ukar-limb ma_ukar-limb macron minus mu mukphreng-limb multiply n na-limb na_subra_ukar-limb na_ukar-limb nbhyphen nbsp nga-limb nga_subra_ukar-limb nga_ukar-limb nine nine-limb nnbsp notequal ntilde numbersign o oacute ocircumflex odieresis oe ogonek ograve one one-limb onehalf onequarter onesuperior ookar-limb openbox ordfeminine ordmasculine oslash otilde p pa-limb pa_subra_ukar-limb pa_ukar-limb paragraph paraseparator parenleft parenright partialdiff percent period periodcentered perthousand pha-limb pha_subra_ukar-limb pha_ukar-limb pi plus plusminus product q question question-limb questiondown quotedbl quotedblbase quotedblleft quotedblright quoteleft quoteright quotesinglbase quotesingle r ra-limb ra_subra_ukar-limb ra_ukar-limb radical registered ring rupee s sa-limb sa_subra_ukar-limb sa_ukar-limb scaron section semicolon seven seven-limb sha-limb sha_subra_ukar-limb sha_ukar-limb sidebearingleft sidebearingright six six-limb slash smallka-limb smallla-limb smallma-limb smallna-limb smallnga-limb smallpa-limb smallra-limb smallta-limb softhyphen space ssa-limb ssa_subra_ukar-limb ssa_ukar-limb sterling subra-limb subwa-limb subya-limb summation t ta-limb ta_subra_ukar-limb ta_ukar-limb tha-limb tha_subra_ukar-limb tha_ukar-limb thorn three three-limb threequarters threesuperior tilde tra-limb tra_subra_ukar-limb tra_ukar-limb trademark two two-limb twosuperior u uacute ucircumflex udieresis ugrave underscore v vowelcarrier-limb vowelcarrier_ukar-limb w wa-limb wa_subra_ukar-limb wa_ukar-limb wj x y ya-limb ya_subra_ukar-limb ya_ukar-limb yacute yan-limb yan_subra_ukar-limb yan_ukar-limb ydieresis yen z zcaron zero zero-limb zwj zwnbsp zwnj zwsp];
 @GDEF_marks = [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS9 aikar_kemphreng-limb akar-limb cgj eekar_kemphreng-limb ekar-limb ikar-limb kemphreng-limb okar-limb sai-limb smallanusvara-limb subwa_akar-limb subwa_akar_kemphreng-limb subwa_ekar-limb subwa_ekar_kemphreng-limb subwa_kemphreng-limb subwa_okar-limb subwa_okar_kemphreng-limb subwa_ukar-limb subwa_ukar_kemphreng-limb subya_akar-limb subya_akar_kemphreng-limb subya_ekar-limb subya_ekar_kemphreng-limb subya_kemphreng-limb subya_okar-limb subya_okar_kemphreng-limb subya_ukar-limb subya_ukar_kemphreng-limb ukar-limb];
-
 # Positioning classes and statements
-
 # AP: H
 @H = [A Aacute Acircumflex Adieresis Agrave Aring Atilde C E Eacute Ecircumflex Edieresis Egrave G H K R I Iacute Icircumflex Idieresis Igrave L M N Ntilde O Oacute Ocircumflex Odieresis Ograve Otilde S Scaron e eacute ecircumflex edieresis egrave T U Uacute Ucircumflex Udieresis Ugrave V a aacute acircumflex adieresis agrave aring atilde ae b c d dotlessi f i iacute icircumflex idieresis igrave l dottedcircle g h k m n ntilde nnbsp o oacute ocircumflex odieresis ograve oslash otilde oe p r s scaron t u uacute ucircumflex udieresis ugrave v x z zcaron];
 # baseClass [A Aacute Acircumflex Adieresis Agrave Aring Atilde] <anchor 615 0> @H;
@@ -44,7 +41,6 @@
 # baseClass v <anchor 482 0> @H;
 # baseClass x <anchor 783 0> @H;
 # baseClass [z zcaron] <anchor 455 0> @H;
-
 # AP: L
 @L = [A Aacute Acircumflex Adieresis Agrave Aring Atilde AE B C Ccedilla D E Eacute Ecircumflex Edieresis Egrave Eth F G H I Iacute Icircumflex Idieresis Igrave J K L M N Ntilde O Oacute Ocircumflex Odieresis Ograve Otilde OE Ohm Omegagreek Oslash Y Yacute Ydieresis P Q R S Scaron T Thorn U Uacute Ucircumflex Udieresis Ugrave V W X Z Zcaron a aacute acircumflex adieresis agrave aring atilde ae b eth ba-limb bha-limb c ca-limb ccedilla cedilla cha-limb d da-limb dha-limb dotlessi f i iacute icircumflex idieresis igrave l dottedcircle e eacute ecircumflex edieresis egrave eight four nine one seven six three two zero fi fl five florin foursuperior onesuperior threesuperior twosuperior g ga-limb germandbls gha-limb gyan-limb h n ntilde ha-limb j ja-limb jha-limb k ka-limb kha-limb la-limb m ma-limb na-limb nga-limb nnbsp o oacute ocircumflex odieresis ograve otilde oe ogonek oslash p thorn pa-limb pha-limb pi q r ra-limb vowelcarrier-limb s scaron sa-limb sha-limb smallka-limb smallla-limb smallma-limb smallna-limb smallnga-limb smallpa-limb ssa-limb summation t ta-limb tha-limb tra-limb u uacute ucircumflex udieresis ugrave v w wa-limb x y yacute ydieresis ya-limb yan-limb z zcaron];
 # baseClass [A Aacute Acircumflex Adieresis Agrave Aring Atilde] <anchor 615 -97> @L;
@@ -155,7 +151,6 @@
 # baseClass ya-limb <anchor 482 -100> @L;
 # baseClass yan-limb <anchor 615 -100> @L;
 # baseClass [z zcaron] <anchor 455 -95> @L;
-
 # AP: O
 @O = [A Aacute Acircumflex Adieresis Agrave Aring Atilde E Eacute Ecircumflex Edieresis Egrave I Iacute Icircumflex Idieresis Igrave O Oacute Ocircumflex Odieresis Ograve Otilde U Uacute Ucircumflex Udieresis Ugrave V a aacute acircumflex adieresis agrave aring atilde ae ba-limb bha-limb ca-limb cha-limb da-limb dha-limb dotlessi i iacute icircumflex idieresis igrave dottedcircle e eacute ecircumflex edieresis egrave ga-limb gyan_ukar-limb gha-limb tra-limb gyan-limb gyan_subra_ukar-limb ha-limb ja-limb jha-limb ka-limb kha-limb la-limb ma-limb na-limb nga-limb nnbsp o oacute ocircumflex odieresis ograve oslash otilde oe pa-limb pha-limb ra-limb sa-limb sha-limb ssa-limb ta-limb tha-limb tra_subra_ukar-limb tra_ukar-limb u uacute ucircumflex udieresis ugrave v vowelcarrier-limb wa-limb ya-limb yan-limb];
 # baseClass [A Aacute Acircumflex Adieresis Agrave Aring Atilde] <anchor 986 0> @O;
@@ -206,7 +201,6 @@
 # baseClass wa-limb <anchor 897 1050> @O;
 # baseClass ya-limb <anchor 742 1050> @O;
 # baseClass yan-limb <anchor 609 1050> @O;
-
 # AP: U
 @U = [A AE Aacute Agrave Acircumflex Adieresis Atilde Aring B C Ccedilla D E Eacute Egrave Ecircumflex Edieresis Eth F G H I Iacute Igrave Icircumflex Idieresis J K L M N V Ntilde O OE Oacute Ograve Ocircumflex Odieresis Otilde Oslash Y P Q R S Scaron T Thorn U Uacute Ugrave Ucircumflex Udieresis W X Yacute Ydieresis Z Zcaron a aacute acircumflex acute grave adieresis ae agrave aring asciicircum atilde b ba-limb sha-limb bha-limb breve c ccedilla ca-limb caron cha-limb d da-limb dha-limb dieresis dotlessi i dottedcircle e eacute ecircumflex edieresis egrave eight four nine one seven six three two zero eth f fi fl five florin foursuperior onesuperior threesuperior twosuperior g ga-limb germandbls gha-limb tra_subra_ukar-limb tra_ukar-limb gyan-limb gyan_subra_ukar-limb gyan_ukar-limb h ha-limb iacute icircumflex idieresis igrave j ja-limb jha-limb k ka-limb na-limb kha-limb l la-limb m ma-limb n nga-limb nnbsp ntilde o oacute ocircumflex odieresis oe ograve oslash otilde p pa-limb pha-limb pi q r ra-limb vowelcarrier-limb s sa-limb scaron ssa-limb summation t ta-limb tha-limb thorn tra-limb u uacute ucircumflex udieresis ugrave v w wa-limb x y ya-limb yacute yan-limb ydieresis z zcaron];
 # baseClass A <anchor 615 1323> @U;
@@ -363,7 +357,6 @@
 # baseClass ydieresis <anchor 513 1391> @U;
 # baseClass z <anchor 484 993> @U;
 # baseClass zcaron <anchor 484 1419> @U;
-
 # AP: R
 @R = [E Eacute Ecircumflex Edieresis Egrave I Iacute Icircumflex Idieresis Igrave L O Oacute Ocircumflex Odieresis Ograve Otilde U Uacute Ucircumflex Udieresis Ugrave a aacute acircumflex adieresis agrave aring atilde y yacute ydieresis ae b c ccedilla d dotlessi i iacute icircumflex idieresis igrave e eacute ecircumflex edieresis egrave fi fl g k l nnbsp o oacute ocircumflex odieresis ograve oslash otilde oe p q t u uacute ucircumflex udieresis ugrave];
 # baseClass [E Eacute Ecircumflex Edieresis Egrave] <anchor 1047 1063> @R;
@@ -390,7 +383,6 @@
 # baseClass q <anchor 1073 851> @R;
 # baseClass t <anchor 534 851> @R;
 # baseClass [u uacute ucircumflex udieresis ugrave] <anchor 1195 851> @R;
-
 # AP: G
 @G = [Ohm Omegagreek dottedcircle subwa-limb subya-limb];
 # baseClass Ohm <anchor 61 1192> @G;
@@ -398,16 +390,13 @@
 # baseClass dottedcircle <anchor 991 0> @G;
 # baseClass subwa-limb <anchor -133 -40> @G;
 # baseClass subya-limb <anchor -121 -40> @G;
-
 # AP: _none
 markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS9 cgj] <anchor 0 0> @_none;
-
 # AP: _K
 markClass [aikar_kemphreng-limb eekar_kemphreng-limb subwa_kemphreng-limb subwa_ukar_kemphreng-limb subya_ukar_kemphreng-limb] <anchor -260 1250> @_K;
 markClass kemphreng-limb <anchor -305 1220> @_K;
 markClass subwa_okar_kemphreng-limb <anchor -318 1291> @_K;
 markClass [subya_kemphreng-limb subya_okar_kemphreng-limb] <anchor -230 1250> @_K;
-
 # AP: K
 @K = [ba-limb cha_subra_ukar-limb ja-limb ba_subra_ukar-limb ba_ukar-limb ja_subra_ukar-limb ja_ukar-limb ma-limb tra-limb yan_subra_ukar-limb yan_ukar-limb bha-limb bha_subra_ukar-limb dha-limb nga_subra_ukar-limb bha_ukar-limb ha_subra_ukar-limb ha_ukar-limb ca-limb ca_subra_ukar-limb ca_ukar-limb ga_subra_ukar-limb cha-limb nga-limb nga_ukar-limb cha_ukar-limb yan-limb da-limb wa_subra_ukar-limb wa_ukar-limb da_subra_ukar-limb da_ukar-limb ga-limb dha_subra_ukar-limb sha_subra_ukar-limb dha_ukar-limb dottedcircle ga_ukar-limb gha-limb gha_subra_ukar-limb gha_ukar-limb ka_subra_ukar-limb ka_ukar-limb gyan-limb gyan_subra_ukar-limb gyan_ukar-limb ha-limb jha-limb jha_subra_ukar-limb jha_ukar-limb ka-limb kha-limb tha_ukar-limb kha_subra_ukar-limb kha_ukar-limb la-limb la_subra_ukar-limb la_ukar-limb ma_subra_ukar-limb ma_ukar-limb na-limb na_subra_ukar-limb na_ukar-limb pa-limb pha_subra_ukar-limb pha_ukar-limb pa_subra_ukar-limb pa_ukar-limb pha-limb ra-limb ra_subra_ukar-limb ra_ukar-limb sha_ukar-limb tra_subra_ukar-limb tra_ukar-limb sa-limb sa_subra_ukar-limb sa_ukar-limb sha-limb ssa-limb ssa_subra_ukar-limb ssa_ukar-limb ta-limb ta_subra_ukar-limb ta_ukar-limb tha-limb tha_subra_ukar-limb vowelcarrier-limb vowelcarrier_ukar-limb wa-limb ya-limb ya_subra_ukar-limb ya_ukar-limb];
 @K_MarkBase = [akar-limb ekar-limb okar-limb subwa_akar-limb subwa_ekar-limb subya_akar-limb subya_ekar-limb];
@@ -469,13 +458,11 @@ markClass [subya_kemphreng-limb subya_okar_kemphreng-limb] <anchor -230 1250> @_
 # baseClass subwa_ekar-limb <anchor -300 1250> @K_MarkBase;
 # baseClass subya_akar-limb <anchor -260 1250> @K_MarkBase;
 # baseClass subya_ekar-limb <anchor -270 1250> @K_MarkBase;
-
 # AP: _U
 markClass akar-limb <anchor -585 1025> @_U;
 markClass subwa_akar-limb <anchor -580 1039> @_U;
 markClass subwa_akar_kemphreng-limb <anchor -570 1030> @_U;
 markClass [subya_akar-limb subya_akar_kemphreng-limb] <anchor -500 1050> @_U;
-
 # AP: V
 @V = [ba-limb bha-limb ca-limb cha-limb da-limb dha-limb ga-limb gha-limb gyan-limb ha-limb ja-limb jha-limb ka-limb kha-limb la-limb ma-limb na-limb nga-limb pa-limb pha-limb ra-limb sa-limb sha-limb ssa-limb ta-limb tha-limb tra-limb vowelcarrier-limb wa-limb ya-limb yan-limb];
 # baseClass ba-limb <anchor 1019 50> @V;
@@ -509,7 +496,6 @@ markClass [subya_akar-limb subya_akar_kemphreng-limb] <anchor -500 1050> @_U;
 # baseClass wa-limb <anchor 957 50> @V;
 # baseClass ya-limb <anchor 907 50> @V;
 # baseClass yan-limb <anchor 1050 50> @V;
-
 # AP: _O
 markClass [ekar-limb subwa_ekar-limb] <anchor -300 1050> @_O;
 markClass okar-limb <anchor -210 1050> @_O;
@@ -518,17 +504,13 @@ markClass subwa_okar-limb <anchor -220 1050> @_O;
 markClass subwa_okar_kemphreng-limb <anchor -216 1050> @_O;
 markClass [subya_ekar-limb subya_ekar_kemphreng-limb] <anchor -270 1050> @_O;
 markClass [subya_okar-limb subya_okar_kemphreng-limb] <anchor -160 1050> @_O;
-
 # AP: _adv
 markClass ikar-limb <anchor 555 0> @_adv;
-
 # AP: _L
 markClass sai-limb <anchor -533 -50> @_L;
 markClass smallanusvara-limb <anchor -561 -80> @_L;
-
 # AP: _V
 markClass [subwa_ukar-limb subwa_ukar_kemphreng-limb subya_ukar-limb subya_ukar_kemphreng-limb ukar-limb] <anchor -100 50> @_V;
-
 # AP: _G
 markClass ukar-limb <anchor -150 -15> @_G;
 #**********************************
@@ -735,18 +717,181 @@ lookup Limb2LatnDigits {
     sub nine-limb by nine;
 } Limb2LatnDigits;
 
+lookup Auto1 {
+    lookupflag 0;
+    pos ikar-limb' <0 0 555 0>;
+} Auto1;
+
 lookup Ikar {
     lookupflag 0;
-            pos ikar-limb' <0 0 555 0>;
-
+    pos ikar-limb' lookup Auto1;
 } Ikar;
+
+lookup Auto2 {
+    lookupflag 0;
+    pos subya-limb' <0 0 -581 0>;
+} Auto2;
+
+lookup Auto3 {
+    lookupflag 0;
+    pos subwa-limb' <0 0 -526 0>;
+} Auto3;
 
 lookup GlideIkar {
     lookupflag 0;
-            pos subya-limb' <0 0 -581 0> @Ikar;
-        pos subwa-limb' <0 0 -526 0> @Ikar;
-
+    pos subya-limb' lookup Auto2 @Ikar;
+    pos subwa-limb' lookup Auto3 @Ikar;
 } GlideIkar;
+
+lookup Auto4 {
+    lookupflag 0;
+    pos ikar_kemphreng-limb' <0 0 222 0>;
+} Auto4;
+
+lookup Auto5 {
+    lookupflag 0;
+    pos ikar_kemphreng-limb' <0 0 61 0>;
+} Auto5;
+
+lookup Auto6 {
+    lookupflag 0;
+    pos ikar_kemphreng-limb' <0 0 214 0>;
+} Auto6;
+
+lookup Auto7 {
+    lookupflag 0;
+    pos ikar_kemphreng-limb' <0 0 209 0>;
+} Auto7;
+
+lookup Auto8 {
+    lookupflag 0;
+    pos ikar_kemphreng-limb' <0 0 59 0>;
+} Auto8;
+
+lookup Auto9 {
+    lookupflag 0;
+    pos ikar_kemphreng-limb' <0 0 153 0>;
+} Auto9;
+
+lookup Auto10 {
+    lookupflag 0;
+    pos ikar_kemphreng-limb' <0 0 99 0>;
+} Auto10;
+
+lookup Auto11 {
+    lookupflag 0;
+    pos ikar_kemphreng-limb' <0 0 85 0>;
+} Auto11;
+
+lookup Auto12 {
+    lookupflag 0;
+    pos ikar_kemphreng-limb' <0 0 259 0>;
+} Auto12;
+
+lookup Auto13 {
+    lookupflag 0;
+    pos ikar_kemphreng-limb' <0 0 104 0>;
+} Auto13;
+
+lookup Auto14 {
+    lookupflag 0;
+    pos ikar_kemphreng-limb' <0 0 256 0>;
+} Auto14;
+
+lookup Auto15 {
+    lookupflag 0;
+    pos ikar_kemphreng-limb' <0 0 113 0>;
+} Auto15;
+
+lookup Auto16 {
+    lookupflag 0;
+    pos ikar_kemphreng-limb' <0 0 164 0>;
+} Auto16;
+
+lookup Auto17 {
+    lookupflag 0;
+    pos ikar_kemphreng-limb' <0 0 139 0>;
+} Auto17;
+
+lookup Auto18 {
+    lookupflag 0;
+    pos ikar_kemphreng-limb' <0 0 222 0>;
+} Auto18;
+
+lookup Auto19 {
+    lookupflag 0;
+    pos ikar_kemphreng-limb' <0 0 22 0>;
+} Auto19;
+
+lookup Auto20 {
+    lookupflag 0;
+    pos ikar_kemphreng-limb' <0 0 111 0>;
+} Auto20;
+
+lookup Auto21 {
+    lookupflag 0;
+    pos ikar_kemphreng-limb' <0 0 108 0>;
+} Auto21;
+
+lookup Auto22 {
+    lookupflag 0;
+    pos ikar_kemphreng-limb' <0 0 161 0>;
+} Auto22;
+
+lookup Auto23 {
+    lookupflag 0;
+    pos ikar_kemphreng-limb' <0 0 237 0>;
+} Auto23;
+
+lookup Auto24 {
+    lookupflag 0;
+    pos ikar_kemphreng-limb' <0 0 184 0>;
+} Auto24;
+
+lookup Auto25 {
+    lookupflag 0;
+    pos ikar_kemphreng-limb' <0 0 162 0>;
+} Auto25;
+
+lookup Auto26 {
+    lookupflag 0;
+    pos ikar_kemphreng-limb' <0 0 173 0>;
+} Auto26;
+
+lookup Auto27 {
+    lookupflag 0;
+    pos ikar_kemphreng-limb' <0 0 111 0>;
+} Auto27;
+
+lookup Auto28 {
+    lookupflag 0;
+    pos ikar_kemphreng-limb' <0 0 329 0>;
+} Auto28;
+
+lookup Auto29 {
+    lookupflag 0;
+    pos ikar_kemphreng-limb' <0 0 87 0>;
+} Auto29;
+
+lookup Auto30 {
+    lookupflag 0;
+    pos ikar_kemphreng-limb' <0 0 145 0>;
+} Auto30;
+
+lookup Auto31 {
+    lookupflag 0;
+    pos ikar_kemphreng-limb' <0 0 80 0>;
+} Auto31;
+
+lookup Auto32 {
+    lookupflag 0;
+    pos ikar_kemphreng-limb' <0 0 149 0>;
+} Auto32;
+
+lookup Auto33 {
+    lookupflag 0;
+    pos ikar_kemphreng-limb' <0 0 184 0>;
+} Auto33;
 
 lookup IkarKWid {
     lookupflag 0;
@@ -762,196 +907,349 @@ lookup IkarKWid {
     # U anchor. Therefore, the horizontal position of the U anchor can be
     # used to calculate the amount of kerning. The consonant specified below
     # (pha-limb) needs no kerning, so it helps calculate the amount of kern.
-            pos ikar_kemphreng-limb' <0 0 222 0> ka-limb akar-limb;
-        pos ikar_kemphreng-limb' <0 0 61 0> kha-limb akar-limb;
-        pos ikar_kemphreng-limb' <0 0 214 0> ga-limb akar-limb;
-        pos ikar_kemphreng-limb' <0 0 209 0> gha-limb akar-limb;
-        pos ikar_kemphreng-limb' <0 0 59 0> nga-limb akar-limb;
-        pos ikar_kemphreng-limb' <0 0 153 0> ca-limb akar-limb;
-        pos ikar_kemphreng-limb' <0 0 99 0> cha-limb akar-limb;
-        pos ikar_kemphreng-limb' <0 0 85 0> ja-limb akar-limb;
-        pos ikar_kemphreng-limb' <0 0 259 0> jha-limb akar-limb;
-        pos ikar_kemphreng-limb' <0 0 104 0> yan-limb akar-limb;
-        pos ikar_kemphreng-limb' <0 0 256 0> ta-limb akar-limb;
-        pos ikar_kemphreng-limb' <0 0 113 0> tha-limb akar-limb;
-        pos ikar_kemphreng-limb' <0 0 164 0> da-limb akar-limb;
-        pos ikar_kemphreng-limb' <0 0 139 0> dha-limb akar-limb;
-        pos ikar_kemphreng-limb' <0 0 222 0> na-limb akar-limb;
-        pos ikar_kemphreng-limb' <0 0 22 0> pa-limb akar-limb;
-        pos ikar_kemphreng-limb' <0 0 111 0> ba-limb akar-limb;
-        pos ikar_kemphreng-limb' <0 0 108 0> bha-limb akar-limb;
-        pos ikar_kemphreng-limb' <0 0 161 0> ma-limb akar-limb;
-        pos ikar_kemphreng-limb' <0 0 237 0> ya-limb akar-limb;
-        pos ikar_kemphreng-limb' <0 0 184 0> ra-limb akar-limb;
-        pos ikar_kemphreng-limb' <0 0 162 0> la-limb akar-limb;
-        pos ikar_kemphreng-limb' <0 0 173 0> wa-limb akar-limb;
-        pos ikar_kemphreng-limb' <0 0 111 0> sha-limb akar-limb;
-        pos ikar_kemphreng-limb' <0 0 329 0> ssa-limb akar-limb;
-        pos ikar_kemphreng-limb' <0 0 87 0> sa-limb akar-limb;
-        pos ikar_kemphreng-limb' <0 0 145 0> ha-limb akar-limb;
-        pos ikar_kemphreng-limb' <0 0 80 0> gyan-limb akar-limb;
-        pos ikar_kemphreng-limb' <0 0 149 0> tra-limb akar-limb;
-        pos ikar_kemphreng-limb' <0 0 184 0> vowelcarrier-limb akar-limb;
-
+    pos ikar_kemphreng-limb' lookup Auto4 ka-limb akar-limb;
+    pos ikar_kemphreng-limb' lookup Auto5 kha-limb akar-limb;
+    pos ikar_kemphreng-limb' lookup Auto6 ga-limb akar-limb;
+    pos ikar_kemphreng-limb' lookup Auto7 gha-limb akar-limb;
+    pos ikar_kemphreng-limb' lookup Auto8 nga-limb akar-limb;
+    pos ikar_kemphreng-limb' lookup Auto9 ca-limb akar-limb;
+    pos ikar_kemphreng-limb' lookup Auto10 cha-limb akar-limb;
+    pos ikar_kemphreng-limb' lookup Auto11 ja-limb akar-limb;
+    pos ikar_kemphreng-limb' lookup Auto12 jha-limb akar-limb;
+    pos ikar_kemphreng-limb' lookup Auto13 yan-limb akar-limb;
+    pos ikar_kemphreng-limb' lookup Auto14 ta-limb akar-limb;
+    pos ikar_kemphreng-limb' lookup Auto15 tha-limb akar-limb;
+    pos ikar_kemphreng-limb' lookup Auto16 da-limb akar-limb;
+    pos ikar_kemphreng-limb' lookup Auto17 dha-limb akar-limb;
+    pos ikar_kemphreng-limb' lookup Auto18 na-limb akar-limb;
+    pos ikar_kemphreng-limb' lookup Auto19 pa-limb akar-limb;
+    pos ikar_kemphreng-limb' lookup Auto20 ba-limb akar-limb;
+    pos ikar_kemphreng-limb' lookup Auto21 bha-limb akar-limb;
+    pos ikar_kemphreng-limb' lookup Auto22 ma-limb akar-limb;
+    pos ikar_kemphreng-limb' lookup Auto23 ya-limb akar-limb;
+    pos ikar_kemphreng-limb' lookup Auto24 ra-limb akar-limb;
+    pos ikar_kemphreng-limb' lookup Auto25 la-limb akar-limb;
+    pos ikar_kemphreng-limb' lookup Auto26 wa-limb akar-limb;
+    pos ikar_kemphreng-limb' lookup Auto27 sha-limb akar-limb;
+    pos ikar_kemphreng-limb' lookup Auto28 ssa-limb akar-limb;
+    pos ikar_kemphreng-limb' lookup Auto29 sa-limb akar-limb;
+    pos ikar_kemphreng-limb' lookup Auto30 ha-limb akar-limb;
+    pos ikar_kemphreng-limb' lookup Auto31 gyan-limb akar-limb;
+    pos ikar_kemphreng-limb' lookup Auto32 tra-limb akar-limb;
+    pos ikar_kemphreng-limb' lookup Auto33 vowelcarrier-limb akar-limb;
 } IkarKWid;
 
 lookup Akar {
     lookupflag 0;
     # The Akar positioning rule positions the Akar on all consonants, including the vowel carrier.
-    pos base A <anchor 615 1323> mark @_U;
-    pos base AE <anchor 938 1323> mark @_U;
-    pos base [Aacute Agrave] <anchor 615 1710> mark @_U;
-    pos base Acircumflex <anchor 615 1768> mark @_U;
-    pos base [Adieresis Atilde] <anchor 615 1633> mark @_U;
-    pos base Aring <anchor 615 1748> mark @_U;
-    pos base B <anchor 569 1323> mark @_U;
-    pos base [C Ccedilla] <anchor 616 1323> mark @_U;
-    pos base D <anchor 576 1323> mark @_U;
-    pos base E <anchor 522 1323> mark @_U;
-    pos base [Eacute Egrave] <anchor 522 1710> mark @_U;
-    pos base Ecircumflex <anchor 522 1768> mark @_U;
-    pos base Edieresis <anchor 522 1633> mark @_U;
-    pos base Eth <anchor 611 1323> mark @_U;
-    pos base F <anchor 495 1323> mark @_U;
-    pos base G <anchor 632 1323> mark @_U;
-    pos base H <anchor 668 1323> mark @_U;
-    pos base I <anchor 320 1323> mark @_U;
-    pos base [Iacute Igrave] <anchor 320 1710> mark @_U;
-    pos base Icircumflex <anchor 320 1768> mark @_U;
-    pos base Idieresis <anchor 320 1633> mark @_U;
-    pos base J <anchor 346 1323> mark @_U;
-    pos base K <anchor 613 1323> mark @_U;
-    pos base L <anchor 485 1323> mark @_U;
-    pos base M <anchor 831 1323> mark @_U;
-    pos base [N V] <anchor 654 1323> mark @_U;
-    pos base Ntilde <anchor 654 1633> mark @_U;
-    pos base O <anchor 617 1323> mark @_U;
-    pos base OE <anchor 842 1323> mark @_U;
-    pos base [Oacute Ograve] <anchor 617 1710> mark @_U;
-    pos base Ocircumflex <anchor 617 1768> mark @_U;
-    pos base [Odieresis Otilde] <anchor 617 1633> mark @_U;
-    pos base [Oslash Y] <anchor 605 1323> mark @_U;
-    pos base P <anchor 548 1323> mark @_U;
-    pos base Q <anchor 642 1323> mark @_U;
-    pos base R <anchor 546 1323> mark @_U;
-    pos base S <anchor 521 1323> mark @_U;
-    pos base Scaron <anchor 521 1710> mark @_U;
-    pos base T <anchor 560 1323> mark @_U;
-    pos base Thorn <anchor 556 1323> mark @_U;
-    pos base U <anchor 666 1323> mark @_U;
-    pos base [Uacute Ugrave] <anchor 666 1710> mark @_U;
-    pos base Ucircumflex <anchor 666 1768> mark @_U;
-    pos base Udieresis <anchor 666 1633> mark @_U;
-    pos base W <anchor 841 1323> mark @_U;
-    pos base X <anchor 621 1323> mark @_U;
-    pos base Yacute <anchor 605 1710> mark @_U;
-    pos base Ydieresis <anchor 605 1633> mark @_U;
-    pos base Z <anchor 561 1323> mark @_U;
-    pos base Zcaron <anchor 561 1710> mark @_U;
-    pos base a <anchor 493 993> mark @_U;
-    pos base aacute <anchor 409 1419> mark @_U;
-    pos base acircumflex <anchor 493 1438> mark @_U;
-    pos base [acute grave] <anchor 306 1334> mark @_U;
-    pos base adieresis <anchor 493 1391> mark @_U;
-    pos base ae <anchor 747 993> mark @_U;
-    pos base agrave <anchor 493 1419> mark @_U;
-    pos base aring <anchor 493 1410> mark @_U;
-    pos base asciicircum <anchor 472 1599> mark @_U;
-    pos base atilde <anchor 493 1381> mark @_U;
-    pos base b <anchor 547 1533> mark @_U;
-    pos base [ba-limb sha-limb] <anchor 608 1050> mark @_U;
-    pos base bha-limb <anchor 611 1050> mark @_U;
-    pos base breve <anchor 342 1296> mark @_U;
-    pos base [c ccedilla] <anchor 485 993> mark @_U;
-    pos base ca-limb <anchor 566 1050> mark @_U;
-    pos base caron <anchor 344 1334> mark @_U;
-    pos base cha-limb <anchor 620 1050> mark @_U;
-    pos base d <anchor 533 1599> mark @_U;
-    pos base da-limb <anchor 555 1050> mark @_U;
-    pos base dha-limb <anchor 580 1050> mark @_U;
-    pos base dieresis <anchor 377 1334> mark @_U;
-    pos base [dotlessi i] <anchor 305 993> mark @_U;
-    pos base dottedcircle <anchor 533 1000> mark @_U;
-    pos base e <anchor 510 993> mark @_U;
-    pos base eacute <anchor 425 1419> mark @_U;
-    pos base ecircumflex <anchor 510 1438> mark @_U;
-    pos base edieresis <anchor 510 1391> mark @_U;
-    pos base egrave <anchor 510 1419> mark @_U;
-    pos base [eight four nine one seven six three two zero] <anchor 521 1370> mark @_U;
-    pos base eth <anchor 495 1533> mark @_U;
-    pos base f <anchor 468 1533> mark @_U;
-    pos base [fi fl] <anchor 864 1533> mark @_U;
-    pos base five <anchor 523 1370> mark @_U;
-    pos base florin <anchor 260 1599> mark @_U;
-    pos base [foursuperior onesuperior threesuperior twosuperior] <anchor 348 1364> mark @_U;
-    pos base g <anchor 499 993> mark @_U;
-    pos base ga-limb <anchor 505 1050> mark @_U;
-    pos base germandbls <anchor 612 1599> mark @_U;
-    pos base [gha-limb tra_subra_ukar-limb tra_ukar-limb] <anchor 510 1050> mark @_U;
-    pos base gyan-limb <anchor 639 1050> mark @_U;
-    pos base gyan_subra_ukar-limb <anchor 589 1050> mark @_U;
-    pos base gyan_ukar-limb <anchor 579 1050> mark @_U;
-    pos base h <anchor 578 1533> mark @_U;
-    pos base ha-limb <anchor 574 1050> mark @_U;
-    pos base iacute <anchor 220 1419> mark @_U;
-    pos base icircumflex <anchor 305 1438> mark @_U;
-    pos base idieresis <anchor 305 1391> mark @_U;
-    pos base igrave <anchor 305 1419> mark @_U;
-    pos base j <anchor 300 993> mark @_U;
-    pos base ja-limb <anchor 634 1050> mark @_U;
-    pos base jha-limb <anchor 460 1050> mark @_U;
-    pos base k <anchor 571 1533> mark @_U;
-    pos base [ka-limb na-limb] <anchor 497 1050> mark @_U;
-    pos base kha-limb <anchor 658 1050> mark @_U;
-    pos base l <anchor 305 1599> mark @_U;
-    pos base la-limb <anchor 557 1050> mark @_U;
-    pos base m <anchor 834 993> mark @_U;
-    pos base ma-limb <anchor 558 1050> mark @_U;
-    pos base n <anchor 578 993> mark @_U;
-    pos base nga-limb <anchor 660 1050> mark @_U;
-    pos base nnbsp <anchor 247 1435> mark @_U;
-    pos base ntilde <anchor 578 1381> mark @_U;
-    pos base o <anchor 531 993> mark @_U;
-    pos base oacute <anchor 447 1419> mark @_U;
-    pos base ocircumflex <anchor 531 1438> mark @_U;
-    pos base odieresis <anchor 531 1391> mark @_U;
-    pos base oe <anchor 777 993> mark @_U;
-    pos base ograve <anchor 531 1419> mark @_U;
-    pos base oslash <anchor 521 993> mark @_U;
-    pos base otilde <anchor 531 1381> mark @_U;
-    pos base p <anchor 538 993> mark @_U;
-    pos base pa-limb <anchor 697 1050> mark @_U;
-    pos base pha-limb <anchor 719 1050> mark @_U;
-    pos base pi <anchor 581 993> mark @_U;
-    pos base q <anchor 559 993> mark @_U;
-    pos base r <anchor 487 993> mark @_U;
-    pos base [ra-limb vowelcarrier-limb] <anchor 535 1050> mark @_U;
-    pos base s <anchor 411 993> mark @_U;
-    pos base sa-limb <anchor 632 1050> mark @_U;
-    pos base scaron <anchor 411 1419> mark @_U;
-    pos base ssa-limb <anchor 390 1050> mark @_U;
-    pos base summation <anchor 520 1296> mark @_U;
-    pos base t <anchor 354 1249> mark @_U;
-    pos base ta-limb <anchor 463 1050> mark @_U;
-    pos base tha-limb <anchor 606 1050> mark @_U;
-    pos base thorn <anchor 538 1599> mark @_U;
-    pos base tra-limb <anchor 570 1050> mark @_U;
-    pos base u <anchor 551 993> mark @_U;
-    pos base uacute <anchor 467 1419> mark @_U;
-    pos base ucircumflex <anchor 551 1438> mark @_U;
-    pos base udieresis <anchor 551 1391> mark @_U;
-    pos base ugrave <anchor 551 1419> mark @_U;
-    pos base v <anchor 522 993> mark @_U;
-    pos base w <anchor 717 993> mark @_U;
-    pos base wa-limb <anchor 546 1050> mark @_U;
-    pos base x <anchor 504 993> mark @_U;
-    pos base y <anchor 513 993> mark @_U;
-    pos base ya-limb <anchor 482 1050> mark @_U;
-    pos base yacute <anchor 429 1419> mark @_U;
-    pos base yan-limb <anchor 615 1050> mark @_U;
-    pos base ydieresis <anchor 513 1391> mark @_U;
-    pos base z <anchor 484 993> mark @_U;
-    pos base zcaron <anchor 484 1419> mark @_U;
+    pos base A
+        <anchor 615 1323> mark @_U;
+    pos base AE
+        <anchor 938 1323> mark @_U;
+    pos base [Aacute Agrave]
+        <anchor 615 1710> mark @_U;
+    pos base Acircumflex
+        <anchor 615 1768> mark @_U;
+    pos base [Adieresis Atilde]
+        <anchor 615 1633> mark @_U;
+    pos base Aring
+        <anchor 615 1748> mark @_U;
+    pos base B
+        <anchor 569 1323> mark @_U;
+    pos base [C Ccedilla]
+        <anchor 616 1323> mark @_U;
+    pos base D
+        <anchor 576 1323> mark @_U;
+    pos base E
+        <anchor 522 1323> mark @_U;
+    pos base [Eacute Egrave]
+        <anchor 522 1710> mark @_U;
+    pos base Ecircumflex
+        <anchor 522 1768> mark @_U;
+    pos base Edieresis
+        <anchor 522 1633> mark @_U;
+    pos base Eth
+        <anchor 611 1323> mark @_U;
+    pos base F
+        <anchor 495 1323> mark @_U;
+    pos base G
+        <anchor 632 1323> mark @_U;
+    pos base H
+        <anchor 668 1323> mark @_U;
+    pos base I
+        <anchor 320 1323> mark @_U;
+    pos base [Iacute Igrave]
+        <anchor 320 1710> mark @_U;
+    pos base Icircumflex
+        <anchor 320 1768> mark @_U;
+    pos base Idieresis
+        <anchor 320 1633> mark @_U;
+    pos base J
+        <anchor 346 1323> mark @_U;
+    pos base K
+        <anchor 613 1323> mark @_U;
+    pos base L
+        <anchor 485 1323> mark @_U;
+    pos base M
+        <anchor 831 1323> mark @_U;
+    pos base [N V]
+        <anchor 654 1323> mark @_U;
+    pos base Ntilde
+        <anchor 654 1633> mark @_U;
+    pos base O
+        <anchor 617 1323> mark @_U;
+    pos base OE
+        <anchor 842 1323> mark @_U;
+    pos base [Oacute Ograve]
+        <anchor 617 1710> mark @_U;
+    pos base Ocircumflex
+        <anchor 617 1768> mark @_U;
+    pos base [Odieresis Otilde]
+        <anchor 617 1633> mark @_U;
+    pos base [Oslash Y]
+        <anchor 605 1323> mark @_U;
+    pos base P
+        <anchor 548 1323> mark @_U;
+    pos base Q
+        <anchor 642 1323> mark @_U;
+    pos base R
+        <anchor 546 1323> mark @_U;
+    pos base S
+        <anchor 521 1323> mark @_U;
+    pos base Scaron
+        <anchor 521 1710> mark @_U;
+    pos base T
+        <anchor 560 1323> mark @_U;
+    pos base Thorn
+        <anchor 556 1323> mark @_U;
+    pos base U
+        <anchor 666 1323> mark @_U;
+    pos base [Uacute Ugrave]
+        <anchor 666 1710> mark @_U;
+    pos base Ucircumflex
+        <anchor 666 1768> mark @_U;
+    pos base Udieresis
+        <anchor 666 1633> mark @_U;
+    pos base W
+        <anchor 841 1323> mark @_U;
+    pos base X
+        <anchor 621 1323> mark @_U;
+    pos base Yacute
+        <anchor 605 1710> mark @_U;
+    pos base Ydieresis
+        <anchor 605 1633> mark @_U;
+    pos base Z
+        <anchor 561 1323> mark @_U;
+    pos base Zcaron
+        <anchor 561 1710> mark @_U;
+    pos base a
+        <anchor 493 993> mark @_U;
+    pos base aacute
+        <anchor 409 1419> mark @_U;
+    pos base acircumflex
+        <anchor 493 1438> mark @_U;
+    pos base [acute grave]
+        <anchor 306 1334> mark @_U;
+    pos base adieresis
+        <anchor 493 1391> mark @_U;
+    pos base ae
+        <anchor 747 993> mark @_U;
+    pos base agrave
+        <anchor 493 1419> mark @_U;
+    pos base aring
+        <anchor 493 1410> mark @_U;
+    pos base asciicircum
+        <anchor 472 1599> mark @_U;
+    pos base atilde
+        <anchor 493 1381> mark @_U;
+    pos base b
+        <anchor 547 1533> mark @_U;
+    pos base [ba-limb sha-limb]
+        <anchor 608 1050> mark @_U;
+    pos base bha-limb
+        <anchor 611 1050> mark @_U;
+    pos base breve
+        <anchor 342 1296> mark @_U;
+    pos base [c ccedilla]
+        <anchor 485 993> mark @_U;
+    pos base ca-limb
+        <anchor 566 1050> mark @_U;
+    pos base caron
+        <anchor 344 1334> mark @_U;
+    pos base cha-limb
+        <anchor 620 1050> mark @_U;
+    pos base d
+        <anchor 533 1599> mark @_U;
+    pos base da-limb
+        <anchor 555 1050> mark @_U;
+    pos base dha-limb
+        <anchor 580 1050> mark @_U;
+    pos base dieresis
+        <anchor 377 1334> mark @_U;
+    pos base [dotlessi i]
+        <anchor 305 993> mark @_U;
+    pos base dottedcircle
+        <anchor 533 1000> mark @_U;
+    pos base e
+        <anchor 510 993> mark @_U;
+    pos base eacute
+        <anchor 425 1419> mark @_U;
+    pos base ecircumflex
+        <anchor 510 1438> mark @_U;
+    pos base edieresis
+        <anchor 510 1391> mark @_U;
+    pos base egrave
+        <anchor 510 1419> mark @_U;
+    pos base [eight four nine one seven six three two zero]
+        <anchor 521 1370> mark @_U;
+    pos base eth
+        <anchor 495 1533> mark @_U;
+    pos base f
+        <anchor 468 1533> mark @_U;
+    pos base [fi fl]
+        <anchor 864 1533> mark @_U;
+    pos base five
+        <anchor 523 1370> mark @_U;
+    pos base florin
+        <anchor 260 1599> mark @_U;
+    pos base [foursuperior onesuperior threesuperior twosuperior]
+        <anchor 348 1364> mark @_U;
+    pos base g
+        <anchor 499 993> mark @_U;
+    pos base ga-limb
+        <anchor 505 1050> mark @_U;
+    pos base germandbls
+        <anchor 612 1599> mark @_U;
+    pos base [gha-limb tra_subra_ukar-limb tra_ukar-limb]
+        <anchor 510 1050> mark @_U;
+    pos base gyan-limb
+        <anchor 639 1050> mark @_U;
+    pos base gyan_subra_ukar-limb
+        <anchor 589 1050> mark @_U;
+    pos base gyan_ukar-limb
+        <anchor 579 1050> mark @_U;
+    pos base h
+        <anchor 578 1533> mark @_U;
+    pos base ha-limb
+        <anchor 574 1050> mark @_U;
+    pos base iacute
+        <anchor 220 1419> mark @_U;
+    pos base icircumflex
+        <anchor 305 1438> mark @_U;
+    pos base idieresis
+        <anchor 305 1391> mark @_U;
+    pos base igrave
+        <anchor 305 1419> mark @_U;
+    pos base j
+        <anchor 300 993> mark @_U;
+    pos base ja-limb
+        <anchor 634 1050> mark @_U;
+    pos base jha-limb
+        <anchor 460 1050> mark @_U;
+    pos base k
+        <anchor 571 1533> mark @_U;
+    pos base [ka-limb na-limb]
+        <anchor 497 1050> mark @_U;
+    pos base kha-limb
+        <anchor 658 1050> mark @_U;
+    pos base l
+        <anchor 305 1599> mark @_U;
+    pos base la-limb
+        <anchor 557 1050> mark @_U;
+    pos base m
+        <anchor 834 993> mark @_U;
+    pos base ma-limb
+        <anchor 558 1050> mark @_U;
+    pos base n
+        <anchor 578 993> mark @_U;
+    pos base nga-limb
+        <anchor 660 1050> mark @_U;
+    pos base nnbsp
+        <anchor 247 1435> mark @_U;
+    pos base ntilde
+        <anchor 578 1381> mark @_U;
+    pos base o
+        <anchor 531 993> mark @_U;
+    pos base oacute
+        <anchor 447 1419> mark @_U;
+    pos base ocircumflex
+        <anchor 531 1438> mark @_U;
+    pos base odieresis
+        <anchor 531 1391> mark @_U;
+    pos base oe
+        <anchor 777 993> mark @_U;
+    pos base ograve
+        <anchor 531 1419> mark @_U;
+    pos base oslash
+        <anchor 521 993> mark @_U;
+    pos base otilde
+        <anchor 531 1381> mark @_U;
+    pos base p
+        <anchor 538 993> mark @_U;
+    pos base pa-limb
+        <anchor 697 1050> mark @_U;
+    pos base pha-limb
+        <anchor 719 1050> mark @_U;
+    pos base pi
+        <anchor 581 993> mark @_U;
+    pos base q
+        <anchor 559 993> mark @_U;
+    pos base r
+        <anchor 487 993> mark @_U;
+    pos base [ra-limb vowelcarrier-limb]
+        <anchor 535 1050> mark @_U;
+    pos base s
+        <anchor 411 993> mark @_U;
+    pos base sa-limb
+        <anchor 632 1050> mark @_U;
+    pos base scaron
+        <anchor 411 1419> mark @_U;
+    pos base ssa-limb
+        <anchor 390 1050> mark @_U;
+    pos base summation
+        <anchor 520 1296> mark @_U;
+    pos base t
+        <anchor 354 1249> mark @_U;
+    pos base ta-limb
+        <anchor 463 1050> mark @_U;
+    pos base tha-limb
+        <anchor 606 1050> mark @_U;
+    pos base thorn
+        <anchor 538 1599> mark @_U;
+    pos base tra-limb
+        <anchor 570 1050> mark @_U;
+    pos base u
+        <anchor 551 993> mark @_U;
+    pos base uacute
+        <anchor 467 1419> mark @_U;
+    pos base ucircumflex
+        <anchor 551 1438> mark @_U;
+    pos base udieresis
+        <anchor 551 1391> mark @_U;
+    pos base ugrave
+        <anchor 551 1419> mark @_U;
+    pos base v
+        <anchor 522 993> mark @_U;
+    pos base w
+        <anchor 717 993> mark @_U;
+    pos base wa-limb
+        <anchor 546 1050> mark @_U;
+    pos base x
+        <anchor 504 993> mark @_U;
+    pos base y
+        <anchor 513 993> mark @_U;
+    pos base ya-limb
+        <anchor 482 1050> mark @_U;
+    pos base yacute
+        <anchor 429 1419> mark @_U;
+    pos base yan-limb
+        <anchor 615 1050> mark @_U;
+    pos base ydieresis
+        <anchor 513 1391> mark @_U;
+    pos base z
+        <anchor 484 993> mark @_U;
+    pos base zcaron
+        <anchor 484 1419> mark @_U;
     # was @MARK_Aabove
 } Akar;
 
@@ -959,111 +1257,210 @@ lookup Kemphreng {
     lookupflag 0;
     # The Kemphreng positioning rule positions the Kemphreng on all consonants, including the vowel carrier,
     # plus conjuncts of consonant plus Ukar and consonant plus Ra + Ukar
-    pos base [ba-limb cha_subra_ukar-limb ja-limb] <anchor 650 1050> mark @_K;
-    pos base [ba_subra_ukar-limb ba_ukar-limb ja_subra_ukar-limb ja_ukar-limb ma-limb tra-limb yan_subra_ukar-limb yan_ukar-limb] <anchor 580 1050> mark @_K;
-    pos base bha-limb <anchor 640 1050> mark @_K;
-    pos base [bha_subra_ukar-limb dha-limb nga_subra_ukar-limb] <anchor 600 1050> mark @_K;
-    pos base [bha_ukar-limb ha_subra_ukar-limb ha_ukar-limb] <anchor 601 1050> mark @_K;
-    pos base ca-limb <anchor 587 1050> mark @_K;
-    pos base [ca_subra_ukar-limb ca_ukar-limb ga_subra_ukar-limb] <anchor 540 1050> mark @_K;
-    pos base [cha-limb nga-limb nga_ukar-limb] <anchor 670 1050> mark @_K;
-    pos base [cha_ukar-limb yan-limb] <anchor 620 1050> mark @_K;
-    pos base [da-limb wa_subra_ukar-limb wa_ukar-limb] <anchor 610 1050> mark @_K;
-    pos base [da_subra_ukar-limb da_ukar-limb ga-limb] <anchor 570 1050> mark @_K;
-    pos base [dha_subra_ukar-limb sha_subra_ukar-limb] <anchor 530 1050> mark @_K;
-    pos base dha_ukar-limb <anchor 566 1050> mark @_K;
-    pos base dottedcircle <anchor 533 916> mark @_K;
-    pos base ga_ukar-limb <anchor 607 1050> mark @_K;
-    pos base gha-limb <anchor 550 1050> mark @_K;
-    pos base [gha_subra_ukar-limb gha_ukar-limb ka_subra_ukar-limb ka_ukar-limb] <anchor 500 1050> mark @_K;
-    pos base gyan-limb <anchor 649 1050> mark @_K;
-    pos base gyan_subra_ukar-limb <anchor 599 1050> mark @_K;
-    pos base gyan_ukar-limb <anchor 589 1050> mark @_K;
-    pos base ha-limb <anchor 634 1050> mark @_K;
-    pos base jha-limb <anchor 480 1050> mark @_K;
-    pos base jha_subra_ukar-limb <anchor 457 1050> mark @_K;
-    pos base jha_ukar-limb <anchor 454 1050> mark @_K;
-    pos base ka-limb <anchor 510 1050> mark @_K;
-    pos base [kha-limb tha_ukar-limb] <anchor 716 1050> mark @_K;
-    pos base [kha_subra_ukar-limb kha_ukar-limb] <anchor 680 1050> mark @_K;
-    pos base la-limb <anchor 594 1050> mark @_K;
-    pos base [la_subra_ukar-limb la_ukar-limb] <anchor 585 1050> mark @_K;
-    pos base [ma_subra_ukar-limb ma_ukar-limb] <anchor 560 1050> mark @_K;
-    pos base [na-limb na_subra_ukar-limb na_ukar-limb] <anchor 515 1050> mark @_K;
-    pos base [pa-limb pha_subra_ukar-limb pha_ukar-limb] <anchor 720 1050> mark @_K;
-    pos base [pa_subra_ukar-limb pa_ukar-limb] <anchor 681 1050> mark @_K;
-    pos base pha-limb <anchor 749 1050> mark @_K;
-    pos base ra-limb <anchor 552 1050> mark @_K;
-    pos base [ra_subra_ukar-limb ra_ukar-limb sha_ukar-limb tra_subra_ukar-limb tra_ukar-limb] <anchor 520 1050> mark @_K;
-    pos base sa-limb <anchor 652 1050> mark @_K;
-    pos base [sa_subra_ukar-limb sa_ukar-limb] <anchor 590 1050> mark @_K;
-    pos base sha-limb <anchor 568 1050> mark @_K;
-    pos base ssa-limb <anchor 409 1050> mark @_K;
-    pos base ssa_subra_ukar-limb <anchor 437 1050> mark @_K;
-    pos base ssa_ukar-limb <anchor 430 1050> mark @_K;
-    pos base ta-limb <anchor 463 1050> mark @_K;
-    pos base [ta_subra_ukar-limb ta_ukar-limb] <anchor 450 1050> mark @_K;
-    pos base tha-limb <anchor 706 1050> mark @_K;
-    pos base tha_subra_ukar-limb <anchor 656 1050> mark @_K;
-    pos base vowelcarrier-limb <anchor 545 1050> mark @_K;
-    pos base vowelcarrier_ukar-limb <anchor 525 1050> mark @_K;
-    pos base wa-limb <anchor 645 1050> mark @_K;
-    pos base ya-limb <anchor 492 1050> mark @_K;
-    pos base [ya_subra_ukar-limb ya_ukar-limb] <anchor 469 1050> mark @_K;
+    pos base [ba-limb cha_subra_ukar-limb ja-limb]
+        <anchor 650 1050> mark @_K;
+    pos base [ba_subra_ukar-limb ba_ukar-limb ja_subra_ukar-limb ja_ukar-limb ma-limb tra-limb yan_subra_ukar-limb yan_ukar-limb]
+        <anchor 580 1050> mark @_K;
+    pos base bha-limb
+        <anchor 640 1050> mark @_K;
+    pos base [bha_subra_ukar-limb dha-limb nga_subra_ukar-limb]
+        <anchor 600 1050> mark @_K;
+    pos base [bha_ukar-limb ha_subra_ukar-limb ha_ukar-limb]
+        <anchor 601 1050> mark @_K;
+    pos base ca-limb
+        <anchor 587 1050> mark @_K;
+    pos base [ca_subra_ukar-limb ca_ukar-limb ga_subra_ukar-limb]
+        <anchor 540 1050> mark @_K;
+    pos base [cha-limb nga-limb nga_ukar-limb]
+        <anchor 670 1050> mark @_K;
+    pos base [cha_ukar-limb yan-limb]
+        <anchor 620 1050> mark @_K;
+    pos base [da-limb wa_subra_ukar-limb wa_ukar-limb]
+        <anchor 610 1050> mark @_K;
+    pos base [da_subra_ukar-limb da_ukar-limb ga-limb]
+        <anchor 570 1050> mark @_K;
+    pos base [dha_subra_ukar-limb sha_subra_ukar-limb]
+        <anchor 530 1050> mark @_K;
+    pos base dha_ukar-limb
+        <anchor 566 1050> mark @_K;
+    pos base dottedcircle
+        <anchor 533 916> mark @_K;
+    pos base ga_ukar-limb
+        <anchor 607 1050> mark @_K;
+    pos base gha-limb
+        <anchor 550 1050> mark @_K;
+    pos base [gha_subra_ukar-limb gha_ukar-limb ka_subra_ukar-limb ka_ukar-limb]
+        <anchor 500 1050> mark @_K;
+    pos base gyan-limb
+        <anchor 649 1050> mark @_K;
+    pos base gyan_subra_ukar-limb
+        <anchor 599 1050> mark @_K;
+    pos base gyan_ukar-limb
+        <anchor 589 1050> mark @_K;
+    pos base ha-limb
+        <anchor 634 1050> mark @_K;
+    pos base jha-limb
+        <anchor 480 1050> mark @_K;
+    pos base jha_subra_ukar-limb
+        <anchor 457 1050> mark @_K;
+    pos base jha_ukar-limb
+        <anchor 454 1050> mark @_K;
+    pos base ka-limb
+        <anchor 510 1050> mark @_K;
+    pos base [kha-limb tha_ukar-limb]
+        <anchor 716 1050> mark @_K;
+    pos base [kha_subra_ukar-limb kha_ukar-limb]
+        <anchor 680 1050> mark @_K;
+    pos base la-limb
+        <anchor 594 1050> mark @_K;
+    pos base [la_subra_ukar-limb la_ukar-limb]
+        <anchor 585 1050> mark @_K;
+    pos base [ma_subra_ukar-limb ma_ukar-limb]
+        <anchor 560 1050> mark @_K;
+    pos base [na-limb na_subra_ukar-limb na_ukar-limb]
+        <anchor 515 1050> mark @_K;
+    pos base [pa-limb pha_subra_ukar-limb pha_ukar-limb]
+        <anchor 720 1050> mark @_K;
+    pos base [pa_subra_ukar-limb pa_ukar-limb]
+        <anchor 681 1050> mark @_K;
+    pos base pha-limb
+        <anchor 749 1050> mark @_K;
+    pos base ra-limb
+        <anchor 552 1050> mark @_K;
+    pos base [ra_subra_ukar-limb ra_ukar-limb sha_ukar-limb tra_subra_ukar-limb tra_ukar-limb]
+        <anchor 520 1050> mark @_K;
+    pos base sa-limb
+        <anchor 652 1050> mark @_K;
+    pos base [sa_subra_ukar-limb sa_ukar-limb]
+        <anchor 590 1050> mark @_K;
+    pos base sha-limb
+        <anchor 568 1050> mark @_K;
+    pos base ssa-limb
+        <anchor 409 1050> mark @_K;
+    pos base ssa_subra_ukar-limb
+        <anchor 437 1050> mark @_K;
+    pos base ssa_ukar-limb
+        <anchor 430 1050> mark @_K;
+    pos base ta-limb
+        <anchor 463 1050> mark @_K;
+    pos base [ta_subra_ukar-limb ta_ukar-limb]
+        <anchor 450 1050> mark @_K;
+    pos base tha-limb
+        <anchor 706 1050> mark @_K;
+    pos base tha_subra_ukar-limb
+        <anchor 656 1050> mark @_K;
+    pos base vowelcarrier-limb
+        <anchor 545 1050> mark @_K;
+    pos base vowelcarrier_ukar-limb
+        <anchor 525 1050> mark @_K;
+    pos base wa-limb
+        <anchor 645 1050> mark @_K;
+    pos base ya-limb
+        <anchor 492 1050> mark @_K;
+    pos base [ya_subra_ukar-limb ya_ukar-limb]
+        <anchor 469 1050> mark @_K;
     # was @MARK_K
 } Kemphreng;
 
 lookup EO {
     lookupflag 0;
     # The EO positioning rule positions ekar and okar on all consonants plus the vowel carrier.
-    pos base [A Aacute Acircumflex Adieresis Agrave Aring Atilde] <anchor 986 0> mark @_O;
-    pos base [E Eacute Ecircumflex Edieresis Egrave] <anchor 788 0> mark @_O;
-    pos base [I Iacute Icircumflex Idieresis Igrave] <anchor 378 0> mark @_O;
-    pos base [O Oacute Ocircumflex Odieresis Ograve Otilde] <anchor 680 0> mark @_O;
-    pos base [U Uacute Ucircumflex Udieresis Ugrave] <anchor 749 0> mark @_O;
-    pos base V <anchor 599 0> mark @_O;
-    pos base [a aacute acircumflex adieresis agrave aring atilde] <anchor 750 0> mark @_O;
-    pos base ae <anchor 1043 0> mark @_O;
-    pos base ba-limb <anchor 852 1050> mark @_O;
-    pos base bha-limb <anchor 1022 1050> mark @_O;
-    pos base ca-limb <anchor 975 1050> mark @_O;
-    pos base cha-limb <anchor 875 1050> mark @_O;
-    pos base da-limb <anchor 722 1050> mark @_O;
-    pos base dha-limb <anchor 740 1050> mark @_O;
-    pos base [dotlessi i iacute icircumflex idieresis igrave] <anchor 362 0> mark @_O;
-    pos base dottedcircle <anchor 583 0> mark @_O;
-    pos base [e eacute ecircumflex edieresis egrave] <anchor 523 0> mark @_O;
-    pos base [ga-limb gyan_ukar-limb] <anchor 819 1050> mark @_O;
-    pos base [gha-limb tra-limb] <anchor 830 1050> mark @_O;
-    pos base gyan-limb <anchor 879 1050> mark @_O;
-    pos base gyan_subra_ukar-limb <anchor 829 1050> mark @_O;
-    pos base ha-limb <anchor 904 1050> mark @_O;
-    pos base ja-limb <anchor 1038 1050> mark @_O;
-    pos base jha-limb <anchor 690 1050> mark @_O;
-    pos base ka-limb <anchor 765 1050> mark @_O;
-    pos base kha-limb <anchor 979 1050> mark @_O;
-    pos base la-limb <anchor 946 1050> mark @_O;
-    pos base ma-limb <anchor 937 1050> mark @_O;
-    pos base na-limb <anchor 778 1050> mark @_O;
-    pos base nga-limb <anchor 860 1050> mark @_O;
-    pos base nnbsp <anchor 297 0> mark @_O;
-    pos base [o oacute ocircumflex odieresis ograve oslash otilde] <anchor 573 0> mark @_O;
-    pos base oe <anchor 1188 0> mark @_O;
-    pos base pa-limb <anchor 960 1050> mark @_O;
-    pos base pha-limb <anchor 923 1050> mark @_O;
-    pos base ra-limb <anchor 799 1050> mark @_O;
-    pos base sa-limb <anchor 973 1050> mark @_O;
-    pos base sha-limb <anchor 718 1050> mark @_O;
-    pos base ssa-limb <anchor 651 1050> mark @_O;
-    pos base ta-limb <anchor 703 1050> mark @_O;
-    pos base tha-limb <anchor 699 1050> mark @_O;
-    pos base [tra_subra_ukar-limb tra_ukar-limb] <anchor 770 1050> mark @_O;
-    pos base [u uacute ucircumflex udieresis ugrave] <anchor 830 0> mark @_O;
-    pos base v <anchor 447 0> mark @_O;
-    pos base vowelcarrier-limb <anchor 890 1050> mark @_O;
-    pos base wa-limb <anchor 897 1050> mark @_O;
-    pos base ya-limb <anchor 742 1050> mark @_O;
-    pos base yan-limb <anchor 609 1050> mark @_O;
+    pos base [A Aacute Acircumflex Adieresis Agrave Aring Atilde]
+        <anchor 986 0> mark @_O;
+    pos base [E Eacute Ecircumflex Edieresis Egrave]
+        <anchor 788 0> mark @_O;
+    pos base [I Iacute Icircumflex Idieresis Igrave]
+        <anchor 378 0> mark @_O;
+    pos base [O Oacute Ocircumflex Odieresis Ograve Otilde]
+        <anchor 680 0> mark @_O;
+    pos base [U Uacute Ucircumflex Udieresis Ugrave]
+        <anchor 749 0> mark @_O;
+    pos base V
+        <anchor 599 0> mark @_O;
+    pos base [a aacute acircumflex adieresis agrave aring atilde]
+        <anchor 750 0> mark @_O;
+    pos base ae
+        <anchor 1043 0> mark @_O;
+    pos base ba-limb
+        <anchor 852 1050> mark @_O;
+    pos base bha-limb
+        <anchor 1022 1050> mark @_O;
+    pos base ca-limb
+        <anchor 975 1050> mark @_O;
+    pos base cha-limb
+        <anchor 875 1050> mark @_O;
+    pos base da-limb
+        <anchor 722 1050> mark @_O;
+    pos base dha-limb
+        <anchor 740 1050> mark @_O;
+    pos base [dotlessi i iacute icircumflex idieresis igrave]
+        <anchor 362 0> mark @_O;
+    pos base dottedcircle
+        <anchor 583 0> mark @_O;
+    pos base [e eacute ecircumflex edieresis egrave]
+        <anchor 523 0> mark @_O;
+    pos base [ga-limb gyan_ukar-limb]
+        <anchor 819 1050> mark @_O;
+    pos base [gha-limb tra-limb]
+        <anchor 830 1050> mark @_O;
+    pos base gyan-limb
+        <anchor 879 1050> mark @_O;
+    pos base gyan_subra_ukar-limb
+        <anchor 829 1050> mark @_O;
+    pos base ha-limb
+        <anchor 904 1050> mark @_O;
+    pos base ja-limb
+        <anchor 1038 1050> mark @_O;
+    pos base jha-limb
+        <anchor 690 1050> mark @_O;
+    pos base ka-limb
+        <anchor 765 1050> mark @_O;
+    pos base kha-limb
+        <anchor 979 1050> mark @_O;
+    pos base la-limb
+        <anchor 946 1050> mark @_O;
+    pos base ma-limb
+        <anchor 937 1050> mark @_O;
+    pos base na-limb
+        <anchor 778 1050> mark @_O;
+    pos base nga-limb
+        <anchor 860 1050> mark @_O;
+    pos base nnbsp
+        <anchor 297 0> mark @_O;
+    pos base [o oacute ocircumflex odieresis ograve oslash otilde]
+        <anchor 573 0> mark @_O;
+    pos base oe
+        <anchor 1188 0> mark @_O;
+    pos base pa-limb
+        <anchor 960 1050> mark @_O;
+    pos base pha-limb
+        <anchor 923 1050> mark @_O;
+    pos base ra-limb
+        <anchor 799 1050> mark @_O;
+    pos base sa-limb
+        <anchor 973 1050> mark @_O;
+    pos base sha-limb
+        <anchor 718 1050> mark @_O;
+    pos base ssa-limb
+        <anchor 651 1050> mark @_O;
+    pos base ta-limb
+        <anchor 703 1050> mark @_O;
+    pos base tha-limb
+        <anchor 699 1050> mark @_O;
+    pos base [tra_subra_ukar-limb tra_ukar-limb]
+        <anchor 770 1050> mark @_O;
+    pos base [u uacute ucircumflex udieresis ugrave]
+        <anchor 830 0> mark @_O;
+    pos base v
+        <anchor 447 0> mark @_O;
+    pos base vowelcarrier-limb
+        <anchor 890 1050> mark @_O;
+    pos base wa-limb
+        <anchor 897 1050> mark @_O;
+    pos base ya-limb
+        <anchor 742 1050> mark @_O;
+    pos base yan-limb
+        <anchor 609 1050> mark @_O;
     # was @MARK_eo
 } EO;
 
@@ -1071,13 +1468,20 @@ lookup VKem {
     lookupflag MarkAttachmentType @VowelsKem;
     # The VKem positioning rule positions the kemphreng on all upper vowels (except ikar, which has its own ligature).
     # The vowel itself is positioned on the consonant with the Akar or EO positioning rule.
-    pos mark akar-limb <anchor -261 1285> mark @_K;
-    pos mark ekar-limb <anchor -260 1280> mark @_K;
-    pos mark okar-limb <anchor -150 1514> mark @_K;
-    pos mark subwa_akar-limb <anchor -300 1300> mark @_K;
-    pos mark subwa_ekar-limb <anchor -300 1250> mark @_K;
-    pos mark subya_akar-limb <anchor -260 1250> mark @_K;
-    pos mark subya_ekar-limb <anchor -270 1250> mark @_K;
+    pos mark akar-limb
+        <anchor -261 1285> mark @_K;
+    pos mark ekar-limb
+        <anchor -260 1280> mark @_K;
+    pos mark okar-limb
+        <anchor -150 1514> mark @_K;
+    pos mark subwa_akar-limb
+        <anchor -300 1300> mark @_K;
+    pos mark subwa_ekar-limb
+        <anchor -300 1250> mark @_K;
+    pos mark subya_akar-limb
+        <anchor -260 1250> mark @_K;
+    pos mark subya_ekar-limb
+        <anchor -270 1250> mark @_K;
     # was @MARK_VK
 } VKem;
 
@@ -1085,11 +1489,16 @@ lookup GlideU {
     lookupflag 0;
     # The GlideU positioning rule positions the Ukar on the glides Ya and Wa.
     # (There is already a ligature for each consonant with the Ra+Ukar combination).
-    pos base Ohm <anchor 61 1192> mark @_G;
-    pos base Omegagreek <anchor 65 1260> mark @_G;
-    pos base dottedcircle <anchor 991 0> mark @_G;
-    pos base subwa-limb <anchor -133 -40> mark @_G;
-    pos base subya-limb <anchor -121 -40> mark @_G;
+    pos base Ohm
+        <anchor 61 1192> mark @_G;
+    pos base Omegagreek
+        <anchor 65 1260> mark @_G;
+    pos base dottedcircle
+        <anchor 991 0> mark @_G;
+    pos base subwa-limb
+        <anchor -133 -40> mark @_G;
+    pos base subya-limb
+        <anchor -121 -40> mark @_G;
     # was @MARK_U
 } GlideU;
 

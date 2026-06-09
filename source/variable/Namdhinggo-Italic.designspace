@@ -9,32 +9,20 @@
             <map input="800.0" output="800.0" />
             <labelname xml:lang="en">Weight</labelname>
         </axis>
-        <axis default="100.0" maximum="100.0" minimum="100.0" name="width" tag="wdth">
-            <map input="100.0" output="100.0" />
-            <labelname xml:lang="en">Width</labelname>
-        </axis>
-        <axis default="0.0" maximum="0.0" minimum="0.0" name="custom" tag="XXXX">
-            <map input="0.0" output="0.0" />
-            <labelname xml:lang="en">Custom</labelname>
-        </axis>
     </axes>
     <sources>
-        <source familyname="Namdhinggo" filename="masters/Namdhinggo-Italic.ufo" name="Namdhinggo Italic" stylename="Italic">
+        <source familyname="Namdhinggo" filename="../masters/Namdhinggo-Italic.ufo" name="Namdhinggo Italic" stylename="Italic">
             <lib copy="1" />
             <groups copy="1" />
             <features copy="1" />
             <info copy="1" />
             <location>
                 <dimension name="weight" xvalue="400.000000" />
-                <dimension name="width" xvalue="100.000000" />
-                <dimension name="custom" xvalue="0.000000" />
             </location>
         </source>
-        <source familyname="Namdhinggo" filename="masters/Namdhinggo-ExtraBoldItalic.ufo" name="Namdhinggo ExtraBold Italic" stylename="ExtraBold Italic">
+        <source familyname="Namdhinggo" filename="../masters/Namdhinggo-ExtraBoldItalic.ufo" name="Namdhinggo ExtraBold Italic" stylename="ExtraBold Italic">
             <location>
                 <dimension name="weight" xvalue="800.000000" />
-                <dimension name="width" xvalue="100.000000" />
-                <dimension name="custom" xvalue="0.000000" />
             </location>
         </source>
     </sources>
@@ -42,8 +30,6 @@
         <instance familyname="Namdhinggo" filename="instances/Namdhinggo-Italic.ufo" name="Namdhinggo Italic" stylename="Italic" postscriptfontname="Namdhinggo-Italic">
             <location>
                 <dimension name="weight" xvalue="400.000000" />
-                <dimension name="width" xvalue="100.000000" />
-                <dimension name="custom" xvalue="0.000000" />
             </location>
             <info />
             <kerning />
@@ -51,8 +37,6 @@
         <instance familyname="Namdhinggo" filename="instances/Namdhinggo-MediumItalic.ufo" name="Namdhinggo Medium Italic" stylename="Medium Italic" postscriptfontname="Namdhinggo-MediumItalic">
             <location>
                 <dimension name="weight" xvalue="500.000000" />
-                <dimension name="width" xvalue="100.000000" />
-                <dimension name="custom" xvalue="0.000000" />
             </location>
             <info />
             <kerning />
@@ -60,8 +44,6 @@
         <instance familyname="Namdhinggo" filename="instances/Namdhinggo-SemiBoldItalic.ufo" name="Namdhinggo SemiBold Italic" stylename="SemiBold Italic" postscriptfontname="Namdhinggo-SemiBoldItalic">
             <location>
                 <dimension name="weight" xvalue="600.000000" />
-                <dimension name="width" xvalue="100.000000" />
-                <dimension name="custom" xvalue="0.000000" />
             </location>
             <info />
             <kerning />
@@ -69,8 +51,6 @@
         <instance familyname="Namdhinggo" filename="instances/Namdhinggo-BoldItalic.ufo" name="Namdhinggo Bold Italic" stylename="Bold Italic" postscriptfontname="Namdhinggo-BoldItalic">
             <location>
                 <dimension name="weight" xvalue="740.000000" />
-                <dimension name="width" xvalue="100.000000" />
-                <dimension name="custom" xvalue="0.000000" />
             </location>
             <info />
             <kerning />
@@ -78,8 +58,6 @@
         <instance familyname="Namdhinggo" filename="instances/Namdhinggo-ExtraBoldItalic.ufo" name="Namdhinggo ExtraBold Italic" stylemapfamilyname="Namdhinggo ExtraBold" stylemapstylename="italic" stylename="ExtraBold Italic"  postscriptfontname="Namdhinggo-ExtraBoldItalic">
             <location>
                 <dimension name="weight" xvalue="800.000000" />
-                <dimension name="width" xvalue="100.000000" />
-                <dimension name="custom" xvalue="0.000000" />
             </location>
             <info />
             <kerning />
