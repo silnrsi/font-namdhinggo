@@ -167,7 +167,7 @@ lookup Limb2LatnDigits {
 
 lookup Ikar {
   lookupflag 0;
-    do for g = ikar-limb;
+    do for g = [ikar-limb mukphreng-limb];
       let a = APx(g, "_adv");
       {
       pos $g' <0 0 $a 0>;
