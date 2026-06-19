@@ -170,7 +170,7 @@ lookup Ikar {
     do for g = [ikar-limb mukphreng-limb];
       let a = APx(g, "_adv");
       {
-      pos $g' <0 0 $a 0>;
+      pos $g <0 0 $a 0>;
       }
 } Ikar;
 
