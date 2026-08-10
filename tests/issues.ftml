@@ -13,6 +13,36 @@
     </styles>
     <title>Issues</title>
   </head>
+  <testgroup label="mukphreng">
+    <test label="U+192B U+1920">
+      <comment>consonants + glide + vowel + Mukphreng</comment>
+      <string>\u191d\u192b\u1920\u1939</string>
+    </test>
+    <test label="U+1920" stylename="ss18_1">
+      <comment>A: consonants + vowel + Mukphreng + soft hyphen ss18</comment>
+      <string>\u191d\u1920\u1939\u00ad\u191e</string>
+    </test>
+    <test label="U+192B" stylename="ss18_1">
+      <comment>A: consonants + glide + Mukphreng + soft hyphen ss18</comment>
+      <string>\u191d\u192b\u1939\u00ad\u191e</string>
+    </test>
+    <test label="U+1920 (U+1925)">
+      <comment>B: consonants + vowel + (right vowel) + Mukphreng</comment>
+      <string>\u191d\u1920\u1939\u191e \u191d\u1920\u1925\u1939\u191e</string>
+    </test>
+    <test label="U+192B (U+1925)">
+      <comment>B: consonants + glide + (right vowel) + Mukphreng</comment>
+      <string>\u191d\u192b\u1939\u191e \u191d\u192b\u1925\u1939\u191e</string>
+    </test>
+    <test label="U+1920">
+      <comment>C: consonants + vowel + Mukphreng</comment>
+      <string>\u191d\u1920\u1939\u191e \u191d\u1920\u1925\u1939\u191e</string>
+    </test>
+    <test label="U+192B">
+      <comment>C: consonants + glide + Mukphreng</comment>
+      <string>\u191d\u192b\u1939\u191e \u191d\u192b\u1925\u1939\u191e</string>
+    </test>
+  </testgroup>
   <testgroup label="double hyphen">
     <test label="U+002D U+00AD U+2010 U+2011">
       <comment>hyphen softhyphen hyphentwo nbhyphen</comment>

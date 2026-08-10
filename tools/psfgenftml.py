@@ -54,13 +54,19 @@ def doit(args):
     uids = sorted(builder.uids())
     consonants = [uid for uid in uids if builder.char(uid).general == 'Lo' and uid in block]
     matras = [uid for uid in uids if 'VOWEL SIGN' in get_ucd(uid, 'na')]
+    right_matras = [uid for uid in matras if get_ucd(uid, 'InPC').endswith('Right')]
     glides = [uid for uid in uids if 'SUBJOINED' in get_ucd(uid, 'na')]
     finals = [uid for uid in uids if 'LIMBU SMALL' in get_ucd(uid, 'na')]
     digits = [uid for uid in uids if builder.char(uid).general == 'Nd' and uid in block]
     punct = [uid for uid in uids if get_ucd(uid, 'gc').startswith('P')]
 
-    k = 0x193A  # Kemphreng
+    soft_hyphen = 0x00ad
+    muk = 0x1939  # Mukphreng
+    kem = 0x193A  # Kemphreng
+    ka = consonants[1]
     ukar = matras[2]
+    tail = (0x191e, 0x0965, ord('.'), 0xf131)
+
 
     # Initialize FTML document:
     # Default name for test: AllChars or something based on the csvdata file:
@@ -191,27 +197,92 @@ def doit(args):
     if test.lower().startswith("matras"):
         ftml.startTestGroup('Consonants with vowels or Kemphreng')
         for c in consonants + [dotted_circle]:
-            for m in matras + [k]:
+            for m in matras + [kem]:
                 builder.render((c,m), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
             ftml.closeTest()
 
-        ftml.startTestGroup('Consonants with vowels and kemphreng')
+        ftml.startTestGroup('Consonants with vowels and Kemphreng')
         for c in consonants:
             for m in matras:
-                builder.render((c,m,k), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
+                builder.render((c,m,kem), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
             ftml.closeTest()
 
         ftml.startTestGroup('Consonants with glide + Ukar + Kemphreng')
         for c in consonants:
             for g in glides:
-                builder.render((c,g,ukar,k), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
+                builder.render((c,g,ukar,kem), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
             ftml.closeTest()
 
-        ftml.startTestGroup('Consonants with Vowels + (Kemphreng) + small final')
+        ftml.startTestGroup('Consonants with Vowels + Kemphreng + small final')
         for c in consonants:
             for m in matras:
                 for f in finals:
-                    builder.render((c,m,f,c,m,k,f), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
+                    builder.render((c,m,f,c,m,kem,f), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
+            ftml.closeTest()
+
+    if test.lower().startswith("mukphreng"):
+        ftml.startTestGroup('Consonants + glide + vowel')
+        for c in consonants:
+            for m in matras:
+                for g in glides:
+                    builder.render((c,g,m), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
+            ftml.closeTest()
+
+        ftml.startTestGroup('Consonants + glide + vowel + Mukphreng')
+        for c in consonants:
+            for m in matras:
+                for g in glides:
+                    builder.render((c,g,m,muk), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
+            ftml.closeTest()
+
+        ftml.startTestGroup('A: Consonants + Mukphreng + soft hyphen')
+        for c in consonants:
+            for t in tail:
+                builder.render((c,muk,soft_hyphen,t), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
+            ftml.closeTest()
+
+        ftml.startTestGroup('A: Consonants + vowel + Mukphreng + soft hyphen')
+        for c in consonants:
+            for m in matras:
+                for t in tail:
+                    builder.render((c,m,muk,soft_hyphen,t), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
+            ftml.closeTest()
+
+        ftml.startTestGroup('A: Consonants + glide + Mukphreng + soft hyphen')
+        for c in consonants:
+            for g in glides:
+                for t in tail:
+                    builder.render((c,g,muk,soft_hyphen,t), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
+            ftml.closeTest()
+
+        ftml.startTestGroup('B: Consonants + vowel + right vowel + Mukphreng')
+        for c in consonants:
+            for m in matras:
+                for rm in right_matras:
+                    for t in tail:
+                        builder.render((c,m,rm,muk,t), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
+                ftml.closeTest()
+
+        ftml.startTestGroup('B: Consonants + glide + right vowel + Mukphreng')
+        for c in consonants:
+            for g in glides:
+                for rm in right_matras:
+                    for t in tail:
+                        builder.render((c,g,rm,muk,t), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
+            ftml.closeTest()
+
+        ftml.startTestGroup('C: Consonants + vowel + Mukphreng')
+        for c in consonants:
+            for m in matras:
+                for t in tail:
+                    builder.render((c,m,muk,t), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
+            ftml.closeTest()
+
+        ftml.startTestGroup('C: Consonants + glide + Mukphreng')
+        for c in consonants:
+            for g in glides:
+                for t in tail:
+                    builder.render((c,g,muk,t), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
             ftml.closeTest()
 
     # Write the output ftml file

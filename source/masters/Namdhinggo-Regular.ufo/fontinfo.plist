@@ -83,7 +83,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameUniqueID</key>
   <string>SIL Global: Namdhinggo Regular: 2026</string>
   <key>openTypeNameVersion</key>
-  <string>Version 3.190</string>
+  <string>Version 3.200</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -202,7 +202,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>versionMajor</key>
   <integer>3</integer>
   <key>versionMinor</key>
-  <integer>190</integer>
+  <integer>200</integer>
   <key>woffMetadataCredits</key>
   <dict>
     <key>credits</key>

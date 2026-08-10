@@ -8,6 +8,8 @@ This lookup was originally called IEO (as it's referred to in the comment) and o
 
 So it seems that the comment was not updated to reflect the change in our handling of the imatra. It may be that the USE behaves differently from Uniscribe in this regard, but a quick test in Notepad indicates that the font works OK as is so I think we can leave the imatra out of the lookup.
 
-All this worked for many years, except for the World Ready Composer (WRC) in Adobe InDesign (tested with 2026 which is v21.x). It seems that the WRC (that is, with HarfBuzz disabled) was assigning zero width to the ikar (after all U+1921 LIMBU VOWEL SIGN I has a general category of Mn), even thought it was classified as a base character in GDEF and was not being used in a lookup.
+All this worked for many years (HB, DW, CT) except for the World Ready Composer (WRC) in Adobe InDesign (tested with 2026 which is v21.x). It seems that the WRC (that is, with HarfBuzz disabled) was assigning zero width to the ikar (after all U+1921 LIMBU VOWEL SIGN I has a general category of Mn), even thought it was classified as a base character in GDEF and was not being used in a lookup.
 
-The ikar has been made into a mark again (with zero width). To get the correct shaping, there is now a GPOS rule to add the needed width to the ikar.
+The ikar has been made into a mark again (with zero width). To get the correct shaping, there is now a GPOS rule to add the needed width to the ikar. All four of the mentioned shaping engines now shape correctly.
+
+Later, it was discovered the the mukphreng had the same issues as the ikar. The same fix (as for the ikar) was applied.
