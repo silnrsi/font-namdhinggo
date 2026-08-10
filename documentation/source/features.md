@@ -1,6 +1,6 @@
 ---
 title: Namdhinggo - Font Features
-fontversion: 3.101
+fontversion: 3.200
 ---
 
 Namdhinggo is a Unicode font for the Limbu writing system of Nepal. It includes a number of optional features that may be useful or required for particular uses. This document lists all the available features.
