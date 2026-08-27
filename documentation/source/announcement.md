@@ -1,4 +1,4 @@
-fontversion: 3.200
+fontversion: 3.201
 
 - The soft hyphen (used for with automatic hyphenation) can now be shown with a double form (similar to an equal sign) with some publishing software. A stylistic set (`ss18`) has been added to enable this form.
 - Two other stylistic sets have been added to change the display of digits.

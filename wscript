@@ -4,6 +4,7 @@
 # command line options
 opts = preprocess_args(
     {'opt' : '-r'}, # only build the regular font
+    {'opt' : '-s'}, # only build the main (static) font family
     )
 
 # override the default folders
@@ -56,7 +57,7 @@ variable = package(
     docdir = {'documentation': 'documentation', 'variable/web': 'variable/web'}
 )
 
-if '-r' not in opts:
+if not ('-r' in opts or '-s' in opts):
     stem = FAMILY
     font(target = process(f'variable/{stem}.ttf',
         cmd('gftools fix-font --include-source-fixes -o ${TGT} ${DEP}'),
